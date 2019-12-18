@@ -3,7 +3,7 @@
 @section ('content')
 
 <div class="content content-fixed">
-    <div class="container-fluid pd-x-0 pd-lg-x-10 pd-xl-x-0">
+    <div class="container-fluid pl-5 pr-5">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <h5>FIND <span style="font-weight:bold;">EL MEDINA</span> AROUND YOU </h5>

@@ -1,0 +1,21 @@
+.background-logo{
+    background-image:url("/template/assets/img/elmedina-logo.png");
+    background-color: #ffffff00;
+    height: 245px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.img-about-us{
+    max-width:100%; 
+    max-height:100%; 
+    display:inherit; 
+    padding-bottom:10px; 
+    margin: 0;
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}

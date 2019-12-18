@@ -18,26 +18,26 @@
                 <li class="">
                     <a href="" class="">
                         <i data-feather="phone"></i>
-                        (BANGI) 0139998458</a>
+                        (BANGI) 017-727 1152</a>
                 </li>
         
                 <li class="">
                     <a href="" class="">
                         <i data-feather="phone"></i>
-                        (KUANTAN) 0139998458
+                        (KUANTAN) 010-838 7030
                     </a>
                 </li>
         
                 <li class="">
                     <a href="" class="">
                         <i data-feather="phone"></i>
-                        (SHAH ALAM) 0139998458</a>
+                        (SHAH ALAM) 013-200 9518</a>
                 </li>
         
                 <li class="">
                     <a href="" class="">
                         <i data-feather="phone"></i>
-                        (JOHOR BAHRU) 0139998458
+                        (JOHOR BAHRU) 013-999 8458
                     </a>
                 </li>
             </ul>

@@ -27,10 +27,10 @@
       </a>
     </div>{{-- Carousel End --}}
     <div class="content" style="background-color:#3f458e;">
-        <div class="container-fluid">
-            <div class="">
+        <div class="container-fluid pl-5 pr-5">
+            <div class="d-sm-flex align-items-center justify-content-between mg-b-20 mg-lg-b-25 mg-xl-b-30">
               <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 text-center p-0">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <h1 style="color:#ffff;font-weight:bold;padding:0;" id="slide">TESTIMONI</h1>
                 </div>
               </div>
@@ -109,7 +109,7 @@
       </div>{{-- Carousel End --}}
 
     <div class="content content-fixed">
-        <div class="container-fluid pd-x-0 pd-lg-x-10 pd-xl-x-0">
+        <div class="container-fluid pl-5 pr-5">
             <div class="d-sm-flex align-items-center justify-content-between mg-b-20 mg-lg-b-25 mg-xl-b-30">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">

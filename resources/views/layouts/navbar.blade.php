@@ -15,12 +15,13 @@
       <!-- navbar-menu-header -->
       <ul class="nav navbar-menu">
         <!-- Services -->
+
         <li class="nav-item">
-          <a href="{{route('home')}}" class="nav-link"> {{ __('common.services') }}</a>
+          <a href="{{route('about-us')}}" class="nav-link">{{ __('common.about_us') }}</a>
         </li>
 
         <li class="nav-item">
-          <a href="{{route('branches')}}" class="nav-link">{{ __('common.branches') }}</a>
+          <a href="{{route('home')}}" class="nav-link"> {{ __('common.services') }}</a>
         </li>
 
         <li class="nav-item">
@@ -28,11 +29,11 @@
         </li>
 
         <li class="nav-item">
-          <a href="{{route('home')}}" class="nav-link">{{ __('common.gallery') }}</a>
+          <a href="{{route('branches')}}" class="nav-link">{{ __('common.branches') }}</a>
         </li>
 
         <li class="nav-item">
-          <a href="{{route('about-us')}}" class="nav-link">{{ __('common.about_us') }}</a>
+          <a href="{{route('home')}}" class="nav-link">{{ __('common.gallery') }}</a>
         </li>
 
       </ul>
