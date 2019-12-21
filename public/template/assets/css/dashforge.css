@@ -990,11 +990,11 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "BentonSans", "Helvetica Neue", sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
   font-size: 0.875rem;
   font-weight: bold;
   line-height: 1.5;
-  letter-spacing: .8px;
+  letter-spacing: 0.062em;
   color: #001737;
   text-align: left;
   background-color: #fff; }
@@ -5521,20 +5521,21 @@ a.close.disabled {
 
 .carousel-caption {
   position: absolute;
-  right: 15%;
-  bottom: 250px;
-  left: 15%;
+  right: 0;
+  bottom: 0;
+  left: 60%;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 1.4rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center; }
+  text-align: left; }
 .carousel-caption > h3 {
-    color: rgb(255, 255, 255);
+    color: #ffc107;
   }
 .carousel-caption > p {
   color: rgb(255, 255, 255);
+  text-justify: justify;
 }
 @keyframes spinner-border {
   to {

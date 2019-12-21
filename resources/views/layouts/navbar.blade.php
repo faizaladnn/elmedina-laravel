@@ -39,7 +39,7 @@
       </ul>
   </div>
   <div class="navbar-right">
-      <a href="#" class="btn btn-warning"> <span>{{ __('common.make_an_appointment') }}</span></a>
+      <a href="#" class="btn btn-warning" id="appointment" style="font-size:0.8rem;"> <span>{{ __('common.make_an_appointment') }}</span></a>
     </div><!-- navbar-right -->
 
 </header>

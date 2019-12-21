@@ -10,4 +10,5 @@ return [
     'about_us' => 'About Us',
     'make_an_appointment' => 'Make An Appointment',
     'testimony' => 'Testimony',
+    'product' => 'Products',
 ];

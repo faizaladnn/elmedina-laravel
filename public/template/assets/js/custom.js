@@ -4,12 +4,17 @@ $(document).ready(function () {
 
     $('#carouselCoverImage').carousel({
         interval: 9000,
-      })
+    });
 
     $('#carouselTestimoni').carousel({
     interval: 90000,
-    })
-    
+    });
+
+    $('#appointment').addClass('animated swing');
+    setTimeout(function(){
+        $('#appointment').removeClass('animated swing');
+    }, 1200);
+
     jQuery(document).ready(function ($) {
       $('#branch').on('change', function (e) {
           var branch = $(this).val();

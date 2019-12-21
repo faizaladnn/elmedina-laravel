@@ -20,6 +20,8 @@
 <link rel="stylesheet" href="{{ asset('template/lib/@fortawesome/fontawesome-free/css/all.min.css') }}">
 <link rel="stylesheet" href="{{ asset('template/lib/ionicons/css/ionicons.min.css') }}">
 
+<link href="{{ asset('template/lib/animate.css/animate.min.css') }}" rel="stylesheet">
+
 <link rel="stylesheet" href="{{ asset('template/assets/css/dashforge.css') }}">
 <link rel="stylesheet" href="{{ asset('template/assets/css/dashforge.auth.css') }}">
 {{-- <link rel="stylesheet" href="{{ asset('template/assets/css/dashforge.dashboard.css') }}"> --}}

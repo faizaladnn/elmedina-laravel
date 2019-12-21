@@ -2,7 +2,7 @@
     <nav class="nav">
 
         {{-- Nav for right side--}}
-        <div class="footer-rgt">
+        <div class="footer-rgt" >
             <button type="button" class="btn btn-block btn-warning"><h5>MAKE AN APPOINTMENT</h5></button>
         </div>
         
@@ -18,26 +18,26 @@
                 <li class="">
                     <a href="" class="">
                         <i data-feather="phone"></i>
-                        (BANGI) 017-727 1152</a>
+                        BANGI : 017-727 1152</a>
                 </li>
         
                 <li class="">
                     <a href="" class="">
                         <i data-feather="phone"></i>
-                        (KUANTAN) 010-838 7030
+                        KUANTAN : 010-838 7030
                     </a>
                 </li>
         
                 <li class="">
                     <a href="" class="">
                         <i data-feather="phone"></i>
-                        (SHAH ALAM) 013-200 9518</a>
+                        SHAH ALAM : 013-200 9518</a>
                 </li>
         
                 <li class="">
                     <a href="" class="">
                         <i data-feather="phone"></i>
-                        (JOHOR BAHRU) 013-999 8458
+                        JOHOR BAHRU : 013-999 8458
                     </a>
                 </li>
             </ul>
