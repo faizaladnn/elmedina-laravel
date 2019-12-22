@@ -2,7 +2,7 @@
     <a href="" id="mainMenuOpen" class="burger-menu"><i data-feather="menu"></i></a>
     <div class="navbar-brand pl-5">
       {{-- <img src="{{asset('template/assets/img/elmedina.png')}}" width="190" height="45"> --}}
-        <a href="{{route('home')}}" class="df-logo">EL MEDINA</a>
+        <a href="{{route('home')}}" class="df-logo text-decoration-none">EL MEDINA</a>
     </div>
 
   <!-- navbar-brand -->
@@ -29,7 +29,7 @@
         </li>
 
         <li class="nav-item">
-          <a href="{{route('branches')}}" class="nav-link">{{ __('common.branches') }}</a>
+          <a href="{{route('branches.')}}" class="nav-link">{{ __('common.branches') }}</a>
         </li>
 
         <li class="nav-item">

@@ -41,7 +41,7 @@ $(document).ready(function () {
                                     '<iframe src="'+item.sourceMap+'" width="500" height="300" frameborder="0" style="" allowfullscreen=""></iframe>',
                                 '</div>',
                                 '<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">',
-                                    '<h3 style="font-weight:bold;"> EL MEDINA SPA BEKAM '+item.branchName+'</h3>',
+                                    '<h3 style="font-weight:bold;"> <a href="branches/'+item.routeName+'" style="color:black;"> EL MEDINA SPA BEKAM '+item.branchName+'</a> </h3>',
                                     '<div class="row">',
                                         '<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-center" style="font-size:1.4rem;">',
                                             '<i class="fas fa-home" title="Address"></i>',
@@ -71,6 +71,7 @@ $(document).ready(function () {
                             '<hr/>',
                             ].join('');
                             $('#div').append(div);
+                            $('#all-branches').css("display", "none");
                         });                        
                     }
                 }else{
@@ -78,11 +79,12 @@ $(document).ready(function () {
                 var div = [
                     '<div class="row">',
                         '<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">',
-                        '<h1> Sorry, no branch at this place at the moment. </h1>',
+                        '<h3> Sorry, no branch at this place at the moment. </h3>',
                         '</div>',
                     '</div>'
                     ].join('');
                 $('#div').append(div);
+                $('#all-branches').css("display", "block");
                 }
               }
           });

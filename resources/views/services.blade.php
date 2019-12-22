@@ -7,7 +7,7 @@
           <div class="align-items-center justify-content-between">
             <div class="row">
               <div class="col-lg-12 col-md-12 col-sm-12">
-                  <h3 class="text-uppercase text-center ">{{ __('common.services') }}</h3>
+                  <h3 class="text-uppercase text-left ">{{ __('common.services') }}</h3>
               </div>
 
               <div class="row">

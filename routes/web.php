@@ -23,7 +23,8 @@ Route::get('/about-us', function (){
     ]);
 })->name('about-us');
 
-Route::prefix('branches')->name('branches')->group(function () {
+Route::prefix('branches')->name('branches.')->group(function () {
+    
     // Main branches page
     Route::get('/', function () {
         return view('branches',[
@@ -46,6 +47,7 @@ Route::prefix('branches')->name('branches')->group(function () {
 
     Route::get('/getBranchesByCountry/{country}', 'BranchController@getBranchesByCountry')->name('getBranchesByCountry');
 });
+
 
 Route::get('/services', function(){
     return view('services', [

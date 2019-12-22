@@ -2,8 +2,6 @@
 
 @section ('content')
 
-
-
     <div class="content content-fixed">
         <div class="container-fluid pl-5 pr-5">
             <div class="row background-logo">

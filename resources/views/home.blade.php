@@ -155,7 +155,9 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                     <div class="card">
                       <figure class="pos-relative mg-b-0 wd-lg">
-                      <img src="{{asset('template/assets/carousel/testimoni/testimony_1.jpg')}}" class="img-fit-cover " alt="..." >
+                        <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                          <img class="uk-transition-scale-up uk-transition-opaque" src="{{asset('template/assets/carousel/testimoni/testimony_1.jpg')}}" alt="">
+                        </div>
                         <figcaption class="pos-absolute b-0 tx-white-8">
                           <h6 class="tx-black mg-b-20 mg-5" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"Guys here have a magic hands" - YAM Tengku Amir</h6>
                         </figcaption>
@@ -165,7 +167,9 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                   <div class="card">
                     <figure class="pos-relative mg-b-0 wd-lg">
-                      <img src="{{asset('template/assets/carousel/testimoni/testimony_2.jpg')}}" class="img-fit-cover" alt="..." >
+                      <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img class="uk-transition-scale-up uk-transition-opaque" src="{{asset('template/assets/carousel/testimoni/testimony_2.jpg')}}" alt="">
+                      </div>
                       <figcaption class="pos-absolute b-0 tx-white-8">
                         <h6 class="tx-black mg-b-20 mg-5" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"Bersih, selesa dan privacy serta mewah dengan harga berpatutan" - Syamim Yahya</h6>
                       </figcaption>
@@ -175,7 +179,9 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                     <div class="card">
                       <figure class="pos-relative mg-b-0 wd-lg">
-                        <img src="{{asset('template/assets/carousel/testimoni/testimony_3.jpg')}}" class="img-fit-cover" alt="..." >
+                          <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                            <img class="uk-transition-scale-up uk-transition-opaque" src="{{asset('template/assets/carousel/testimoni/testimony_3.jpg')}}" alt="">
+                          </div>
                         <figcaption class="pos-absolute b-0 tx-white-8">
                           <h6 class="tx-black mg-b-20 mg-5 text-justify" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"Service Terbaik..yang berminat nak buat bekam dan urut kampung boleh datang ke El Medina Spa Bekam" - Safiq Rahim</h6>
                         </figcaption>
@@ -185,7 +191,9 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                     <div class="card">
                       <figure class="pos-relative mg-b-0 wd-lg">
-                        <img src="{{asset('template/assets/carousel/testimoni/testimony_7.jpg')}}" class="img-fit-cover" alt="..." >
+                        <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                          <img class="uk-transition-scale-up uk-transition-opaque" src="{{asset('template/assets/carousel/testimoni/testimony_7.jpg')}}" alt="">
+                        </div>
                         <figcaption class="pos-absolute b-0 tx-white-8">
                           <h6 class="tx-black mg-b-20 mg-5 text-justify" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"Selain bekam darah, paling best sport massage with the new equipment they call Hypervolt. For those yang ada masalah muscle, anda kena dapatkan treatment ini." - Azrel Ismail</h6>
                         </figcaption>
@@ -198,7 +206,9 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                     <div class="card">
                       <figure class="pos-relative mg-b-0 wd-lg">
-                        <img src="{{asset('template/assets/carousel/testimoni/testimony_4.jpg')}}" class="img-fit-cover" alt="..." >
+                        <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                          <img class="uk-transition-scale-up uk-transition-opaque" src="{{asset('template/assets/carousel/testimoni/testimony_4.jpg')}}" alt="">
+                        </div>
                         <figcaption class="pos-absolute b-0 tx-white-8">
                           <h6 class="tx-black mg-b-20 mg-5 text-justify" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"Paling penting tempat ni cukup selesa, bersih dan cup pakai buang" - Along Cham</h6>
                         </figcaption>
@@ -208,7 +218,9 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                   <div class="card">
                     <figure class="pos-relative mg-b-0 wd-lg">
-                      <img src="{{asset('template/assets/carousel/testimoni/testimony_5.jpg')}}" class="img-fit-cover" alt="..." >
+                      <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img class="uk-transition-scale-up uk-transition-opaque" src="{{asset('template/assets/carousel/testimoni/testimony_5.jpg')}}" alt="">
+                      </div>
                       <figcaption class="pos-absolute b-0 tx-white-8">
                         <h6 class="tx-black mg-b-20 mg-5 text-justify" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"Spa bekam terbaik! Menjalankan servis bekam sunnah dan menggunakan konsep berbekam disposable cups (cawan pakai buang), spa dan servis tip top!" - Farizal Marlias</h6>
                       </figcaption>
@@ -218,7 +230,9 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                     <div class="card">
                       <figure class="pos-relative mg-b-0 wd-lg">
-                        <img src="{{asset('template/assets/carousel/testimoni/testimony_6.jpg')}}" class="img-fit-cover" alt="..." >
+                        <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                          <img class="uk-transition-scale-up uk-transition-opaque" src="{{asset('template/assets/carousel/testimoni/testimony_6.jpg')}}" alt="">
+                        </div>
                         <figcaption class="pos-absolute b-0 tx-white-8">
                           <h6 class="tx-black mg-b-20 mg-5 text-justify" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"El Medina is good. I always do dry cupping and sport massage here for my hamstring and good recovery." - Dickson Nwakame</h6>
                         </figcaption>
@@ -228,7 +242,9 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                   <div class="card">
                     <figure class="pos-relative mg-b-0 wd-lg">
-                      <img src="{{asset('template/assets/carousel/testimoni/testimony_8.jpg')}}" class="img-fit-cover" alt="..." >
+                      <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img class="uk-transition-scale-up uk-transition-opaque" src="{{asset('template/assets/carousel/testimoni/testimony_8.jpg')}}" alt="">
+                      </div>
                       <figcaption class="pos-absolute b-0 tx-white-8">
                         <h6 class="tx-black mg-b-20 mg-5 text-justify" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"Badan rasa ringan gila !!. korang kena try gaiss !!." - Nonny Nadirah</h6>
                       </figcaption>
