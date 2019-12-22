@@ -13862,16 +13862,17 @@ textarea.parsley-success:focus {
   left: 0;
   bottom: 0;
   width: 100%; */
-  
-  font-size: 10px;
-  font-family: "BentonSans", "Helvetica Neue", sans-serif;
-  letter-spacing: 1px;
-  padding: 15px;
+  margin: 0;
+  font-size: 0.875rem;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.062em;
   background-color: #fafbfc;
   color: #637388;
   border-top: 1px solid rgba(72, 94, 144, 0.16);
   text-transform: uppercase;
   display: block; 
+  font-weight: normal;
 }
 .footer-left {
   padding-left: 40px;

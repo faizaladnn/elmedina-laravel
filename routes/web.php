@@ -26,7 +26,7 @@ Route::get('/about-us', function (){
 Route::prefix('branches')->name('branches')->group(function () {
     // Main branches page
     Route::get('/', function () {
-        return view('branches.branch',[
+        return view('branches',[
             'nav' => 'Branch',
         ]);
     });
@@ -46,6 +46,12 @@ Route::prefix('branches')->name('branches')->group(function () {
 
     Route::get('/getBranchesByCountry/{country}', 'BranchController@getBranchesByCountry')->name('getBranchesByCountry');
 });
+
+Route::get('/services', function(){
+    return view('services', [
+        'nav' => 'Services',
+    ]);
+})->name('services');
 
 Route::get('/{locale}', function ($locale) {
     $locale = App::getLocale();

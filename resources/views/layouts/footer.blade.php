@@ -3,12 +3,12 @@
 
         {{-- Nav for right side--}}
         <div class="footer-rgt" >
-            <button type="button" class="btn btn-block btn-warning"><h5>MAKE AN APPOINTMENT</h5></button>
+            <button type="button" class="btn btn-block btn-warning"><span style="font-size:1rem;">MAKE AN APPOINTMENT</span></button>
         </div>
         
         {{-- Nav for center --}}
         <div class="footer-ctr">
-            <ul class="" style="font-size:1rem; font-weight:bold;line-height: 1.9;list-style-type:none;x">
+            <ul class="" style="list-style-type:none;">
                 <!-- Services -->
                 <li class="">
                     <i data-feather="clock"></i>
@@ -46,14 +46,14 @@
         {{-- Nav for left side --}}
         <div class="footer-left">
             <table class="" width="100%" style="">
-                <thead style="font-size:1.5rem; font-weight:normal;">
-                    <tr>
+                <thead style="">
+                    <tr style="text-decoration:underline;">
                         <td>About</td>
                         <td>Help</td>
                         <td>Learn</td>
                     </tr>
                 </thead>
-                <tbody style="font-size:1rem; font-weight:bold;">
+                <tbody style="">
                     <tr>
                         <td><a href="#">Our Story</a></td>
                         <td><a href="#">Contact Us</a></td>

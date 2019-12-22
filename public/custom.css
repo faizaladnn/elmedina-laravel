@@ -19,3 +19,15 @@
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
+
+.service-info{
+    height: 30px;
+    overflow: auto;
+}
+
+.service-title{
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
