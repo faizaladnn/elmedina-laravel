@@ -11,7 +11,9 @@
             </div>
             <div class="row pt-2">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="{{ asset('template/assets/img/img-3.jpeg') }}" style="border-radius: 15px 50px;" class="img-about-us">
+                    <div class="uk-transition-toggle" tabindex="0">
+                        <img src="{{ asset('template/assets/img/img-3.jpeg') }}" style="border-radius: 15px 50px;" class="uk-transition-scale-up uk-transition-opaque img-about-us">
+                      </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 align-bottom">
                     <p class="text-justify font-weight-light tx-16 p-5">
@@ -32,12 +34,16 @@
                     </p>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="{{ asset('template/assets/carousel/cover_5.jpg') }}" style="border-radius: 50px 15px;" class="img-about-us">
+                    <div class="uk-transition-toggle" tabindex="0">
+                    <img src="{{ asset('template/assets/carousel/cover_5.jpg') }}" style="border-radius: 50px 15px;" class="uk-transition-scale-up uk-transition-opaque img-about-us">
+                    </div>
                 </div>
             </div>
             <div class="row pt-2">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="{{ asset('template/assets/img/img-2.jpg') }}" style="border-radius: 15px 50px;" class="img-about-us">
+                    <div class="uk-transition-toggle" tabindex="0">
+                        <img src="{{ asset('template/assets/img/img-2.jpg') }}" style="border-radius: 15px 50px;" class="uk-transition-scale-up uk-transition-opaque img-about-us">
+                    </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 align-bottom">
                     <p class="text-justify font-weight-light tx-16 p-5">
@@ -54,7 +60,9 @@
                     </p>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="{{ asset('template/assets/carousel/cover_6.jpg') }}" style="border-radius: 50px 15px;" class="img-about-us">
+                    <div class="uk-transition-toggle" tabindex="0">
+                        <img src="{{ asset('template/assets/carousel/cover_6.jpg') }}" style="border-radius: 50px 15px;" class="uk-transition-scale-up uk-transition-opaque img-about-us">
+                    </div>
                 </div>
             </div>
             <div class="row pt-2">
