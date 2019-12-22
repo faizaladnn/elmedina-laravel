@@ -37,10 +37,13 @@
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="{{ asset('custom.css') }}">
+<link rel="stylesheet" href="{{ asset('css/uikit.min.css') }}" />
 
 @yield('css')
 
 <!----------------------------------------------- Theme JS ----------------------------------------------->
+<script src="{{ asset('js/uikit.min.js') }}"></script>
+<script src="{{ asset('js/uikit-icons.min.js') }}"></script>
 <script src="{{ asset('template/lib/jquery/jquery.min.js') }}"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

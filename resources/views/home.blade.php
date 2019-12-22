@@ -27,18 +27,120 @@
       </a>
     </div>{{-- Carousel End --}}
     
-    {{-- TESTIMONI --}}
+    {{-- SERVICES --}}
     <div class="content" style="">
       <div class="container-fluid pl-5 pr-5">
           <div class="align-items-center justify-content-between">
             <div class="row">
               <div class="col-lg-12 col-md-12 col-sm-12">
-                  <h1 class="text-uppercase text-center ">{{ __('common.product') }}</h1>
+                  <h1 class="text-uppercase text-center ">{{ __('common.services') }}</h1>
               </div>
+
+              <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+                  <div class="card">
+                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">BEKAM SUNNAH - FULL BODY</h6>
+                      <p class="card-text">Free: Urutan Ringkas, Urutan Guasha, Bekam Luncur, dan Bekam Angin</p>
+                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+                  <div class="card">
+                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">BEKAM SUNNAH - HALF BODY</h6>
+                      <p class="card-text">Free: Urutan Ringkas, Urutan Guasha, Bekam Luncur, dan Bekam Angin</p>
+                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+                  <div class="card">
+                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">BEKAM WAJAH</h6>
+                      <p class="card-text">Rawatan bekam darah untuk yang bermasalah resdung, jerawat, gatal-gatal dan gangguan mata</p>
+                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>{{-- end row --}}
+
+              <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+                  <div class="card">
+                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">BEKAM MIGRAIN</h6>
+                      <p class="card-text">Rawatan bekam darah untuk yang mengalami migrain, stress, sakit kepala, tengkuk dan bahu</p>
+                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+                  <div class="card">
+                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">BEKAM GOUT</h6>
+                      <p class="card-text">Rawatan bekam darah untuk mengeluarkan urik asid dari kaki</p>
+                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+                  <div class="card">
+                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">BEKAM ANGIN</h6>
+                      <p class="card-text">Rawatan untuk megeluarkan angin dari badan dan meregangkan otot-otot yang tegang</p>
+                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>{{-- end row --}}
+              
+              <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+                  <div class="card">
+                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">URUTAN BADAN</h6>
+                      <p class="card-text">Urutan fullbody selama 1 jam</p>
+                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+                  <div class="card">
+                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">SPORT MASSAGE + HYPERVOLT THERAPY</h6>
+                      <p class="card-text">Rawatan bekam darah untuk mengeluarkan urik asid dari kaki</p>
+                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
+                  <div class="card">
+                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h6 class="card-title">SPORT MASSAGE + HYPERVOLT THERAPY + AIR RELAX</h6>
+                      <p class="card-text">Rawatan untuk megeluarkan angin dari badan dan meregangkan otot-otot yang tegang</p>
+                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>{{-- end row --}}
+
             </div>
           </div>
       </div>
     </div>
+    {{-- END OF SERVICES --}}
+
     {{-- TESTIMONI --}}
     <div class="content" style="">
         <div class="container-fluid pl-5 pr-5">
@@ -53,7 +155,7 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                     <div class="card">
                       <figure class="pos-relative mg-b-0 wd-lg">
-                      <img src="{{asset('template/assets/carousel/testimoni/testimony_1.jpg')}}" class="img-fit-cover" alt="..." style="opacity:0.7;">
+                      <img src="{{asset('template/assets/carousel/testimoni/testimony_1.jpg')}}" class="img-fit-cover " alt="..." >
                         <figcaption class="pos-absolute b-0 tx-white-8">
                           <h6 class="tx-black mg-b-20" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"Guys here have a magic hands" <br/> - YAM Tengku Amir</h6>
                         </figcaption>
@@ -63,7 +165,7 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                   <div class="card">
                     <figure class="pos-relative mg-b-0 wd-lg">
-                      <img src="{{asset('template/assets/carousel/testimoni/testimony_2.jpg')}}" class="img-fit-cover" alt="..." style="opacity:0.7;">
+                      <img src="{{asset('template/assets/carousel/testimoni/testimony_2.jpg')}}" class="img-fit-cover" alt="..." >
                       <figcaption class="pos-absolute b-0 tx-white-8">
                         <h6 class="tx-black mg-b-20" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"Bersih, selesa dan privacy serta mewah dengan harga berpatutan" <br/>- Syamim Yahya</h6>
                       </figcaption>
@@ -73,7 +175,7 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                     <div class="card">
                       <figure class="pos-relative mg-b-0 wd-lg">
-                        <img src="{{asset('template/assets/carousel/testimoni/testimony_3.jpg')}}" class="img-fit-cover" alt="..." style="opacity:0.7;">
+                        <img src="{{asset('template/assets/carousel/testimoni/testimony_3.jpg')}}" class="img-fit-cover" alt="..." >
                         <figcaption class="pos-absolute b-0 tx-white-8">
                           <h6 class="tx-black mg-b-20 text-justify" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"Service Terbaik..yang berminat nak buat bekam dan urut kampung boleh datang ke El Medina Spa Bekam" - Safiq Rahim</h6>
                         </figcaption>
@@ -83,7 +185,7 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                     <div class="card">
                       <figure class="pos-relative mg-b-0 wd-lg">
-                        <img src="{{asset('template/assets/carousel/testimoni/testimony_7.jpg')}}" class="img-fit-cover" alt="..." style="opacity:0.7;">
+                        <img src="{{asset('template/assets/carousel/testimoni/testimony_7.jpg')}}" class="img-fit-cover" alt="..." >
                         <figcaption class="pos-absolute b-0 tx-white-8">
                           <h6 class="tx-black mg-b-20 text-justify" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"Selain bekam darah, paling best sport massage with the new equipment they call Hypervolt. For those yang ada masalah muscle, anda kena dapatkan treatment ini." - Azrel Ismail</h6>
                         </figcaption>
@@ -96,7 +198,7 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                     <div class="card">
                       <figure class="pos-relative mg-b-0 wd-lg">
-                        <img src="{{asset('template/assets/carousel/testimoni/testimony_4.jpg')}}" class="img-fit-cover" alt="..." style="opacity:0.7;">
+                        <img src="{{asset('template/assets/carousel/testimoni/testimony_4.jpg')}}" class="img-fit-cover" alt="..." >
                         <figcaption class="pos-absolute b-0 tx-white-8">
                           <h6 class="tx-black mg-b-20 text-justify" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"Paling penting tempat ni cukup selesa, bersih dan cup pakai buang" - Along Cham</h6>
                         </figcaption>
@@ -106,7 +208,7 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                   <div class="card">
                     <figure class="pos-relative mg-b-0 wd-lg">
-                      <img src="{{asset('template/assets/carousel/testimoni/testimony_5.jpg')}}" class="img-fit-cover" alt="..." style="opacity:0.7;">
+                      <img src="{{asset('template/assets/carousel/testimoni/testimony_5.jpg')}}" class="img-fit-cover" alt="..." >
                       <figcaption class="pos-absolute b-0 tx-white-8">
                         <h6 class="tx-black mg-b-20 text-justify" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"Spa bekam terbaik! Menjalankan servis bekam sunnah dan menggunakan konsep berbekam disposable cups (cawan pakai buang), spa dan servis tip top!"<br/>- Farizal Marlias</h6>
                       </figcaption>
@@ -116,7 +218,7 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                     <div class="card">
                       <figure class="pos-relative mg-b-0 wd-lg">
-                        <img src="{{asset('template/assets/carousel/testimoni/testimony_6.jpg')}}" class="img-fit-cover" alt="..." style="opacity:0.7;">
+                        <img src="{{asset('template/assets/carousel/testimoni/testimony_6.jpg')}}" class="img-fit-cover" alt="..." >
                         <figcaption class="pos-absolute b-0 tx-white-8">
                           <h6 class="tx-black mg-b-20 text-justify" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"El Medina is good. I always do dry cupping and sport massage here for my hamstring and good recovery." - Dickson Nwakame</h6>
                         </figcaption>
@@ -126,7 +228,7 @@
                 <div class="col-xl-3 col-lg-3 col-sm-6 col-xs-6">
                   <div class="card">
                     <figure class="pos-relative mg-b-0 wd-lg">
-                      <img src="{{asset('template/assets/carousel/testimoni/testimony_8.jpg')}}" class="img-fit-cover" alt="..." style="opacity:0.7;">
+                      <img src="{{asset('template/assets/carousel/testimoni/testimony_8.jpg')}}" class="img-fit-cover" alt="..." >
                       <figcaption class="pos-absolute b-0 tx-white-8">
                         <h6 class="tx-black mg-b-20 text-justify" style="border-radius:10px; background-color:#ffc107; opacity:0.8; font-size:0.8rem;">"Badan rasa ringan gila !!. korang kena try gaiss !!." - Nonny Nadirah</h6>
                       </figcaption>
@@ -138,6 +240,7 @@
             </div>
         </div>
     </div>
+    {{-- END OF TESTIMONI --}}
     
     {{-- <div class="content content-fixed">
         <div class="container-fluid pl-5 pr-5">
