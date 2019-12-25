@@ -2907,10 +2907,10 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(0, 184, 212, 0.5); }
 
 .btn-outline-warning {
-  color: #ffc107;
+  color: #030303;
   border-color: #ffc107; }
   .btn-outline-warning:hover {
-    color: #1c273c;
+    color: #000000;
     background-color: #ffc107;
     border-color: #ffc107; }
   .btn-outline-warning:focus, .btn-outline-warning.focus {
@@ -13930,7 +13930,7 @@ textarea.parsley-success:focus {
 }
   .footer a {
     padding: 0;
-    color: #ffffff; }
+    color: #000000; }
     .footer a:hover, .footer a:focus {
       color: #f5c31f; }
     .footer a + .nav-link {

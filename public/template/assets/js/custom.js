@@ -36,9 +36,9 @@ $(document).ready(function () {
                         var data = response['data']; 
                         $.each(data, function(index, item){
                             var div = [
-                            '<div class="row" style="border: 1px dotted black;">',
+                            '<div class="row">',
                                 '<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">',
-                                    '<iframe src="'+item.sourceMap+'" width="500" height="300" frameborder="0" style="" allowfullscreen=""></iframe>',
+                                    '<iframe src="'+item.sourceMap+'" width="100%" height="100%" frameborder="0" style="" allowfullscreen=""></iframe>',
                                 '</div>',
                                 '<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">',
                                     '<h3 style="font-weight:bold;"> <a href="branches/'+item.routeName+'" style="color:black;"> EL MEDINA SPA BEKAM '+item.branchName+'</a> </h3>',
@@ -63,9 +63,12 @@ $(document).ready(function () {
                                             '<i class="fab fa-facebook" title="Facebook EL MEDINA SPA BEKAM '+item.branchName+'"></i>',
                                         '</div>',
                                         '<div class="col-lg-11 col-md-11 col-sm-11 col-xd-11">',
-                                            '<h5> <a href="'+item.facebook+'" target="_blank" style="color:black;">'+item.facebook+'</a></h5>',
+                                            '<h5> <a href="'+item.facebook+'" target="_blank" style="color:black;">Facebook El Medina Spa Bekam '+item.branchName+'</a></h5>',
                                         '</div>',
                                     '</div>',
+                                    // '<div class="row pl-2">',
+                                    //     '{{-- {{@include("branches.slider.'+item.routeName+'")}}--}}',
+                                    // '</div>',
                                 '</div>',
                             '</div>',
                             '<hr/>',

@@ -2,8 +2,8 @@
     <nav class="nav">
 
         {{-- Nav for right side--}}
-        <div class="footer-rgt" >
-            <button type="button" class="btn btn-block btn-warning"><span style="font-size:1rem;">MAKE AN APPOINTMENT</span></button>
+        <div class="footer-rgt uk-animation-toggle" tabindex="0">
+            <button type="button" class="btn btn-block btn-outline-warning uk-animation-shake"><span style="font-size:0.9rem;">MAKE AN APPOINTMENT</span></button>
         </div>
         
         {{-- Nav for center --}}
@@ -16,26 +16,26 @@
                 </li>
         
                 <li class="">
-                    <a href="" class="">
+                    <a href="{{route('branches.bangi')}}" class="">
                         <i data-feather="phone"></i>
                         BANGI : 017-727 1152</a>
                 </li>
         
                 <li class="">
-                    <a href="" class="">
+                    <a href="{{route('branches.kuantan')}}" class="">
                         <i data-feather="phone"></i>
                         KUANTAN : 010-838 7030
                     </a>
                 </li>
         
                 <li class="">
-                    <a href="" class="">
+                    <a href="{{route('branches.shah-alam')}}" class="">
                         <i data-feather="phone"></i>
                         SHAH ALAM : 013-200 9518</a>
                 </li>
         
                 <li class="">
-                    <a href="" class="">
+                    <a href="{{route('branches.johor-bahru')}}" class="">
                         <i data-feather="phone"></i>
                         JOHOR BAHRU : 013-999 8458
                     </a>
@@ -55,14 +55,14 @@
                 </thead>
                 <tbody style="">
                     <tr>
-                        <td><a href="#">Our Story</a></td>
+                        <td><a href="{{route('about-us')}}">Our Story</a></td>
                         <td><a href="#">Contact Us</a></td>
                         <td><a href="#">Products</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#">Branches</a></td>
+                        <td><a href="{{route('branches.')}}">Branches</a></td>
                         <td><a href="#">FAQ</a></td>
-                        <td><a href="#">Services</a></td>
+                        <td><a href="{{route('services')}}">Services</a></td>
                     </tr>
                     <tr style="font-size:1.5rem; letter-spacing:10px;">
                         <td class="text-center" colspan="3">
