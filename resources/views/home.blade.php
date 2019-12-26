@@ -52,7 +52,7 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-bold">BEKAM SUNNAH - FULL BODY</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Free: Urutan Ringkas, Urutan Guasha, Bekam Luncur, dan Bekam Angin</p>
-                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -62,7 +62,7 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-bold">BEKAM SUNNAH - HALF BODY</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Free: Urutan Ringkas, Urutan Guasha, Bekam Luncur, dan Bekam Angin</p>
-                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -72,7 +72,7 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-bold">BEKAM WAJAH</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Rawatan bekam darah untuk yang bermasalah resdung, jerawat, gatal-gatal dan gangguan mata</p>
-                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -85,7 +85,7 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-bold">BEKAM MIGRAIN</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Rawatan bekam darah untuk yang mengalami migrain, stress, sakit kepala, tengkuk dan bahu</p>
-                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -95,7 +95,7 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-bold">BEKAM GOUT</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Rawatan bekam darah untuk mengeluarkan urik asid dari kaki</p>
-                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -105,7 +105,7 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-bold">BEKAM ANGIN</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Rawatan untuk megeluarkan angin dari badan dan meregangkan otot-otot yang tegang</p>
-                      <a href="#" class="btn btn-outline-warning">Learn More</a>
+                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -147,7 +147,7 @@
                                   <img src="{{asset('template/assets/carousel/testimoni/testimony_2.jpg')}}" alt="">
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Syamim Yahya</h3>
-                                      <p class="uk-margin-remove">ersih, selesa dan privacy serta mewah dengan harga berpatutan" </p>
+                                      <p class="uk-margin-remove">"Bersih, selesa dan privacy serta mewah dengan harga berpatutan"</p>
                                   </div>
                               </div>
                           </li>

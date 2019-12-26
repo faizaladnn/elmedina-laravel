@@ -1,11 +1,4 @@
 .background-logo{
-    background-image:url("/template/assets/img/elmedina-logo.png");
-    background-color: #ffffff00;
-    height: 245px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
 }
 .img-about-us{
     max-width:100%; 

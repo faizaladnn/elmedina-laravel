@@ -2907,12 +2907,12 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(0, 184, 212, 0.5); }
 
 .btn-outline-warning {
-  color: #030303;
-  border-color: #ffc107; }
+  color: #ffffff;
+  border-color: #cdbe75; }
   .btn-outline-warning:hover {
     color: #000000;
-    background-color: #ffc107;
-    border-color: #ffc107; }
+    background-color: #cdbe75;
+    border-color: #000000; }
   .btn-outline-warning:focus, .btn-outline-warning.focus {
     box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5); }
   .btn-outline-warning.disabled, .btn-outline-warning:disabled {
@@ -12606,7 +12606,7 @@ textarea.parsley-success:focus {
 
 .navbar-header {
   align-items: stretch;
-  height: 55px;
+  /* height: 55px; */
   padding: 0;
   justify-content: flex-start;
   background-color: #fff;
@@ -12854,7 +12854,7 @@ textarea.parsley-success:focus {
     display: none; }
 
 .navbar-menu-header {
-  height: 55px;
+  /* height: 55px; */
   padding: 0 15px 0 20px;
   display: flex;
   align-items: center;
@@ -12880,8 +12880,8 @@ textarea.parsley-success:focus {
       align-items: center;
       flex-direction: row;
       padding: 0;
-      padding-left: 4rem;
-      width: 100%;
+      /* padding-left: 4rem;
+      width: 100%; */
       max-width: 780px;
       margin-top: -3px; } }
   .navbar-menu .nav-item + .nav-item {
@@ -12939,7 +12939,7 @@ textarea.parsley-success:focus {
     font-size: 1rem;
     font-weight: bold;
     padding: 0 20px;
-    color: #001737;
+    color: #070707;
     letter-spacing: 1px;
     transition: all 0.2s ease-in-out; }
     @media (prefers-reduced-motion: reduce) {
@@ -12953,7 +12953,7 @@ textarea.parsley-success:focus {
       .navbar-menu .nav-link {
         font-size: 1.4rem; } }
     .navbar-menu .nav-link:hover {
-      color: #0168fa; }
+      color: #c2b571; }
       .navbar-menu .nav-link:hover svg {
         color: #0168fa;
         fill: rgba(1, 104, 250, 0.2); }
@@ -13930,9 +13930,9 @@ textarea.parsley-success:focus {
 }
   .footer a {
     padding: 0;
-    color: #000000; }
+    color: #ffffff; }
     .footer a:hover, .footer a:focus {
-      color: #f5c31f; }
+      color: #cdbe75; }
     .footer a + .nav-link {
       margin-left: 25px; }
   .footer > div:last-child {
