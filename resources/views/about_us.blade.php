@@ -4,7 +4,7 @@
 
     <div class="content content-fixed">
         <div class="container-fluid pl-5 pr-5">
-            <div class="row background-logo">
+            <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <h3 class="text-uppercase ">{{ __('common.about_us') }}</h3>
                 </div>
