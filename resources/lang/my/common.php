@@ -10,4 +10,9 @@ return [
     'about_us' => 'Tentang Kami',
     'make_an_appointment' => 'Buat Tempahan',
     'testimony' => 'Testimoni',
+    'product' => 'Produk',
+    'home' => 'Laman Utama',
+    'therapist' => 'Pakar Terapi',
+    'our_therapist' => 'Pakar Terapi Kami',
+
 ];

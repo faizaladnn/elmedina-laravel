@@ -49,11 +49,11 @@ Route::prefix('branches')->name('branches.')->group(function () {
 });
 
 
-Route::get('/services', function(){
-    return view('services', [
-        'nav' => 'Services',
+Route::get('/packages', function(){
+    return view('packages', [
+        'nav' => 'Packages',
     ]);
-})->name('services');
+})->name('packages');
 
 Route::get('/{locale}', function ($locale) {
     $locale = App::getLocale();

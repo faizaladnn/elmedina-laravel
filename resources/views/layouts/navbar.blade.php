@@ -1,7 +1,7 @@
 <header class="navbar navbar-header navbar-header-fixed">
     <a href="" id="mainMenuOpen" class="burger-menu"><i data-feather="menu"></i></a>
     <div class="navbar-brand pl-5">
-      <a href="{{route('home')}}"><img src="{{asset('template/assets/img/logo2.png')}}" width="190" height="45"></a>
+      <a href="{{route('home')}}" title="EL MEDINA logo. Go to EL MEDINA homepage"><img src="{{asset('template/assets/img/logo2.png')}}" width="190" height="45"></a>
         {{-- <a href="{{route('home')}}" class="df-logo text-decoration-none">EL MEDINA</a> --}}
     </div>
 
@@ -14,14 +14,13 @@
       </div>
       <!-- navbar-menu-header -->
       <ul class="nav navbar-menu">
-        <!-- Services -->
 
         <li class="nav-item">
           <a href="{{route('about-us')}}" class="nav-link">{{ __('common.about_us') }}</a>
         </li>
 
         <li class="nav-item">
-          <a href="{{route('services')}}" class="nav-link"> {{ __('common.services') }}</a>
+          <a href="{{route('packages')}}" class="nav-link"> {{ __('common.packages') }}</a>
         </li>
 
         {{-- <li class="nav-item">

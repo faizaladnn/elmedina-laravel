@@ -27,7 +27,7 @@
     <div class="container-fluid pl-5 pr-5">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <h2>Our Therapist</h2>
+                <h2> {{ __('common.our_therapist') }} </h2>
             </div>
         </div>
         <div class="row">

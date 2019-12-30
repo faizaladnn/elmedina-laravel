@@ -8,7 +8,7 @@
       
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <h3 class="text-uppercase text-left ">{{ __('common.services') }}</h3>
+            <h3 class="text-uppercase text-left ">{{ __('common.packages') }}</h3>
         </div>
       </div>
             
