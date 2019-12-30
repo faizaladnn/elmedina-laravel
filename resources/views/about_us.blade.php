@@ -9,6 +9,7 @@
                     <h3 class="text-uppercase ">{{ __('common.about_us') }}</h3>
                 </div>
             </div>
+
             <div class="row pt-3">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="uk-transition-toggle" tabindex="0">
@@ -31,7 +32,7 @@
                             Malah tidak keterlaluan jika kami nyatakan kami lebih ke hadapan.
                     </p>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-5">
                     <div class="uk-transition-toggle" tabindex="0">
                     <img src="{{ asset('template/assets/carousel/cover_5.jpg') }}" style="border-radius: 50px 15px;" class="uk-transition-scale-up uk-transition-opaque img-about-us" 
                         uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; viewport: 0.5;">
