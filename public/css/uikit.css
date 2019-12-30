@@ -10,7 +10,7 @@
  */
 html {
   /* 1 */
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Suisse Int'L Regular",sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5;
@@ -79,7 +79,7 @@ strong {
 :not(pre) > kbd,
 :not(pre) > samp {
   /* 1 */
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Suisse Int'L Regular",sans-serif;
   /* 2 */
   font-size: 0.875rem;
   /* 3 */
@@ -244,7 +244,7 @@ h6,
 .uk-heading-xlarge,
 .uk-heading-2xlarge {
   margin: 0 0 20px 0;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Suisse Int'L Regular",sans-serif;
   font-weight: normal;
   color: #333;
   text-transform: none;
@@ -398,7 +398,7 @@ blockquote footer::before {
  * 1. Contain overflow in all browsers.
  */
 pre {
-  font: 0.875rem / 1.5 Verdana, Geneva, sans-serif;
+  font: 0.875rem / 1.5 "Suisse Int'L Regular",sans-serif;
   color: #666;
   -moz-tab-size: 4;
   tab-size: 4;
@@ -410,7 +410,7 @@ pre {
   background: #fff;
 }
 pre code {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Suisse Int'L Regular",sans-serif;
 }
 /* Selection pseudo-element
  ========================================================================== */
@@ -4104,7 +4104,7 @@ ul.uk-nav-sub {
   padding: 0 15px;
   /* 3 */
   font-size: 0.875rem;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Suisse Int'L Regular",sans-serif;
   /* 4 */
   text-decoration: none;
 }
@@ -8159,7 +8159,7 @@ iframe.uk-cover {
  */
 .uk-logo {
   font-size: 1.5rem;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Suisse Int'L Regular",sans-serif;
   color: #666;
   /* 1 */
   text-decoration: none;

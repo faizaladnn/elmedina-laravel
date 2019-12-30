@@ -990,7 +990,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Suisse Int'L Regular",sans-serif;
   font-size: 0.875rem;
   font-weight: bold;
   line-height: 1.5;
@@ -12936,7 +12936,7 @@ textarea.parsley-success:focus {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;
     padding: 0 20px;
     color: #070707;
@@ -13864,7 +13864,7 @@ textarea.parsley-success:focus {
   width: 100%; */
   margin: 0;
   font-size: 0.875rem;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: "Suisse Int'L Regular",sans-serif;
   line-height: 1.5;
   letter-spacing: 0.062em;
   background-color: #fafbfc;
