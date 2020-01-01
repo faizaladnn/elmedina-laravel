@@ -45,74 +45,52 @@
                   <h3 class="text-uppercase text-center ">{{ __('common.services') }}</h3>
               </div>
 
-              <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
-                  <div class="card">
-                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h6 class="card-title font-weight-normal">BEKAM SUNNAH - FULL BODY</h6>
-                      <p class="card-text font-weight-light tx-12 service-info">Free: Urutan Ringkas, Urutan Guasha, Bekam Luncur, dan Bekam Angin</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+              <div class="uk-child-width-1-3@m" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-hover">
+                        <div class="uk-card-media-top">
+                            <img src="{{asset('template/assets/carousel/services/stretching.jpg')}}" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <h5 class="uk-text-uppercase uk-text-bold">Stretching</h5>
+                            <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
-                  <div class="card">
-                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h6 class="card-title font-weight-normal">BEKAM SUNNAH - HALF BODY</h6>
-                      <p class="card-text font-weight-light tx-12 service-info">Free: Urutan Ringkas, Urutan Guasha, Bekam Luncur, dan Bekam Angin</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+                <div>
+                    <div class="uk-card uk-card-hover">
+                        <div class="uk-card-media-top">
+                            <img src="{{asset('template/assets/carousel/services/bekam.jpg')}}" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <h5 class="uk-text-uppercase uk-text-bold">Dry Cupping / Bekam</h5>
+                            <p class="uk-text-light">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                            </p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
-                  <div class="card">
-                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h6 class="card-title font-weight-normal">BEKAM WAJAH</h6>
-                      <p class="card-text font-weight-light tx-12 service-info">Rawatan bekam darah untuk yang bermasalah resdung, jerawat, gatal-gatal dan gangguan mata</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+                <div>
+                    <div class="uk-card uk-card-hover">
+                        <div class="uk-card-media-top">
+                            <img src="{{asset('template/assets/carousel/services/air_relax.jpg')}}" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <h5 class="uk-text-uppercase uk-text-bold">Air Relax Therapy</h5>
+                            <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>{{-- end row --}}
-
-              <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 pt-3">
-                  <div class="card">
-                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h6 class="card-title font-weight-normal">BEKAM MIGRAIN</h6>
-                      <p class="card-text font-weight-light tx-12 service-info">Rawatan bekam darah untuk yang mengalami migrain, stress, sakit kepala, tengkuk dan bahu</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 pt-3">
-                  <div class="card">
-                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h6 class="card-title font-weight-normal">BEKAM GOUT</h6>
-                      <p class="card-text font-weight-light tx-12 service-info">Rawatan bekam darah untuk mengeluarkan urik asid dari kaki</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 pt-3">
-                  <div class="card">
-                    <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h6 class="card-title font-weight-normal">BEKAM ANGIN</h6>
-                      <p class="card-text font-weight-light tx-12 service-info">Rawatan untuk megeluarkan angin dari badan dan meregangkan otot-otot yang tegang</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
-                    </div>
-                  </div>
-                </div>
-              </div>{{-- end row --}}
-
             </div>
           </div>
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+              <a href="{{route('services.')}}">
+                <button class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">MORE</button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     {{-- END OF SERVICES --}}

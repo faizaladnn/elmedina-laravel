@@ -24,7 +24,7 @@
         </li>
 
         <li class="nav-item">
-          <a href="{{route('packages.')}}" class="nav-link"> {{ __('common.services') }}</a>
+          <a href="{{route('services.')}}" class="nav-link"> {{ __('common.services') }}</a>
         </li>
 
         <li class="nav-item">

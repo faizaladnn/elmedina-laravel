@@ -53,8 +53,7 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 1 : FULL BODY (24 CUP)</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Free: Urutan Ringkas, Urutan Guasha, Bekam Luncur, dan Bekam Angin</p>
-                      <h5 style="margin: 0 0 0;">RM 160 (NORMAL)</h5> 
-                      <h5 style="margin: 0 0 20px;">RM 180 (VIP)</h5> 
+                      <h5 style="margin: 0 0 10px;">RM 180 (VIP) RM 160 (NORMAL)</h5> 
                       <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
@@ -65,8 +64,7 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 2 : HALF BODY (14 CUP)</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Free: Urutan Ringkas, Urutan Guasha, Bekam Luncur, dan Bekam Angin</p>
-                      <h5 style="margin: 0 0 0;">RM 110 (NORMAL)</h5>
-                      <h5 style="margin: 0 0 20px;">RM 120 (VIP)</h5>
+                      <h5 style="margin: 0 0 10px;">RM 120 (VIP) RM 110 (NORMAL)</h5>
                       <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
@@ -84,8 +82,7 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 3 : BEKAM WAJAH (8 CUP)</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Rawatan bekam darah untuk yang bermasalah resdung, jerawat, gatal-gatal dan gangguan mata</p>
-                      <h5 style="margin: 0 0 0;">RM 70 (NORMAL)</h5>
-                      <h5 style="margin: 0 0 20px;">RM 80 (VIP)</h5>
+                      <h5 style="margin: 0 0 10px;">RM 80 (VIP) RM 70 (NORMAL)</h5>
                       <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
@@ -96,8 +93,7 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 4 : BEKAM MIGRAIN (8 CUP)</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Rawatan bekam darah untuk yang mengalami migrain, stress, sakit kepala, tengkuk dan bahu</p>
-                      <h5 style="margin: 0 0 0;">RM 70 (NORMAL)</h5>
-                      <h5 style="margin: 0 0 20px;">RM 80 (VIP)</h5>
+                      <h5 style="margin: 0 0 10px;">RM 80 (VIP) RM 70 (NORMAL)</h5>
                       <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
@@ -108,8 +104,7 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 5 : BEKAM GOUT (12 CUP)</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Rawatan bekam darah untuk mengeluarkan urik asid dari kaki</p>
-                      <h5 style="margin: 0 0 0;">RM 100 (NORMAL)</h5>
-                      <h5 style="margin: 0 0 20px;">RM 110 (VIP)</h5>
+                      <h5 style="margin: 0 0 10px;">RM 110 (VIP) RM 100 (NORMAL)</h5>
                       <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>

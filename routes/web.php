@@ -48,6 +48,14 @@ Route::prefix('branches')->name('branches.')->group(function () {
     Route::get('/getBranchesByCountry/{country}', 'BranchController@getBranchesByCountry')->name('getBranchesByCountry');
 });
 
+Route::prefix('services')->name('services.')->group(function () {
+    
+    Route::get('/', function(){
+        return view('services', [
+            'nav' => 'Services',
+        ]);
+    });
+});
 
 
 
