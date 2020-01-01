@@ -18,7 +18,7 @@
             </h5>
         </div>
         <div class="uk-text-center uk-text-bold uk-panel uk-text-secondary uk-padding-small">
-          <button type="button" class="btn btn-warning uk-animation-shake"><span style="font-size:0.9rem;">MAKE AN APPOINTMENT</span></button>
+            {{-- <a href="#" class="btn btn-outline-warning uk-animation-shake text-uppercase"> <span>{{ __('common.make_an_appointment') }}</span></a> --}}
         </div>
     </div>
 </div>
@@ -80,6 +80,7 @@
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16421.356899928163!2d103.69805845728803!3d1.4905870294991632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da72bee481bedf%3A0xdff5448648e97aa3!2sEl%20Medina%20Spa%20Bekam%20-%20Johor%20Bahru!5e0!3m2!1sen!2smy!4v1576500453749!5m2!1sen!2smy" 
 width="100%" height="300px" frameborder="0" style="" allowfullscreen=""></iframe>
 
+@include('branches.slider.johor_bahru')
 @endsection
 
 @section('js')

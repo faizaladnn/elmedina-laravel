@@ -62,7 +62,7 @@
                     <tr>
                         <td><a href="{{route('branches.')}}">Branches</a></td>
                         <td><a href="#">FAQ</a></td>
-                        <td><a href="{{route('packages')}}" class="text-uppercase">{{ __('common.packages') }}</a></td>
+                        <td><a href="{{route('packages.')}}" class="text-uppercase">{{ __('common.packages') }}</a></td>
                     </tr>
                     <tr style="font-size:1.5rem; letter-spacing:10px;">
                         <td class="text-center" colspan="3">

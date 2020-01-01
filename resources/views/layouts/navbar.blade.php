@@ -20,20 +20,16 @@
         </li>
 
         <li class="nav-item">
-          <a href="{{route('packages')}}" class="nav-link"> {{ __('common.packages') }}</a>
+          <a href="{{route('packages.')}}" class="nav-link"> {{ __('common.packages') }}</a>
         </li>
 
-        {{-- <li class="nav-item">
-          <a href="{{route('home')}}" class="nav-link">{{ __('common.packages') }}</a>
-        </li> --}}
+        <li class="nav-item">
+          <a href="{{route('packages.')}}" class="nav-link"> {{ __('common.services') }}</a>
+        </li>
 
         <li class="nav-item">
           <a href="{{route('branches.')}}" class="nav-link">{{ __('common.branches') }}</a>
         </li>
-
-        {{-- <li class="nav-item">
-          <a href="{{route('home')}}" class="nav-link">{{ __('common.gallery') }}</a>
-        </li> --}}
 
       </ul>
   </div>

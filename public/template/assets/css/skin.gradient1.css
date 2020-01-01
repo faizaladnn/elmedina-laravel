@@ -10,9 +10,9 @@
     .navbar-header .df-logo span, .navbar-header .df-logo:hover span, .navbar-header .df-logo:focus span {
       color: #fdd033; }
   .navbar-header .burger-menu {
-    color: rgba(7, 7, 7, 0.5); }
+    color: rgba(255, 254, 254, 0.5); }
     .navbar-header .burger-menu:hover, .navbar-header .burger-menu:focus {
-      color: #fff; }
+      color: #d4c478; }
   .navbar-header .navbar-menu-header {
     background-color: #172830;
     /* background-image: linear-gradient(to right, #fdd033 0, #560bdf 75%); */

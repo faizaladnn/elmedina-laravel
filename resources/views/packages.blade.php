@@ -23,8 +23,8 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal service-title" title="FULL BODY (24 CUP) + SPORT MASSAGE (45 Minit) + AIR RELAX (30 Minit)">PAKEJ A : FULL BODY (24 CUP) + SPORT MASSAGE (45 Minit) + AIR RELAX (30 Minit)</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Percuma : Urutan Guasha + Bekam Luncur + Bekam Angin</p>
-                      <h4>RM 300</h4>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+                      <h5 style="margin: 0 0 20px;">RM 300</h5>
+                      <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -34,7 +34,8 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal service-title" title="FULL BODY (24 CUP) + SPORT MASSAGE (30 Minit)">PAKEJ B : FULL BODY (24 CUP) + SPORT MASSAGE (30 Minit)</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Percuma : Urutan Guasha + Bekam Luncur + Bekam Angin</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+                      <h5 style="margin: 0 0 20px;">RM 225</h5>
+                      <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -47,11 +48,14 @@
               <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
                   <div class="uk-card card">
+                    {{-- <div class="marker marker-ribbon marker-danger pos-absolute t-10 l-0">ON DEMAND</div> --}}
                     <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 1 : FULL BODY (24 CUP)</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Free: Urutan Ringkas, Urutan Guasha, Bekam Luncur, dan Bekam Angin</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+                      <h5 style="margin: 0 0 0;">RM 160 (NORMAL)</h5> 
+                      <h5 style="margin: 0 0 20px;">RM 180 (VIP)</h5> 
+                      <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -61,7 +65,9 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 2 : HALF BODY (14 CUP)</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Free: Urutan Ringkas, Urutan Guasha, Bekam Luncur, dan Bekam Angin</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+                      <h5 style="margin: 0 0 0;">RM 110 (NORMAL)</h5>
+                      <h5 style="margin: 0 0 20px;">RM 120 (VIP)</h5>
+                      <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -78,7 +84,9 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 3 : BEKAM WAJAH (8 CUP)</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Rawatan bekam darah untuk yang bermasalah resdung, jerawat, gatal-gatal dan gangguan mata</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+                      <h5 style="margin: 0 0 0;">RM 70 (NORMAL)</h5>
+                      <h5 style="margin: 0 0 20px;">RM 80 (VIP)</h5>
+                      <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -88,7 +96,9 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 4 : BEKAM MIGRAIN (8 CUP)</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Rawatan bekam darah untuk yang mengalami migrain, stress, sakit kepala, tengkuk dan bahu</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+                      <h5 style="margin: 0 0 0;">RM 70 (NORMAL)</h5>
+                      <h5 style="margin: 0 0 20px;">RM 80 (VIP)</h5>
+                      <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -98,7 +108,9 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 5 : BEKAM GOUT (12 CUP)</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Rawatan bekam darah untuk mengeluarkan urik asid dari kaki</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+                      <h5 style="margin: 0 0 0;">RM 100 (NORMAL)</h5>
+                      <h5 style="margin: 0 0 20px;">RM 110 (VIP)</h5>
+                      <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>                
@@ -110,7 +122,8 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 6 : BEKAM ANGIN (21 CUP)</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Rawatan untuk megeluarkan angin dari badan dan meregangkan otot-otot yang tegang</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+                      <h5 style="margin: 0 0 20px;">RM 100</h5>
+                      <a href="{{route('packages.bekam-angin')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -120,7 +133,8 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 7 : URUTAN BADAN</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Urutan fullbody selama 1 jam</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+                      <h5 style="margin: 0 0 20px;">RM 98</h5>
+                      <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -137,7 +151,8 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal service-title" title="SPORT MASSAGE + HYPERVOLT THERAPY">PAKEJ 8 : SPORT MASSAGE + HYPERVOLT THERAPY</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Rawatan bekam darah untuk mengeluarkan urik asid dari kaki</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+                      <h5 style="margin: 0 0 20px;">RM 110</h5>
+                      <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -147,7 +162,8 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal service-title" title="SPORT MASSAGE + HYPERVOLT THERAPY + AIR RELAX">PAKEJ 9 : SPORT MASSAGE + HYPERVOLT THERAPY + AIR RELAX</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Rawatan untuk megeluarkan angin dari badan dan meregangkan otot-otot yang tegang</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+                      <h5 style="margin: 0 0 20px;">RM 140</h5>
+                      <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -157,7 +173,8 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal service-title" title="SPORT RECOVERY">PAKEJ 10 : SPORT RECOVERY</h6>
                       <p class="card-text font-weight-light tx-12 service-info">Air Relax / Tens/ Sport Massage / Cupping / Kinesio Taping / Stretching</p>
-                      <a href="#" class="btn btn-outline-warning text-dark">Learn More</a>
+                      <h5 style="margin: 0 0 20px;">RM 50 - RM 150</h5>
+                      <a href="{{route('packages.bekam-wajah')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                     </div>
                   </div>
                 </div>

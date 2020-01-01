@@ -49,11 +49,25 @@ Route::prefix('branches')->name('branches.')->group(function () {
 });
 
 
-Route::get('/packages', function(){
-    return view('packages', [
-        'nav' => 'Packages',
-    ]);
-})->name('packages');
+
+
+Route::prefix('packages')->name('packages.')->group(function () {
+    
+    Route::get('/', function(){
+        return view('packages', [
+            'nav' => 'Packages',
+        ]);
+    });
+
+    //Other Packages
+    Route::get('/bekam-angin', function () {
+        return view('packages.bekam_angin');
+    })->name('bekam-angin');
+
+    Route::get('/bekam-wajah', function () {
+        return view('packages.bekam_wajah');
+    })->name('bekam-wajah');
+});
 
 Route::get('/{locale}', function ($locale) {
     $locale = App::getLocale();

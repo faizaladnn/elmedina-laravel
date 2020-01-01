@@ -215,7 +215,7 @@
             <div class="uk-panel">
                 <img src="{{asset('template/assets/carousel/branch/branch_kuantan.jpg')}}" alt="">
                 <div class="uk-position-center uk-text-center">
-                    <h2 uk-slider-parallax="x: 100,-100">Kuantan</h2>
+                    <h2 uk-slider-parallax="x: 100,-100" class=" uk-text-uppercase">Kuantan</h2>
                     {{-- <p uk-slider-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p> --}}
                 </div>
             </div>
@@ -224,7 +224,7 @@
             <div class="uk-panel">
                 <img src="{{asset('template/assets/carousel/branch/branch_bangi.jpg')}}" alt="">
                 <div class="uk-position-center uk-text-center">
-                    <h2 uk-slider-parallax="x: 100,-100">Bangi</h2>
+                    <h2 uk-slider-parallax="x: 100,-100" class=" uk-text-uppercase">Bangi</h2>
                     {{-- <p uk-slider-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p> --}}
                 </div>
             </div>
@@ -233,7 +233,7 @@
             <div class="uk-panel">
                 <img src="{{asset('template/assets/carousel/branch/branch_shah_alam.jpg')}}" alt="">
                 <div class="uk-position-center uk-text-center">
-                    <h2 uk-slider-parallax="x: 100,-100">Shah Alam</h2>
+                    <h2 uk-slider-parallax="x: 100,-100" class=" uk-text-uppercase">Shah Alam</h2>
                     {{-- <p uk-slider-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p> --}}
                 </div>
             </div>
@@ -242,7 +242,7 @@
             <div class="uk-panel">
                 <img src="{{asset('template/assets/carousel/branch/branch_johor.jpg')}}" alt="">
                 <div class="uk-position-center uk-text-center">
-                    <h2 uk-slider-parallax="x: 100,-100">Johor Bahru</h2>
+                    <h2 uk-slider-parallax="x: 100,-100" class=" uk-text-uppercase">Johor Bahru</h2>
                     {{-- <p uk-slider-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p> --}}
                 </div>
             </div>

@@ -1,4 +1,13 @@
-
+.background-logo{
+    background-image:url("/template/assets/img/logo2.png");
+    background-color: #172830;
+    height: 245px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    border-radius: 15px 50px;
+}
 .img-about-us{
     max-width:100%; 
     max-height:100%; 

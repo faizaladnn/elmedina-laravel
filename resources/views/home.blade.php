@@ -120,7 +120,7 @@
 
     {{-- TESTIMONI --}}
     <div class="content" style="">
-        <div class="container-fluid pl-5 pr-5">
+        <div class="container-fluid pl-4 pr-4">
             <div class="align-items-center justify-content-between">
               {{-- <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -135,7 +135,7 @@
                       <ul class="uk-slider-items uk-grid">
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_1.jpg')}}" alt="">
+                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_1.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">YAM Tengku Amir</h3>
                                       <p class="uk-margin-remove">"Guys here have a magic hands"</p>
@@ -144,7 +144,7 @@
                           </li>
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_2.jpg')}}" alt="">
+                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_2.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Syamim Yahya</h3>
                                       <p class="uk-margin-remove">"Bersih, selesa dan privacy serta mewah dengan harga berpatutan"</p>
@@ -153,7 +153,7 @@
                           </li>
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_3.jpg')}}" alt="">
+                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_3.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Safiq Rahim</h3>
                                       <p class="uk-margin-remove">"Service Terbaik..yang berminat nak buat bekam dan urut kampung boleh datang ke El Medina Spa Bekam"</p>
@@ -162,7 +162,7 @@
                           </li>
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_7.jpg')}}" alt="">
+                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_7.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Azrel Ismail</h3>
                                       <p class="uk-margin-remove">"Selain bekam darah, paling best sport massage with the new equipment they call Hypervolt. For those yang ada masalah muscle, anda kena dapatkan treatment ini."</p>
@@ -171,7 +171,7 @@
                           </li>
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_4.jpg')}}" alt="">
+                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_4.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Along Cham</h3>
                                       <p class="uk-margin-remove">"Paling penting tempat ni cukup selesa, bersih dan cup pakai buang"</p>
@@ -180,7 +180,7 @@
                           </li>
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_5.jpg')}}" alt="" class="pl-50">
+                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_5.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Farizal Marlias</h3>
                                       <p class="uk-margin-remove">"Spa bekam terbaik! Menjalankan servis bekam sunnah dan menggunakan konsep berbekam disposable cups (cawan pakai buang), spa dan servis tip top!"</p>
@@ -189,7 +189,7 @@
                           </li>
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_6.jpg')}}" alt="">
+                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_6.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Dickson Nwakame</h3>
                                       <p class="uk-margin-remove">"El Medina is good. I always do dry cupping and sport massage here for my hamstring and good recovery."</p>
@@ -198,7 +198,7 @@
                           </li>
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_8.jpg')}}" alt="">
+                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_8.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Nonny Nadirah</h3>
                                       <p class="uk-margin-remove">"Badan rasa ringan gila !!. korang kena try gaiss !!."</p>
