@@ -3,7 +3,7 @@
 
 <div class="uk-background-fixed uk-background-center-bottom" style="background-image: url({{asset('template/assets/carousel/cover_5.jpg')}});">
     <div class="content content-fixed">
-        <div class="uk-text-left uk-text-bolder uk-panel uk-padding-large uk-padding-remove-bottom uk-dark"><h4 style="background-color:white;">BEKAM MIGRAIN</h4></div>
+        <div class="uk-text-left uk-text-bolder uk-panel uk-padding-large uk-padding-remove-bottom uk-dark"><h4 style="background-color:white;">SPORT RECOVERY</h4></div>
     </div>
 </div>
 
@@ -14,17 +14,22 @@
                 <div class="uk-card uk-card-hover uk-card-body">
                     <dl class="uk-description-list">
                         <dt>Harga</dt>
-                        <dd>RM 80 (VIP)</dd>
-                        <dd>RM 70 (NORMAL)</dd>
+                        <dd>RM 50 - RM 150</dd>
                     </dl>
                 </div>
             </div>
             <div class="uk-width-3-4">
                 <div class="uk-card uk-card-hover uk-card-body">
                     <dl class="uk-description-list">
-                        <dt>&nbsp;</dt>
-                        <dd>Rawatan bekam darah untuk yang mengalami migrain, stress, sakit kepala, tengkuk dan bahu.</dd>
-                        <dd>Free : Urutan Ringkas, Urutan Guasha dan Bekam Angin</dd>
+                         <dt>&nbsp;</dt>
+                        <dd>Perlu melalui pemeriksaan dari fisioterapis kami.</dd>
+                        <dt>Antara Rawatan:</dt>
+                        <dd>Air Relax Therapy</dd>
+                        <dd>Sport Massage</dd>
+                        <dd>Electro Therapy ( TENS )</dd>
+                        <dd>Kinesio Tapping</dd>
+                        <dd>Cupping</dd>
+                        <dd>Stretching</dd>
                     </dl>
                 </div>
             </div>

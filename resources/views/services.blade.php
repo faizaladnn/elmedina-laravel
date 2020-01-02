@@ -21,6 +21,7 @@
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Stretching</h5>
                     <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <a href="{{route('services.stretching')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>
         </div>
@@ -34,6 +35,7 @@
                     <p class="uk-text-light">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                     </p>
+                    <a href="{{route('services.bekam')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>
         </div>
@@ -45,6 +47,7 @@
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Air Relax Therapy</h5>
                     <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <a href="{{route('services.air-relax')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>
         </div>
@@ -59,6 +62,7 @@
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Vibration Therapy (Hypervolt)</h5>
                     <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <a href="{{route('services.hypervolt')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>
         </div>
@@ -74,6 +78,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                     </p>
+                    <a href="{{route('services.kinesio-taping')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>
         </div>
@@ -85,6 +90,7 @@
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Electro Therapy (TENS)</h5>
                     <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <a href="{{route('services.electro-therapy')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>
         </div>
@@ -99,6 +105,7 @@
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Sport massage </h5>
                     <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <a href="{{route('services.sport-massage')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>
         </div>
