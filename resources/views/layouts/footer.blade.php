@@ -3,7 +3,7 @@
 
         {{-- Nav for right side--}}
         <div class="footer-rgt uk-animation-toggle" tabindex="0">
-            <a href="{{route('login')}}" target="_blank"><button type="button" class="btn btn-block btn-outline-warning uk-animation-shake"><span style="font-size:0.9rem;">MAKE AN APPOINTMENT</span></button></a>
+            <a href="{{route('login')}}" ><button type="button" class="btn btn-block btn-outline-warning uk-animation-shake"><span style="font-size:0.9rem;">MAKE AN APPOINTMENT</span></button></a>
         </div>
         
         {{-- Nav for center --}}

@@ -86,7 +86,7 @@
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
               <a href="{{route('services.')}}">
-                <button class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">MORE</button>
+                <button class="btn btn-block btn-outline-warning" style="color:black;">MORE</button>
               </a>
             </div>
           </div>

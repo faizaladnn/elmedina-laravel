@@ -60,7 +60,7 @@
 
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                     <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{asset('template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
+                        <img src="{{asset('template/assets/img/img-1.jpg')}}" alt="" uk-cover>
                         <canvas width="100%" height="100%"></canvas>
                     </div>
                     <div>
@@ -79,7 +79,16 @@
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.885727910673!2d103.29861911525126!3d3.834695549623814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31c8ba447aaa6987%3A0x8fbe0604d8ac3d6d!2sEl%20Medina%20Spa%20Bekam%20Kuantan!5e0!3m2!1sen!2smy!4v1576500389456!5m2!1sen!2smy" 
 width="100%" height="300px" frameborder="0" style="" allowfullscreen=""></iframe>
 
-@include('branches.slider.kuantan')
+<div class="content">
+    <div class="container-fluid pl-5 pr-5">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                @include('branches.slider.kuantan')
+            </div>
+        </div>
+    </div>
+</div>
+
 @endsection
 
 @section('js')

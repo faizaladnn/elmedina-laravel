@@ -34,7 +34,7 @@
       </ul>
   </div>
   <div class="navbar-right">
-      <a href="{{route('login')}}" target="_blank" class="btn btn-outline-warning btn-appointment " id="appointment"> <span>{{ __('common.make_an_appointment') }}</span></a>
+      <a href="{{route('login')}}" class="btn btn-outline-warning btn-appointment " id="appointment"> <span>{{ __('common.make_an_appointment') }}</span></a>
     </div><!-- navbar-right -->
 
 </header>
