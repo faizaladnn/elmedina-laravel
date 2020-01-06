@@ -14,5 +14,6 @@ return [
     'home' => 'Laman Utama',
     'therapist' => 'Pakar Terapi',
     'our_therapist' => 'Pakar Terapi Kami',
+    'why_elmedina' => 'Kenapa El Medina ?',
 
 ];

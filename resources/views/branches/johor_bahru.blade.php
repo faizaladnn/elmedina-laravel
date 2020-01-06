@@ -1,7 +1,7 @@
 @extends ('layouts.master')
 
 @section ('content')
-<div class="uk-background-fixed uk-background-left-center" style="background-image: url({{asset('template/assets/carousel/branch/branch_johor.jpg')}});">
+<div class="uk-background-fixed uk-background-left-center" style="background-image: url({{ asset('public/template/assets/carousel/branch/branch_johor.jpg')}});">
     <div class="content content-fixed">
         <div class="uk-text-center uk-text-bolder uk-panel uk-text-secondary uk-padding-large uk-padding-remove-bottom"><h1>JOHOR BAHRU</h1></div>
         <div class="uk-text-center uk-text-bold uk-panel uk-text-secondary uk-padding-small">
@@ -35,7 +35,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                     <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{asset('template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
+                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
                         <canvas width="100%" height="100%"></canvas>
                     </div>
                     <div>
@@ -48,7 +48,7 @@
                 
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                     <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-                        <img src="{{asset('template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
+                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
                         <canvas width="100%" height="100%"></canvas>
                     </div>
                     <div>
@@ -61,7 +61,7 @@
 
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                     <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{asset('template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
+                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
                         <canvas width="100%" height="100%"></canvas>
                     </div>
                     <div>

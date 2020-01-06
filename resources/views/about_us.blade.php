@@ -13,7 +13,7 @@
             <div class="row pt-3">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="uk-transition-toggle" tabindex="0">
-                        <img src="{{ asset('template/assets/img/img-3.jpeg') }}" style="border-radius: 15px 50px;" class="uk-transition-scale-up uk-transition-opaque img-about-us">
+                        <img src="{{ asset('public/template/assets/img/img-3.jpeg') }}" style="border-radius: 15px 50px;" class="uk-transition-scale-up uk-transition-opaque img-about-us">
                       </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 align-bottom">
@@ -34,7 +34,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-5">
                     <div class="uk-transition-toggle" tabindex="0">
-                    <img src="{{ asset('template/assets/carousel/cover_5.jpg') }}" style="border-radius: 50px 15px;" class="uk-transition-scale-up uk-transition-opaque img-about-us" 
+                    <img src="{{ asset('public/template/assets/carousel/cover_5.jpg') }}" style="border-radius: 50px 15px;" class="uk-transition-scale-up uk-transition-opaque img-about-us" 
                         uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; viewport: 0.5;">
                     </div>
                 </div>
@@ -42,7 +42,7 @@
             <div class="row pt-3">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="uk-transition-toggle" tabindex="0">
-                    <img src="{{ asset('template/assets/carousel/cover_5.jpg') }}" style="border-radius: 50px 15px;" class="uk-transition-scale-up uk-transition-opaque img-about-us"
+                    <img src="{{ asset('public/template/assets/carousel/cover_5.jpg') }}" style="border-radius: 50px 15px;" class="uk-transition-scale-up uk-transition-opaque img-about-us"
                     uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; viewport: 0.5;">
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="uk-transition-toggle" tabindex="0">
-                        <img src="{{ asset('template/assets/carousel/cover_6.jpg') }}" style="border-radius: 15px 50px;" class="uk-transition-scale-up uk-transition-opaque img-about-us"
+                        <img src="{{ asset('public/template/assets/carousel/cover_6.jpg') }}" style="border-radius: 15px 50px;" class="uk-transition-scale-up uk-transition-opaque img-about-us"
                         uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; viewport: 0.5;">
                     </div>
                 </div>

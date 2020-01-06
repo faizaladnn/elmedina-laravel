@@ -1,7 +1,7 @@
 @extends ('layouts.master')
 @section ('content')
 
-<div class="uk-background-fixed uk-background-center-bottom" style="background-image: url({{asset('template/assets/carousel/cover_5.jpg')}});">
+<div class="uk-background-fixed uk-background-center-bottom" style="background-image: url({{ asset('public/template/assets/carousel/cover_5.jpg')}});">
     <div class="content content-fixed">
         <div class="uk-text-left uk-text-bolder uk-panel uk-padding-large uk-padding-remove-bottom uk-dark"><h4 style="background-color:white;">VVIP A : FULL BODY (24 CUP) + SPORT MASSAGE (45 Minit) + AIR RELAX (30 Minit)</h4></div>
     </div>

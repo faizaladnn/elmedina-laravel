@@ -213,7 +213,7 @@
     <ul class="uk-slider-items uk-grid">
         <li class="uk-width-4-5">
             <div class="uk-panel">
-                <img src="{{asset('template/assets/carousel/branch/branch_kuantan.jpg')}}" alt="">
+                <img src="{{ asset('public/template/assets/carousel/branch/branch_kuantan.jpg')}}" alt="">
                 <div class="uk-position-center uk-text-center">
                     <h2 uk-slider-parallax="x: 100,-100" class=" uk-text-uppercase">Kuantan</h2>
                     {{-- <p uk-slider-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p> --}}
@@ -222,7 +222,7 @@
         </li>
         <li class="uk-width-4-5">
             <div class="uk-panel">
-                <img src="{{asset('template/assets/carousel/branch/branch_bangi.jpg')}}" alt="">
+                <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="">
                 <div class="uk-position-center uk-text-center">
                     <h2 uk-slider-parallax="x: 100,-100" class=" uk-text-uppercase">Bangi</h2>
                     {{-- <p uk-slider-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p> --}}
@@ -231,7 +231,7 @@
         </li>
         <li class="uk-width-4-5">
             <div class="uk-panel">
-                <img src="{{asset('template/assets/carousel/branch/branch_shah_alam.jpg')}}" alt="">
+                <img src="{{ asset('public/template/assets/carousel/branch/branch_shah_alam.jpg')}}" alt="">
                 <div class="uk-position-center uk-text-center">
                     <h2 uk-slider-parallax="x: 100,-100" class=" uk-text-uppercase">Shah Alam</h2>
                     {{-- <p uk-slider-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p> --}}
@@ -240,7 +240,7 @@
         </li>
         <li class="uk-width-4-5">
             <div class="uk-panel">
-                <img src="{{asset('template/assets/carousel/branch/branch_johor.jpg')}}" alt="">
+                <img src="{{ asset('public/template/assets/carousel/branch/branch_johor.jpg')}}" alt="">
                 <div class="uk-position-center uk-text-center">
                     <h2 uk-slider-parallax="x: 100,-100" class=" uk-text-uppercase">Johor Bahru</h2>
                     {{-- <p uk-slider-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p> --}}

@@ -16,22 +16,10 @@
         <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
-                    <img src="{{asset('template/assets/carousel/services/stretching.jpg')}}" alt="">
-                </div>
-                <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold">Stretching</h5>
-                    <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    <a href="{{route('services.stretching')}}" class="btn btn-outline-warning text-dark">Learn More</a>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="uk-card uk-card-hover">
-                <div class="uk-card-media-top">
                     <img src="{{asset('template/assets/carousel/services/bekam.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold">Dry Cupping / Bekam</h5>
+                    <h5 class="uk-text-uppercase uk-text-bold">Bekam (Bekam Sunnah, Wajah, Migrain, Gout)</h5>
                     <p class="uk-text-light">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                     </p>
@@ -42,10 +30,22 @@
         <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
-                    <img src="{{asset('template/assets/carousel/services/air_relax.jpg')}}" alt="">
+                    <img src="{{asset('template/assets/carousel/services/massage.jpg')}}" alt="" style="height: 265px;">
                 </div>
                 <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold">Air Relax Therapy</h5>
+                    <h5 class="uk-text-uppercase uk-text-bold">Sport massage / Message Therapy</h5>
+                    <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <a href="{{route('services.sport-massage')}}" class="btn btn-outline-warning text-dark">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-hover">
+                <div class="uk-card-media-top">
+                    <img src="{{asset('template/assets/carousel/services/air_relax.jpg')}}" alt="" style="height: 265px; width:371px;">
+                </div>
+                <div class="uk-card-body">
+                    <h5 class="uk-text-uppercase uk-text-bold">Ultrasound Therapy</h5>
                     <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     <a href="{{route('services.air-relax')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
@@ -69,6 +69,18 @@
         <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
+                    <img src="{{asset('template/assets/carousel/services/electro_therapy.jpg')}}" alt="">
+                </div>
+                <div class="uk-card-body">
+                    <h5 class="uk-text-uppercase uk-text-bold">Electro Therapy (TENS)</h5>
+                    <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <a href="{{route('services.electro-therapy')}}" class="btn btn-outline-warning text-dark">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-hover">
+                <div class="uk-card-media-top">
                     <img src="{{asset('template/assets/carousel/services/kinesio_tapping.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
@@ -82,30 +94,30 @@
                 </div>
             </div>
         </div>
-        <div>
-            <div class="uk-card uk-card-hover">
-                <div class="uk-card-media-top">
-                    <img src="{{asset('template/assets/carousel/services/electro_therapy.jpg')}}" alt="">
-                </div>
-                <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold">Electro Therapy (TENS)</h5>
-                    <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    <a href="{{route('services.electro-therapy')}}" class="btn btn-outline-warning text-dark">Learn More</a>
-                </div>
-            </div>
-        </div>
     </div>
 
     <div class="uk-child-width-1-3@m" uk-grid>
         <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
-                    <img src="{{asset('template/assets/carousel/services/massage.jpg')}}" alt="">
+                    <img src="{{asset('template/assets/carousel/services/air_relax.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold">Sport massage </h5>
+                    <h5 class="uk-text-uppercase uk-text-bold">Air Relax Therapy</h5>
                     <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    <a href="{{route('services.sport-massage')}}" class="btn btn-outline-warning text-dark">Learn More</a>
+                    <a href="{{route('services.air-relax')}}" class="btn btn-outline-warning text-dark">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-hover">
+                <div class="uk-card-media-top">
+                    <img src="{{asset('template/assets/carousel/services/stretching.jpg')}}" alt="">
+                </div>
+                <div class="uk-card-body">
+                    <h5 class="uk-text-uppercase uk-text-bold">Stretching</h5>
+                    <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <a href="{{route('services.stretching')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>
         </div>

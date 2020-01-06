@@ -36,6 +36,45 @@
 
 </div>{{-- Carousel End --}}
     
+    {{-- Why El Medina ? --}}
+    <div class="content pt-5" style="">
+        <div class="container-fluid pl-5 pr-5">
+            <div class="align-items-center justify-content-between">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h3 class="text-uppercase text-center ">{{ __('common.why_elmedina') }}</h3>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                      <h6>Menyediakan perkhidmatan bekam, urutan badan, sport massage dan sport recovery untuk Lelaki dan Wanita</h6>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                      <h6>Menggabungkan rawatan tradisional dan moden</h6>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <h6>Ahli terapi terdiri daripada Massage Therapist, Physiotherapist, Sport Therapist, Specialist in Cupping Therapy</h6>
+                  </div>
+                  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <h6>Patuh syariah, privacy, bilik yg selesa dan berasingan, aurat terjaga sepenuhnya</h6>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <h6>Spa yang menjadi pilihan ramai Selebriti, Atlet dan juga Kerabat Diraja</h6>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <h6>Profesional dan Hygiene terjaga, dijamin suci dan bersih</h6>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                  <h6>100% Ahli Terapi Bumiputera</h6>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
     {{-- SERVICES --}}
     <div class="content" style="">
       <div class="container-fluid pl-5 pr-5">
@@ -63,7 +102,7 @@
                             <img src="{{asset('template/assets/carousel/services/bekam.jpg')}}" alt="">
                         </div>
                         <div class="uk-card-body">
-                            <h5 class="uk-text-uppercase uk-text-bold">Dry Cupping / Bekam</h5>
+                            <h5 class="uk-text-uppercase uk-text-bold">Bekam (Bekam Sunnah, Wajah, Migrain, Gout)</h5>
                             <p class="uk-text-light">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                             </p>
@@ -94,8 +133,7 @@
       </div>
     </div>
     {{-- END OF SERVICES --}}
-
-
+    
     {{-- TESTIMONI --}}
     <div class="content" style="">
         <div class="container-fluid pl-4 pr-4">
