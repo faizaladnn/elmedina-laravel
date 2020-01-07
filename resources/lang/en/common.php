@@ -15,4 +15,6 @@ return [
     'therapist' => 'Therapist',
     'our_therapist' => 'Our Therapist',
     'why_elmedina' => 'Why El Medina ?',
+    'strategic_partner' => 'Strategic Partner',
+    'corporate_client' => 'Corporate Client',
 ];

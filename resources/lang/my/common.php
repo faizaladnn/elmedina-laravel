@@ -15,5 +15,7 @@ return [
     'therapist' => 'Pakar Terapi',
     'our_therapist' => 'Pakar Terapi Kami',
     'why_elmedina' => 'Kenapa El Medina ?',
+    'strategic_partner' => 'Rakan Kongsi Strategik',
+    'corporate_client' => 'Pelanggan Korporat',
 
 ];

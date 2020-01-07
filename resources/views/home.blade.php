@@ -6,27 +6,27 @@
   <ul class="uk-slider-items uk-grid">
       <li class="uk-width-1-1">
           <div class="uk-panel">
-              <img src="{{asset('template/assets/carousel/cover_2.jpg')}}" alt="">
+              <img src="{{asset('public/template/assets/carousel/cover_2.jpg')}}" alt="">
           </div>
       </li>
       <li class="uk-width-1-1">
           <div class="uk-panel">
-              <img src="{{asset('template/assets/carousel/cover_3.jpg')}}" alt="">
+              <img src="{{asset('public/template/assets/carousel/cover_3.jpg')}}" alt="">
           </div>
       </li>
       <li class="uk-width-1-1">
           <div class="uk-panel">
-              <img src="{{asset('template/assets/carousel/cover_4.jpg')}}" alt="">
+              <img src="{{asset('public/template/assets/carousel/cover_4.jpg')}}" alt="">
           </div>
       </li>
       <li class="uk-width-1-1">
           <div class="uk-panel">
-              <img src="{{asset('template/assets/carousel/cover_5.jpg')}}" alt="">
+              <img src="{{asset('public/template/assets/carousel/cover_5.jpg')}}" alt="">
           </div>
       </li>
       <li class="uk-width-1-1">
           <div class="uk-panel">
-              <img src="{{asset('template/assets/carousel/cover_6.jpg')}}" alt="">
+              <img src="{{asset('public/template/assets/carousel/cover_6.jpg')}}" alt="">
           </div>
       </li>
   </ul>
@@ -88,7 +88,7 @@
                 <div>
                     <div class="uk-card uk-card-hover">
                         <div class="uk-card-media-top">
-                            <img src="{{asset('template/assets/carousel/services/stretching.jpg')}}" alt="">
+                            <img src="{{asset('public/template/assets/carousel/services/stretching.jpg')}}" alt="">
                         </div>
                         <div class="uk-card-body">
                             <h5 class="uk-text-uppercase uk-text-bold">Stretching</h5>
@@ -99,7 +99,7 @@
                 <div>
                     <div class="uk-card uk-card-hover">
                         <div class="uk-card-media-top">
-                            <img src="{{asset('template/assets/carousel/services/bekam.jpg')}}" alt="">
+                            <img src="{{asset('public/template/assets/carousel/services/bekam.jpg')}}" alt="">
                         </div>
                         <div class="uk-card-body">
                             <h5 class="uk-text-uppercase uk-text-bold">Bekam (Bekam Sunnah, Wajah, Migrain, Gout)</h5>
@@ -112,7 +112,7 @@
                 <div>
                     <div class="uk-card uk-card-hover">
                         <div class="uk-card-media-top">
-                            <img src="{{asset('template/assets/carousel/services/air_relax.jpg')}}" alt="">
+                            <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="">
                         </div>
                         <div class="uk-card-body">
                             <h5 class="uk-text-uppercase uk-text-bold">Air Relax Therapy</h5>
@@ -133,7 +133,7 @@
       </div>
     </div>
     {{-- END OF SERVICES --}}
-    
+
     {{-- TESTIMONI --}}
     <div class="content" style="">
         <div class="container-fluid pl-4 pr-4">
@@ -146,12 +146,12 @@
 
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-xs-12">
-                  <div class="uk-background-fixed uk-background-center-center" style="background-image: url({{asset('template/assets/carousel/branch/branch_shah_alam.jpg')}});">
+                  <div class="uk-background-fixed uk-background-center-center" style="background-image: url({{asset('public/template/assets/carousel/branch/branch_shah_alam.jpg')}});">
                     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true; autoplay:true; autoplay-interval: 3000;">
                       <ul class="uk-slider-items uk-grid">
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_1.jpg')}}" alt="" >
+                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_1.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">YAM Tengku Amir</h3>
                                       <p class="uk-margin-remove">"Guys here have a magic hands"</p>
@@ -160,7 +160,7 @@
                           </li>
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_2.jpg')}}" alt="" >
+                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_2.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Syamim Yahya</h3>
                                       <p class="uk-margin-remove">"Bersih, selesa dan privacy serta mewah dengan harga berpatutan"</p>
@@ -169,7 +169,7 @@
                           </li>
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_3.jpg')}}" alt="" >
+                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_3.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Safiq Rahim</h3>
                                       <p class="uk-margin-remove">"Service Terbaik..yang berminat nak buat bekam dan urut kampung boleh datang ke El Medina Spa Bekam"</p>
@@ -178,7 +178,7 @@
                           </li>
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_7.jpg')}}" alt="" >
+                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_7.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Azrel Ismail</h3>
                                       <p class="uk-margin-remove">"Selain bekam darah, paling best sport massage with the new equipment they call Hypervolt. For those yang ada masalah muscle, anda kena dapatkan treatment ini."</p>
@@ -187,7 +187,7 @@
                           </li>
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_4.jpg')}}" alt="" >
+                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_4.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Along Cham</h3>
                                       <p class="uk-margin-remove">"Paling penting tempat ni cukup selesa, bersih dan cup pakai buang"</p>
@@ -196,7 +196,7 @@
                           </li>
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_5.jpg')}}" alt="" >
+                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_5.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Farizal Marlias</h3>
                                       <p class="uk-margin-remove">"Spa bekam terbaik! Menjalankan servis bekam sunnah dan menggunakan konsep berbekam disposable cups (cawan pakai buang), spa dan servis tip top!"</p>
@@ -205,7 +205,7 @@
                           </li>
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_6.jpg')}}" alt="" >
+                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_6.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Dickson Nwakame</h3>
                                       <p class="uk-margin-remove">"El Medina is good. I always do dry cupping and sport massage here for my hamstring and good recovery."</p>
@@ -214,7 +214,7 @@
                           </li>
                           <li class="uk-width-1-2">
                               <div class="uk-panel">
-                                  <img src="{{asset('template/assets/carousel/testimoni/testimony_8.jpg')}}" alt="" >
+                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_8.jpg')}}" alt="" >
                                   <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
                                       <h3 class="uk-margin-remove">Nonny Nadirah</h3>
                                       <p class="uk-margin-remove">"Badan rasa ringan gila !!. korang kena try gaiss !!."</p>
@@ -230,9 +230,132 @@
             </div>
           </div>
         </div>
-    </div>
-    {{-- END OF TESTIMONI --}}
+    </div>{{-- END OF TESTIMONI --}}
     
+    {{-- Strategic Partner --}}
+    <div class="content pt-5" style="">
+        <div class="container-fluid pl-5 pr-5">
+            <div class="align-items-center justify-content-between">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h3 class="text-uppercase text-center ">{{ __('common.strategic_partner') }}</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: false; autoplay: true; autoplay-interval: 2000;">
+    
+                        <ul class="uk-slider-items uk-grid uk-grid-match" uk-height-viewport="offset-top: true; offset-bottom: 60">
+                            <li class="uk-width-1-5">
+                                <div class="uk-cover-container">
+                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
+                                    <div class="uk-position-center uk-panel"><h1>1</h1></div>
+                                </div>
+                            </li>
+                            <li class="uk-width-1-5">
+                                <div class="uk-cover-container">
+                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
+                                    <div class="uk-position-center uk-panel"><h1>2</h1></div>
+                                </div>
+                            </li>
+                            <li class="uk-width-1-5">
+                                <div class="uk-cover-container">
+                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
+                                    <div class="uk-position-center uk-panel"><h1>3</h1></div>
+                                </div>
+                            </li>
+                            <li class="uk-width-1-5">
+                                <div class="uk-cover-container">
+                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
+                                    <div class="uk-position-center uk-panel"><h1>4</h1></div>
+                                </div>
+                            </li>
+                            <li class="uk-width-1-5">
+                                <div class="uk-cover-container">
+                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
+                                    <div class="uk-position-center uk-panel"><h1>5</h1></div>
+                                </div>
+                            </li>
+                            <li class="uk-width-1-5">
+                                <div class="uk-cover-container">
+                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
+                                    <div class="uk-position-center uk-panel"><h1>6</h1></div>
+                                </div>
+                            </li>
+                        </ul>
+                    
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Corporate Client --}}
+    <div class="content pt-5" style="">
+        <div class="container-fluid pl-5 pr-5">
+            <div class="align-items-center justify-content-between">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h3 class="text-uppercase text-center ">{{ __('common.corporate_client') }}</h3>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: false; autoplay: true; autoplay-interval: 2000;">
+    
+                        <ul class="uk-slider-items uk-grid uk-grid-match" uk-height-viewport="offset-top: true; offset-bottom: 60">
+                            <li class="uk-width-1-5">
+                                <div class="uk-cover-container">
+                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
+                                    <div class="uk-position-center uk-panel"><h1>1</h1></div>
+                                </div>
+                            </li>
+                            <li class="uk-width-1-5">
+                                <div class="uk-cover-container">
+                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
+                                    <div class="uk-position-center uk-panel"><h1>2</h1></div>
+                                </div>
+                            </li>
+                            <li class="uk-width-1-5">
+                                <div class="uk-cover-container">
+                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
+                                    <div class="uk-position-center uk-panel"><h1>3</h1></div>
+                                </div>
+                            </li>
+                            <li class="uk-width-1-5">
+                                <div class="uk-cover-container">
+                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
+                                    <div class="uk-position-center uk-panel"><h1>4</h1></div>
+                                </div>
+                            </li>
+                            <li class="uk-width-1-5">
+                                <div class="uk-cover-container">
+                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
+                                    <div class="uk-position-center uk-panel"><h1>5</h1></div>
+                                </div>
+                            </li>
+                            <li class="uk-width-1-5">
+                                <div class="uk-cover-container">
+                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
+                                    <div class="uk-position-center uk-panel"><h1>6</h1></div>
+                                </div>
+                            </li>
+                        </ul>
+                    
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
     {{-- <div class="content content-fixed">
         <div class="container-fluid pl-5 pr-5">
             <div class="d-sm-flex align-items-center justify-content-between mg-b-20 mg-lg-b-25 mg-xl-b-30">

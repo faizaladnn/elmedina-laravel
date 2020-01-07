@@ -76,9 +76,9 @@
                     </p>
                 </div>
             </div>
-            <div class="row pt-5">
+            {{-- <div class="row pt-5">
                 <h3>PARTNERS</h3>
-            </div>
+            </div> --}}
         </div>
     </div>
 

@@ -16,7 +16,7 @@
         <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
-                    <img src="{{asset('template/assets/carousel/services/bekam.jpg')}}" alt="">
+                    <img src="{{asset('public/template/assets/carousel/services/bekam.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Bekam (Bekam Sunnah, Wajah, Migrain, Gout)</h5>
@@ -30,7 +30,7 @@
         <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
-                    <img src="{{asset('template/assets/carousel/services/massage.jpg')}}" alt="" style="height: 265px;">
+                    <img src="{{asset('public/template/assets/carousel/services/massage.jpg')}}" alt="" style="height: 265px;">
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Sport massage / Message Therapy</h5>
@@ -42,7 +42,7 @@
         <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
-                    <img src="{{asset('template/assets/carousel/services/air_relax.jpg')}}" alt="" style="height: 265px; width:371px;">
+                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" style="height: 265px; width:371px;">
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Ultrasound Therapy</h5>
@@ -57,7 +57,7 @@
         <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
-                    <img src="{{asset('template/assets/carousel/services/hypervolt.jpg')}}" alt="">
+                    <img src="{{asset('public/template/assets/carousel/services/hypervolt.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Vibration Therapy (Hypervolt)</h5>
@@ -69,7 +69,7 @@
         <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
-                    <img src="{{asset('template/assets/carousel/services/electro_therapy.jpg')}}" alt="">
+                    <img src="{{asset('public/template/assets/carousel/services/electro_therapy.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Electro Therapy (TENS)</h5>
@@ -81,7 +81,7 @@
         <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
-                    <img src="{{asset('template/assets/carousel/services/kinesio_tapping.jpg')}}" alt="">
+                    <img src="{{asset('public/template/assets/carousel/services/kinesio_tapping.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Kinesio Taping</h5>
@@ -100,7 +100,7 @@
         <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
-                    <img src="{{asset('template/assets/carousel/services/air_relax.jpg')}}" alt="">
+                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Air Relax Therapy</h5>
@@ -112,7 +112,7 @@
         <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
-                    <img src="{{asset('template/assets/carousel/services/stretching.jpg')}}" alt="">
+                    <img src="{{asset('public/template/assets/carousel/services/stretching.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Stretching</h5>
