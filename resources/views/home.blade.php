@@ -42,12 +42,12 @@
             <div class="align-items-center justify-content-between">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h3 class="text-uppercase text-center ">{{ __('common.why_elmedina') }}</h3>
+                    <h2 class="text-uppercase text-center ">{{ __('common.why_elmedina') }}</h2>
                 </div>
               </div>
 
               <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"><i data-feather="phone"></i>
                       <h6>Menyediakan perkhidmatan bekam, urutan badan, sport massage dan sport recovery untuk Lelaki dan Wanita</h6>
                   </div>
                   <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
@@ -243,43 +243,36 @@
               </div>
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: false; autoplay: true; autoplay-interval: 2000;">
-    
-                        <ul class="uk-slider-items uk-grid uk-grid-match" uk-height-viewport="offset-top: true; offset-bottom: 60">
-                            <li class="uk-width-1-5">
-                                <div class="uk-cover-container">
-                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
-                                    <div class="uk-position-center uk-panel"><h1>1</h1></div>
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true; autoplay-interval: 3000;">{{--  --}}
+                        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-5@m uk-grid">
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/fazeeda_life_care.png')}}" alt="" style="width:100px;">
                                 </div>
                             </li>
-                            <li class="uk-width-1-5">
-                                <div class="uk-cover-container">
-                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
-                                    <div class="uk-position-center uk-panel"><h1>2</h1></div>
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/doc_bekam.jpg')}}" alt="" style="width:100px;">
                                 </div>
                             </li>
-                            <li class="uk-width-1-5">
-                                <div class="uk-cover-container">
-                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
-                                    <div class="uk-position-center uk-panel"><h1>3</h1></div>
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/sk_bunut_rendang.png')}}" alt="" style="width:100px;">
                                 </div>
                             </li>
-                            <li class="uk-width-1-5">
-                                <div class="uk-cover-container">
-                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
-                                    <div class="uk-position-center uk-panel"><h1>4</h1></div>
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/air_relax.png')}}" alt="" style="width:100px;">
                                 </div>
                             </li>
-                            <li class="uk-width-1-5">
-                                <div class="uk-cover-container">
-                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
-                                    <div class="uk-position-center uk-panel"><h1>5</h1></div>
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/hypervolt.jpg')}}" alt="" style="width:100px;">
                                 </div>
                             </li>
-                            <li class="uk-width-1-5">
-                                <div class="uk-cover-container">
-                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
-                                    <div class="uk-position-center uk-panel"><h1>6</h1></div>
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/time.png')}}" alt="" style="width:100px;">
                                 </div>
                             </li>
                         </ul>
@@ -305,43 +298,41 @@
               </div>
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: false; autoplay: true; autoplay-interval: 2000;">
-    
-                        <ul class="uk-slider-items uk-grid uk-grid-match" uk-height-viewport="offset-top: true; offset-bottom: 60">
-                            <li class="uk-width-1-5">
-                                <div class="uk-cover-container">
-                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
-                                    <div class="uk-position-center uk-panel"><h1>1</h1></div>
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true; autoplay-interval: 3000;"></div>
+                        <ul class="uk-slider-items uk-child-width-1-5 uk-child-width-1-5@m uk-grid">
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/pahang_ranger.png')}}" alt="" style="width:100px;">
                                 </div>
                             </li>
-                            <li class="uk-width-1-5">
-                                <div class="uk-cover-container">
-                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
-                                    <div class="uk-position-center uk-panel"><h1>2</h1></div>
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/fam.png')}}" alt="" style="width:100px;">
                                 </div>
                             </li>
-                            <li class="uk-width-1-5">
-                                <div class="uk-cover-container">
-                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
-                                    <div class="uk-position-center uk-panel"><h1>3</h1></div>
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/kuantan_fa.png')}}" alt="" style="width:100px;">
                                 </div>
                             </li>
-                            <li class="uk-width-1-5">
-                                <div class="uk-cover-container">
-                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
-                                    <div class="uk-position-center uk-panel"><h1>4</h1></div>
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/miat_fc.png')}}" alt="" style="width:100px;">
                                 </div>
                             </li>
-                            <li class="uk-width-1-5">
-                                <div class="uk-cover-container">
-                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
-                                    <div class="uk-position-center uk-panel"><h1>5</h1></div>
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/selangor_fa.png')}}" alt="" style="width:100px;">
                                 </div>
                             </li>
-                            <li class="uk-width-1-5">
-                                <div class="uk-cover-container">
-                                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" uk-cover>
-                                    <div class="uk-position-center uk-panel"><h1>6</h1></div>
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/selangor_mac.png')}}" alt="" style="width:100px;">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/hk_fighters.png')}}" alt="" style="width:100px;">
                                 </div>
                             </li>
                         </ul>
