@@ -15,6 +15,10 @@
 //         'nav' => 'Coming Soon',
 //     ]);
 // });
+Route::get('locale/{locale}', function ($locale){
+    Session::put('locale', $locale);
+    return redirect()->back();
+});
 
 Route::get('/', function () {
     return view('home',[
@@ -161,11 +165,3 @@ Route::get('login', function() {
 Route::get('sign-up', function() {
     return view('auth.register');
 })->name('sign-up');
-
-Route::get('/{locale}', function ($locale) {
-    $locale = App::getLocale();
-
-    if (App::isLocale('en')) {
-        App::setLocale($locale);
-    }
-});

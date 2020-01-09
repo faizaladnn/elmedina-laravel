@@ -31,6 +31,14 @@
           <a href="{{route('branches.')}}" class="nav-link">{{ __('common.branches') }}</a>
         </li>
 
+        <li class="nav-item">
+          <a href="{{ url('locale/en') }}" ><i class="fa fa-language"></i> EN</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="{{ url('locale/my') }}" ><i class="fa fa-language"></i> MY</a>
+        </li>
+
       </ul>
   </div>
   <div class="navbar-right">
