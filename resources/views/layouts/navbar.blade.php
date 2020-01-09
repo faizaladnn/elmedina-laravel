@@ -16,6 +16,10 @@
       <ul class="nav navbar-menu">
 
         <li class="nav-item">
+          <a href="{{route('home')}}" class="nav-link">{{ __('common.home') }}</a>
+        </li>
+
+        <li class="nav-item">
           <a href="{{route('about-us')}}" class="nav-link">{{ __('common.about_us') }}</a>
         </li>
 
@@ -31,18 +35,18 @@
           <a href="{{route('branches.')}}" class="nav-link">{{ __('common.branches') }}</a>
         </li>
 
-        <li class="nav-item">
-          <a href="{{ url('locale/en') }}" ><i class="fa fa-language"></i> EN</a>
-        </li>
-
-        <li class="nav-item">
-          <a href="{{ url('locale/my') }}" ><i class="fa fa-language"></i> MY</a>
-        </li>
 
       </ul>
   </div>
-  <div class="navbar-right">
-      <a href="{{route('login')}}" class="btn btn-outline-warning btn-appointment " id="appointment"> <span>{{ __('common.make_an_appointment') }}</span></a>
-    </div><!-- navbar-right -->
+  <div class="navbar-right"><a href="#" class="btn btn-social"><i class="fa fa-globe"></i></a>
+    <div uk-dropdown>
+        <ul class="uk-nav uk-dropdown-nav">
+            <li><a href="{{ url('locale/en') }}" style="color:black;"><i class="fa fa-flag-usa"></i> ENGLISH</a></li>
+            <li><a href="{{ url('locale/my') }}" style="color:black;"><i class="fa fa-language"></i> BAHASA MELAYU</a></li>
+        </ul>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="{{route('login')}}" class="btn btn-outline-warning btn-appointment " id="appointment"> <span>{{ __('common.make_an_appointment') }}</span></a>
+    
+  </div><!-- navbar-right -->
 
 </header>

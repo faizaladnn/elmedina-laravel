@@ -17,5 +17,16 @@ return [
     'why_elmedina' => 'Kenapa El Medina ?',
     'strategic_partner' => 'Rakan Kongsi Strategik',
     'corporate_client' => 'Pelanggan Korporat',
+    'more' => 'MORE',
+    'various_treatments' => 'Berbagai Rawatan',
+    'syariah_compliance' => 'Patuh Syariah ',
+    'various_therapist' => 'Pelbagai Pakar Terapi',
+    'treatment_many_ways' => 'Rawatan Pelbagai Cara',
+    'many_choices' => 'Pilihan Ramai',
+    'professional' => 'Professional dan Bersih',
+    'about' => 'Sekitar',
+    'help' => 'Bantuan',
+    'learn' => 'Pelajari',
+    'contact_us' => 'Hubungi Kami',
 
 ];

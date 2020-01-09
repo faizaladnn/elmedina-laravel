@@ -32,18 +32,11 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
-@media (min-width: 375px) {
-    .btn-appointment{
-        font-size:0.4rem;} }
-@media (min-width: 576px) {
-    .btn-appointment{
-        font-size:0.5rem;} }
-  @media (min-width: 768px) {
-    .btn-appointment{
-        font-size:0.8rem;} }
-  @media (min-width: 992px) {
-    .btn-appointment{
-        font-size:0.8rem;} }
-  @media (min-width: 1200px) {
-    .btn-appointment{
-        font-size:0.8rem;} }
+.btn-appointment{
+    font-size:inherit;
+}
+@media (max-width: 575px) {
+    .img-star{
+        display: none;
+    }
+}

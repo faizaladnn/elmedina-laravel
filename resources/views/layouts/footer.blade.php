@@ -3,7 +3,7 @@
 
         {{-- Nav for right side--}}
         <div class="footer-rgt uk-animation-toggle" tabindex="0">
-            <a href="{{route('login')}}" ><button type="button" class="btn btn-block btn-outline-warning uk-animation-shake"><span style="font-size:0.9rem;">MAKE AN APPOINTMENT</span></button></a>
+            <a href="{{route('login')}}" ><button type="button" class="btn btn-block btn-outline-warning uk-animation-shake"><span style="font-size:0.9rem;" class="text-uppercase">{{ __('common.make_an_appointment') }}</span></button></a>
         </div>
         
         {{-- Nav for center --}}
@@ -48,20 +48,20 @@
             <table class="" width="100%" style="">
                 <thead style="">
                     <tr style="text-decoration:underline;">
-                        <td>About</td>
-                        <td>Help</td>
-                        <td>Learn</td>
+                        <td>{{ __('common.about') }}</td>
+                        <td>{{ __('common.help') }}</td>
+                        <td>{{ __('common.learn') }}</td>
                     </tr>
                 </thead>
                 <tbody style="">
                     <tr>
-                        <td><a href="{{route('about-us')}}">Our Story</a></td>
-                        <td><a href="#">Contact Us</a></td>
-                        <td><a href="#">Products</a></td>
+                        <td><a href="{{route('about-us')}}">{{ __('common.about_us') }}</a></td>
+                        <td><a href="{{route('branches.')}}">{{ __('common.contact_us') }}</a></td>
+                        <td><a href="{{route('services.')}}">{{ __('common.services') }}</a></td>
                     </tr>
                     <tr>
-                        <td><a href="{{route('branches.')}}">Branches</a></td>
-                        <td><a href="#">FAQ</a></td>
+                        <td><a href="{{route('branches.')}}">{{ __('common.branches') }}</a></td>
+                        <td><a href="#">&nbsp;</a></td>
                         <td><a href="{{route('packages.')}}" class="text-uppercase">{{ __('common.packages') }}</a></td>
                     </tr>
                     <tr style="font-size:1.5rem; letter-spacing:10px;">

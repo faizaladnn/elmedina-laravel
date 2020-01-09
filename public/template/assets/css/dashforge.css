@@ -12719,13 +12719,17 @@ textarea.parsley-success:focus {
     order: 2; }
     @media (max-width: 441px) and (min-width: 320px) {
       .navbar-header .navbar-right {
-        font-size: 8px;}
+        font-size: 8px;
+      display: none;}
       .navbar-right > .btn {
         width: 92px;
         height: 35px;}
       .navbar-right > .btn > span {
           font-weight: bold;
           text-align: center; } }
+    @media (max-width: 549) and (min-width: 360px) {
+      .btn-appointment {
+      display: none;} }
     @media (min-width: 576px) {
       .navbar-header .navbar-right {
         padding-right: 20px; } }
@@ -12735,7 +12739,7 @@ textarea.parsley-success:focus {
         padding: 0 20px 0 0; } }
     @media (min-width: 1200px) {
       .navbar-header .navbar-right {
-        width: 240px; } }
+        width: 290px; } }
     .navbar-header .navbar-right .search-link {
       color: #001737; }
       .navbar-header .navbar-right .search-link:hover, .navbar-header .navbar-right .search-link:focus {
@@ -13877,13 +13881,15 @@ textarea.parsley-success:focus {
 .footer-left {
   padding-left: 40px;
 }
-@media (max-width: 2560px) and (min-width: 1441px){
-  .footer > .nav {
-    padding-left: 100px;
-    padding-top: 20px;
-  }
+@media (max-width: 2560px) and (min-width: 2001px){
   .footer > .nav {
     padding-left: 370px;
+    padding-top: 20px;
+  }  
+}
+@media (max-width: 2000px) and (min-width: 1441px){
+  .footer > .nav {
+    padding-left: 200px;
     padding-top: 20px;
   }  
 }
