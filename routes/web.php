@@ -165,3 +165,9 @@ Route::get('login', function() {
 Route::get('sign-up', function() {
     return view('auth.register');
 })->name('sign-up');
+
+// User booking
+Route::get('booking', 'BookingController@createBooking')->name('view-booking')->middleware('auth');
+
+//Admin
+Route::get('list', 'BookingController@bookingList')->name('booking-list')->middleware('auth');
