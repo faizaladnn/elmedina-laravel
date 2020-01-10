@@ -12,7 +12,7 @@
                 <!-- Services -->
                 <li class="">
                     <i data-feather="clock"></i>
-                    Monday - Sunday : 10AM - 10PM
+                    {{ __('common.monday_sunday') }}
                 </li>
         
                 <li class="">

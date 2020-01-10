@@ -35,6 +35,11 @@
 .btn-appointment{
     font-size:inherit;
 }
+@media (max-width: 425px) {
+    .btn-appointment{
+        display: none;
+    }
+}
 @media (max-width: 575px) {
     .img-star{
         display: none;

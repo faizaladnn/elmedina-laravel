@@ -29,10 +29,11 @@
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <h2> {{ __('common.our_therapist') }} </h2>
             </div>
-        </div>
-        <div class="row">
+            </div>
+            <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
                     <div class="uk-card-media-left uk-cover-container">
                         <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
                         <canvas width="100%" height="100%"></canvas>
@@ -43,10 +44,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         </div>
                     </div>
-                </div>
-                
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                    <div class="uk-card-media-left uk-cover-container">
                         <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
                         <canvas width="100%" height="100%"></canvas>
                     </div>
@@ -58,7 +56,7 @@
                     </div>
                 </div>
 
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
                     <div class="uk-card-media-left uk-cover-container">
                         <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
                         <canvas width="100%" height="100%"></canvas>
@@ -69,6 +67,16 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         </div>
                     </div>
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
+                        <canvas width="100%" height="100%"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">Therapist 4</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -76,11 +84,13 @@
     </div>
 </div>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0999179940636!2d101.4873003152522!3d3.067964354500691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc5323e55fc8e9%3A0x4379424303e313ee!2sEl%20Medina%20Spa%20Bekam%20Shah%20Alam!5e0!3m2!1sen!2smy!4v1576500104763!5m2!1sen!2smy" 
-width="100%" height="300px" frameborder="0" style="" allowfullscreen=""></iframe>
-
 <div class="content">
     <div class="container-fluid pl-5 pr-5">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h2> {{ __('common.our_customers') }} </h2>
+            </div>
+        </div>
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 @include('branches.slider.shah_alam')
@@ -88,6 +98,9 @@ width="100%" height="300px" frameborder="0" style="" allowfullscreen=""></iframe
         </div>
     </div>
 </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0999179940636!2d101.4873003152522!3d3.067964354500691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc5323e55fc8e9%3A0x4379424303e313ee!2sEl%20Medina%20Spa%20Bekam%20Shah%20Alam!5e0!3m2!1sen!2smy!4v1576500104763!5m2!1sen!2smy" 
+width="100%" height="300px" frameborder="0" style="" allowfullscreen=""></iframe>
+
 @endsection
 
 @section('js')

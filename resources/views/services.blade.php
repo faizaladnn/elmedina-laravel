@@ -20,9 +20,7 @@
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Bekam (Bekam Sunnah, Wajah, Migrain, Gout)</h5>
-                    <p class="uk-text-light">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-                    </p>
+                    <p class="uk-text-light">Mengurangkan ketegangan otot dan meningkatkan peredaran darah.</p>
                     <a href="{{route('services.bekam')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>
@@ -30,11 +28,11 @@
         <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
-                    <img src="{{asset('public/template/assets/carousel/services/massage.jpg')}}" alt="" style="height: 265px;">
+                    <img src="{{asset('public/template/assets/carousel/services/massage.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Sport massage / Message Therapy</h5>
-                    <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="uk-text-light">Urutan sukan @ sport massage adalah urutan yang ditujukan kepada mereka yang aktif dalam bidang2 kesukanan dan juga aktif dalam pekerjaan.</p>
                     <a href="{{route('services.sport-massage')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>
@@ -42,12 +40,12 @@
         <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
-                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="" style="height: 265px; width:371px;">
+                    <img src="{{asset('public/template/assets/carousel/services/ultrasound.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Ultrasound Therapy</h5>
-                    <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    <a href="{{route('services.air-relax')}}" class="btn btn-outline-warning text-dark">Learn More</a>
+                    <p class="uk-text-light">Ultrasound Therapy adalah penggunaan gelombang bunyi untuk mengurangkan sakit sendi-sendi pada badan.</p>
+                    <a href="{{route('services.ultrasound')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>
         </div>
@@ -61,7 +59,7 @@
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Vibration Therapy (Hypervolt)</h5>
-                    <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="uk-text-light">Digunakan untuk meningkatkan persembahan fizikal.</p>
                     <a href="{{route('services.hypervolt')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>
@@ -73,7 +71,7 @@
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Electro Therapy (TENS)</h5>
-                    <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="uk-text-light">Bebas dari sebarang ubatan dan menghasilkan Endorphins.</p>
                     <a href="{{route('services.electro-therapy')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>
@@ -85,10 +83,7 @@
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Kinesio Taping</h5>
-                    <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                    <p class="uk-text-light">Membentuk ruang antara sendi dan meningkatan peredaran darah.
                     </p>
                     <a href="{{route('services.kinesio-taping')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
@@ -104,7 +99,7 @@
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Air Relax Therapy</h5>
-                    <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="uk-text-light">Sesuai untuk yang banyak menggunakan kaki dalam pekerjaan harian.</p>
                     <a href="{{route('services.air-relax')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>
@@ -116,7 +111,7 @@
                 </div>
                 <div class="uk-card-body">
                     <h5 class="uk-text-uppercase uk-text-bold">Stretching</h5>
-                    <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="uk-text-light">Mengurangkan otot yang tegang dan mengurangkan risiko terhadap kecerderaan.</p>
                     <a href="{{route('services.stretching')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
             </div>

@@ -41,8 +41,8 @@
         <div class="container-fluid pl-5 pr-5">
             <div class="align-items-center justify-content-between">
               <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h2 class="text-uppercase text-center ">{{ __('common.why_elmedina') }}</h2>
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <h2 class="text-uppercase">{{ __('common.why_elmedina') }}</h2>
                 </div>
               </div>
 
@@ -53,7 +53,7 @@
                             <img src="{{asset('public/template/assets/img/star.png')}}" class="img-fluid img-star" uk-img/>
                         </div>
                           <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                            <h3>{{ __('common.various_treatments') }}</h3>
+                            <h4>{{ __('common.various_treatments') }}</h4>
                             <p class="font-weight-light">Menyediakan perkhidmatan bekam, urutan badan, sport massage dan sport recovery untuk Lelaki dan Wanita.</p>
                           </div>
                       </div>
@@ -64,7 +64,7 @@
                             <img src="{{asset('public/template/assets/img/star.png')}}" class="img-fluid img-star" uk-img/>
                         </div>
                           <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                            <h3>{{ __('common.syariah_compliance') }}</h3>
+                            <h4>{{ __('common.syariah_compliance') }}</h4>
                             <p class="font-weight-light">Patuh syariah, privacy, bilik yg selesa dan berasingan, aurat terjaga sepenuhnya.</p>
                           </div>
                       </div>
@@ -75,7 +75,7 @@
                             <img src="{{asset('public/template/assets/img/star.png')}}" class="img-fluid img-star" uk-img/>
                         </div>
                           <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                            <h3>{{ __('common.various_therapist') }}</h3>
+                            <h4>{{ __('common.various_therapist') }}</h4>
                             <p class="font-weight-light">Ahli terapi terdiri daripada Massage Therapist, Physiotherapist, Sport Therapist, Specialist in Cupping Therapy dan 100% Ahli Terapi Bumiputera.</p>
                           </div>
                       </div>
@@ -88,7 +88,7 @@
                             <img src="{{asset('public/template/assets/img/star.png')}}" class="img-fluid img-star" uk-img/>
                         </div>
                           <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                            <h3>{{ __('common.treatment_many_ways') }}</h3>
+                            <h4>{{ __('common.treatment_many_ways') }}</h4>
                             <p class="font-weight-light">Menggabungkan rawatan tradisional dan moden.</p>
                           </div>
                       </div>
@@ -99,7 +99,7 @@
                             <img src="{{asset('public/template/assets/img/star.png')}}" class="img-fluid img-star" uk-img/>
                         </div>
                           <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                            <h3>{{ __('common.many_choices') }}</h3>
+                            <h4>{{ __('common.many_choices') }}</h4>
                             <p class="font-weight-light">Spa yang menjadi pilihan ramai Selebriti, Atlet dan juga Kerabat Diraja.</p>
                           </div>
                       </div>
@@ -107,10 +107,10 @@
                   <div class="col-lg-4">
                       <div class="row">
                           <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <img src="{{asset('public/template/assets/img/star.png')}}" class="img-fluid img-star" uk-img/>
-                        </div>
+                              <img src="{{asset('public/template/assets/img/star.png')}}" class="img-fluid img-star" uk-img/>
+                            </div>
                           <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                            <h3>{{ __('common.professional') }}</h3>
+                            <h4>{{ __('common.professional') }}</h4>
                             <p class="font-weight-light">Profesional dan Hygiene terjaga, dijamin suci dan bersih.</p>
                           </div>
                       </div>
@@ -138,9 +138,7 @@
                         </div>
                         <div class="uk-card-body">
                             <h5 class="uk-text-uppercase uk-text-bold">Bekam (Bekam Sunnah, Wajah, Migrain, Gout)</h5>
-                            <p class="uk-text-light">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-                            </p>
+                            <p class="uk-text-light">Mengurangkan ketegangan otot dan meningkatkan peredaran darah.</p>
                             <a href="{{route('services.bekam')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                         </div>
                     </div>
@@ -152,7 +150,7 @@
                         </div>
                         <div class="uk-card-body">
                             <h5 class="uk-text-uppercase uk-text-bold">Sport massage / Message Therapy</h5>
-                            <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            <p class="uk-text-light">Urutan sukan @ sport massage adalah urutan yang ditujukan kepada mereka yang aktif dalam bidang2 kesukanan dan juga aktif dalam pekerjaan.</p>
                             <a href="{{route('services.sport-massage')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                         </div>
                     </div>
@@ -160,11 +158,11 @@
                 <div>
                     <div class="uk-card uk-card-hover">
                         <div class="uk-card-media-top">
-                            <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="">
+                            <img src="{{asset('public/template/assets/carousel/services/ultrasound.jpg')}}" alt="">
                         </div>
                         <div class="uk-card-body">
                             <h5 class="uk-text-uppercase uk-text-bold">Ultrasound Therapy</h5>
-                            <p class="uk-text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            <p class="uk-text-light">Ultrasound Therapy adalah penggunaan gelombang bunyi untuk mengurangkan sakit sendi-sendi pada badan.</p>
                             <a href="{{route('services.air-relax')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                         </div>
                     </div>

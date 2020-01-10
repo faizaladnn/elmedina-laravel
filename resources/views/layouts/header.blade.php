@@ -3,13 +3,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- Meta -->
-<meta name="description" content="EL MEDINA SPA BEKAM & RECOVERY">
-<meta name="author" content="el medina spa bekam & recovery">
+<meta name="description" content="EL MEDINA BEKAM & RECOVERY SPA">
+<meta name="author" content="EL MEDINA BEKAM & RECOVERY SPA">
 
 <!-- Favicon -->
 <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/public/template/assets/img/light.png') }}">
 
-<title>{{!empty($nav) ? $nav." | " : ""}} EL MEDINA SPA BEKAM</title>
+<title>{{!empty($nav) ? $nav." | " : ""}} EL MEDINA BEKAM & RECOVERY SPA</title>
 
 <!----------------------------------------------- Theme CSS ----------------------------------------------->
 <link rel="stylesheet" href="{{ asset('public/template/lib/select2/css/select2.min.css') }}">

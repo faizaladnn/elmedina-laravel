@@ -92,6 +92,10 @@ Route::prefix('services')->name('services.')->group(function () {
     Route::get('/sport-massage', function(){
         return view('services.sport_massage');
     })->name('sport-massage');
+    
+    Route::get('/ultrasound', function(){
+        return view('services.ultrasound');
+    })->name('ultrasound');
 });
 
 
@@ -105,11 +109,11 @@ Route::prefix('packages')->name('packages.')->group(function () {
     });
     
     // VVIP
-    Route::get('/pakej-a', function () {
+    Route::get('/vvip-a', function () {
         return view('packages.vvip_a');
     })->name('pakej-a');
     
-    Route::get('/pakej-b', function () {
+    Route::get('/vvip-b', function () {
         return view('packages.vvip_b');
     })->name('pakej-b');
 
