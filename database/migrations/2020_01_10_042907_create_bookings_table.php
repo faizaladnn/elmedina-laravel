@@ -15,10 +15,12 @@ class CreateBookingsTable extends Migration
     {
         Schema::create('bookings', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name');
-            $table->dateTime('booking_dt');
+            $table->integer('user_id');
+            $table->integer('package_id');
+            $table->dateTime('booking_date');
             $table->enum('branch',['KUANTAN', 'SHAH ALAM', 'BANGI', 'JOHOR BAHRU']);
-            $table->string('booking_type');
+            $table->enum('gender',['L','P']);
+            $table->integer('status')->default(1); // 0-Pending, 1-Success, 3-Cancel
             $table->timestamps();
         });
     }

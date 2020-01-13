@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'phone_no',
     ];
 
     /**
@@ -36,4 +36,15 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public static function getValidationRules()
+    {
+        return [
+            'email' => 'required|unique:users,email',
+            'name' => 'required',
+            'password' => 'required|confirmed|min:6',
+            'phone_no' => 'required',
+        ];
+
+    }
 }

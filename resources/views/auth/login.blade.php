@@ -13,22 +13,24 @@
           </div><!-- media-body -->
         <div class="sign-wrapper mg-lg-l-50 mg-xl-l-60">
           <div class="wd-100p">
-            <h3 class="tx-color-01 mg-b-5">Log Masuk</h3>
-            <p class="tx-color-03 tx-16 mg-b-40">Selamat Datang ! Log masuk untuk membuat tempahan dengan kami.</p>
+            <h3 class="tx-color-01 mg-b-5">{{ __('common.login') }}</h3>
+            <p class="tx-color-03 tx-16 mg-b-40">{{ __('common.login_welcome') }}</p>
 
+            @include ('error_message')
+            {{ Form::open(['method' => 'POST', 'url' => url('/login')]) }}
             <div class="form-group">
               <label>Email address</label>
-              <input type="email" class="form-control" placeholder="yourname@yourmail.com">
+              <input type="email" class="form-control" placeholder="yourname@yourmail.com" name="email">
             </div>
             <div class="form-group">
               <div class="d-flex justify-content-between mg-b-5">
                 <label class="mg-b-0-f">Password</label>
                 {{-- <a href="" class="tx-13">Forgot password?</a> --}}
               </div>
-              <input type="password" class="form-control" placeholder="Enter your password">
+              <input type="password" class="form-control" placeholder="Enter your password" name="password">
             </div>
-            <button class="btn btn-brand-02 btn-block">Log Masuk</button>
-            <div class="tx-13 mg-t-20 tx-center">Tiada lagi akaun? <a href="{{route('sign-up')}}">Daftar akaun anda</a></div>
+            <button type="submit" class="btn btn-brand-02 btn-block">{{ __('common.login') }}</button>
+            <div class="tx-13 mg-t-20 tx-center">{{ __('common.not_have_acc') }} <a href="{{route('register')}}">{{ __('common.register_new_acc') }}</a></div>
           </div>
         </div><!-- sign-wrapper -->
       </div><!-- media -->

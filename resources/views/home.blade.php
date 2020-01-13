@@ -1,6 +1,7 @@
 @extends ('layouts.master')
 
 @section ('content')
+
 {{-- Carousel --}}
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay:true; autoplay-interval: 3000;">
   <ul class="uk-slider-items uk-grid">
@@ -35,7 +36,7 @@
   <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
 
 </div>{{-- Carousel End --}}
-    
+
     {{-- Why El Medina ? --}}
     <div class="content pt-5" style="">
         <div class="container-fluid pl-5 pr-5">
@@ -182,101 +183,86 @@
     {{-- END OF SERVICES --}}
 
     {{-- TESTIMONI --}}
-    <div class="content" style="">
-        <div class="container-fluid pl-4 pr-4">
-            <div class="align-items-center justify-content-between">
-              {{-- <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h3 class="text-uppercase text-center ">{{ __('common.testimony') }}</h3>
-                </div>
-              </div> --}}
-
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-xs-12">
-                  <div class="uk-background-fixed uk-background-center-center" style="background-image: url({{asset('public/template/assets/carousel/branch/branch_shah_alam.jpg')}});">
-                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true; autoplay:true; autoplay-interval: 3000;">
-                      <ul class="uk-slider-items uk-grid">
-                          <li class="uk-width-1-2">
-                              <div class="uk-panel">
-                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_1.jpg')}}" alt="" >
-                                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                                      <h3 class="uk-margin-remove">YAM Tengku Amir</h3>
-                                      <p class="uk-margin-remove">"Guys here have a magic hands"</p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="uk-width-1-2">
-                              <div class="uk-panel">
-                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_2.jpg')}}" alt="" >
-                                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                                      <h3 class="uk-margin-remove">Syamim Yahya</h3>
-                                      <p class="uk-margin-remove">"Bersih, selesa dan privacy serta mewah dengan harga berpatutan"</p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="uk-width-1-2">
-                              <div class="uk-panel">
-                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_3.jpg')}}" alt="" >
-                                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                                      <h3 class="uk-margin-remove">Safiq Rahim</h3>
-                                      <p class="uk-margin-remove">"Service Terbaik..yang berminat nak buat bekam dan urut kampung boleh datang ke El Medina Spa Bekam"</p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="uk-width-1-2">
-                              <div class="uk-panel">
-                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_7.jpg')}}" alt="" >
-                                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                                      <h3 class="uk-margin-remove">Azrel Ismail</h3>
-                                      <p class="uk-margin-remove">"Selain bekam darah, paling best sport massage with the new equipment they call Hypervolt. For those yang ada masalah muscle, anda kena dapatkan treatment ini."</p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="uk-width-1-2">
-                              <div class="uk-panel">
-                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_4.jpg')}}" alt="" >
-                                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                                      <h3 class="uk-margin-remove">Along Cham</h3>
-                                      <p class="uk-margin-remove">"Paling penting tempat ni cukup selesa, bersih dan cup pakai buang"</p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="uk-width-1-2">
-                              <div class="uk-panel">
-                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_5.jpg')}}" alt="" >
-                                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                                      <h3 class="uk-margin-remove">Farizal Marlias</h3>
-                                      <p class="uk-margin-remove">"Spa bekam terbaik! Menjalankan servis bekam sunnah dan menggunakan konsep berbekam disposable cups (cawan pakai buang), spa dan servis tip top!"</p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="uk-width-1-2">
-                              <div class="uk-panel">
-                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_6.jpg')}}" alt="" >
-                                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                                      <h3 class="uk-margin-remove">Dickson Nwakame</h3>
-                                      <p class="uk-margin-remove">"El Medina is good. I always do dry cupping and sport massage here for my hamstring and good recovery."</p>
-                                  </div>
-                              </div>
-                          </li>
-                          <li class="uk-width-1-2">
-                              <div class="uk-panel">
-                                  <img src="{{asset('public/template/assets/carousel/testimoni/testimony_8.jpg')}}" alt="" >
-                                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                                      <h3 class="uk-margin-remove">Nonny Nadirah</h3>
-                                      <p class="uk-margin-remove">"Badan rasa ringan gila !!. korang kena try gaiss !!."</p>
-                                  </div>
-                              </div>
-                          </li>
-                      </ul>
-                      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    <div class="uk-background-fixed uk-background-center-center" style="background-image: url({{asset('public/template/assets/carousel/branch/branch_shah_alam.jpg')}});">
+        {{--  center: true; autoplay:true; autoplay-interval: 3000; --}}
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-2" uk-slider="clsActivated: uk-transition-active;center: true; autoplay:true; autoplay-interval: 3000;">
+          <ul class="uk-slider-items uk-grid">
+              <li class="uk-width-1-2">
+                  <div class="uk-panel">
+                      <img src="{{asset('public/template/assets/carousel/testimoni/testimony_1.jpg')}}" alt="" width="100%">
+                      <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
+                          <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">YAM Tengku Amir</h3>
+                          <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Guys here have a magic hands"</h6>
+                      </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+              </li>
+              <li class="uk-width-1-2">
+                  <div class="uk-panel">
+                      <img src="{{asset('public/template/assets/carousel/testimoni/testimony_2.jpg')}}" alt="" width="100%">
+                      <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
+                          <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">Syamim Yahya</h2>
+                          <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Bersih, selesa dan privacy serta mewah dengan harga berpatutan"</h6>
+                      </div>
+                  </div>
+              </li>
+              <li class="uk-width-1-2">
+                  <div class="uk-panel">
+                      <img src="{{asset('public/template/assets/carousel/testimoni/testimony_3.jpg')}}" alt="" width="100%">
+                      <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
+                          <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">Safiq Rahim</h3>
+                          <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Service Terbaik..yang berminat nak buat bekam dan urut kampung boleh datang ke El Medina Spa Bekam"</h6>
+                      </div>
+                  </div>
+              </li>
+              <li class="uk-width-1-2">
+                  <div class="uk-panel">
+                      <img src="{{asset('public/template/assets/carousel/testimoni/testimony_7.jpg')}}" alt="" width="100%">
+                      <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
+                          <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">Azrel Ismail</h3>
+                          <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Selain bekam darah, paling best sport massage with the new equipment they call Hypervolt. For those yang ada masalah muscle, anda kena dapatkan treatment ini."</h6>
+                      </div>
+                  </div>
+              </li>
+              <li class="uk-width-1-2">
+                  <div class="uk-panel">
+                      <img src="{{asset('public/template/assets/carousel/testimoni/testimony_4.jpg')}}" alt="" width="100%">
+                      <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
+                          <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">Along Cham</h3>
+                          <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Paling penting tempat ni cukup selesa, bersih dan cup pakai buang"</h6>
+                      </div>
+                  </div>
+              </li>
+              <li class="uk-width-1-2">
+                  <div class="uk-panel">
+                      <img src="{{asset('public/template/assets/carousel/testimoni/testimony_5.jpg')}}" alt="" width="100%">
+                      <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
+                          <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">Farizal Marlias</h3>
+                          <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Spa bekam terbaik! Menjalankan servis bekam sunnah dan menggunakan konsep berbekam disposable cups (cawan pakai buang), spa dan servis tip top!"</h6>
+                      </div>
+                  </div>
+              </li>
+              <li class="uk-width-1-2">
+                  <div class="uk-panel">
+                      <img src="{{asset('public/template/assets/carousel/testimoni/testimony_6.jpg')}}" alt="" width="100%">
+                      <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
+                          <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">Dickson Nwakame</h3>
+                          <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"El Medina is good. I always do dry cupping and sport massage here for my hamstring and good recovery."</h6>
+                      </div>
+                  </div>
+              </li>
+              <li class="uk-width-1-2">
+                  <div class="uk-panel">
+                      <img src="{{asset('public/template/assets/carousel/testimoni/testimony_8.jpg')}}" alt="" width="100%">
+                      <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
+                          <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">Nonny Nadirah</h3>
+                          <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Badan rasa ringan gila !!. korang kena try gaiss !!."</h6>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+      </div>
     </div>{{-- END OF TESTIMONI --}}
     
     {{-- Strategic Partner --}}
@@ -294,7 +280,7 @@
                         <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-5@m uk-grid">
                             <li>
                                 <div class="uk-panel text-center">
-                                    <img src="{{asset('public/template/assets/img/partners/fazeeda_life_care.png')}}" alt="" style="width:100%;">
+                                    <img src="{{asset('public/template/assets/img/partners/fazeeda_life_care.png')}}" alt="" style="width:100%;" title="">
                                 </div>
                             </li>
                             <li>

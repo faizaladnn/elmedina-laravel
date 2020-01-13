@@ -15,6 +15,8 @@
 //         'nav' => 'Coming Soon',
 //     ]);
 // });
+
+Auth::routes();
 Route::get('locale/{locale}', function ($locale){
     Session::put('locale', $locale);
     return redirect()->back();
@@ -162,16 +164,9 @@ Route::prefix('packages')->name('packages.')->group(function () {
     
 });
 
-Route::get('login', function() {
-    return view('auth.login');
-})->name('login');
-
-Route::get('sign-up', function() {
-    return view('auth.register');
-})->name('sign-up');
-
 // User booking
 Route::get('booking', 'BookingController@createBooking')->name('view-booking')->middleware('auth');
+Route::post('create-booking', 'BookingController@storeBooking')->name('store-booking')->middleware('auth');
 
 //Admin
-Route::get('list', 'BookingController@bookingList')->name('booking-list')->middleware('auth');
+Route::get('list', 'BookingController@listBooking')->name('booking-list')->middleware('auth');

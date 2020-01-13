@@ -31,8 +31,14 @@
           <a href="{{route('services.')}}" class="nav-link"> {{ __('common.services') }}</a>
         </li>
 
-        <li class="nav-item">
-          <a href="{{route('branches.')}}" class="nav-link">{{ __('common.branches') }}</a>
+        <li class="nav-item with-sub">
+          <a href="" class="nav-link">{{ __('common.branches') }}</a>
+          <ul class="navbar-menu-sub">
+            <li class="nav-sub-item"><a href="{{route('branches.kuantan')}}" class="nav-sub-link">Kuantan</a></li>
+            <li class="nav-sub-item"><a href="{{route('branches.shah-alam')}}" class="nav-sub-link">Shah Alam</a></li>
+            <li class="nav-sub-item"><a href="{{route('branches.bangi')}}" class="nav-sub-link">Bangi</a></li>
+            <li class="nav-sub-item"><a href="{{route('branches.johor-bahru')}}" class="nav-sub-link">Johor Bahru</a></li>
+          </ul>
         </li>
         <li class="nav-item"><a href="#" class="btn btn-social"><i class="fa fa-globe"></i></a>
           <div uk-dropdown>
@@ -42,6 +48,21 @@
               </ul>
           </div>
         </li>
+        @auth
+        <li class="nav-item"><a href="#" class="btn btn-social"><i class="fa fa-user"></i></a>
+          <div uk-dropdown="boundary: .boundary">
+              <ul class="uk-nav uk-dropdown-nav">
+                <li><a href="{{ url('locale/my') }}" style="color:black;"><i class="fa fa-list"></i> {{__('common.see_booking')}}</a></li>
+                <li>
+                  <form id="logout" method="POST" action="{{ route('logout') }}">
+                    @csrf
+                    <a href="javascript:;" onclick="document.getElementById('logout').submit()" style="color:black;"><i class="fa fa-sign-out-alt"></i> {{__('common.logout')}}
+                    </a>
+                </form>
+              </ul>
+          </div>
+        </li>
+        @endauth
 
 
       </ul>
