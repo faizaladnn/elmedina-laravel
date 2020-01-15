@@ -29,7 +29,7 @@ return [
     'learn' => 'Learn',
     'contact_us' => 'Contact Us',
     'our_customers' => 'Our Customer',
-    'duration' => 'Duration',
+    'duration' => 'Description',
     'benefits' => 'Benefits',
     'free' => 'Free',
     'full_body_duration' => '24 Cup seluruh badan dari kepala (tidak perlu cukur) hingga ke betis',
@@ -69,5 +69,7 @@ return [
     'your_appointment' => 'Your Appointment',
     'select_package' => 'Select Package',
     'please_select_package' => 'Please Select Package',
-    'thank_you_booking' => 'Your booking is successfully created. Please wait for notification that sent through your email for status. Thank you for booking with us.'
+    'thank_you_booking' => 'Your booking is successfully created. Please wait for notification that sent through your email for status. Thank you for booking with us.',
+    'shop' => 'Shop',
+    'blog' => 'Blog',
 ];

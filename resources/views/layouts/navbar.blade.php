@@ -15,9 +15,9 @@
       <!-- navbar-menu-header -->
       <ul class="nav navbar-menu">
 
-        <li class="nav-item">
+        {{-- <li class="nav-item">
           <a href="{{route('home')}}" class="nav-link">{{ __('common.home') }}</a>
-        </li>
+        </li> --}}
 
         <li class="nav-item">
           <a href="{{route('about-us')}}" class="nav-link">{{ __('common.about_us') }}</a>
@@ -40,6 +40,15 @@
             <li class="nav-sub-item"><a href="{{route('branches.johor-bahru')}}" class="nav-sub-link">Johor Bahru</a></li>
           </ul>
         </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link"> {{ __('common.shop') }}</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#" class="nav-link"> {{ __('common.blog') }}</a>
+        </li>
+
         <li class="nav-item"><a href="#" class="btn btn-social"><i class="fa fa-globe"></i></a>
           <div uk-dropdown>
               <ul class="uk-nav uk-dropdown-nav">
@@ -68,7 +77,7 @@
       </ul>
   </div>
   <div class="navbar-right">
-    <a href="{{route('login')}}" class="btn btn-outline-warning btn-appointment " id="appointment"> <span>{{ __('common.make_an_appointment') }}</span></a>
+    <a href="{{route('login')}}" class="btn btn-outline-wrng btn-appointment " id="appointment"> <span>{{ __('common.make_an_appointment') }}</span></a>
   </div><!-- navbar-right -->
 
 </header>

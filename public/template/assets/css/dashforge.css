@@ -13047,7 +13047,7 @@ textarea.parsley-success:focus {
   .navbar-menu-sub .nav-sub-link {
     color: #1b2e4b;
     white-space: nowrap;
-    font-size: 13px;
+    font-size: auto;
     display: flex;
     align-items: center;
     transition: all 0.2s ease-in-out; }

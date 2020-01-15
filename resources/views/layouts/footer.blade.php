@@ -3,7 +3,8 @@
 
         {{-- Nav for right side--}}
         <div class="footer-rgt uk-animation-toggle" tabindex="0">
-            <a href="{{route('login')}}" ><button type="button" class="btn btn-block btn-outline-warning uk-animation-shake"><span style="font-size:0.9rem;" class="text-uppercase">{{ __('common.make_an_appointment') }}</span></button></a>
+            <a href="{{route('login')}}" ><button type="button" class="btn btn-block btn-outline-wrng uk-animation-shake" style="border-width:medium; padding: 20px;">
+                <span style="font-size:0.9rem;" class="text-uppercase">{{ __('common.make_an_appointment') }}</span></button></a>
         </div>
         
         {{-- Nav for center --}}

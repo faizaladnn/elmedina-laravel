@@ -305,7 +305,7 @@
                             </li>
                             <li>
                                 <div class="uk-panel text-center">
-                                    <img src="{{asset('public/template/assets/img/partners/time.png')}}" alt="" style="width:100%;">
+                                    <img src="{{asset('public/template/assets/img/partners/jkm.png')}}" alt="" style="width:100%;">
                                 </div>
                             </li>
                         </ul>
@@ -333,6 +333,11 @@
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay: true; autoplay-interval: 3000;">
                         <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-5@m uk-grid">
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/time.png')}}" alt="" style="width:100%;">
+                                </div>
+                            </li>
                             <li>
                                 <div class="uk-panel text-center">
                                     <img src="{{asset('public/template/assets/img/partners/pahang_ranger.png')}}" alt="" style="width:70%;">
@@ -365,7 +370,17 @@
                             </li>
                             <li>
                                 <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/kotasas.png')}}" alt="" style="width:100%;">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-panel text-center">
                                     <img src="{{asset('public/template/assets/img/partners/hk_fighters.png')}}" alt="" style="width:70%;">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/cenviro.png')}}" alt="" style="width:100%;">
                                 </div>
                             </li>
                         </ul>

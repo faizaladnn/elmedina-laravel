@@ -29,7 +29,7 @@ return [
     'learn' => 'Pelajari',
     'contact_us' => 'Hubungi Kami',
     'our_customers' => 'Pelanggan Kami',
-    'duration' => 'Durasi',
+    'duration' => 'Penerangan',
     'benefits' => 'Manfaat',
     'free' => 'Percuma',
     'full_body_duration' => '24 Cup seluruh badan dari kepala (tidak perlu cukur) hingga ke betis',
@@ -70,5 +70,7 @@ return [
     'select_package' => 'Pilih Pakej',
     'please_select_package' => 'Pilih Pakej',
     'thank_you_booking' => 'Temujanji anda berjaya dicipta. Sila tunggu pemberitahuan status dari pihak kami melalui email anda. Terima kasih kerana membuat tempahan dengan kami.',
+    'shop' => 'Beli',
+    'blog' => 'Blog',
     
 ];
