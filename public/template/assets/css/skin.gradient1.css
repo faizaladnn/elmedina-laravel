@@ -1,6 +1,6 @@
 .navbar-header {
   border-bottom-color: transparent;
-  background-color: #172830;
+  background-color: #1c2252;
   border-bottom: 1px black solid;
   /* background-image: linear-gradient(to right, #fdd033 0, #560bdf 75%); */
   background-repeat: repeat-x; }
@@ -14,7 +14,7 @@
     .navbar-header .burger-menu:hover, .navbar-header .burger-menu:focus {
       color: #d4c478; }
   .navbar-header .navbar-menu-header {
-    background-color: #172830;
+    background-color: #1c2252;
     /* background-image: linear-gradient(to right, #fdd033 0, #560bdf 75%); */
     background-repeat: repeat-x; }
     .navbar-header .navbar-menu-header a:last-child {
@@ -172,7 +172,7 @@
   .content-search .form-control:focus {
     color: #fff; } }
 .footer {
-  background-color: #172830;
+  background-color: #1c2252;
   /* background-image: linear-gradient(to right, #fdd033 0, #560bdf 75%); */
 }
 .footer > .nav {

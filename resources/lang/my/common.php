@@ -70,7 +70,7 @@ return [
     'select_package' => 'Pilih Pakej',
     'please_select_package' => 'Pilih Pakej',
     'thank_you_booking' => 'Temujanji anda berjaya dicipta. Sila tunggu pemberitahuan status dari pihak kami melalui email anda. Terima kasih kerana membuat tempahan dengan kami.',
-    'shop' => 'Beli',
+    'shop' => 'Belian',
     'blog' => 'Blog',
     
 ];

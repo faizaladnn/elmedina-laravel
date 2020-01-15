@@ -11,8 +11,28 @@
 <div class="content">
     <div class="container-fluid pl-5 pr-5">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <dl class="uk-description-list">
+                    <dt><h5 class="text-uppercase">{{ __('common.duration') }}</h5></dt>
+                    <dd>
+                        <p class="font-weight-light">
+                            Bekam merupakan satu amalan tradisional yang diamalkan dalam pelbagai budaya di seluruh dunia. 
+                            Tujuan berbekam adalah untuk mengeluarkan darah kotor dari badan yang menjadi punca penurunan tahap kesihatan.
+                        </p>
+                    </dd>
+                    <dt><h5 class="text-uppercase">Jenis-jenis bekam</h5></dt>
+                    <dd>
+                        <ul class="uk-list uk-list-bullet font-weight-light">
+                            <li>
+                                <span class="font-weight-bold">Bekam kering/bekam angin</span> - Peralatan bekam hanya diletakkan di atas permukaan kulit, kulit tidak ditoreh dan tiada pendarahan berlaku.
+                            </li>
+                            <li>
+                                <span class="font-weight-bold">Bekam basah</span> - Kaedah ini melibatkan peralatan bekam yang diletakkan di atas permukaan kulit yang telah ditoreh/dicucuk dan berlaku 
+                                pendarahan melalui luka tersebut yang dikumpul di dalam peralatan bekam.
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
                 <h5 class="text-uppercase">{{ __('common.benefits') }}</h5>
@@ -21,10 +41,18 @@
                     <li>Sedate the nervous system ( sesuai untuk merawat penyakit darah tinggi)</li>
                     <li>Untuk melegakan dan mengurangkan sakit belakang dan leher, mengurangkan keresahan kepenatan,migrain, rheumatism</li>
                 </ul>
+                <dl class="uk-description-list">
+                    <dd>
+                        <p class="font-weight-light">
+                            Pelanggan yang ingin mendapatkan rawatan bekam mestilah berumur antara 10 hingga 65 tahun. Bagi pelanggan yang berumur lebih daripada 65 tahun, berbekam boleh 
+                            dilakukan sekiranya mempunyai tahap kesihatan yang baik.
+                        </p>
+                    </dd>
+                </dl>
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                 <br/><br/>
-                <a href="{{route('login')}}" class="btn btn-outline-warning"> <span class="uk-text-uppercase" style="color:black;">{{ __('common.make_an_appointment') }}</span></a>
+                <a href="{{route('login')}}" class="btn btn-outline-wrng" style="border-width:medium; padding: 20px;"> <span class="uk-text-uppercase" style="color:black;">{{ __('common.make_an_appointment') }}</span></a>
             </div>
         </div>
     </div>
