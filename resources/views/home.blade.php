@@ -290,7 +290,7 @@
                             </li>
                             <li>
                                 <div class="uk-panel text-center">
-                                    <img src="{{asset('public/template/assets/img/partners/sk_bunut_rendang.png')}}" alt="" style="width:70%;">
+                                    <img src="{{asset('public/template/assets/img/partners/cenviro.png')}}" alt="" style="width:100%;">
                                 </div>
                             </li>
                             <li>
@@ -301,6 +301,11 @@
                             <li>
                                 <div class="uk-panel text-center">
                                     <img src="{{asset('public/template/assets/img/partners/hypervolt.jpg')}}" alt="" style="width:100%;">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-panel text-center">
+                                    <img src="{{asset('public/template/assets/img/partners/sk_bunut_rendang.png')}}" alt="" style="width:70%;">
                                 </div>
                             </li>
                             <li>
@@ -376,11 +381,6 @@
                             <li>
                                 <div class="uk-panel text-center">
                                     <img src="{{asset('public/template/assets/img/partners/hk_fighters.png')}}" alt="" style="width:70%;">
-                                </div>
-                            </li>
-                            <li>
-                                <div class="uk-panel text-center">
-                                    <img src="{{asset('public/template/assets/img/partners/cenviro.png')}}" alt="" style="width:100%;">
                                 </div>
                             </li>
                         </ul>
