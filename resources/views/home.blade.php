@@ -5,29 +5,34 @@
 {{-- Carousel --}}
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay:true; autoplay-interval: 3000;">
   <ul class="uk-slider-items uk-grid">
+      {{-- <li class="uk-width-1-1">
+          <div class="uk-panel">
+              <img src="{{asset('public/template/assets/img/banner.jpg')}}" alt="" class="banner">
+          </div>
+      </li> --}}
       <li class="uk-width-1-1">
           <div class="uk-panel">
-              <img src="{{asset('public/template/assets/carousel/cover_2.jpg')}}" alt="">
+              <img src="{{asset('public/template/assets/carousel/cover_2.jpg')}}" alt="" class="banner">
           </div>
       </li>
       <li class="uk-width-1-1">
           <div class="uk-panel">
-              <img src="{{asset('public/template/assets/carousel/cover_3.jpg')}}" alt="">
+              <img src="{{asset('public/template/assets/carousel/cover_3.jpg')}}" alt="" class="banner">
           </div>
       </li>
       <li class="uk-width-1-1">
           <div class="uk-panel">
-              <img src="{{asset('public/template/assets/carousel/cover_4.jpg')}}" alt="">
+              <img src="{{asset('public/template/assets/carousel/cover_4.jpg')}}" alt="" class="banner">
           </div>
       </li>
       <li class="uk-width-1-1">
           <div class="uk-panel">
-              <img src="{{asset('public/template/assets/carousel/cover_5.jpg')}}" alt="">
+              <img src="{{asset('public/template/assets/carousel/cover_5.jpg')}}" alt="" class="banner">
           </div>
       </li>
       <li class="uk-width-1-1">
           <div class="uk-panel">
-              <img src="{{asset('public/template/assets/carousel/cover_6.jpg')}}" alt="">
+              <img src="{{asset('public/template/assets/carousel/cover_6.jpg')}}" alt="" class="banner">
           </div>
       </li>
   </ul>

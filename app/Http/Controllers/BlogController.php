@@ -2,27 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Admin;
+use App\Blog;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 
-class AdminController extends Controller
+class BlogController extends Controller
 {
-    public function loginPage()
-    {
-        return view('admin.auth.login');
-    }
-
-    public function authenticate(Request $request)
-    {
-        $credentials = $request->only('email', 'password');
-        
-        if (Auth::guard('admin')->attempt($credentials)) {
-            return redirect()->route('dashboard');
-        }else {
-            return redirect()->back()->withInput()->withErrors('Credentials is wrong. Please try again.');
-        }
-    }
     /**
      * Display a listing of the resource.
      *
@@ -30,7 +14,7 @@ class AdminController extends Controller
      */
     public function index()
     {
-        
+        //
     }
 
     /**
@@ -57,10 +41,10 @@ class AdminController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Admin  $admin
+     * @param  \App\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function show(Admin $admin)
+    public function show(Blog $blog)
     {
         //
     }
@@ -68,10 +52,10 @@ class AdminController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Admin  $admin
+     * @param  \App\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function edit(Admin $admin)
+    public function edit(Blog $blog)
     {
         //
     }
@@ -80,10 +64,10 @@ class AdminController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Admin  $admin
+     * @param  \App\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Admin $admin)
+    public function update(Request $request, Blog $blog)
     {
         //
     }
@@ -91,10 +75,10 @@ class AdminController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Admin  $admin
+     * @param  \App\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Admin $admin)
+    public function destroy(Blog $blog)
     {
         //
     }

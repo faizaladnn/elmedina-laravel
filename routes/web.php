@@ -168,5 +168,44 @@ Route::prefix('packages')->name('packages.')->group(function () {
 Route::get('booking', 'BookingController@createBooking')->name('view-booking')->middleware('auth');
 Route::post('create-booking', 'BookingController@storeBooking')->name('store-booking')->middleware('auth');
 
-//Admin
+//Admin Site
 Route::get('list', 'BookingController@listBooking')->name('booking-list')->middleware('auth');
+
+
+Route::get('em-admin', 'AdminController@loginPage')->name('admin.login-page');
+Route::post('em-admin/login', 'AdminController@authenticate')->name('admin.login');
+
+Route::prefix('em-admin')->name('admin.')->middleware('admin')->group(function () {
+
+    // Admin CRUD
+    Route::get('index', 'AdminController@index')->name('index');
+    Route::get('create', 'AdminController@create')->name('create');
+    Route::post('store', 'AdminController@store')->name('store');
+    Route::get('edit/{id}', 'AdminController@edit')->name('edit');
+    Route::put('update/{id}', 'AdminController@update')->name('update');
+    Route::delete('delete/{id}', 'AdminController@destroy')->name('delete');
+    
+    // Booking Management
+    Route::prefix('booking')->name('booking.')->group(function (){
+        Route::get('index', 'BookingController@index')->name('index');
+        Route::get('create', 'BookingController@create')->name('create');
+        Route::post('store', 'BookingController@store')->name('store');
+        Route::get('edit/{id}', 'BookingController@edit')->name('edit');
+        Route::put('update/{id}', 'BookingController@update')->name('update');
+        Route::delete('delete/{id}', 'BookingController@destroy')->name('delete');
+
+        //Approve booking to success/cancel/pending/
+        Route::put('approve-booking/{id}', 'BookingController@approveBooking')->name('approve-booking');
+    });
+
+    // Blog/Article Management
+    Route::prefix('blog')->name('blog.')->group(function (){
+        Route::get('index', 'BlogController@index')->name('index');
+        Route::get('create', 'BlogController@create')->name('create');
+        Route::post('store', 'BlogController@store')->name('store');
+        Route::get('edit/{id}', 'BlogController@edit')->name('edit');
+        Route::put('update/{id}', 'BlogController@update')->name('update');
+        Route::delete('delete/{id}', 'BlogController@destroy')->name('delete');
+    });
+
+});
