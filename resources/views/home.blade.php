@@ -48,7 +48,7 @@
             <div class="align-items-center justify-content-between">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                    <h2 class="text-uppercase">{{ __('common.why_elmedina') }}</h2>
+                    <h2 class="text-uppercase font-weight-bold">{{ __('common.why_elmedina') }}</h2>
                 </div>
               </div>
 
@@ -133,7 +133,7 @@
           <div class="align-items-center justify-content-between">
             <div class="row">
               <div class="col-lg-12 col-md-12 col-sm-12">
-                  <h2 class="text-uppercase text-center ">{{ __('common.services') }}</h2>
+                  <h2 class="text-uppercase text-center font-weight-bold">{{ __('common.services') }}</h2>
               </div>
 
               <div class="uk-child-width-1-3@m" uk-grid>
@@ -185,7 +185,49 @@
         </div>
       </div>
     </div>
-    {{-- END OF SERVICES --}}
+
+    {{-- What We Offer --}}
+    <div class="content pt-5 pb-5" style="">
+        <div class="container-fluid pl-5 pr-5">
+            <div class="align-items-center justify-content-between">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="uk-grid-match " uk-grid>
+                        <div class="uk-width-1-5@m uk-width-1-3@l">
+                            <h2 class="text-uppercase font-weight-bold">What we offer</h2>
+                        </div>
+                        <div class="uk-width-3-5@m uk-width-2-3@l">
+                            <ul uk-accordion>
+                                <li class="uk-open">
+                                    <a class="uk-accordion-title" href="#"><h3 class="font-weight-bold"><span uk-icon="icon: home; ratio: 1.5"></span> Community Events</h3></a>
+                                    <div class="uk-accordion-content font-weight-light text-small mt-0">
+                                        Our team of expert therapists will personalize a mobility and treatment program specifically for your community. 
+                                        Plus, our dedicated community team helps with every detail, ensuring you receive a customized and unforgettable experience.
+                                    </div>
+                                </li>
+                                <li class="uk-open">
+                                    <a class="uk-accordion-title" href="#"><h3 class="font-weight-bold"><span uk-icon="icon: happy; ratio: 1.5"></span> Wellness Programs</h3></a>
+                                    <div class="uk-accordion-content font-weight-light text-small mt-0">
+                                        The team that stays healthy together, sticks together. Get colleagues or clients to participate in custom 
+                                        Mobility Workshops or Treatment Sessions to improve their overall health. Book a tailored experience for 
+                                        your wellness program, team bonding, or just to show your appreciation.
+                                    </div>
+                                </li>
+                                <li class="uk-open">
+                                    <a class="uk-accordion-title" href="#"><h3 class="font-weight-bold"><span uk-icon="icon: users; ratio: 1.5"></span> Brand Partnerships</h3></a>
+                                    <div class="uk-accordion-content font-weight-light text-small mt-0">
+                                        Whether its Educational Workshops or Interactive Demonstrations, we partner with leading 
+                                        lifestyle and wellness brands on a series of major events to offer exclusive programming to help create an elevated brand experience.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
 
     {{-- TESTIMONI --}}
     <div class="uk-background-fixed uk-background-center-center" style="background-image: url({{asset('public/template/assets/carousel/branch/branch_shah_alam.jpg')}});">
@@ -268,7 +310,7 @@
           <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
           <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
       </div>
-    </div>{{-- END OF TESTIMONI --}}
+    </div>
     
     {{-- Strategic Partner --}}
     <div class="content pt-5" style="">
