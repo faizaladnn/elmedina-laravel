@@ -19,27 +19,25 @@
                 <li class="">
                     <a href="{{route('branches.bangi')}}" class="">
                         <i data-feather="phone"></i>
-                        BANGI : 017-727 1152</a>
+                        BANGI : </a> <a href="tel:+60177271152">017-727 1152</a>
                 </li>
         
                 <li class="">
                     <a href="{{route('branches.kuantan')}}" class="">
                         <i data-feather="phone"></i>
-                        KUANTAN : 010-838 7030
-                    </a>
+                        KUANTAN : </a> <a href="tel:+60108387030">010-838 7030</a>
                 </li>
         
                 <li class="">
                     <a href="{{route('branches.shah-alam')}}" class="">
                         <i data-feather="phone"></i>
-                        SHAH ALAM : 013-200 9518</a>
+                        SHAH ALAM : </a> <a href="tel:+60132009518">013-200 9518</a>
                 </li>
         
                 <li class="">
                     <a href="{{route('branches.johor-bahru')}}" class="">
                         <i data-feather="phone"></i>
-                        JOHOR BAHRU : 013-999 8458
-                    </a>
+                        JOHOR BAHRU : </a> <a href="tel:+60139998458">013-999 8458</a>
                 </li>
             </ul>
         </div>

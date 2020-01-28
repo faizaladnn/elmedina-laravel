@@ -43,8 +43,8 @@
 </div>{{-- Carousel End --}}
 
     {{-- Why El Medina ? --}}
-    <div class="content pt-5" style="">
-        <div class="container-fluid pl-5 pr-5">
+    <div class="content pt-4" style="">
+        <div class="container-fluid pl-3 pr-3">
             <div class="align-items-center justify-content-between">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
@@ -53,70 +53,70 @@
               </div>
 
               <div class="row">
-                  <div class="col-lg-4">
+                  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                       <div class="row">
-                          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1">
-                            <img src="{{asset('public/template/assets/img/star.png')}}" class="img-fluid img-star" uk-img/>
-                        </div>
-                          <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                            <h4>{{ __('common.various_treatments') }}</h4>
+                          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center uk-visible@m">
+                              <span uk-icon="icon: star; ratio: 2.5"></span>
+                          </div>
+                          <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <h4 class="font-weight-bold">{{ __('common.various_treatments') }}</h4>
                             <p class="font-weight-light">Menyediakan perkhidmatan bekam, urutan badan, sport massage dan sport recovery untuk Lelaki dan Wanita.</p>
                           </div>
                       </div>
                   </div>
-                  <div class="col-lg-4">
-                      <div class="row">
-                          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <img src="{{asset('public/template/assets/img/star.png')}}" class="img-fluid img-star" uk-img/>
+                  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center uk-visible@m">
+                            <span uk-icon="icon: star; ratio: 2.5"></span>
                         </div>
-                          <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                            <h4>{{ __('common.syariah_compliance') }}</h4>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <h4 class="font-weight-bold">{{ __('common.syariah_compliance') }}</h4>
                             <p class="font-weight-light">Patuh syariah, privacy, bilik yg selesa dan berasingan, aurat terjaga sepenuhnya.</p>
                           </div>
                       </div>
                   </div>
-                  <div class="col-lg-4">
-                      <div class="row">
-                          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <img src="{{asset('public/template/assets/img/star.png')}}" class="img-fluid img-star" uk-img/>
+                  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center uk-visible@m">
+                            <span uk-icon="icon: star; ratio: 2.5"></span>
                         </div>
-                          <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                            <h4>{{ __('common.various_therapist') }}</h4>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <h4 class="font-weight-bold">{{ __('common.various_therapist') }}</h4>
                             <p class="font-weight-light">Ahli terapi terdiri daripada Massage Therapist, Physiotherapist, Sport Therapist, Specialist in Cupping Therapy dan 100% Ahli Terapi Bumiputera.</p>
                           </div>
                       </div>
                   </div>
               </div>
               <div class="row">
-                  <div class="col-lg-4">
-                      <div class="row">
-                          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <img src="{{asset('public/template/assets/img/star.png')}}" class="img-fluid img-star" uk-img/>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center uk-visible@m">
+                            <span uk-icon="icon: star; ratio: 2.5"></span>
                         </div>
-                          <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                            <h4>{{ __('common.treatment_many_ways') }}</h4>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <h4 class="font-weight-bold">{{ __('common.treatment_many_ways') }}</h4>
                             <p class="font-weight-light">Menggabungkan rawatan tradisional dan moden.</p>
                           </div>
                       </div>
                   </div>
-                  <div class="col-lg-4">
-                      <div class="row">
-                          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                            <img src="{{asset('public/template/assets/img/star.png')}}" class="img-fluid img-star" uk-img/>
+                  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center uk-visible@m">
+                            <span uk-icon="icon: star; ratio: 2.5"></span>
                         </div>
-                          <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                            <h4>{{ __('common.many_choices') }}</h4>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <h4 class="font-weight-bold">{{ __('common.many_choices') }}</h4>
                             <p class="font-weight-light">Spa yang menjadi pilihan ramai Selebriti, Atlet dan juga Kerabat Diraja.</p>
                           </div>
                       </div>
                   </div>
-                  <div class="col-lg-4">
-                      <div class="row">
-                          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                              <img src="{{asset('public/template/assets/img/star.png')}}" class="img-fluid img-star" uk-img/>
-                            </div>
-                          <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
-                            <h4>{{ __('common.professional') }}</h4>
+                  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 text-center uk-visible@m">
+                            <span uk-icon="icon: star; ratio: 2.5"></span>
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <h4 class="font-weight-bold">{{ __('common.professional') }}</h4>
                             <p class="font-weight-light">Profesional dan Hygiene terjaga, dijamin suci dan bersih.</p>
                           </div>
                       </div>

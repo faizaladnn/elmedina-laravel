@@ -15,9 +15,9 @@
       <!-- navbar-menu-header -->
       <ul class="nav navbar-menu">
 
-        {{-- <li class="nav-item">
+        <li class="nav-item">
           <a href="{{route('home')}}" class="nav-link">{{ __('common.home') }}</a>
-        </li> --}}
+        </li>
 
         <li class="nav-item">
           <a href="{{route('about-us')}}" class="nav-link">{{ __('common.about_us') }}</a>
