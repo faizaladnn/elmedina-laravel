@@ -73,11 +73,13 @@
         </li>
         @endauth
 
+        <li class="nav-item">
+          <a href="{{route('login')}}" class="btn btn-outline-wrng btn-appointment " id="appointment"> <span>{{ __('common.make_an_appointment') }}</span></a>
+        </li>
 
       </ul>
   </div>
-  <div class="navbar-right">
-    <a href="{{route('login')}}" class="btn btn-outline-wrng btn-appointment " id="appointment"> <span>{{ __('common.make_an_appointment') }}</span></a>
-  </div><!-- navbar-right -->
+  {{-- <div class="navbar-right">
+  </div><!-- navbar-right --> --}}
 
 </header>

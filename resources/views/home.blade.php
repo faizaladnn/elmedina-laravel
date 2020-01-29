@@ -136,7 +136,7 @@
                   <h2 class="text-uppercase text-center font-weight-bold">{{ __('common.services') }}</h2>
               </div>
 
-              <div class="uk-child-width-1-3@m" uk-grid>
+              <div class="uk-child-width-1-4@m" uk-grid>
                 <div>
                     <div class="uk-card uk-card-hover">
                         <div class="uk-card-media-top">
@@ -170,6 +170,26 @@
                             <h5 class="uk-text-uppercase uk-text-bold">Ultrasound Therapy</h5>
                             <p class="uk-text-light">Ultrasound Therapy adalah penggunaan gelombang bunyi untuk mengurangkan sakit sendi-sendi pada badan.</p>
                             <a href="{{route('services.air-relax')}}" class="btn btn-outline-warning text-dark">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="uk-card uk-card-hover">
+                        <div class="uk-card-media-top">
+                            <div class="uk-inline">
+                                <img src="{{asset('public/template/assets/carousel/services/postnatal.jpg')}}" alt="">
+                                <div class="uk-overlay-primary uk-position-cover"></div>
+                                <div class="uk-overlay uk-position-center uk-light">
+                                    <h3>{{ __('common.coming_soon') }}</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-body">
+                            <h5 class="uk-text-uppercase uk-text-bold">Pre and Post Natal Treatments</h5>
+                            <p class="uk-text-light">
+                                Rawatan dan latihan untuk memastikan pra-kehamilan, kehamilan, dan kelahiran yang sihat dan penghantaran untuk ibu dan bayi.
+                            </p>
                         </div>
                     </div>
                 </div>

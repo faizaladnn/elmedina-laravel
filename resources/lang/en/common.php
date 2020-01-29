@@ -72,4 +72,5 @@ return [
     'thank_you_booking' => 'Your booking is successfully created. Please wait for notification that sent through your email for status. Thank you for booking with us.',
     'shop' => 'Shop',
     'blog' => 'Blog',
+    'coming_soon' => 'Coming Soon',
 ];

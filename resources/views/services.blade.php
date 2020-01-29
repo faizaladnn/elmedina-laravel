@@ -104,8 +104,27 @@
                 </div>
             </div>
         </div>
-    </div>
 
+        <div>
+            <div class="uk-card uk-card-hover">
+                <div class="uk-card-media-top">
+                    <div class="uk-inline">
+                        <img src="{{asset('public/template/assets/carousel/services/postnatal.jpg')}}" alt="">
+                        <div class="uk-overlay-primary uk-position-cover"></div>
+                        <div class="uk-overlay uk-position-center uk-light">
+                            <h3>{{ __('common.coming_soon') }}</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-card-body">
+                    <h5 class="uk-text-uppercase uk-text-bold">Pre and Post Natal Treatments</h5>
+                    <p class="uk-text-light">
+                        Rawatan dan latihan untuk memastikan pra-kehamilan, kehamilan, dan kelahiran yang sihat dan penghantaran untuk ibu dan bayi.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
   </div>
 </div>

@@ -12886,7 +12886,7 @@ textarea.parsley-success:focus {
       padding: 0;
       /* padding-left: 4rem;
       width: 100%; */
-      max-width: 780px;
+      max-width: 100%;
       margin-top: -3px; } }
   .navbar-menu .nav-item + .nav-item {
     margin-top: 10px; }

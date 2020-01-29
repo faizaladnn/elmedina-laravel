@@ -72,5 +72,6 @@ return [
     'thank_you_booking' => 'Temujanji anda berjaya dicipta. Sila tunggu pemberitahuan status dari pihak kami melalui email anda. Terima kasih kerana membuat tempahan dengan kami.',
     'shop' => 'Belian',
     'blog' => 'Blog',
+    'coming_soon' => 'Akan Datang',
     
 ];

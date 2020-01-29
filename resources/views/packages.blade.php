@@ -176,6 +176,16 @@
               </div>
             </div>
         </li>
+        <li>
+          <a class="uk-accordion-title" href="#">POSTNATAL</a>
+          <div class="uk-accordion-content">
+            <div class="row">
+              <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 pt-2 text-center">
+                <h3>{{ __('common.coming_soon') }}</h3>
+              </div>
+            </div>
+          </div>
+      </li>
     </ul>
     
     </div>
