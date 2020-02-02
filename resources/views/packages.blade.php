@@ -145,7 +145,7 @@
                     <img src="{{ asset('public/template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal" title="SPORT MASSAGE + HYPERVOLT THERAPY">PAKEJ 8 : SPORT MASSAGE + HYPERVOLT THERAPY</h6>
-                      <p class="card-text font-weight-light tx-12">Rawatan bekam darah untuk mengeluarkan urik asid dari kaki</p>
+                      <p class="card-text font-weight-light tx-12">Rawatan untuk megeluarkan angin dari badan dan meregangkan otot-otot yang tegang</p>
                       <h5 style="margin: 0 0 20px;">RM 110</h5>
                       <a href="{{route('packages.pakej-8')}}" class="btn btn-outline-warning text-dark">See More</a>
                     </div>

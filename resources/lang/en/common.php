@@ -73,4 +73,8 @@ return [
     'shop' => 'Shop',
     'blog' => 'Blog',
     'coming_soon' => 'Coming Soon',
+    'what_we_offer' => 'What We Offer',
+    'bekam_gout' => '12 Cup 6 Point di kaki kanan dan 6 point di kaki kiri',
+    'bekam_angin' => '21 Cup dari tengkuk hingga betis',
+    'sport_recovery' => 'Untuk mendapatkan rawatan sport recovery perlulah menjalani pemeriksaan dari therapist kami terlebih dahulu',
 ];

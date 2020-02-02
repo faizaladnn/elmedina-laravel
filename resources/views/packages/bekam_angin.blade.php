@@ -13,7 +13,7 @@
             <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
                 <dl class="uk-description-list">
                     <dt><h5 class="text-uppercase">{{ __('common.duration') }}</h5></dt>
-                    <dd>{{ __('common.full_body_duration') }}</dd>
+                    <dd>{{ __('common.bekam_angin') }}</dd>
                     <dt><h5 class="text-uppercase">{{ __('common.free') }}</h5></dt>
                     <dd>{{ __('common.full_body_free') }}</dd>
                 </dl>
@@ -21,16 +21,13 @@
             <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12">
                 <h5 class="text-uppercase">{{ __('common.benefits') }}</h5>
                 <ul class="uk-list uk-list-striped">
-                    <li>Membuang sel-sel darah yang mati</li>
-                    <li>Menstabilkan tekanan darah</li>
-                    <li>Melancarkan peredaran darah</li>
-                    <li>Mengeluarkan toksid dalam badan</li>
-                    <li>Mengembalikan paras normal kolestrol</li>
-                    <li>Menghilangkan angin dalam badan</li>
-                    <li>Mengurangkan risiko penyakit</li>
-                    <li>Menurunkan paras gula</li>
-                    <li>Meringangkan tubuh badan</li>
-                    <li>Melegakan sakit kepala</li>
+                    <li>Meregangkan otot</li>
+                    <li>Melegakan tekanan (stress)</li>
+                    <li>Meningkatkan kualiti tidur</li>
+                    <li>Mengurangkan tekanan pada otot</li>
+                    <li>Memperbaiki peredaran darah</li>
+                    <li>Meringkan tubuh</li>
+                    <li>Menyingkirkan angin berlebihan dalam tubuh</li>
                 </ul>
             </div>
         </div>

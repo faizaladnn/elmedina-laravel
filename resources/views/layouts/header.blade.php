@@ -28,7 +28,6 @@
 
 <!-- Additional Skin CSS -->
 <link rel="stylesheet" href="{{ asset('public/template/assets/css/skin.gradient1.css') }}">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 {{-- <link rel="stylesheet" href="{{ asset('public/template/assets/css/skin.cool.css') }}"> --}}
 
 <!-- Custom CSS -->

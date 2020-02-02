@@ -13,24 +13,23 @@
             <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
                 <dl class="uk-description-list">
                     <dt><h5 class="text-uppercase">{{ __('common.duration') }}</h5></dt>
-                    <dd>{{ __('common.full_body_duration') }}</dd>
-                    <dt><h5 class="text-uppercase">{{ __('common.free') }}</h5></dt>
-                    <dd>{{ __('common.full_body_free') }}</dd>
+                    <dd>{{ __('common.sport_recovery') }}</dd>
+                    {{-- <dt><h5 class="text-uppercase">{{ __('common.free') }}</h5></dt> --}}
+                    <dd>Sport Massage / Massage Therapy, Ultrasound Therapy</dd>
+                    <dd>Vibration Therapy (Hypervolt), Dry Cupping / Bekam</dd>
+                    <dd>Electro Therapy (Tens), Kinesio Taping</dd>
+                    <dd>Air Relax Therapy, Stretching</dd>
                 </dl>
             </div>
             <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12">
                 <h5 class="text-uppercase">{{ __('common.benefits') }}</h5>
                 <ul class="uk-list uk-list-striped">
-                    <li>Membuang sel-sel darah yang mati</li>
-                    <li>Menstabilkan tekanan darah</li>
-                    <li>Melancarkan peredaran darah</li>
-                    <li>Mengeluarkan toksid dalam badan</li>
-                    <li>Mengembalikan paras normal kolestrol</li>
-                    <li>Menghilangkan angin dalam badan</li>
-                    <li>Mengurangkan risiko penyakit</li>
-                    <li>Menurunkan paras gula</li>
-                    <li>Meringangkan tubuh badan</li>
-                    <li>Melegakan sakit kepala</li>
+                    <li>Ketegangan dan kecederaan otot</li>
+                    <li>Kecederaan lutut</li>
+                    <li>Kecederaan buku lali</li>
+                    <li>Kebengkakan otot</li>
+                    <li>Kecederaan bahu</li>
+                    <li>Mengurangkan kekejangan otot</li>
                 </ul>
             </div>
         </div>
