@@ -77,5 +77,10 @@ return [
     'bekam_gout' => '12 Cup 6 Point di kaki kanan dan 6 point di kaki kiri',
     'bekam_angin' => '21 Cup dari tengkuk hingga betis',
     'sport_recovery' => 'Untuk mendapatkan rawatan sport recovery perlulah menjalani pemeriksaan dari therapist kami terlebih dahulu',
-    
+    'community_events' => 'Khidmat Komuniti',
+    'wellness_program' => 'Program kesihatan',
+    'brand_partnership' => 'Perkongsian jenama',
+    'community_events_desc' => 'Pasukan berpengalaman kami akan membantu merancang program mobility dan rawatan khusus untuk komuniti anda. Selain itu, pasukan kami juga akan membantu anda dari setiap segi bagi memastikan anda mendapat pengalaman yang hebat.',
+    'wellness_program_desc' => 'Kami bersedia menyediakan kursus dan bengkel kesihatan bagi memberi kesedaran dan pengetahuan mengenai gaya hidup sihat kepada masyarakat. Kami juga boleh memberi khidmat sesi rawatan yang boleh disesuaikan mengikut kehendak anda.',
+    'brand_partnership_desc' => 'Kami bersedia membuat perkongsian jenama samada untuk program Pendidikan, Sukan, Kesihatan dan sebagainya di mana-mana acara yang berkaitan untuk kebaikan bersama.',
 ];

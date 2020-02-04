@@ -177,6 +177,7 @@ Route::post('em-admin/login', 'AdminController@authenticate')->name('admin.login
 
 Route::prefix('em-admin')->name('admin.')->middleware('admin')->group(function () {
 
+    Route::get('dashboard', 'AdminController@dashboard')->name('dashboard');
     // Admin CRUD
     Route::get('index', 'AdminController@index')->name('index');
     Route::get('create', 'AdminController@create')->name('create');

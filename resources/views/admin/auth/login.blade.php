@@ -2,7 +2,7 @@
 <html lang="en">
 <!-- Import CSS/JS -->
 <head>
-  @include ('admin.layout.header')
+  @include ('admin/layouts/header')
 </head>
 <body>
   <!-- Content -->
@@ -11,7 +11,7 @@
       <div class="ht-100p d-flex flex-column align-items-center justify-content-center">
         <div class="sign-wrapper mg-lg-l-50 mg-xl-l-60">
             <div class="wd-100p">
-                <div class="wd-350 wd-sm-350 mg-b-30" style="background-color:#1c2252;"><img src="{{asset('public/template/assets/img/logo3.jpg')}}" class="img-fluid" alt=""></div>
+                <div class="wd-350 wd-sm-350 mg-b-30" style="background-color:#1c2252;"><img src="{{asset('public/template/assets/img/logo3.png')}}" class="img-fluid" alt=""></div>
                 @include('error_message')
                 {{ Form::open(['method' => 'POST', 'url' => route('admin.login')]) }}
                 <div class="form-group">

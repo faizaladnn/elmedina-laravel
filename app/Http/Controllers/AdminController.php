@@ -18,7 +18,7 @@ class AdminController extends Controller
         $credentials = $request->only('email', 'password');
         
         if (Auth::guard('admin')->attempt($credentials)) {
-            return redirect()->route('dashboard');
+            return redirect()->route('admin.dashboard');
         }else {
             return redirect()->back()->withInput()->withErrors('Credentials is wrong. Please try again.');
         }
@@ -28,6 +28,13 @@ class AdminController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function dashboard()
+    {
+
+        return view('admin.dashboard');
+    }
+
     public function index()
     {
         

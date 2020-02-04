@@ -219,25 +219,21 @@
                         <div class="uk-width-3-5@m uk-width-2-3@l">
                             <ul uk-accordion>
                                 <li class="uk-open">
-                                    <a class="uk-accordion-title" href="#"><h4 class="font-weight-bold"><span uk-icon="icon: home; ratio: 1.5"></span> Community Events</h4></a>
+                                    <a class="uk-accordion-title" href="#"><h4 class="font-weight-bold"><span uk-icon="icon: home; ratio: 1.5"></span> {{ __('common.community_events') }}</h4></a>
                                     <div class="uk-accordion-content font-weight-light text-small mt-0">
-                                        Our team of expert therapists will personalize a mobility and treatment program specifically for your community. 
-                                        Plus, our dedicated community team helps with every detail, ensuring you receive a customized and unforgettable experience.
+                                        {{ __('common.community_events_desc') }}
                                     </div>
                                 </li>
                                 <li class="uk-open">
-                                    <a class="uk-accordion-title" href="#"><h4 class="font-weight-bold"><span uk-icon="icon: happy; ratio: 1.5"></span> Wellness Programs</h4></a>
+                                    <a class="uk-accordion-title" href="#"><h4 class="font-weight-bold"><span uk-icon="icon: happy; ratio: 1.5"></span> {{ __('common.wellness_program') }}</h4></a>
                                     <div class="uk-accordion-content font-weight-light text-small mt-0">
-                                        The team that stays healthy together, sticks together. Get colleagues or clients to participate in custom 
-                                        Mobility Workshops or Treatment Sessions to improve their overall health. Book a tailored experience for 
-                                        your wellness program, team bonding, or just to show your appreciation.
+                                        {{ __('common.wellness_program_desc') }}
                                     </div>
                                 </li>
                                 <li class="uk-open">
-                                    <a class="uk-accordion-title" href="#"><h4 class="font-weight-bold"><span uk-icon="icon: users; ratio: 1.5"></span> Brand Partnerships</h4></a>
+                                    <a class="uk-accordion-title" href="#"><h4 class="font-weight-bold"><span uk-icon="icon: users; ratio: 1.5"></span> {{ __('common.brand_partnership') }}</h4></a>
                                     <div class="uk-accordion-content font-weight-light text-small mt-0">
-                                        Whether its Educational Workshops or Interactive Demonstrations, we partner with leading 
-                                        lifestyle and wellness brands on a series of major events to offer exclusive programming to help create an elevated brand experience.
+                                        {{ __('common.brand_partnership_desc') }}
                                     </div>
                                 </li>
                             </ul>

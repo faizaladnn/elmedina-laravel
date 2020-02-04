@@ -77,4 +77,10 @@ return [
     'bekam_gout' => '12 Cup 6 Point di kaki kanan dan 6 point di kaki kiri',
     'bekam_angin' => '21 Cup dari tengkuk hingga betis',
     'sport_recovery' => 'Untuk mendapatkan rawatan sport recovery perlulah menjalani pemeriksaan dari therapist kami terlebih dahulu',
+    'community_events' => 'Comunnity Events',
+    'wellness_program' => 'Wellness Program',
+    'brand_partnership' => 'Brand Partnership',
+    'community_events_desc' => 'Our team of expert therapists will personalize a mobility and treatment program specifically for your community. Plus, our dedicated community team helps with every detail, ensuring you receive a customized and unforgettable experience.',
+    'wellness_program_desc' => 'The team that stays healthy together, sticks together. Get colleagues or clients to participate in custom Mobility Workshops or Treatment Sessions to improve their overall health. Book a tailored experience for your wellness program, team bonding, or just to show your appreciation.',
+    'brand_partnership_desc' => 'Whether its Educational Workshops or Interactive Demonstrations, we partner with leading lifestyle and wellness brands on a series of major events to offer exclusive programming to help create an elevated brand experience.',
 ];
