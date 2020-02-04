@@ -12,17 +12,17 @@
       </li> --}}
       <li class="uk-width-1-1">
         <div class="uk-panel">
-            <img src="{{asset('public/template/assets/carousel/cover_7.jpg')}}" alt="" class="banner">
+            <img src="{{asset('public/template/assets/carousel/cover_2.jpg')}}" alt="" class="banner">
+        </div>
+    </li>
+      <li class="uk-width-1-1">
+        <div class="uk-panel">
+            <img src="{{asset('public/template/assets/carousel/cover_1.jpg')}}" alt="" class="banner">
         </div>
     </li>
       <li class="uk-width-1-1">
           <div class="uk-panel">
-              <img src="{{asset('public/template/assets/carousel/cover_2.jpg')}}" alt="" class="banner">
-          </div>
-      </li>
-      <li class="uk-width-1-1">
-          <div class="uk-panel">
-              <img src="{{asset('public/template/assets/carousel/cover_8.jpg')}}" alt="" class="banner">
+              <img src="{{asset('public/template/assets/carousel/cover_4.jpg')}}" alt="" class="banner">
           </div>
       </li>
       <li class="uk-width-1-1">

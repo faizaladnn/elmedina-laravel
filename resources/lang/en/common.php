@@ -11,6 +11,7 @@ return [
     'make_an_appointment' => 'Make An Appointment',
     'testimony' => 'Testimony',
     'product' => 'Products',
+    'language' => 'Language',
     'home' => 'Home',
     'therapist' => 'Therapist',
     'our_therapist' => 'Our Therapist',

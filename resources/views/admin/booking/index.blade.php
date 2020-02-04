@@ -3,10 +3,10 @@
 @section ('content')
 
 <div class="content content-fixed">
-    <div class="container-fluid pd-x-0 pd-lg-x-10 pd-xl-x-0">
-        <div class="d-sm-flex align-items-center justify-content-between mg-b-20 mg-lg-b-25 mg-xl-b-30">
+    <div class="container-fluid pr-5 pl-5">
+        <div class="d-sm-flex align-items-center justify-content-between">
             <div>
-
+                <h3>Booking List</h3>
             </div>
         </div>
 
@@ -52,7 +52,7 @@
                                 @endforeach
                             </tbody>
                         </table>
-                        {{-- <div class="float-right p-2">{{ $models->links() }}</div> --}}
+                        <div class="float-right p-2">{{ $bookings->links() }}</div>
                     </div><!-- table-responsive -->
                 </div><!-- card -->
             </div><!-- col -->

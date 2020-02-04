@@ -49,7 +49,7 @@
           <a href="#" class="nav-link"> {{ __('common.blog') }}</a>
         </li>
 
-        <li class="nav-item"><a href="#" class="btn btn-social"><i class="fa fa-globe"></i></a>
+        <li class="nav-item uk-visible@m"><a href="#" class="btn btn-social"><i class="fa fa-globe"></i></a>
           <div uk-dropdown>
               <ul class="uk-nav uk-dropdown-nav">
                   <li><a href="{{ url('locale/en') }}" style="color:black;"><i class="fa fa-flag-usa"></i> ENGLISH</a></li>
@@ -57,6 +57,7 @@
               </ul>
           </div>
         </li>
+
         @auth
         <li class="nav-item"><a href="#" class="btn btn-social"><i class="fa fa-user"></i></a>
           <div uk-dropdown="boundary: .boundary">
@@ -73,8 +74,18 @@
         </li>
         @endauth
 
-        <li class="nav-item">
+        <li class="nav-item uk-visible@m">
           <a href="{{route('login')}}" class="btn btn-outline-wrng btn-appointment " id="appointment"> <span>{{ __('common.make_an_appointment') }}</span></a>
+        </li>
+
+        <hr/>
+        <li class="nav-item with-sub uk-hidden@m"></li>
+        <li class="nav-item with-sub uk-hidden@m">
+          <a href="" class="nav-link"> <i class="fa fa-language"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ __('common.language') }}</a>
+          <ul class="navbar-menu-sub">
+            <li class="nav-sub-item"><a href="{{url('locale/en')}}" class="nav-sub-link">ENGLISH</a></li>
+            <li class="nav-sub-item"><a href="{{url('locale/my')}}" class="nav-sub-link">BAHASA MELAYU</a></li>
+          </ul>
         </li>
 
       </ul>

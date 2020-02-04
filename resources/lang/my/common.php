@@ -11,6 +11,7 @@ return [
     'make_an_appointment' => 'Buat Tempahan',
     'testimony' => 'Testimoni',
     'product' => 'Produk',
+    'language' => 'Bahasa',
     'home' => 'Laman Utama',
     'therapist' => 'Pakar Terapi',
     'our_therapist' => 'Pakar Terapi Kami',

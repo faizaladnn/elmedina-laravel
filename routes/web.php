@@ -209,4 +209,14 @@ Route::prefix('em-admin')->name('admin.')->middleware('admin')->group(function (
         Route::delete('delete/{id}', 'BlogController@destroy')->name('delete');
     });
 
+    // Customer Management
+    Route::prefix('customer')->name('customer.')->group(function (){
+        Route::get('index', 'UserController@index')->name('index');
+        Route::get('create', 'UserController@create')->name('create');
+        Route::post('store', 'UserController@store')->name('store');
+        Route::get('edit/{id}', 'UserController@edit')->name('edit');
+        Route::put('update/{id}', 'UserController@update')->name('update');
+        Route::delete('delete/{id}', 'UserController@destroy')->name('delete');
+    });
+
 });

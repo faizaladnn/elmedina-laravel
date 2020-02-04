@@ -28,7 +28,7 @@
         </li>
 
         <li class="nav-item">
-          <a href="{{route('admin.index')}}" class="nav-link"> Customers</a>
+          <a href="{{route('admin.customer.index')}}" class="nav-link"> Customers</a>
         </li>
 
         @auth('admin')
