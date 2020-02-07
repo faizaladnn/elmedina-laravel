@@ -98,6 +98,10 @@ Route::prefix('services')->name('services.')->group(function () {
     Route::get('/ultrasound', function(){
         return view('services.ultrasound');
     })->name('ultrasound');
+    
+    Route::get('/needling', function(){
+        return view('services.needling');
+    })->name('needling');
 });
 
 

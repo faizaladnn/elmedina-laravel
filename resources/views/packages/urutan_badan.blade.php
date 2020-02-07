@@ -13,9 +13,7 @@
             <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
                 <dl class="uk-description-list">
                     <dt><h5 class="text-uppercase">{{ __('common.duration') }}</h5></dt>
-                    <dd>{{ __('common.full_body_duration') }}</dd>
-                    <dt><h5 class="text-uppercase">{{ __('common.free') }}</h5></dt>
-                    <dd>{{ __('common.full_body_free') }}</dd>
+                    <dd>Urutan seluruh badan selama 1 jam</dd>
                 </dl>
             </div>
             <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12">
