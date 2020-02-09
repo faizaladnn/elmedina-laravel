@@ -25,4 +25,9 @@ class Booking extends Model
     {
         return $this->hasOne(User::class, 'id', 'user_id');
     }
+
+    public function package()
+    {
+        return $this->hasOne(Package::class, 'id', 'package_id');
+    }
 }

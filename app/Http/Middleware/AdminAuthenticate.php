@@ -17,7 +17,7 @@ class AdminAuthenticate
     public function handle($request, Closure $next)
     {
         if (!Auth::guard('admin')->check()) {
-            return redirect('/em-admin');
+            return redirect('/admin');
         }
 
         return $next($request);

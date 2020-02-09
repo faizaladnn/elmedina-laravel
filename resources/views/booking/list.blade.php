@@ -34,8 +34,8 @@
                                     <td>{{ $booking->branch }}</td>                                   
                                     <td>{{ date('h:i A', strtotime($booking->booking_date)) }}</td>                                   
                                     <td>{{ $booking->gender == 'L' ? __('common.men') : __('common.women') }}</td>                                   
-                                    <td> 
-                                        @switch($booking->package_id)
+                                    <td>{{ $booking->package ? $booking->package->title : "-"}} 
+                                        {{-- @switch($booking->package_id)
                                             @case(1)
                                             VVIP A - Full Body (24 Cup) + Sport Massage (45 Minutes) + Air Relax (30 Minutes)
                                                 @break
@@ -74,7 +74,7 @@
                                                 @break
                                             @default
                                                 -
-                                        @endswitch
+                                        @endswitch --}}
                                     </td> 
                                     <td>
                                         {{$booking->status == 0 ? "Pending" : ($booking->status == 1 ? "Success" : "Cancel")}}

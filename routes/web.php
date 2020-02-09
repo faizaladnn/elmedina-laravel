@@ -176,10 +176,10 @@ Route::post('create-booking', 'BookingController@storeBooking')->name('store-boo
 Route::get('list', 'BookingController@listBooking')->name('booking-list')->middleware('auth');
 
 
-Route::get('em-admin', 'AdminController@loginPage')->name('admin.login-page');
-Route::post('em-admin/login', 'AdminController@authenticate')->name('admin.login');
+Route::get('admin', 'AdminController@loginPage')->name('admin.login-page');
+Route::post('admin/login', 'AdminController@authenticate')->name('admin.login');
 
-Route::prefix('em-admin')->name('admin.')->middleware('admin')->group(function () {
+Route::prefix('admin')->name('admin.')->middleware('admin')->group(function () {
 
     Route::get('dashboard', 'AdminController@dashboard')->name('dashboard');
     // Admin CRUD

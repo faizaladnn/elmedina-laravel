@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Booking;
+use App\Package;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -92,20 +93,7 @@ class BookingController extends Controller
     {
         $branches = ['KUANTAN' => 'Kuantan', 'SHAH ALAM' => 'Shah Alam', 'BANGI' => 'Bangi', 'JOHOR BAHRU' => 'Johor Bahru'];
         $gender = ['L' => __('common.men'), 'P' => __('common.women')];
-        $packages = [
-            '1' => 'VVIP A - Full Body (24 Cup) + Sport Massage (45 Minutes) + Air Relax (30 Minutes)',
-            '2' => 'VVIP B - Full Body (24 Cup) + Sport Massage (30 Minutes)',
-            '3' => 'PAKEJ 1 - Full Body (24 Cup)',
-            '4' => 'PAKEJ 2 - Half Body (14 Cup)',
-            '5' => 'PAKEJ 3 - Bekam Wajah (8 Cup)',
-            '6' => 'PAKEJ 4 - Bekam Migrain (8 Cup)',
-            '7' => 'PAKEJ 5 - Bekam Gout (12 Cup)',
-            '8' => 'PAKEJ 6 - Bekam Angin (21 Cup)',
-            '9' => 'PAKEJ 7 - Urutan Badan (8 Cup)',
-            '10' => 'PAKEJ 8 - Sport Massage + Hypervolt Therapy',
-            '11' => 'PAKEJ 9 - Sport Massage + Hypervolt Therapy + Air Relax',
-            '12' => 'PAKEJ 10 - Sport Recovery',
-        ];
+        $packages = Package::pluck('title','id');
 
         return view('booking.create',[
             'branches' => $branches,

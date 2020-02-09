@@ -21,7 +21,9 @@
                                 <tr>
                                     <td>Nama</td>
                                     <td>Cawangan</td>
+                                    <td>Pakej</td>
                                     <td>Tarikh Tempahan</td>
+                                    <td>Jam</td>
                                     <td>Jantina</td>
                                     <td>Status</td>
                                 </tr>
@@ -31,7 +33,9 @@
                                 <tr>
                                     <td>{{$booking->user->name}}</td>
                                     <td>{{$booking->branch}}</td>
+                                    <td>{{$booking->package ? $booking->package->title : '-'}}</td>
                                     <td>{{date('d/m/Y', strtotime($booking->booking_date))}}</td>
+                                    <td>{{date('H:i A', strtotime($booking->booking_date))}}</td>
                                     <td>{{$booking->gender == 'L' ? 'LELAKI' : 'WANITA'}}</td>
                                     <td>
                                         @switch($booking->status)
@@ -61,6 +65,7 @@
     </div>
 </div>
 
+@endsection
 @section('js')
 
 <script type="text/javascript">
