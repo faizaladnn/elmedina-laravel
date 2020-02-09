@@ -9,12 +9,10 @@
                 <h3>Booking List</h3>
             </div>
         </div>
-
         
-
-        <div class="row row-xs">
-            <div class="col mg-t-10">
-                <div class="card card-dashboard-table">
+        <div class="row row-xl">
+            <div class="col">
+                <div class="card">
                     <div class="table-responsive">
                         <table class="table table-bordered">
                             <thead class="thead-light">
@@ -30,7 +28,7 @@
                             </thead>
                             <tbody>
                                 @foreach ($bookings as $booking)
-                                <tr>
+                                <tr style="background-color:{{$booking->status == 1 ? '#228B22' : ($booking->status == 0 ? '#B22222' : '#9400D3')}};">
                                     <td>{{$booking->user->name}}</td>
                                     <td>{{$booking->branch}}</td>
                                     <td>{{$booking->package ? $booking->package->title : '-'}}</td>
@@ -38,7 +36,11 @@
                                     <td>{{date('H:i A', strtotime($booking->booking_date))}}</td>
                                     <td>{{$booking->gender == 'L' ? 'LELAKI' : 'WANITA'}}</td>
                                     <td>
-                                        @switch($booking->status)
+                                        {!! Form::open(['url' => route('admin.booking.update', $booking->id),'method' => 'POST', 'data-parsley-validate'])!!}
+                                        @method('PUT')
+                                        {!! Form::select('status', $status, $booking->status, ['class' => 'form-control', 'onchange' => 'this.form.submit()', $booking->status == 1 ? 'disabled' : '']) !!}
+                                        {!! Form::close() !!}
+                                        {{-- @switch($booking->status)
                                             @case(0)
                                                 {{'Pending'}}
                                                 @break
@@ -50,7 +52,7 @@
                                                 @break
                                             @default
                                                 
-                                        @endswitch
+                                        @endswitch --}}
                                     </td>
                                 </tr>
                                 @endforeach

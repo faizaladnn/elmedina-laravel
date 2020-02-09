@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Admin;
+use App\Booking;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -31,13 +33,34 @@ class AdminController extends Controller
 
     public function dashboard()
     {
+        $today = date('Y-m-d');
+        $bookings = Booking::where('booking_date', '>=', $today)->paginate(20);
+        $status = ['0' => 'Pending', '1' => 'Success', '2' => 'Cancel'];
+        $johor_bahru = Booking::where('branch','JOHOR BAHRU')->get();
+        $kuantan = Booking::where('branch','KUANTAN')->get();
+        $shah_alam = Booking::where('branch','SHAH ALAM')->get();
+        $bangi = Booking::where('branch','BANGI')->get();
 
-        return view('admin.dashboard');
+        $users = User::all();
+
+        return view('admin.dashboard',[
+            'bookings' => $bookings,
+            'status' => $status,
+            'users' => $users,
+            'johor_bahru' => $johor_bahru,
+            'kuantan' => $kuantan,
+            'shah_alam' => $shah_alam,
+            'bangi' => $bangi,
+        ]);
     }
 
     public function index()
     {
-        return view('admin.index');
+        $admins = Admin::all();
+
+        return view('admin.index',[
+            'admins' => $admins,
+        ]);
     }
 
     /**
@@ -47,7 +70,7 @@ class AdminController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.create');
     }
 
     /**
@@ -58,18 +81,11 @@ class AdminController extends Controller
      */
     public function store(Request $request)
     {
-        //
-    }
+        $all = $request->all();
+        $admin = new Admin();
+        $admin->create($all);
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Admin  $admin
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Admin $admin)
-    {
-        //
+        return redirect()->route('admin.edit', [$admin])->with('success', 'New Admin successfully created !');
     }
 
     /**
@@ -78,9 +94,13 @@ class AdminController extends Controller
      * @param  \App\Admin  $admin
      * @return \Illuminate\Http\Response
      */
-    public function edit(Admin $admin)
+    public function edit($id)
     {
-        //
+        $admin = Admin::findOrFail($id);
+
+        return view('admin.create', [
+            'admin' => $admin,
+        ]);
     }
 
     /**
@@ -90,9 +110,13 @@ class AdminController extends Controller
      * @param  \App\Admin  $admin
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Admin $admin)
+    public function update(Request $request, $id)
     {
-        //
+        $admin = Admin::findOrFail($id);
+        $all = $request->all();
+
+        $admin->fill($all)->save();
+        return redirect()->route('admin.edit', [$admin])->with('success', 'Saved successfully!');
     }
 
     /**
@@ -101,8 +125,11 @@ class AdminController extends Controller
      * @param  \App\Admin  $admin
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Admin $admin)
+    public function destroy($id)
     {
-        //
+        $admin = Admin::findOrFail($id);
+        $admin->delete();
+
+        return redirect()->route('admin.index')->with('success', 'Delete successfully!');
     }
 }

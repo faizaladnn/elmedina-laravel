@@ -17,19 +17,25 @@
                         <table class="table table-bordered">
                             <thead class="thead-light">
                                 <tr>
-                                    <td>Name</td>
                                     <td>Email</td>
+                                    <td>Username</td>
+                                    <td>Branch</td>
                                     <td>Created At</td>
                                     <td>Action</td>
                                 </tr>
                             </thead>
                             <tbody>
+                                @foreach ($admins as $admin)
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>{{$admin->email}}</td>
+                                    <td>{{$admin->username}}</td>
+                                    <td>{{$admin->branch}}</td>
+                                    <td>{{date('d/m/Y', strtotime($admin->created_at))}}</td>
+                                    <td>
+                                        
+                                    </td>
                                 </tr>
+                                @endforeach
                             </tbody>
                         </table>
                         {{-- <div class="float-right p-2">{{ $bookings->links() }}</div> --}}

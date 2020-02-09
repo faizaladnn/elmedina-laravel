@@ -2,8 +2,8 @@
 
 @section ('content')
 
-  <div class="content content-fixed">
-    <div class="container pd-x-0 pd-lg-x-10 pd-xl-x-0">
+<div class="content content-fixed">
+  <div class="container-fluid pr-5 pl-5">
       <div class="d-sm-flex align-items-center justify-content-between mg-b-20 mg-lg-b-25 mg-xl-b-30">
         <div>
           {{-- <nav aria-label="breadcrumb">
@@ -22,88 +22,130 @@
         </div> --}}
       </div>
 
-      <div class="row row-xs">
-        <div class="col mg-t-10">
-          <div class="card card-dashboard-table">
+      
+      
+      <div class="row">
+        <div class="col-lg-8">
+          <h3>Booking List</h3>
             <div class="table-responsive">
-              <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th>&nbsp;</th>
-                    <th colspan="3">Acquisition</th>
-                    <th colspan="3">Behavior</th>
-                    <th colspan="3">Conversions</th>
-                  </tr>
-                  <tr>
-                    <th>Source</th>
-                    <th>Users</th>
-                    <th>New Users</th>
-                    <th>Sessions</th>
-                    <th>Bounce Rate</th>
-                    <th>Pages/Session</th>
-                    <th>Avg. Session</th>
-                    <th>Transactions</th>
-                    <th>Revenue</th>
-                    <th>Rate</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><a href="">Organic search</a></td>
-                    <td><strong>350</strong></td>
-                    <td><strong>22</strong></td>
-                    <td><strong>5,628</strong></td>
-                    <td><strong>25.60%</strong></td>
-                    <td><strong>1.92</strong></td>
-                    <td><strong>00:01:05</strong></td>
-                    <td><strong>340,103</strong></td>
-                    <td><strong>$2.65M</strong></td>
-                    <td><strong>4.50%</strong></td>
-                  </tr>
-                  <tr>
-                    <td><a href="">Social media</a></td>
-                    <td><strong>276</strong></td>
-                    <td><strong>18</strong></td>
-                    <td><strong>5,100</strong></td>
-                    <td><strong>23.66%</strong></td>
-                    <td><strong>1.89</strong></td>
-                    <td><strong>00:01:03</strong></td>
-                    <td><strong>321,960</strong></td>
-                    <td><strong>$2.51M</strong></td>
-                    <td><strong>4.36%</strong></td>
-                  </tr>
-                  <tr>
-                    <td><a href="">Referral</a></td>
-                    <td><strong>246</strong></td>
-                    <td><strong>17</strong></td>
-                    <td><strong>4,880</strong></td>
-                    <td><strong>26.22%</strong></td>
-                    <td><strong>1.78</strong></td>
-                    <td><strong>00:01:09</strong></td>
-                    <td><strong>302,767</strong></td>
-                    <td><strong>$2.1M</strong></td>
-                    <td><strong>4.34%</strong></td>
-                  </tr>
-                  <tr>
-                    <td><a href="">Email</a></td>
-                    <td><strong>187</strong></td>
-                    <td><strong>14</strong></td>
-                    <td><strong>4,450</strong></td>
-                    <td><strong>24.97%</strong></td>
-                    <td><strong>1.35</strong></td>
-                    <td><strong>00:02:07</strong></td>
-                    <td><strong>279,300</strong></td>
-                    <td><strong>$1.86M</strong></td>
-                    <td><strong>3.99%</strong></td>
-                  </tr>
-                </tbody>
+              <table class="table table-bordered" width='100%'>
+                  <thead class="thead-light">
+                      <tr>
+                          <td>Nama</td>
+                          <td>Cawangan</td>
+                          <td>Pakej</td>
+                          <td>Tarikh Tempahan</td>
+                          <td>Jam</td>
+                          <td>Jantina</td>
+                          <td width="10%">Status</td>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      @foreach ($bookings as $booking)
+                      <tr style="background-color:{{$booking->status == 1 ? '#228B22' : ($booking->status == 0 ? '' : '#9400D3')}};">
+                          <td>{{$booking->user->name}}</td>
+                          <td>{{$booking->branch}}</td>
+                          <td>{{$booking->package ? $booking->package->title : '-'}}</td>
+                          <td>{{date('d/m/Y', strtotime($booking->booking_date))}}</td>
+                          <td>{{date('H:i A', strtotime($booking->booking_date))}}</td>
+                          <td>{{$booking->gender == 'L' ? 'LELAKI' : 'WANITA'}}</td>
+                          <td>
+                              {!! Form::open(['url' => route('admin.booking.update', $booking->id),'method' => 'POST', 'data-parsley-validate'])!!}
+                              @method('PUT')
+                              {!! Form::select('status', $status, $booking->status, ['class' => '', 'onchange' => 'this.form.submit()', $booking->status == 1 ? 'disabled' : '']) !!}
+                              {!! Form::close() !!}
+                              {{-- @switch($booking->status)
+                                  @case(0)
+                                      {{'Pending'}}
+                                      @break
+                                  @case(1)
+                                  {{'Success'}}
+                                      @break
+                                  @case(2)
+                                  {{'Cancel'}}
+                                      @break
+                                  @default
+                                      
+                              @endswitch --}}
+                          </td>
+                      </tr>
+                      @endforeach
+                  </tbody>
               </table>
-            </div><!-- table-responsive -->
-          </div><!-- card -->
+          </div><!-- table-responsive -->
+        </div>
+
+        <div class="col-lg-4">
+          <h3>Informations</h3>
+          <div class="row">
+            <div class="col-sm-12 col-md-21 col-lg-12">
+              <div class="card">
+                <div class="card-header">
+                  <h6 class="mg-b-0">Customers</h6>
+                </div><!-- card-header -->
+                <div class="card-body tx-center">
+                  <h4 class="tx-normal tx-rubik tx-40 tx-spacing--1 mg-b-0">{{$users->count()}}</h4>
+                  {{-- <p class="tx-12 tx-uppercase tx-semibold tx-spacing-1 tx-color-02">Organic Search</p> --}}
+                  <p class="tx-12 tx-color-03 mg-b-0">Total customers that have booking with EL MEDINA website</p>
+                </div><!-- card-body -->
+                <div class="card-footer bd-t-0 pd-t-0">
+                  {{-- <button class="btn btn-sm btn-block btn-outline-primary btn-uppercase tx-spacing-1">Learn More</button> --}}
+                </div><!-- card-footer -->
+              </div><!-- card -->
+            </div><!-- col -->
+          </div>
+        </div>
+        </div>
+
+      <div class="row row-xs pt-3">
+        <div class="col-sm-6 col-lg-3">
+          <div class="card card-body">
+            <h6 class="tx-uppercase tx-11 tx-spacing-1 tx-color-02 tx-semibold mg-b-8">Kuantan</h6>
+            <div class="d-flex d-lg-block d-xl-flex align-items-end">
+              <h3 class="tx-normal tx-rubik mg-b-0 mg-r-5 lh-1">{{$kuantan->count()}} Booking</h3>
+            </div>
+            <div class="chart-three">
+                <div id="flotChart3" class="flot-chart ht-30"></div>
+              </div><!-- chart-three -->
+          </div>
+        </div><!-- col -->
+        <div class="col-sm-6 col-lg-3 mg-t-10 mg-sm-t-0">
+          <div class="card card-body">
+            <h6 class="tx-uppercase tx-11 tx-spacing-1 tx-color-02 tx-semibold mg-b-8">Shah Alam</h6>
+            <div class="d-flex d-lg-block d-xl-flex align-items-end">
+              <h3 class="tx-normal tx-rubik mg-b-0 mg-r-5 lh-1"> {{$shah_alam->count()}} Booking</h3>
+            </div>
+            <div class="chart-three">
+                <div id="flotChart4" class="flot-chart ht-30"></div>
+              </div><!-- chart-three -->
+          </div>
+        </div><!-- col -->
+        <div class="col-sm-6 col-lg-3 mg-t-10 mg-lg-t-0">
+          <div class="card card-body">
+            <h6 class="tx-uppercase tx-11 tx-spacing-1 tx-color-02 tx-semibold mg-b-8">Bangi</h6>
+            <div class="d-flex d-lg-block d-xl-flex align-items-end">
+              <h3 class="tx-normal tx-rubik mg-b-0 mg-r-5 lh-1">{{$bangi->count()}} Booking</h3>
+            </div>
+            <div class="chart-three">
+                <div id="flotChart5" class="flot-chart ht-30"></div>
+              </div><!-- chart-three -->
+          </div>
+        </div><!-- col -->
+        <div class="col-sm-6 col-lg-3 mg-t-10 mg-lg-t-0">
+          <div class="card card-body">
+            <h6 class="tx-uppercase tx-11 tx-spacing-1 tx-color-02 tx-semibold mg-b-8">Johor Bahru</h6>
+            <div class="d-flex d-lg-block d-xl-flex align-items-end">
+              <h3 class="tx-normal tx-rubik mg-b-0 mg-r-5 lh-1">{{$johor_bahru->count()}} Booking</h3>
+            </div>
+            <div class="chart-three">
+                <div id="flotChart6" class="flot-chart ht-30"></div>
+              </div><!-- chart-three -->
+          </div>
         </div><!-- col -->
       </div><!-- row -->
-    </div><!-- container -->
-  </div><!-- content -->
+    </div>
+  </div><!-- container -->
+</div><!-- content -->
 
 
 @endsection

@@ -16,10 +16,13 @@ class BookingController extends Controller
      */
     public function index()
     {
-        $bookings = Booking::orderBy('booking_date', 'DESC')->paginate(20);
+        $today = date('Y-m-d');
+        $bookings = Booking::where('booking_date', '>=', $today)->orderBy('booking_date', 'ASC')->paginate(20);
+        $status = ['0' => 'Pending', '1' => 'Success', '2' => 'Cancel'];
         
         return view('admin.booking.index',[
             'bookings' => $bookings,
+            'status' => $status,
         ]);
     }
 
@@ -73,9 +76,13 @@ class BookingController extends Controller
      * @param  \App\Booking  $booking
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Booking $booking)
+    public function update(Request $request, $id)
     {
-        //
+        $all =  $request->all();
+        $booking = Booking::where('id', $id)->firstOrFail();
+        $booking->fill($all)->save();
+
+        return back()->with('success', 'Booking is successfully updated !');
     }
 
     /**

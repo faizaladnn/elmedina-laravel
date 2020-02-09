@@ -1,7 +1,7 @@
 
 
-    <footer class="footer">
-        <div>
+    <footer class="footer mg-t-100">
+        <div class="p-2 text-center font-weight-normal" style="color:white;">
           <span>&copy; 2019 EL MEDINA BEKAM & RECOVERY SPA </span>
         </div>
         <div>
