@@ -24,7 +24,7 @@
     </li>
       <li class="uk-width-1-1">
         <div class="uk-panel">
-            <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-background-top-left uk-light" data-src="{{asset('public/template/assets/carousel/cover_10.jpg')}}" uk-img>
+            <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-background-top-left uk-light" data-src="{{asset('public/template/assets/carousel/cover_14.jpg')}}" uk-img>
                 <div class="row pt-5">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="text-uppercase uk-text-large text-center" style="font-size:2rem; color:white;">Sport Massage & Urutan Badan</div>
@@ -319,9 +319,9 @@
               <div class="row">
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-2" uk-slider="clsActivated: uk-transition-active;center: true; autoplay:true; autoplay-interval: 3000;">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-2" uk-slider="clsActivated: uk-transition-active;center: true; autoplay:true; autoplay-interval: 2000;">
                         <ul class="uk-slider-items uk-grid">
-                            <li class="uk-width-1-2">
+                            <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_1.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
@@ -330,7 +330,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="uk-width-1-2">
+                            <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_2.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
@@ -339,7 +339,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="uk-width-1-2">
+                            <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_3.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
@@ -348,7 +348,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="uk-width-1-2">
+                            <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_7.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
@@ -357,7 +357,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="uk-width-1-2">
+                            <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_4.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
@@ -366,7 +366,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="uk-width-1-2">
+                            <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_5.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
@@ -375,16 +375,16 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="uk-width-1-2">
+                            <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
-                                    <img src="{{asset('public/template/assets/carousel/testimoni/testimony_6.jpg')}}" alt="" width="80%">
+                                    <img src="{{asset('public/template/assets/carousel/testimoni/testimony_6.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
                                         <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">Dickson Nwakame</h3>
                                         <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"El Medina is good. I always do dry cupping and sport massage here for my hamstring and good recovery."</h6>
                                     </div>
                                 </div>
                             </li>
-                            <li class="uk-width-1-2">
+                            <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_8.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
@@ -394,9 +394,9 @@
                                 </div>
                             </li>
                             
-                            <li class="uk-width-1-2">
+                            <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
-                                    <img src="{{asset('public/template/assets/carousel/testimoni/testimony_9.jpg')}}" alt="" width="80%">
+                                    <img src="{{asset('public/template/assets/carousel/testimoni/testimony_9.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
                                         <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">KDYMM Pemangku Raja Pahang Tengku Mahkota Tengku Hassanal Ibrahim Alam Shah</h3>
                                         <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Sport massage 👍👍"</h6>
@@ -404,9 +404,9 @@
                                 </div>
                             </li>
                             
-                            <li class="uk-width-1-2">
+                            <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
-                                    <img src="{{asset('public/template/assets/carousel/testimoni/testimony_10.jpg')}}" alt="" width="80%">
+                                    <img src="{{asset('public/template/assets/carousel/testimoni/testimony_10.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
                                         <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">Hadi Mirza</h3>
                                         <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Bekamnya ringkas dan confortable..Alhamdulillah migrain hilang"</h6>
@@ -414,7 +414,7 @@
                                 </div>
                             </li>
                             
-                            <li class="uk-width-1-2">
+                            <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_11.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
@@ -424,7 +424,7 @@
                                 </div>
                             </li>
                             
-                            <li class="uk-width-1-2">
+                            <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_12.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">

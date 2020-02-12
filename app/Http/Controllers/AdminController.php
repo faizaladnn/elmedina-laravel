@@ -7,6 +7,7 @@ use App\Booking;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 
 class AdminController extends Controller
 {
@@ -70,7 +71,13 @@ class AdminController extends Controller
      */
     public function create()
     {
-        return view('admin.create');
+        $admin = new Admin();
+        $branches = ['ALL' => 'ALL', 'KUANTAN' => 'KUANTAN', 'SHAH ALAM' => 'SHAH ALAM', 'BANGI' => 'BANGI', 'JOHOR BAHRU' => 'JOHOR BAHRU'];
+
+        return view('admin.create', [
+            'admin' => $admin,
+            'branches' => $branches,
+        ]);
     }
 
     /**
@@ -82,10 +89,12 @@ class AdminController extends Controller
     public function store(Request $request)
     {
         $all = $request->all();
-        $admin = new Admin();
-        $admin->create($all);
+        $this->validate($request, Admin::getValidationRules());
+        
+        $all['password'] = Hash::make($request->input('password'));
+        $admin = Admin::create($all);
 
-        return redirect()->route('admin.edit', [$admin])->with('success', 'New Admin successfully created !');
+        return redirect()->route('admin.edit', [$admin->id])->with('success', 'New Admin successfully created !');
     }
 
     /**
@@ -97,9 +106,11 @@ class AdminController extends Controller
     public function edit($id)
     {
         $admin = Admin::findOrFail($id);
+        $branches = ['ALL' => 'ALL', 'KUANTAN' => 'KUANTAN', 'SHAH ALAM' => 'SHAH ALAM', 'BANGI' => 'BANGI', 'JOHOR BAHRU' => 'JOHOR BAHRU'];
 
-        return view('admin.create', [
+        return view('admin.edit', [
             'admin' => $admin,
+            'branches' => $branches,
         ]);
     }
 

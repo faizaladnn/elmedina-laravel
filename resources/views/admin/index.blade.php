@@ -3,10 +3,18 @@
 @section ('content')
 
 <div class="content content-fixed">
-    <div class="container-fluid pr-5 pl-5">
-        <div class="d-sm-flex align-items-center justify-content-between">
-            <div>
-                <h3>Admin List</h3>
+    <div class="container-fluid">
+        <div class="align-items-center justify-content-between">
+            <div class="row">
+                <div class="col-lg-6 col-xs-4">
+                    <h3>Admin List</h3>
+                </div>
+                <div class="col-lg-6 col-xs-4 text-right">
+                    <a href="{{ route('admin.create') }}"
+                       class="btn btn-sm btn-primary btn-uppercase mg-l-5">
+                       <i data-feather="user-plus" class="wd-10 mg-r-5"></i>Create Admin
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -32,7 +40,22 @@
                                     <td>{{$admin->branch}}</td>
                                     <td>{{date('d/m/Y', strtotime($admin->created_at))}}</td>
                                     <td>
-                                        
+                                        <div class="row">
+
+                                            <div class="col-6 pl-0 pr-0">
+                                                <a class="btn btn-edit"
+                                                   href="{{ route('admin.edit', [$admin->id]) }}">
+                                                    <i class="fas fa-pencil-alt"></i>
+                                                </a>
+                                            </div>
+
+                                            <div class="col-4 pl-0 pr-0">
+                                                <a class="btn btn-delete" href="#deleteModal{{$admin->slug()}}"
+                                                   role="button" data-toggle="modal">
+                                                    <i class="far fa-trash-alt"></i>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </td>
                                 </tr>
                                 @endforeach

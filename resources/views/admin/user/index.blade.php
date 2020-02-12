@@ -20,20 +20,22 @@
                                     <td>Name</td>
                                     <td>Email</td>
                                     <td>Phone No</td>
-                                    <td>Gender</td>
                                     <td>Created At</td>
                                     <td>Action</td>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
+                                @foreach ($users as $user)
+                                    <tr>
+                                        <td>{{$user->name}}</td>
+                                        <td>{{$user->email}}</td>
+                                        <td>{{$user->phone_no}}</td>
+                                        <td>{{date('Y-m-d H:i A', strtotime($user->created_at))}}</td>
+                                        <td>
+
+                                        </td>
+                                    </tr>
+                                @endforeach
                             </tbody>
                         </table>
                         {{-- <div class="float-right p-2">{{ $bookings->links() }}</div> --}}
