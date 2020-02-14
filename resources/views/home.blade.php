@@ -5,13 +5,16 @@
 {{-- Carousel --}}
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="autoplay:true; autoplay-interval: 3000;">
   <ul class="uk-slider-items uk-grid">
-      {{-- <li class="uk-width-1-1">
-          <div class="uk-panel">
-              <img src="{{asset('public/template/assets/img/banner.jpg')}}" alt="" class="banner">
-          </div>
-      </li> --}}
       <li class="uk-width-1-1">
         <div class="uk-panel">
+            <div class="uk-inline">
+                <img src="{{asset('public/template/assets/carousel/cover_12.jpg')}}" alt="">
+                <div class="uk-overlay uk-light uk-position-center">
+                    <div class="text-uppercase uk-text-large text-center" style="font-size:1.5rem; color:white;">Berkonsepkan Spa</div>
+                    <div class="text-uppercase uk-text-small text-center" style="font-size:12px; color:white;">Beroperasi Setiap Hari dari 10pagi - 10malam</div>
+                </div>
+            </div>
+            {{-- <img src="{{asset('public/template/assets/carousel/cover_12.jpg')}}" alt="">
             <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="{{asset('public/template/assets/carousel/cover_12.jpg')}}" uk-img>
                 <div class="row pt-5">
                     <div class="col-lg-12 col-md-12 col-sm-12">
@@ -19,59 +22,55 @@
                         <div class="text-uppercase uk-text-small text-center" style="font-size:14px; color:white;">Beroperasi Setiap Hari dari 10pagi - 10malam</div>
                     </div>
                 </div>
-              </div>
+              </div> --}}
         </div>
     </li>
       <li class="uk-width-1-1">
         <div class="uk-panel">
-            <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-background-top-left uk-light" data-src="{{asset('public/template/assets/carousel/cover_14.jpg')}}" uk-img>
+            <div class="uk-inline">
+                <img src="{{asset('public/template/assets/carousel/cover_14.jpg')}}" alt="">
+                <div class="uk-overlay uk-light uk-position-center">
+                    <div class="text-uppercase uk-text-large text-center" style="font-size:1.5rem; color:white;">Sport Massage & Urutan Badan</div>
+                    <div class="text-uppercase uk-text-small text-center" style="font-size:12px; color:white; border-top:1px solid white;">Lelaki & Wanita</div>
+                </div>
+            </div>
+            {{-- <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-background-top-left uk-light" data-src="{{asset('public/template/assets/carousel/cover_14.jpg')}}" uk-img>
                 <div class="row pt-5">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="text-uppercase uk-text-large text-center" style="font-size:2rem; color:white;">Sport Massage & Urutan Badan</div>
                         <div class="text-uppercase uk-text-small text-center" style="font-size:1rem; color:white; border-top:1px solid white;">Lelaki & Wanita</div>
                     </div>
                 </div>
-              </div>
+              </div> --}}
             {{-- <img src="{{asset('public/template/assets/carousel/cover_1.jpg')}}" alt="" class="banner"> --}}
         </div>
     </li>
     <li class="uk-width-1-1">
         <div class="uk-panel">
-          <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-background-top-left uk-light" data-src="{{asset('public/template/assets/carousel/cover_4.jpg')}}" uk-img>
-              {{-- <div class="row pt-5">
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-                      <div class="text-uppercase uk-text-large text-center" style="font-size:3rem; color:white;">Berkonsepkan Spa</div>
-                      <div class="text-uppercase uk-text-small text-center" style="font-size:1rem; color:white;">Beroperasi Setiap Hari dari 10pagi - 10malam</div>
-                  </div>
-              </div> --}}
-            </div>
-            {{-- <img src="{{asset('public/template/assets/carousel/cover_4.jpg')}}" alt="" class="banner"> --}}
+            <img src="{{asset('public/template/assets/carousel/cover_4.jpg')}}" alt="">
         </div>
     </li>
     <li class="uk-width-1-1">
         <div class="uk-panel">
-          <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-background-top-right uk-light" data-src="{{asset('public/template/assets/carousel/cover_5.jpg')}}" uk-img>
-              {{-- <div class="row pt-5">
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-                      <div class="text-uppercase uk-text-large text-center" style="font-size:3rem; color:white;">Berkonsepkan Spa</div>
-                      <div class="text-uppercase uk-text-small text-center" style="font-size:1rem; color:white;">Beroperasi Setiap Hari dari 10pagi - 10malam</div>
-                  </div>
-              </div> --}}
+            <div class="uk-inline">
+                <img src="{{asset('public/template/assets/carousel/cover_15.jpg')}}" alt="">
+                <div class="uk-overlay uk-light uk-position-center">
+                    <div class="text-uppercase uk-text-large text-center" style="font-size:1.5rem; color:white;">Bekam&nbsp;&nbsp;/&nbsp;&nbsp;Hijama</div>
+                </div>
             </div>
+            {{-- <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-background-center-center uk-light" data-src="{{asset('public/template/assets/carousel/cover_15.jpg')}}" uk-img>
+              <div class="row pt-5">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                      <div class="text-uppercase uk-text-large text-center" style="font-size:2.5rem; color:white;">Bekam / Hijama</div>
+                  </div>
+              </div>
+            </div> --}}
             {{-- <img src="{{asset('public/template/assets/carousel/cover_5.jpg')}}" alt="" class="banner"> --}}
         </div>
     </li>
     <li class="uk-width-1-1">
         <div class="uk-panel">
-          <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="{{asset('public/template/assets/carousel/cover_6.jpg')}}" uk-img>
-              {{-- <div class="row pt-5">
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-                      <div class="text-uppercase uk-text-large text-center" style="font-size:3rem; color:white;">Berkonsepkan Spa</div>
-                      <div class="text-uppercase uk-text-small text-center" style="font-size:1rem; color:white;">Beroperasi Setiap Hari dari 10pagi - 10malam</div>
-                  </div>
-              </div> --}}
-            </div>
-            {{-- <img src="{{asset('public/template/assets/carousel/cover_6.jpg')}}" alt="" class="banner"> --}}
+            <img src="{{asset('public/template/assets/carousel/cover_6.jpg')}}" alt="">
         </div>
     </li>
   </ul>
@@ -294,28 +293,6 @@
                   </div>
               </div>
 
-              {{-- <div class="row">
-                <div class="uk-text-center" uk-grid>
-                    <div class="uk-width-1-3@m uk-width-1-2@s">
-                        <div class="card">
-                            <img src="{{asset('public/template/assets/carousel/testimoni/testimony_1.jpg')}}" class="card-img-top" alt="">
-                            <div class="card-body">YAM Tengku Panglima Raja, Mejar Tengku Amir Nasser Ibrahim Shah<br/>"Guys here have a magic hands"</div>
-                          </div>
-                    </div>
-                    <div class="uk-width-1-3@m uk-width-1-2@s">
-                        <div class="card">
-                            <img src="{{asset('public/template/assets/carousel/testimoni/testimony_6.jpg')}}" class="card-img-top" alt="">
-                            <div class="card-body">Syamim Yahya<br/>"Bersih, selesa dan privacy serta mewah dengan harga berpatutan"</div>
-                          </div>
-                    </div>
-                    <div class="uk-width-1-3@m uk-width-1-2@s">
-                        <div class="card">
-                            <img src="{{asset('public/template/assets/carousel/testimoni/testimony_3.jpg')}}" class="card-img-top" alt="">
-                            <div class="card-body">Safiq Rahim<br/>"Service Terbaik..yang berminat nak buat bekam dan urut kampung boleh datang ke El Medina Spa Bekam"</div>
-                          </div>
-                    </div>
-                </div>
-              </div> --}}
               <div class="row">
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
@@ -409,7 +386,7 @@
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_10.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
                                         <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">Hadi Mirza</h3>
-                                        <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Bekamnya ringkas dan confortable..Alhamdulillah migrain hilang"</h6>
+                                        <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Bekamnya ringkas dan comfortable..Alhamdulillah migrain hilang"</h6>
                                     </div>
                                 </div>
                             </li>
