@@ -27,45 +27,30 @@
     </li>
       <li class="uk-width-1-1">
         <div class="uk-panel">
-            <div class="uk-inline">
+            {{-- <div class="uk-inline">
                 <img src="{{asset('public/template/assets/carousel/cover_14.jpg')}}" alt="">
                 <div class="uk-overlay uk-light uk-position-center">
                     <div class="text-uppercase uk-text-large text-center" style="font-size:1.5rem; color:white;">Sport Massage & Urutan Badan</div>
                     <div class="text-uppercase uk-text-small text-center" style="font-size:12px; color:white; border-top:1px solid white;">Lelaki & Wanita</div>
                 </div>
-            </div>
-            {{-- <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-background-top-left uk-light" data-src="{{asset('public/template/assets/carousel/cover_14.jpg')}}" uk-img>
-                <div class="row pt-5">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="text-uppercase uk-text-large text-center" style="font-size:2rem; color:white;">Sport Massage & Urutan Badan</div>
-                        <div class="text-uppercase uk-text-small text-center" style="font-size:1rem; color:white; border-top:1px solid white;">Lelaki & Wanita</div>
-                    </div>
-                </div>
-              </div> --}}
-            {{-- <img src="{{asset('public/template/assets/carousel/cover_1.jpg')}}" alt="" class="banner"> --}}
+            </div> --}}
+            <img src="{{asset('public/template/assets/carousel/cover_16.jpg')}}" alt="">
         </div>
     </li>
     <li class="uk-width-1-1">
         <div class="uk-panel">
-            <img src="{{asset('public/template/assets/carousel/cover_4.jpg')}}" alt="">
-        </div>
-    </li>
-    <li class="uk-width-1-1">
-        <div class="uk-panel">
-            <div class="uk-inline">
+            {{-- <div class="uk-inline">
                 <img src="{{asset('public/template/assets/carousel/cover_15.jpg')}}" alt="">
                 <div class="uk-overlay uk-light uk-position-center">
                     <div class="text-uppercase uk-text-large text-center" style="font-size:1.5rem; color:white;">Bekam&nbsp;&nbsp;/&nbsp;&nbsp;Hijama</div>
                 </div>
-            </div>
-            {{-- <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-background-center-center uk-light" data-src="{{asset('public/template/assets/carousel/cover_15.jpg')}}" uk-img>
-              <div class="row pt-5">
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-                      <div class="text-uppercase uk-text-large text-center" style="font-size:2.5rem; color:white;">Bekam / Hijama</div>
-                  </div>
-              </div>
             </div> --}}
-            {{-- <img src="{{asset('public/template/assets/carousel/cover_5.jpg')}}" alt="" class="banner"> --}}
+            <img src="{{asset('public/template/assets/carousel/cover_17.jpg')}}" alt="">
+        </div>
+    </li>
+    <li class="uk-width-1-1">
+        <div class="uk-panel">
+            <img src="{{asset('public/template/assets/carousel/cover_18.jpg')}}" alt="">
         </div>
     </li>
     <li class="uk-width-1-1">

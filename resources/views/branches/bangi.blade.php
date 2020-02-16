@@ -7,7 +7,7 @@
         <div class="uk-text-center uk-text-bold uk-panel uk-text-secondary uk-padding-small">
             <h4>
                 <i data-feather="phone"></i> 017 - 727 1152 
-                <a href="https://www.facebook.com/elmedinaspabekambangi/" class="btn btn-social" target="_blank"><i class="fab fa-facebook"></i> EL MEDINA BANGI</a>
+                <a href="https://www.facebook.com/elmedinaspabekambangi/" class="btn btn-social" target="_blank" style="text-decoration:underline;"><i class="fab fa-facebook"></i> EL MEDINA BANGI</a>
                 <i class="fas fa-home" title="Address"></i> 2nd Floor, 1-09-03, Jln Medan Pusat Bandar 7, Seksyen 9, 43650 Bandar Baru Bangi, Selangor
             </h4>
         </div>
@@ -24,7 +24,7 @@
 </div>
 
 <div class="content">
-    <div class="container-fluid pl-5 pr-5">
+    <div class="container-fluid pl-2 pr-2">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <h2> {{ __('common.our_therapist') }} </h2>
@@ -34,37 +34,70 @@
             <div class="col-lg-12 col-md-12 col-sm-12">
 
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
-                    <div class="uk-card-media-left uk-cover-container">
+                    {{-- <div class="uk-card-media-left uk-cover-container">
                         <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
                         <canvas width="100%" height="100%"></canvas>
-                    </div>
+                    </div> --}}
                     <div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Therapist 1</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <div class="uk-card-body" style="color:black;">
+                            <div class="uk-text-large">Siti Nur Aishah </div>
+                            <div class="uk-text-small">Massage Therapist & Physiotherapist</div>
+                            <p>
+                                Berkebolehan dalam bekam dan urutan tradisional serta sport massage. Mempunyai pengalaman 
+                                dalam teknik dry needling dan dry cupping dan aktif dalam program health awareness dan 
+                                health education.
+                            </p>
                         </div>
                     </div>
-                    <div class="uk-card-media-left uk-cover-container">
+                    {{-- <div class="uk-card-media-left uk-cover-container">
                         <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
                         <canvas width="100%" height="100%"></canvas>
+                    </div> --}}
+                    <div>
+                        <div class="uk-card-body" style="color:black;">
+                            <div class="uk-text-large">Ainun Najihah </div>
+                            <div class="uk-text-small">Sport Therapist & Massage Therapist </div>
+                            <p>
+                                Berkebolehan dalam berbekam dan mempunyai sijil Tahap 1 dalam Sport Massage dan 
+                                sudah 2 tahun pengalaman dalam  urutan. Mahir mengendalikan TENS dan ultrasound.
+                            </p>
+                        </div>
                     </div>
                     <div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Therapist 2</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <div class="uk-card-body" style="color:black;">
+                            <div class="uk-text-large">Aniq Syazwan </div>
+                            <div class="uk-text-small">Physiotherapist</div>
+                            <p>
+                                Berpengalaman sebagai Physiotherapist  selama 2 tahun lebih dan mahir dalam urutan 
+                                dan menjalani personal rehab training,injury prevention training and biomechanic training.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card-body" style="color:black;">
+                            <div class="uk-text-large">Syed Muhammaf Syamir </div>
+                            <div class="uk-text-small">Physiotherapist / Massage Therapist </div>
+                            <p>
+                                Berkebolehan dalam mengenalpasti kekurangan seseorang athlete, menaikkan 
+                                semangat psychology seseorang dan pernah menjadi physiotherapist di atas padang.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
+                {{-- <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
                     <div class="uk-card-media-left uk-cover-container">
                         <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
                         <canvas width="100%" height="100%"></canvas>
                     </div>
                     <div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Therapist 3</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <div class="uk-card-body" style="color:black;">
+                            <div class="uk-text-large">Aniq Syazwan </div>
+                            <div class="uk-text-small">Physiotherapist</div>
+                            <p>
+                                Berpengalaman sebagai Physiotherapist  selama 2 tahun lebih dan mahir dalam urutan 
+                                dan menjalani personal rehab training,injury prevention training and biomechanic training.
+                            </p>
                         </div>
                     </div>
                     <div class="uk-card-media-left uk-cover-container">
@@ -72,12 +105,16 @@
                         <canvas width="100%" height="100%"></canvas>
                     </div>
                     <div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Therapist 4</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <div class="uk-card-body" style="color:black;">
+                            <div class="uk-text-large">Syed Muhammaf Syamir </div>
+                            <div class="uk-text-small">Physiotherapist / Massage Therapist </div>
+                            <p>
+                                Berkebolehan dalam mengenalpasti kekurangan seseorang athlete, menaikkan 
+                                semangat psychology seseorang dan pernah menjadi physiotherapist di atas padang.
+                            </p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
         </div>
@@ -85,7 +122,7 @@
 </div>
 
 <div class="content">
-    <div class="container-fluid pl-5 pr-5">
+    <div class="container-fluid pl-2 pr-2">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <h2> {{ __('common.our_customers') }} </h2>
