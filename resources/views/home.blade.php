@@ -395,6 +395,26 @@
                                     </div>
                                 </div>
                             </li>
+                            
+                            <li class="uk-width-1-2@m uk-width-1-1@s">
+                                <div class="uk-panel">
+                                    <img src="{{asset('public/template/assets/carousel/testimoni/testimony_14.jpg')}}" alt="" width="100%">
+                                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
+                                        <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">Rody Kristal & Niena Azman</h3>
+                                        <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Best dan selesa! Serius lepas bekam dan sport massage badan rasa ringan!!"</h6>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="uk-width-1-2@m uk-width-1-1@s">
+                                <div class="uk-panel">
+                                    <img src="{{asset('public/template/assets/carousel/testimoni/testimony_15.jpg')}}" alt="" width="100%">
+                                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
+                                        <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">Jufferi Jamari</h3>
+                                        <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Sangat-sangat best! Baik untuk semua"</h6>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
                         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>

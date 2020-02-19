@@ -37,7 +37,7 @@
                 <li class="">
                     <a href="{{route('branches.johor-bahru')}}" class="">
                         <i data-feather="phone"></i>
-                        JOHOR BAHRU : </a> <a href="tel:+60139998458">013-999 8458</a>
+                        JOHOR BAHRU : </a> <a href="tel:+60139998458">013-999 8458 / 07-288 0702</a>
                 </li>
             </ul>
         </div>
