@@ -3,7 +3,7 @@
 @section ('content')
 
 <div class="content content-fixed">
-  <div class="container-fluid pl-5 pr-5">
+  <div class="container-fluid pl-2 pr-2">
     <div class="align-items-center justify-content-between">
       
       <div class="row">

@@ -72,7 +72,7 @@
 
     {{-- Why El Medina ? --}}
     <div class="content pt-4" style="background-color:#f7f9fb;">
-        <div class="container-fluid pl-3 pr-3">
+        <div class="container-fluid pl-2 pr-2">
             <div class="align-items-center justify-content-between">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
@@ -157,7 +157,7 @@
 
     {{-- SERVICES --}}
     <div class="content" style="">
-      <div class="container-fluid pl-5 pr-5">
+      <div class="container-fluid pl-2 pr-2">
           <div class="align-items-center justify-content-between">
             <div class="row">
               <div class="col-lg-12 col-md-12 col-sm-12">
@@ -236,7 +236,7 @@
 
     {{-- What We Offer --}}
     <div class="content pt-5 pb-5" style="background-color:#f7f9fb;">
-        <div class="container-fluid pl-5 pr-5">
+        <div class="container-fluid pl-2 pr-2">
             <div class="align-items-center justify-content-between">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -275,7 +275,7 @@
 
     {{-- TESTIMONI --}}
     <div class="content " style="">
-        <div class="container-fluid pl-5 pr-5">
+        <div class="container-fluid pl-2 pr-2">
             <div class="align-items-center justify-content-between">
               <div class="row">
                   <div class="col-lg-12">
@@ -434,7 +434,7 @@
     
     {{-- Strategic Partner --}}
     <div class="content pt-5">
-        <div class="container-fluid pl-5 pr-5">
+        <div class="container-fluid pl-2 pr-2">
             <div class="align-items-center justify-content-between">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
@@ -494,7 +494,7 @@
 
     {{-- Corporate Client --}}
     <div class="content pt-5">
-        <div class="container-fluid pl-5 pr-5">
+        <div class="container-fluid pl-2 pr-2">
             <div class="align-items-center justify-content-between">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
