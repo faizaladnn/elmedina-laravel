@@ -55,6 +55,11 @@
     </li>
     <li class="uk-width-1-1">
         <div class="uk-panel">
+            <img src="{{asset('public/template/assets/carousel/cover_19.jpg')}}" alt="">
+        </div>
+    </li>
+    <li class="uk-width-1-1">
+        <div class="uk-panel">
             <img src="{{asset('public/template/assets/carousel/cover_6.jpg')}}" alt="">
         </div>
     </li>
