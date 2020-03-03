@@ -3,7 +3,7 @@
 @section ('content')
 
 <div class="content content-fixed">
-    <div class="container-fluid pr-5 pl-5">
+    <div class="container-fluid pr-2 pl-2">
         <div class="d-sm-flex align-items-center justify-content-between">
             <div>
                 <h3>Customer List</h3>
@@ -12,35 +12,33 @@
 
         <div class="row row-xs">
             <div class="col mg-t-10">
-                <div class="card card-dashboard-table">
-                    <div class="table-responsive">
-                        <table class="table table-bordered">
-                            <thead class="thead-light">
+                <div class="table-responsive">
+                    <table class="table table-bordered" width="100%">
+                        <thead class="thead-light">
+                            <tr>
+                                <td width="2%"></td>
+                                <td width="30%">Name</td>
+                                <td>Email</td>
+                                <td>Phone No</td>
+                                <td>Created At</td>
+                                {{-- <td>Action</td> --}}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach ($users as $key => $user)
                                 <tr>
-                                    <td>Name</td>
-                                    <td>Email</td>
-                                    <td>Phone No</td>
-                                    <td>Created At</td>
-                                    <td>Action</td>
+                                    <td>{{$key+1}}</td>
+                                    <td>{{$user->name}}</td>
+                                    <td>{{$user->email}}</td>
+                                    <td>{{$user->phone_no}}</td>
+                                    <td>{{date('Y-m-d H:i A', strtotime($user->created_at))}}</td>
+                                    {{-- <td></td> --}}
                                 </tr>
-                            </thead>
-                            <tbody>
-                                @foreach ($users as $user)
-                                    <tr>
-                                        <td>{{$user->name}}</td>
-                                        <td>{{$user->email}}</td>
-                                        <td>{{$user->phone_no}}</td>
-                                        <td>{{date('Y-m-d H:i A', strtotime($user->created_at))}}</td>
-                                        <td>
-
-                                        </td>
-                                    </tr>
-                                @endforeach
-                            </tbody>
-                        </table>
-                        {{-- <div class="float-right p-2">{{ $bookings->links() }}</div> --}}
-                    </div><!-- table-responsive -->
-                </div><!-- card -->
+                            @endforeach
+                        </tbody>
+                    </table>
+                    <div class="float-right p-2">{{ $users->links() }}</div>
+                </div><!-- table-responsive -->
             </div><!-- col -->
         </div>
 

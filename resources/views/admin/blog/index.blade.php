@@ -3,7 +3,7 @@
 @section ('content')
 
 <div class="content content-fixed">
-    <div class="container-fluid pr-5 pl-5">
+    <div class="container-fluid pr-2 pl-2">
         <div class="d-sm-flex align-items-center justify-content-between">
             <div>
                 <h3>Blog / Article List</h3>

@@ -28,6 +28,7 @@ class AdminBookingConfirmMail extends Mailable
      */
     public function build()
     {
-        return $this->view('view.name');
+        return $this->from('admin@elmedina.com.my')
+        ->view('email.admin_booking_confirmation');
     }
 }

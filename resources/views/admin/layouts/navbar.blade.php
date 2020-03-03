@@ -16,6 +16,10 @@
       <ul class="nav navbar-menu">
 
         <li class="nav-item">
+          <a href="{{route('admin.dashboard')}}" class="nav-link">Dashboard</a>
+        </li>
+
+        <li class="nav-item">
           <a href="{{route('admin.booking.index')}}" class="nav-link">Booking</a>
         </li>
 

@@ -7,22 +7,14 @@
   <ul class="uk-slider-items uk-grid">
       <li class="uk-width-1-1">
         <div class="uk-panel">
-            <div class="uk-inline">
-                <img src="{{asset('public/template/assets/carousel/cover_12.jpg')}}" alt="">
+            {{-- <div class="uk-inline">
+                <img src="{{asset('public/template/assets/carousel/cover_20.jpg')}}" alt="">
                 <div class="uk-overlay uk-light uk-position-center">
                     <div class="text-uppercase uk-text-large text-center" style="font-size:1.5rem; color:white;">Berkonsepkan Spa</div>
                     <div class="text-uppercase uk-text-small text-center" style="font-size:12px; color:white;">Beroperasi Setiap Hari dari 10pagi - 10malam</div>
                 </div>
-            </div>
-            {{-- <img src="{{asset('public/template/assets/carousel/cover_12.jpg')}}" alt="">
-            <div class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="{{asset('public/template/assets/carousel/cover_12.jpg')}}" uk-img>
-                <div class="row pt-5">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="text-uppercase uk-text-large text-center" style="font-size:2.5rem; color:white;">Berkonsepkan Spa</div>
-                        <div class="text-uppercase uk-text-small text-center" style="font-size:14px; color:white;">Beroperasi Setiap Hari dari 10pagi - 10malam</div>
-                    </div>
-                </div>
-              </div> --}}
+            </div> --}}
+            <img src="{{asset('public/template/assets/carousel/cover_20.jpg')}}" alt="">
         </div>
     </li>
       <li class="uk-width-1-1">
@@ -183,8 +175,8 @@
                             <img src="{{asset('public/template/assets/carousel/services/massage.jpg')}}" alt="">
                         </div>
                         <div class="uk-card-body">
-                            <h5 class="uk-text-uppercase uk-text-bold">Sport massage / Message Therapy</h5>
-                            <p class="uk-text-light">Urutan sukan @ sport massage adalah urutan yang ditujukan kepada mereka yang aktif dalam bidang2 kesukanan dan juga aktif dalam pekerjaan.</p>
+                            <h5 class="uk-text-uppercase uk-text-bold">Urutan Badan & Sport Massage</h5>
+                            <p class="uk-text-light">Urutan boleh membantu melancarkan peredaran darah, meningkatkan tahap kecerdasan tubuh badan dan mengurangkan tekanan.</p>
                             <a href="{{route('services.sport-massage')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                         </div>
                     </div>
@@ -253,30 +245,49 @@
                                     </div>
                                     <div class="row pt-3">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="uk-child-width-1-5@m uk-child-width-1-4" uk-grid uk-lightbox="animation: slide">
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/community_services/img1.jpg')}}">
+                                            <div uk-slider="autoplay: true; autoplay-interval: 2000">
+
+                                                <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-3@m uk-light">
+                                                    <li class="uk-transition-toggle" tabindex="0">
                                                         <img src="{{asset('public/template/assets/carousel/community_services/img1.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/community_services/img2.jpg')}}">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
                                                         <img src="{{asset('public/template/assets/carousel/community_services/img2.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/community_services/img3.jpg')}}" alt="">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/community_services/img4.jpg')}}" alt="">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/community_services/img5.jpg')}}" alt="">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/community_services/img6.jpg')}}" alt="">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/community_services/img7.jpg')}}" alt="">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/community_services/img8.jpg')}}" alt="">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/community_services/img9.jpg')}}" alt="">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/community_services/img10.jpg')}}" alt="">
+                                                    </li>
+                                                </ul>
+                                            
+                                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                            
+                                            </div>
+                                            {{-- <div class="uk-child-width-1-3@m uk-child-width-1-3" uk-grid uk-lightbox="animation: slide">
                                                 <div>
                                                     <a class="uk-inline" href="{{asset('public/template/assets/carousel/community_services/img3.jpg')}}">
                                                         <img src="{{asset('public/template/assets/carousel/community_services/img3.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/community_services/img4.jpg')}}">
-                                                        <img src="{{asset('public/template/assets/carousel/community_services/img4.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/community_services/img5.jpg')}}">
-                                                        <img src="{{asset('public/template/assets/carousel/community_services/img5.jpg')}}" alt="">
                                                     </a>
                                                 </div>
                                                 <div>
@@ -285,26 +296,11 @@
                                                     </a>
                                                 </div>
                                                 <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/community_services/img7.jpg')}}">
-                                                        <img src="{{asset('public/template/assets/carousel/community_services/img7.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/community_services/img8.jpg')}}">
-                                                        <img src="{{asset('public/template/assets/carousel/community_services/img8.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
                                                     <a class="uk-inline" href="{{asset('public/template/assets/carousel/community_services/img9.jpg')}}">
                                                         <img src="{{asset('public/template/assets/carousel/community_services/img9.jpg')}}" alt="">
                                                     </a>
                                                 </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/community_services/img10.jpg')}}">
-                                                        <img src="{{asset('public/template/assets/carousel/community_services/img10.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                     </div>
                                 </li>
@@ -315,57 +311,44 @@
                                     </div>
                                     <div class="row pt-3">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="uk-child-width-1-5@m uk-child-width-1-4" uk-grid uk-lightbox="animation: fade">
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/wellness_program/img1.jpg')}}">
+                                            <div uk-slider="autoplay: true; autoplay-interval: 2000">
+
+                                                <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-3@m uk-light">
+                                                    <li class="uk-transition-toggle" tabindex="0">
                                                         <img src="{{asset('public/template/assets/carousel/wellness_program/img1.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/wellness_program/img2.jpg')}}">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
                                                         <img src="{{asset('public/template/assets/carousel/wellness_program/img2.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/wellness_program/img3.jpg')}}">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
                                                         <img src="{{asset('public/template/assets/carousel/wellness_program/img3.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/wellness_program/img4.jpg')}}">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
                                                         <img src="{{asset('public/template/assets/carousel/wellness_program/img4.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/wellness_program/img5.jpg')}}">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
                                                         <img src="{{asset('public/template/assets/carousel/wellness_program/img5.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/wellness_program/img6.jpg')}}">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
                                                         <img src="{{asset('public/template/assets/carousel/wellness_program/img6.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/wellness_program/img7.jpg')}}">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
                                                         <img src="{{asset('public/template/assets/carousel/wellness_program/img7.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/wellness_program/img8.jpg')}}">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
                                                         <img src="{{asset('public/template/assets/carousel/wellness_program/img8.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/wellness_program/img9.jpg')}}">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
                                                         <img src="{{asset('public/template/assets/carousel/wellness_program/img9.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/wellness_program/img10.jpg')}}">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
                                                         <img src="{{asset('public/template/assets/carousel/wellness_program/img10.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
+                                                    </li>
+                                                </ul>
+                                            
+                                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                            
                                             </div>
                                         </div>
                                     </div>
@@ -377,25 +360,43 @@
                                     </div>
                                     <div class="row pt-3">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="uk-child-width-1-5@m uk-child-width-1-4" uk-grid uk-lightbox="animation: scale">
+                                            <div uk-slider="autoplay: true; autoplay-interval: 2000">
+
+                                                <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-3@m uk-light">
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/brand_partnership/img1.jpg')}}" alt="">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/brand_partnership/img2.jpg')}}" alt="">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/brand_partnership/img3.jpg')}}" alt="">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/brand_partnership/img4.jpg')}}" alt="">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/brand_partnership/img5.jpg')}}" alt="">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/brand_partnership/img6.jpg')}}" alt="">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/brand_partnership/img7.jpg')}}" alt="">
+                                                    </li>
+                                                    <li class="uk-transition-toggle" tabindex="0">
+                                                        <img src="{{asset('public/template/assets/carousel/brand_partnership/img8.jpg')}}" alt="">
+                                                    </li>
+                                                </ul>
+                                            
+                                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                            
+                                            </div>
+                                            {{-- <div class="uk-child-width-1-3@m uk-child-width-1-3" uk-grid uk-lightbox="animation: scale">
                                                 <div>
                                                     <a class="uk-inline" href="{{asset('public/template/assets/carousel/brand_partnership/img1.jpg')}}">
                                                         <img src="{{asset('public/template/assets/carousel/brand_partnership/img1.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/brand_partnership/img2.jpg')}}">
-                                                        <img src="{{asset('public/template/assets/carousel/brand_partnership/img2.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/brand_partnership/img3.jpg')}}">
-                                                        <img src="{{asset('public/template/assets/carousel/brand_partnership/img3.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/brand_partnership/img4.jpg')}}">
-                                                        <img src="{{asset('public/template/assets/carousel/brand_partnership/img4.jpg')}}" alt="">
                                                     </a>
                                                 </div>
                                                 <div>
@@ -404,21 +405,11 @@
                                                     </a>
                                                 </div>
                                                 <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/brand_partnership/img6.jpg')}}">
-                                                        <img src="{{asset('public/template/assets/carousel/brand_partnership/img6.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                                <div>
                                                     <a class="uk-inline" href="{{asset('public/template/assets/carousel/brand_partnership/img7.jpg')}}">
                                                         <img src="{{asset('public/template/assets/carousel/brand_partnership/img7.jpg')}}" alt="">
                                                     </a>
                                                 </div>
-                                                <div>
-                                                    <a class="uk-inline" href="{{asset('public/template/assets/carousel/brand_partnership/img8.jpg')}}">
-                                                        <img src="{{asset('public/template/assets/carousel/brand_partnership/img8.jpg')}}" alt="">
-                                                    </a>
-                                                </div>
-                                            </div>
+                                            </div> --}}
                                         </div>
                                     </div>
                                 </li>
