@@ -28,7 +28,9 @@ class UserBookingMail extends Mailable
      */
     public function build()
     {
-        return $this->view('email.user_booking_email')
+        return $this->from('system@elmedina.com.my')
+        ->view('email.user_booking_email')
+        ->subject('Tempahan baharu telah diterima dari '.$this->user['name'])
         ->with([
             'name' => $this->user['name'],
             'phone_no' => $this->user['phone_no'],
@@ -38,6 +40,7 @@ class UserBookingMail extends Mailable
             'booking_date' => $this->user['booking_date'],
             'booking_time' => $this->user['booking_time'],
             'branch' => $this->user['branch'],
+            'status' => $this->user['status'],
         ]);
     }
 }

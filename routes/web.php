@@ -15,7 +15,19 @@
 //         'nav' => 'Coming Soon',
 //     ]);
 // });
-
+Route::get('testtesttest', function(){
+    return view('email.user_booking_email')->with([
+        'name' => 'Muhamad Faizal Bin Adnan',
+        'phone_no' => '014-5188155',
+        'email' => 'faizaladnan9@gmail.com',
+        'gender' => 'Lelaki',
+        'package' => 'PAKEJ 6 - Bekam Angin (21 Cup)',
+        'booking_date' => '22-03-2020',
+        'booking_time' => '03:00',
+        'branch' => 'Kuantan',
+        'status' => 0,
+    ]);
+});
 Auth::routes();
 Route::get('locale/{locale}', function ($locale){
     Session::put('locale', $locale);

@@ -16,9 +16,9 @@ class AdminBookingConfirmMail extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($user)
     {
-        //
+        $this->user = $user;
     }
 
     /**
@@ -28,7 +28,18 @@ class AdminBookingConfirmMail extends Mailable
      */
     public function build()
     {
-        return $this->from('admin@elmedina.com.my')
-        ->view('email.admin_booking_confirmation');
+        return $this->from('system@elmedina.com.my')
+        ->subject('El Medina Bekam & Recovery Spa - Booking Confirmation')
+        ->view('email.admin_booking_confirmation')
+        ->with([
+            'name' => $this->user['name'],
+            'phone_no' => $this->user['phone_no'],
+            'email' => $this->user['email'],
+            'gender' => $this->user['gender'],
+            'package' => $this->user['package'],
+            'booking_date' => $this->user['booking_date'],
+            'booking_time' => $this->user['booking_time'],
+            'branch' => $this->user['branch'],
+        ]);
     }
 }

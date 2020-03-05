@@ -94,9 +94,21 @@ class BookingController extends Controller
         // 1 - success, 2 - cancel, 0 - pending
         // if admin approve status to success, notify to user that admin have approved their booking through email
         if ($all['status'] == 1) {
-            dd($all);
-            //email to user
+            $data = [
+                'name' => Auth::user()->name,
+                'phone_no' => Auth::user()->phone_no,
+                'email' => Auth::user()->email,
+                'gender' => $booking->gender == 'L' ? 'LELAKI' : 'WANITA',
+                'package' => $booking->package ? $booking->package->title : '-',
+                'booking_date' => date('d/m/Y', strtotime($booking->booking_date)),
+                'booking_time' => date('h:i A', strtotime($booking->booking_date)),
+                'branch' => $booking->branch,
+            ];
+    
+            //Email to admin that user have booking. system@elmedina.com.my
+            Mail::to('faizaladnan9@gmail.com')->send(new AdminBookingConfirmMail($data));
         }
+        
         $booking->fill($all)->save();
 
         return back()->with('success', 'Booking is successfully updated !');
@@ -143,13 +155,33 @@ class BookingController extends Controller
             'email' => Auth::user()->email,
             'gender' => $booking->gender == 'L' ? 'LELAKI' : 'WANITA',
             'package' => $booking->package ? $booking->package->title : '-',
-            'booking_date' => date('d/m/Y', strtotime($booking->booking_date)),
+            'booking_date' => date('d-m-Y', strtotime($booking->booking_date)),
             'booking_time' => date('h:i A', strtotime($booking->booking_date)),
             'branch' => $booking->branch,
+            'status' => $booking->status,
         ];
+        //Default email
+        $email = 'system@elmedina.com.my';
+        switch ($booking->branch) {
+            case 'KUANTAN':
+                $email = 'kuantan@elmedina.com.my';
+                break;
+            case 'SHAH ALAM':
+                $email = 'shahalam@elmedina.com.my';
+                break;
+            case 'BANGI':
+                $email = 'bangi@elmedina.com.my';
+                break;
+            case 'JOHOR BAHRU':
+                $email = 'johorbahru@elmedina.com.my';
+                break;
+            default:
+                $email = 'system@elmedina.com.my';
+                break;
+        }
 
         //Email to admin that user have booking. system@elmedina.com.my
-        // Mail::to('faizaladnan9@gmail.com')->send(new UserBookingMail($data));
+        Mail::to($email)->send(new UserBookingMail($data));
 
         $success = "Thank you, your booking is successfully created. Please wait for confirmation and we will send you by email";
         return redirect()->route('booking-list')->with('success', $success);
