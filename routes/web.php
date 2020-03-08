@@ -26,6 +26,7 @@ Route::get('testtesttest', function(){
         'booking_time' => '03:00',
         'branch' => 'Kuantan',
         'status' => 0,
+        'id' => 2,
     ]);
 });
 Auth::routes();

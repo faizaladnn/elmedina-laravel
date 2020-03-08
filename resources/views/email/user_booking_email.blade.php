@@ -16,7 +16,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td bgcolor="#ffffff" style="padding: 40px 30px 40px 30px;">
+						<td bgcolor="#ffffff" style="padding: 40px 30px 10px 30px;">
 							<table border="0" cellpadding="0" cellspacing="0" width="100%">
 								<tr>
 									<td style="color: #153643; font-family: Arial, sans-serif; font-size: 24px;">
@@ -46,7 +46,10 @@
                                                 <td style="text-align:center;">{{$status == 0 ? 'Belum Selesai' : 'Selesai'}}</td>
                                             </tr>
                                         </table>
-                                        <br/><br/>
+										<br/>
+										Klik <a href="{{route('admin.booking.edit', ['id' => $id ])}}" target="_blank">sini</a> 
+										untuk menukar status tempahan ini atau boleh login di sini untuk melihat tempahan-tempahan yang lain.
+										<br/><br/>
                                         Terima Kasih. <br/><br/>
                                         Sekian,<br/>
                                         EL MEDINA SPA BEKAM

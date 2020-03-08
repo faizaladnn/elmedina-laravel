@@ -41,6 +41,7 @@ class UserBookingMail extends Mailable
             'booking_time' => $this->user['booking_time'],
             'branch' => $this->user['branch'],
             'status' => $this->user['status'],
+            'id' => $this->user['id'],
         ]);
     }
 }

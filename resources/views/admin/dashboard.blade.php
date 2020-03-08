@@ -95,9 +95,9 @@
             </div><!-- col -->
           </div>
         </div>
-        </div>
-
-      <div class="row row-xs pt-3">
+      </div>
+      <h3>Total Booking</h3>
+      <div class="row row-xs">
         <div class="col-sm-6 col-lg-3">
           <div class="card card-body">
             <h6 class="tx-uppercase tx-11 tx-spacing-1 tx-color-02 tx-semibold mg-b-8">Kuantan</h6>
