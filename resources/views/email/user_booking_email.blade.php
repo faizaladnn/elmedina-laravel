@@ -47,8 +47,9 @@
                                             </tr>
                                         </table>
 										<br/>
-										Klik <a href="{{route('admin.booking.edit', ['id' => $id ])}}" target="_blank">sini</a> 
-										untuk menukar status tempahan ini atau boleh login di sini untuk melihat tempahan-tempahan yang lain.
+										Klik <a href="{{route('getApproveBooking', ['id' => $id ])}}" target="_blank">sini</a> 
+										untuk menukar status tempahan ini atau boleh login di <a href="{{route('admin.login-page')}}" target="_blank">sini</a> 
+										untuk melihat tempahan-tempahan yang lain.
 										<br/><br/>
                                         Terima Kasih. <br/><br/>
                                         Sekian,<br/>

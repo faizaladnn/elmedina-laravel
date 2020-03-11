@@ -35,7 +35,14 @@ class AdminController extends Controller
     public function dashboard()
     {
         $today = date('Y-m-d');
-        $bookings = Booking::where('booking_date', '>=', $today)->paginate(20);
+        $admin_branch = Auth::guard('admin')->user()->branch;
+        $bookings = Booking::where('booking_date', '>=', $today);
+
+        if ($admin_branch != 'ALL') {
+            $bookings = $bookings->where('branch', $admin_branch);
+        }
+        
+        $bookings = $bookings->paginate(20);
         $status = ['0' => 'Pending', '1' => 'Success', '2' => 'Cancel'];
         $johor_bahru = Booking::where('branch','JOHOR BAHRU')->get();
         $kuantan = Booking::where('branch','KUANTAN')->get();
@@ -125,7 +132,8 @@ class AdminController extends Controller
     {
         $admin = Admin::findOrFail($id);
         $all = $request->all();
-
+        $all['password'] = Hash::make($request->input('password'));
+        
         $admin->fill($all)->save();
         return redirect()->route('admin.edit', [$admin])->with('success', 'Saved successfully!');
     }

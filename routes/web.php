@@ -16,7 +16,7 @@
 //     ]);
 // });
 Route::get('testtesttest', function(){
-    return view('email.user_booking_email')->with([
+    return view('email.admin_booking_confirmation')->with([
         'name' => 'Muhamad Faizal Bin Adnan',
         'phone_no' => '014-5188155',
         'email' => 'faizaladnan9@gmail.com',
@@ -191,6 +191,10 @@ Route::get('list', 'BookingController@listBooking')->name('booking-list')->middl
 
 Route::get('admin', 'AdminController@loginPage')->name('admin.login-page');
 Route::post('admin/login', 'AdminController@authenticate')->name('admin.login');
+
+//Approve booking 
+Route::get('booking/{id}', 'BookingController@getApproveBooking')->name('getApproveBooking');
+Route::put('booking/{id}', 'BookingController@putApproveBooking')->name('putApproveBooking');
 
 Route::prefix('admin')->name('admin.')->middleware('admin')->group(function () {
 

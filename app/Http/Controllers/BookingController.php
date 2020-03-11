@@ -22,7 +22,14 @@ class BookingController extends Controller
     {
         $date = date('Y-m-d');
         
-        $bookings = Booking::orderBy('booking_date', 'DESC')->paginate(20);
+        $admin_branch = Auth::guard('admin')->user()->branch;
+        $bookings = Booking::orderBy('booking_date', 'DESC');
+
+        if ($admin_branch != 'ALL') {
+            $bookings = $bookings->where('branch', $admin_branch);
+        }
+        $bookings = $bookings->paginate(20);
+
         $status = ['0' => 'Belum Selesai', '1' => 'Selesai', '2' => 'Cancel'];
         $pending_count = Booking::where('status', 0)->count();
         $success_count = Booking::where('status', 1)->count();
@@ -204,5 +211,45 @@ class BookingController extends Controller
         return view('booking.list',[
             'booking' => $booking,
         ]);
+    }
+
+    public function getApproveBooking($id)
+    {
+        $booking = Booking::findOrFail($id);
+        $status = ['0' => 'Belum Selesai', '1' => 'Selesai', '2' => 'Cancel'];
+
+        return view('admin.booking.approve_booking',[
+            'booking' => $booking,
+            'status' => $status,
+        ]);
+    }
+
+    public function putApproveBooking(Request $request, $id)
+    {
+        $all =  $request->all();
+        $booking = Booking::where('id', $id)->firstOrFail();
+        $success = 'Anda telah berjaya menukar status tempahan ini. Sila tutup tab ini';
+        // 1 - success, 2 - cancel, 0 - pending
+        // if admin approve status to success, notify to user that admin have approved their booking through email
+        if ($all['status'] == 1) {
+            $data = [
+                'name' => $booking->user ? $booking->user->name : '-',
+                'phone_no' => $booking->user ? $booking->user->phone_no : '-',
+                'email' => $booking->user ? $booking->user->email : '-',
+                'gender' => $booking->gender == 'L' ? 'LELAKI' : 'WANITA',
+                'package' => $booking->package ? $booking->package->title : '-',
+                'booking_date' => date('d/m/Y', strtotime($booking->booking_date)),
+                'booking_time' => date('h:i A', strtotime($booking->booking_date)),
+                'branch' => $booking->branch,
+            ];
+    
+            //Email to admin that user have booking. system@elmedina.com.my
+            Mail::to('faizaladnan9@gmail.com')->send(new AdminBookingConfirmMail($data));
+            $success = 'Anda telah berjaya menukar status ke Selesai dan email notifikasi telah dihantar kepada pelanggan anda. Sila tutup tab ini. ';
+        }
+        
+        $booking->fill($all)->save();
+
+        return back()->with('success', $success);
     }
 }

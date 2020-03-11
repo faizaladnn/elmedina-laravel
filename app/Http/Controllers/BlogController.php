@@ -14,7 +14,11 @@ class BlogController extends Controller
      */
     public function index()
     {
-        return view('admin.blog.index');
+        $blogs = Blog::orderBy('created_at', 'desc')->paginate(10);
+
+        return view('admin.blog.index',[
+            'blogs' => $blogs,
+        ]);
     }
 
     /**
@@ -24,7 +28,7 @@ class BlogController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.blog.create');
     }
 
     /**
@@ -35,7 +39,10 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $all = $request->all();
+        $blog = Blog::create($all);
+
+        return redirect()->route('admin.blog.edit', ['id' => $blog->id])->with('success', 'Artikel berjaya dicipta');
     }
 
     /**
@@ -55,9 +62,13 @@ class BlogController extends Controller
      * @param  \App\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function edit(Blog $blog)
+    public function edit($id)
     {
-        //
+        $blog = Blog::findOrFail($id);
+
+        return view('admin.blog.edit', [
+            'blog' => $blog,
+        ]);
     }
 
     /**
@@ -67,9 +78,11 @@ class BlogController extends Controller
      * @param  \App\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Blog $blog)
+    public function update(Request $request, $id)
     {
-        //
+        $blog = Blog::findOrFail($id);
+
+        return back()->with('success', 'Artikel berjaya dikemas kini');
     }
 
     /**
@@ -78,8 +91,12 @@ class BlogController extends Controller
      * @param  \App\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Blog $blog)
+    public function destroy($id)
     {
-        //
+        $blog = Blog::findOrFail($id);
+        $blog->delete();
+
+        return back()->with('success', 'Artikel berjaya dipadam');
+
     }
 }

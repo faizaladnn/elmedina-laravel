@@ -14,10 +14,10 @@ class Admin extends Authenticatable
         'username', 'email', 'password', 'branch',
     ];
 
-    public static function getValidationRules()
+    public static function getValidationRules(string $id = null)
     {
         return [
-            'email' => 'required|unique:admins,email',
+            'email' => 'required|unique:admins,email,'.$id,
             'username' => 'required',
             'password' => 'required|min:6',
             'branch' => 'required',
