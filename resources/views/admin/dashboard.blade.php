@@ -32,6 +32,7 @@
                   <thead class="thead-light">
                       <tr>
                           <td>Nama</td>
+                          <td>Telefon No</td>
                           <td>Cawangan</td>
                           <td>Pakej</td>
                           <td>Tarikh Tempahan</td>
@@ -43,7 +44,8 @@
                   <tbody>
                       @foreach ($bookings as $booking)
                       <tr style="background-color:{{$booking->status == 1 ? '#228B22' : ($booking->status == 0 ? '' : '#9400D3')}};">
-                          <td>{{$booking->user->name}}</td>
+                          <td>{{$booking->user ? $booking->user->name : ""}}</td>
+                          <td>{{$booking->user ? $booking->user->phone_no : ""}}</td>
                           <td>{{$booking->branch}}</td>
                           <td>{{$booking->package ? $booking->package->title : '-'}}</td>
                           <td>{{date('d/m/Y', strtotime($booking->booking_date))}}</td>

@@ -244,7 +244,7 @@ class BookingController extends Controller
             ];
     
             //Email to admin that user have booking. system@elmedina.com.my
-            Mail::to('faizaladnan9@gmail.com')->send(new AdminBookingConfirmMail($data));
+            Mail::to($booking->user ? $booking->user->email : 'faizaladnan9@gmail.com')->send(new AdminBookingConfirmMail($data));
             $success = 'Anda telah berjaya menukar status ke Selesai dan email notifikasi telah dihantar kepada pelanggan anda. Sila tutup tab ini. ';
         }
         

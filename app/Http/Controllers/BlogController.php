@@ -28,7 +28,11 @@ class BlogController extends Controller
      */
     public function create()
     {
-        return view('admin.blog.create');
+        $blog = new Blog;
+        
+        return view('admin.blog.create',[
+            'blog' => $blog,
+        ]);
     }
 
     /**

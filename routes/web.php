@@ -16,7 +16,7 @@
 //     ]);
 // });
 Route::get('testtesttest', function(){
-    return view('email.admin_booking_confirmation')->with([
+    return view('email.user_booking_email')->with([
         'name' => 'Muhamad Faizal Bin Adnan',
         'phone_no' => '014-5188155',
         'email' => 'faizaladnan9@gmail.com',

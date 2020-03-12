@@ -126,7 +126,6 @@
                             <td style="text-align:center;">{{$booking->branch}}</td>
                             <td style="text-align:center;">{{$booking->package ? $booking->package->title : "-"}}</td>
                             <td style="text-align:center;">
-                            
                                 {!! Form::select('status', $status, $booking->status, ['class' => 'form-control', 'onchange' => 'this.form.submit()', $booking->status == 1 ? 'disabled' : '']) !!}
                             </td>
                         </tr>
