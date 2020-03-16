@@ -119,8 +119,7 @@ class BookingController extends Controller
                 'branch' => $booking->branch,
             ];
     
-            //Email to admin that user have booking. system@elmedina.com.my
-            Mail::to('faizaladnan9@gmail.com')->send(new AdminBookingConfirmMail($data));
+            Mail::to($booking->user ? $booking->user->email : '-')->send(new AdminBookingConfirmMail($data));
         }
         
         $booking->fill($all)->save();

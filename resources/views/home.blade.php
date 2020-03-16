@@ -102,7 +102,10 @@
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
                             <h5 class="font-weight-bold">{{ __('common.various_therapist') }}</h4>
-                            <p class="font-weight-light">Ahli terapi terdiri daripada Massage Therapist, Physiotherapist, Sport Therapist, Specialist in Cupping Therapy dan 100% Ahli Terapi Bumiputera.</p>
+                            <p class="font-weight-light">
+                                Ahli terapi terdiri daripada Massage Therapist, Physiotherapist, Sport Therapist, Specialist in Cupping Therapy. 
+                                100% Ahli Terapi Bumiputera yang berkelulusan dalam bidang perubatan, fisioterapi dan sains sukan (Diploma, Degree).
+                            </p>
                           </div>
                       </div>
                   </div>
@@ -115,7 +118,9 @@
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
                             <h5 class="font-weight-bold">{{ __('common.treatment_many_ways') }}</h4>
-                            <p class="font-weight-light">Menggabungkan rawatan tradisional dan moden.</p>
+                            <p class="font-weight-light">
+                                Gabungan antara rawatan tradisional (bekam, urutan tradisional) dan rawatan moden (sport massage, electro modalities, hypervolt).
+                            </p>
                           </div>
                       </div>
                   </div>
@@ -126,7 +131,9 @@
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
                             <h5 class="font-weight-bold">{{ __('common.many_choices') }}</h4>
-                            <p class="font-weight-light">Spa yang menjadi pilihan ramai Selebriti, Atlet dan juga Kerabat Diraja.</p>
+                            <p class="font-weight-light">
+                                Spa yang menjadi pilihan ramai Selebriti, Atlet, Kerabat Diraja serta orang ramai dari pelbagai peringkat umur dan pekerjaan.
+                            </p>
                           </div>
                       </div>
                   </div>
@@ -137,7 +144,9 @@
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
                             <h5 class="font-weight-bold">{{ __('common.professional') }}</h4>
-                            <p class="font-weight-light">Profesional dan Hygiene terjaga, dijamin suci dan bersih.</p>
+                            <p class="font-weight-light">
+                                Mengikut SOP yang disarankan oleh KKM (Kementerian Kesihatan Malaysia) dan berdaftar dengan Agensi Pengendalian Sisa Klinikal.
+                            </p>
                           </div>
                       </div>
                   </div>

@@ -34,10 +34,10 @@
             <div class="col-lg-12 col-md-12 col-sm-12">
 
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
-                    {{-- <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
+                    <div class="uk-card-media-left">
+                        <img src="{{ asset('public/template/assets/carousel/shah_alam/therapist2.jpg')}}" alt="" uk-img>
                         <canvas width="100%" height="100%"></canvas>
-                    </div> --}}
+                    </div>
                     <div>
                         <div class="uk-card-body" style="color:black;">
                             <div class="uk-text-large">Dalila Suhaili</div>
@@ -50,10 +50,10 @@
                             </p>
                         </div>
                     </div>
-                    {{-- <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
+                    <div class="uk-card-media-left uk-flex-middle">
+                        <img src="{{ asset('public/template/assets/carousel/shah_alam/therapist4.jpg')}}" alt="" uk-img>
                         <canvas width="100%" height="100%"></canvas>
-                    </div> --}}
+                    </div>
                     <div>
                         <div class="uk-card-body" style="color:black;">
                             <div class="uk-text-large">Aizat bin Abdul Razak</div>
@@ -65,6 +65,13 @@
                             </p>
                         </div>
                     </div>
+                </div>
+
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
+                    <div class="uk-card-media-left">
+                        <img src="{{ asset('public/template/assets/carousel/shah_alam/therapist3.jpg')}}" alt="" uk-img>
+                        <canvas width="100%" height="100%"></canvas>
+                    </div>
                     <div>
                         <div class="uk-card-body" style="color:black;">
                             <div class="uk-text-large">Nazeera </div>
@@ -75,6 +82,10 @@
                                 event booth massage.
                             </p>
                         </div>
+                    </div>
+                    <div class="uk-card-media-left">
+                        <img src="{{ asset('public/template/assets/carousel/shah_alam/therapist1.jpg')}}" alt="" uk-img>
+                        <canvas width="100%" height="100%"></canvas>
                     </div>
                     <div>
                         <div class="uk-card-body" style="color:black;">
@@ -87,38 +98,6 @@
                         </div>
                     </div>
                 </div>
-
-                {{-- <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
-                    <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
-                        <canvas width="100%" height="100%"></canvas>
-                    </div>
-                    <div>
-                        <div class="uk-card-body" style="color:black;">
-                            <div class="uk-text-large">Nazeera </div>
-                            <div class="uk-text-small">Sport Therapist</div>
-                            <p>
-                                Mahir dalam sport massage dan juga cupping. Pernah bersama team Perak untuk Sukma 2018 
-                                dan MSSM 2019 untuk team Terengganu sebagai sport therapist dan aktif dalam pelbagai 
-                                event booth massage.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
-                        <canvas width="100%" height="100%"></canvas>
-                    </div>
-                    <div>
-                        <div class="uk-card-body" style="color:black;">
-                            <div class="uk-text-large">Muhamad Adam Asyraff </div>
-                            <div class="uk-text-small">Sport Therapist</div>
-                            <p>
-                                Berkebolehan dalam sport massage, cupping dan sport injury. 
-                                Berpengalaman sebagai sport therapist dalam beberapa kejohanan sukan. 
-                            </p>
-                        </div>
-                    </div>
-                </div> --}}
 
             </div>
         </div>
