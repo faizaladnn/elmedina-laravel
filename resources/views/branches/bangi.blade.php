@@ -32,12 +32,13 @@
         </div>
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
+                
 
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
-                    {{-- <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
+                    <div class="uk-card-media-left">
+                        <img src="{{ asset('public/template/assets/carousel/bangi/aisyah.jpg')}}" alt="" uk-img>
                         <canvas width="100%" height="100%"></canvas>
-                    </div> --}}
+                    </div>
                     <div>
                         <div class="uk-card-body" style="color:black;">
                             <div class="uk-text-large">Siti Nur Aishah </div>
@@ -49,10 +50,28 @@
                             </p>
                         </div>
                     </div>
-                    {{-- <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="{{ asset('public/template/assets/carousel/bangi/aniq.jpg')}}" alt="" uk-img>
                         <canvas width="100%" height="100%"></canvas>
-                    </div> --}}
+                    </div>
+                    <div>
+                        <div class="uk-card-body" style="color:black;">
+                            <div class="uk-text-large">Aniq Syazwan </div>
+                            <div class="uk-text-small">Physiotherapist</div>
+                            <p>
+                                Berpengalaman sebagai Physiotherapist  selama 2 tahun lebih dan mahir dalam urutan 
+                                dan menjalani personal rehab training,injury prevention training and biomechanic training.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="{{ asset('public/template/assets/carousel/bangi/ainun.jpg')}}" alt="" uk-img>
+                        <canvas width="100%" height="100%"></canvas>
+                    </div>
                     <div>
                         <div class="uk-card-body" style="color:black;">
                             <div class="uk-text-large">Ainun Najihah </div>
@@ -63,59 +82,8 @@
                             </p>
                         </div>
                     </div>
-                    <div>
-                        <div class="uk-card-body" style="color:black;">
-                            <div class="uk-text-large">Aniq Syazwan </div>
-                            <div class="uk-text-small">Physiotherapist</div>
-                            <p>
-                                Berpengalaman sebagai Physiotherapist  selama 2 tahun lebih dan mahir dalam urutan 
-                                dan menjalani personal rehab training,injury prevention training and biomechanic training.
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card-body" style="color:black;">
-                            <div class="uk-text-large">Syed Muhammaf Syamir </div>
-                            <div class="uk-text-small">Physiotherapist / Massage Therapist </div>
-                            <p>
-                                Berkebolehan dalam mengenalpasti kekurangan seseorang athlete, menaikkan 
-                                semangat psychology seseorang dan pernah menjadi physiotherapist di atas padang.
-                            </p>
-                        </div>
-                    </div>
                 </div>
-
-                {{-- <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
-                    <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
-                        <canvas width="100%" height="100%"></canvas>
-                    </div>
-                    <div>
-                        <div class="uk-card-body" style="color:black;">
-                            <div class="uk-text-large">Aniq Syazwan </div>
-                            <div class="uk-text-small">Physiotherapist</div>
-                            <p>
-                                Berpengalaman sebagai Physiotherapist  selama 2 tahun lebih dan mahir dalam urutan 
-                                dan menjalani personal rehab training,injury prevention training and biomechanic training.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
-                        <canvas width="100%" height="100%"></canvas>
-                    </div>
-                    <div>
-                        <div class="uk-card-body" style="color:black;">
-                            <div class="uk-text-large">Syed Muhammaf Syamir </div>
-                            <div class="uk-text-small">Physiotherapist / Massage Therapist </div>
-                            <p>
-                                Berkebolehan dalam mengenalpasti kekurangan seseorang athlete, menaikkan 
-                                semangat psychology seseorang dan pernah menjadi physiotherapist di atas padang.
-                            </p>
-                        </div>
-                    </div>
-                </div> --}}
-
+                
             </div>
         </div>
     </div>

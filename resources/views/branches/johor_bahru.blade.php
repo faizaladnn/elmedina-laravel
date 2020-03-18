@@ -34,11 +34,11 @@
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
 
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-3@s uk-margin" uk-grid>
-                    {{-- <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
+                    <div class="uk-card-media-left">
+                        <img src="{{ asset('public/template/assets/carousel/johor_bahru/hanafi.jpg')}}" alt="" uk-img>
                         <canvas width="100%" height="100%"></canvas>
-                    </div> --}}
+                    </div>
                     <div>
                         <div class="uk-card-body" style="color:black;">
                             <div class="uk-text-large">Mohamad Hanafi</div>
@@ -51,10 +51,10 @@
                             </p>
                         </div>
                     </div>
-                    {{-- <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="{{ asset('public/template/assets/carousel/johor_bahru/shima.jpg')}}" alt="" uk-img>
                         <canvas width="100%" height="100%"></canvas>
-                    </div> --}}
+                    </div>
                     <div>
                         <div class="uk-card-body" style="color:black;">
                             <div class="uk-text-large">Shima Mohammad</div>
@@ -65,6 +65,27 @@
                                 masalah yang terkait tulang dan otot.
                             </p>
                         </div>
+                    </div>
+                </div>
+
+                
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
+                    <div class="uk-card-media-left">
+                        <img src="{{ asset('public/template/assets/carousel/johor_bahru/burhanudin.jpg')}}" alt="" uk-img>
+                        <canvas width="100%" height="100%"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-card-body" style="color:black;">
+                            <div class="uk-text-large">Burhanudin</div>
+                            <div class="uk-text-small">Sport Therapist & Massage Therapist</div>
+                            <p>
+                                Lulusan sains sukan dan berpengalam dalam bidang sport massage, sport injury, tapping dan boleh mengendalikan electro therapy modalities.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="{{ asset('public/template/assets/carousel/johor_bahru/indok.jpg')}}" alt="" uk-img>
+                        <canvas width="100%" height="100%"></canvas>
                     </div>
                     <div>
                         <div class="uk-card-body" style="color:black;">
@@ -77,24 +98,6 @@
                         </div>
                     </div>
                 </div>
-
-                
-                {{-- <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
-                    <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ asset('public/template/assets/carousel/branch/branch_bangi.jpg')}}" alt="" uk-cover>
-                        <canvas width="100%" height="100%"></canvas>
-                    </div>
-                    <div>
-                        <div class="uk-card-body" style="color:black;">
-                            <div class="uk-text-large">Indok Naedah Farhana</div>
-                            <div class="uk-text-small">Physiotherapist</div>
-                            <p>
-                                Berkebolehan dalam bekam dan urutan. Mempunyai pengalaman mengurut ibu selepas 
-                                bersalin dan bayi dan juga merawat pesakit strok dan pediatric.
-                            </p>
-                        </div>
-                    </div>
-                </div> --}}
 
             </div>
         </div>
