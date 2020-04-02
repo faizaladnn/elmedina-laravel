@@ -21,7 +21,7 @@ return [
     'more' => 'MORE',
     'various_treatments' => 'Berbagai Rawatan',
     'syariah_compliance' => 'Patuh Syariah ',
-    'various_therapist' => 'Pakar Terapi Bertauliah',
+    'various_therapist' => 'Ahli Terapi Bertauliah',
     'treatment_many_ways' => 'Rawatan Tradisional dan Moden',
     'many_choices' => 'Pilihan Ramai',
     'professional' => 'Profesional and Hygiene Terjaga',

@@ -104,7 +104,7 @@
                             <h5 class="font-weight-bold">{{ __('common.various_therapist') }}</h4>
                             <p class="font-weight-light">
                                 Ahli terapi terdiri daripada Massage Therapist, Physiotherapist, Sport Therapist, Specialist in Cupping Therapy. 
-                                100% Ahli Terapi Bumiputera yang berkelulusan dalam bidang perubatan, fisioterapi dan sains sukan (Diploma, Degree).
+                                100% Ahli Terapi Bumiputera yang berkelulusan dalam bidang perubatan, fisioterapi dan sains sukan (Diploma, Degree, Master).
                             </p>
                           </div>
                       </div>
