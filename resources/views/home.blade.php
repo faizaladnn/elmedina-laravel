@@ -202,8 +202,20 @@
                         </div>
                     </div>
                 </div>
-
                 <div>
+                    <div class="uk-card uk-card-hover">
+                        <div class="uk-card-media-top">
+                            <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="">
+                        </div>
+                        <div class="uk-card-body">
+                            <h5 class="uk-text-uppercase uk-text-bold">Air Relax Therapy</h5>
+                            <p class="uk-text-light">Sesuai untuk yang banyak menggunakan kaki dalam pekerjaan harian.</p>
+                            <a href="{{route('services.air-relax')}}" class="btn btn-outline-warning text-dark">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- <div>
                     <div class="uk-card uk-card-hover">
                         <div class="uk-card-media-top">
                             <div class="uk-inline">
@@ -221,7 +233,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
           </div>
           <div class="row">
