@@ -35,40 +35,6 @@
 
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
                     <div class="uk-card-media-left">
-                        <img src="{{ asset('public/template/assets/carousel/shah_alam/therapist2.jpg')}}" alt="" uk-img>
-                        <canvas width="100%" height="100%"></canvas>
-                    </div>
-                    <div>
-                        <div class="uk-card-body" style="color:black;">
-                            <div class="uk-text-large">Dalila Suhaili</div>
-                            <div class="uk-text-small">Specialist in Cupping / Massage Therapist</div>
-                            <p>
-                                Berpengalaman dalam bekam dan urutan serta teknik dry cupping. 
-                                Berkebolehan dalam urutan tradisional dan sport massage dan pernah 
-                                menjalani training bekam bersama Doktor Ahmad Zudi (Medical Doctor 
-                                & Certified British Cupping Society Practitioner).
-                            </p>
-                        </div>
-                    </div>
-                    <div class="uk-card-media-left uk-flex-middle">
-                        <img src="{{ asset('public/template/assets/carousel/shah_alam/therapist4.jpg')}}" alt="" uk-img>
-                        <canvas width="100%" height="100%"></canvas>
-                    </div>
-                    <div>
-                        <div class="uk-card-body" style="color:black;">
-                            <div class="uk-text-large">Aizat bin Abdul Razak</div>
-                            <div class="uk-text-small">Physiotherapist</div>
-                            <p>
-                                Berpengalaman dalam stroke rehabilitation, sports injury rehabilitation, 
-                                taping, manual therapy, cupping, sport massage dan boleh mengendalikan 
-                                electro therapy modalities seperti ultrasound,TENS Shockwave Diathermy dan Infrared.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
-                    <div class="uk-card-media-left">
                         <img src="{{ asset('public/template/assets/carousel/shah_alam/therapist3.jpg')}}" alt="" uk-img>
                         <canvas width="100%" height="100%"></canvas>
                     </div>
@@ -94,6 +60,38 @@
                             <p>
                                 Berkebolehan dalam sport massage, cupping dan sport injury. 
                                 Berpengalaman sebagai sport therapist dalam beberapa kejohanan sukan. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
+                    <div class="uk-card-media-left">
+                        <img src="{{ asset('public/template/assets/carousel/shah_alam/najwa.jpeg')}}" alt="" uk-img>
+                        <canvas width="100%" height="100%"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-card-body" style="color:black;">
+                            <div class="uk-text-large">Nurul Najwa </div>
+                            <div class="uk-text-small">Physiotherapist</div>
+                            <p>
+                                Berkebolehan dalam wet & dry cupping serta sport massage. Mempunyai pengalaman 
+                                merawat dan mengendalikan kes Musculoskeletal & Neurology. Berpengalaman dalam 
+                                menyelesaikan masalah muscle weakness & muscle tightness.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="uk-card-media-left uk-flex-middle">
+                        <img src="{{ asset('public/template/assets/carousel/shah_alam/fitri.jpeg')}}" alt="" uk-img>
+                        <canvas width="100%" height="100%"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-card-body" style="color:black;">
+                            <div class="uk-text-large">Muhd Fitri Firdaus </div>
+                            <div class="uk-text-small">Sport Therapist</div>
+                            <p>
+                                Kelulusan bidang Sarjana Muda Sains Sukan (Kepujian) dan mempunyai sijil kemahiran sport massage dan tapping. 
+                                Mahir dan berpengalaman dalam bidang terapi bekam dan berkebolehan dalam teknik cupping mobility.
                             </p>
                         </div>
                     </div>

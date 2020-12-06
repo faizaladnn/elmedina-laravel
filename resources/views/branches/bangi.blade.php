@@ -36,31 +36,30 @@
 
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
                     <div class="uk-card-media-left">
-                        <img src="{{ asset('public/template/assets/carousel/bangi/aisyah.jpg')}}" alt="" uk-img>
+                        <img src="{{ asset('public/template/assets/carousel/bangi/wan_umi.jpeg')}}" alt="" uk-img>
                         <canvas width="100%" height="100%"></canvas>
                     </div>
                     <div>
                         <div class="uk-card-body" style="color:black;">
-                            <div class="uk-text-large">Siti Nur Aishah </div>
-                            <div class="uk-text-small">Massage Therapist & Physiotherapist</div>
+                            <div class="uk-text-large">Wan Umi Amierah</div>
+                            <div class="uk-text-small">Physiotherapists</div>
                             <p>
-                                Berkebolehan dalam bekam dan urutan tradisional serta sport massage. Mempunyai pengalaman 
-                                dalam teknik dry needling dan dry cupping dan aktif dalam program health awareness dan 
-                                health education.
+                                Mempunyai pengalaman dalam merawat dan mengendalikan pesakit yang mempunyai masalah dengan otot, saraf dan sistem musculoskeletal. 
+                                Berkebolehan dalam bekam, urutan, dry cupping untuk pemulihan dan boleh mengendalikan alatan elektro terapi.
                             </p>
                         </div>
                     </div>
                     <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ asset('public/template/assets/carousel/bangi/aniq.jpg')}}" alt="" uk-img>
+                        <img src="{{ asset('public/template/assets/carousel/bangi/nur_hidayah.jpeg')}}" alt="" uk-img>
                         <canvas width="100%" height="100%"></canvas>
                     </div>
                     <div>
                         <div class="uk-card-body" style="color:black;">
-                            <div class="uk-text-large">Aniq Syazwan </div>
+                            <div class="uk-text-large">Nur Hidayah </div>
                             <div class="uk-text-small">Physiotherapist</div>
                             <p>
-                                Berpengalaman sebagai Physiotherapist  selama 2 tahun lebih dan mahir dalam urutan 
-                                dan menjalani personal rehab training,injury prevention training and biomechanic training.
+                                Mempunyai ilmu berkaitan dengan otot dan sistem saraf serta berpengalaman dalam merawat pesakit strok/lumpuh 
+                                badan dan masalah berkaitan otot dan tulang. Berkebolehan dalam bekam, urutan,tapping dan boleh mengendalikan alatan elektro terapi.
                             </p>
                         </div>
                     </div>
@@ -69,16 +68,15 @@
                 
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                     <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ asset('public/template/assets/carousel/bangi/ainun.jpg')}}" alt="" uk-img>
+                        <img src="{{ asset('public/template/assets/carousel/bangi/khairul.jpeg')}}" alt="" uk-img>
                         <canvas width="100%" height="100%"></canvas>
                     </div>
                     <div>
                         <div class="uk-card-body" style="color:black;">
-                            <div class="uk-text-large">Ainun Najihah </div>
-                            <div class="uk-text-small">Sport Therapist & Massage Therapist </div>
+                            <div class="uk-text-large">Khairul Syafiq </div>
+                            <div class="uk-text-small">Sports Therapist</div>
                             <p>
-                                Berkebolehan dalam berbekam dan mempunyai sijil Tahap 1 dalam Sport Massage dan 
-                                sudah 2 tahun pengalaman dalam  urutan. Mahir mengendalikan TENS dan ultrasound.
+                                Berkebolehan dalam urutan dan bekam. Mempunyai sijil Tahap 1 dalam sports massage. Selain daripada itu, pernah menjadi fisioterapi di atas padang.
                             </p>
                         </div>
                     </div>

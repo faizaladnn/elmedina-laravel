@@ -52,17 +52,17 @@
                         </div>
                     </div>
                     <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ asset('public/template/assets/carousel/johor_bahru/shima.jpg')}}" alt="" uk-img>
+                        <img src="{{ asset('public/template/assets/carousel/johor_bahru/imaneena.jpeg')}}" alt="" uk-img>
                         <canvas width="100%" height="100%"></canvas>
                     </div>
                     <div>
                         <div class="uk-card-body" style="color:black;">
-                            <div class="uk-text-large">Shima Mohammad</div>
+                            <div class="uk-text-large">Imaneena Akmal </div>
                             <div class="uk-text-small">Physiotherapist</div>
                             <p>
-                                Berkebolehan dalam teknik cupping. Mahir dalam ilmu terkait dengan otot dan sistem saraf 
-                                dan mempunyai pengalaman dalam merawat pesakit strok@ lumpuh badan/ masalah jantung dan 
-                                masalah yang terkait tulang dan otot.
+                                Lulusan diploma Physiotherapy dan berpengalaman dalam bidang bekam, urutan dan sport therapy. 
+                                Saya mempunyai pengalaman dalam merawat pesakit strok / scoliosis / dan masalah yang berkaitan tulang dan otot. 
+                                Selain itu boleh mengedalikan exercise dan electro therapy modalities.
                             </p>
                         </div>
                     </div>
@@ -71,15 +71,16 @@
                 
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
                     <div class="uk-card-media-left">
-                        <img src="{{ asset('public/template/assets/carousel/johor_bahru/burhanudin.jpg')}}" alt="" uk-img>
+                        <img src="{{ asset('public/template/assets/carousel/johor_bahru/putra.jpeg')}}" alt="" uk-img>
                         <canvas width="100%" height="100%"></canvas>
                     </div>
                     <div>
                         <div class="uk-card-body" style="color:black;">
-                            <div class="uk-text-large">Burhanudin</div>
-                            <div class="uk-text-small">Sport Therapist & Massage Therapist</div>
+                            <div class="uk-text-large">Putra Mohamad Iskandar  </div>
+                            <div class="uk-text-small">Physiotherapist</div>
                             <p>
-                                Lulusan sains sukan dan berpengalam dalam bidang sport massage, sport injury, tapping dan boleh mengendalikan electro therapy modalities.
+                                Lulusan physiotherapist serta aktif dalam bidang sukan serta mahir dalam sport massage. Berpengetahuan dalam cara mencegah kecederaan sukan dan rawatan selepas sukan ( recovery ). 
+                                Boleh mengendalikan serta memberikan prescription exercise yang sesuai.
                             </p>
                         </div>
                     </div>
