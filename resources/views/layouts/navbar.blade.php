@@ -41,12 +41,12 @@
           </ul>
         </li>
 
-        <li class="nav-item">
+        {{-- <li class="nav-item">
           <a href="#" class="nav-link"> {{ __('common.shop') }}</a>
-        </li>
+        </li> --}}
 
         <li class="nav-item">
-          <a href="#" class="nav-link"> {{ __('common.blog') }}</a>
+          <a href="{{route('blog')}}" class="nav-link"> {{ __('common.blog') }}</a>
         </li>
 
         <li class="nav-item uk-visible@m"><a href="#" class="btn btn-social"><i class="fa fa-globe"></i></a>

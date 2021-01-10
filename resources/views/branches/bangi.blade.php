@@ -66,7 +66,7 @@
                 </div>
 
                 
-                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-4@s uk-margin" uk-grid>
                     <div class="uk-card-media-left uk-cover-container">
                         <img src="{{ asset('public/template/assets/carousel/bangi/khairul.jpeg')}}" alt="" uk-img>
                         <canvas width="100%" height="100%"></canvas>
@@ -77,6 +77,20 @@
                             <div class="uk-text-small">Sports Therapist</div>
                             <p>
                                 Berkebolehan dalam urutan dan bekam. Mempunyai sijil Tahap 1 dalam sports massage. Selain daripada itu, pernah menjadi fisioterapi di atas padang.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="{{ asset('public/template/assets/carousel/bangi/danial.jpeg')}}" alt="" uk-img>
+                        <canvas width="100%" height="100%"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-card-body" style="color:black;">
+                            <div class="uk-text-large">Muhammad Danial Adib</div>
+                            <div class="uk-text-small">Sports Masseur</div>
+                            <p>
+                                Menjadi pembantu kecergasan atlet Karisma Uitm Perlis dengan mengembalikan kecergasan atlet menggunakan teknik sport massage. 
+                                Berkebolehan dalam berbekam dan urutan relaxing yang lain.
                             </p>
                         </div>
                     </div>

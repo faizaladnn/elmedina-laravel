@@ -47,6 +47,12 @@ Route::get('/about-us', function (){
     ]);
 })->name('about-us');
 
+Route::get('/blog', function (){
+    return view('blog',[
+        'nav' => 'Blog',
+    ]);
+})->name('blog');
+
 Route::prefix('branches')->name('branches.')->group(function () {
     
     // Main branches page
