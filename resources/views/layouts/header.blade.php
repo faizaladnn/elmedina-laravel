@@ -2,14 +2,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<title>{{!empty($nav) ? $nav." | " : ""}} EL MEDINA BEKAM & RECOVERY SPA</title>
 <!-- Meta -->
-<meta name="description" content="EL MEDINA BEKAM & RECOVERY SPA">
+<meta name="description" content="El Medina Spa Bekam adalah pusat rawatan bekam yang terbaik dan pertama menggabungkan pelbagai elemen natural.">
+<meta name="keywords" content="elmedina, rawatan bekam, rawatan tradisional, jenis bekam, spa bekam, servis bekam, pakej bekam, bekam sunnah">
 <meta name="author" content="EL MEDINA BEKAM & RECOVERY SPA">
 
 <!-- Favicon -->
 <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/public/template/assets/img/light.png') }}">
-
-<title>{{!empty($nav) ? $nav." | " : ""}} EL MEDINA BEKAM & RECOVERY SPA</title>
 
 <!----------------------------------------------- Theme CSS ----------------------------------------------->
 <link rel="stylesheet" href="{{ asset('public/template/lib/select2/css/select2.min.css') }}">
