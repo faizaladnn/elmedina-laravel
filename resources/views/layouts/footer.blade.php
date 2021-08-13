@@ -60,7 +60,7 @@
                     </tr>
                     <tr>
                         <td><a href="{{route('branches.')}}">{{ __('common.branches') }}</a></td>
-                        <td><a href="#">&nbsp;</a></td>
+                        <td><a href="{{route('shop.')}}" class="text-uppercase">{{ __('common.shop') }}</a></td>
                         <td><a href="{{route('packages.')}}" class="text-uppercase">{{ __('common.packages') }}</a></td>
                     </tr>
                     <tr style="font-size:1.5rem; letter-spacing:10px;">

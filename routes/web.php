@@ -123,8 +123,6 @@ Route::prefix('services')->name('services.')->group(function () {
     })->name('needling');
 });
 
-
-
 Route::prefix('packages')->name('packages.')->group(function () {
     
     Route::get('/', function(){
@@ -185,6 +183,22 @@ Route::prefix('packages')->name('packages.')->group(function () {
         return view('packages.pakej_10');
     })->name('pakej-10');
     
+});
+
+Route::prefix('shop')->name('shop.')->group(function () {
+    Route::get('/', function(){
+        return view('shop',[
+            'nav' => 'Shop',
+        ]);
+    });
+    // Products
+    Route::get('/disposable-cup', function () {
+        return view('shops.disposable_cup');
+    })->name('disposable-cup');
+    
+    Route::get('/disposable-needle', function () {
+        return view('shops.disposable_needle');
+    })->name('disposable-needle');    
 });
 
 // User booking

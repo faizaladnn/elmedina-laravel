@@ -85,4 +85,11 @@ return [
     'wellness_program_desc' => 'Kami bersedia menyediakan kursus dan bengkel kesihatan bagi memberi kesedaran dan pengetahuan mengenai gaya hidup sihat kepada masyarakat. Kami juga boleh memberi khidmat sesi rawatan yang boleh disesuaikan mengikut kehendak anda.',
     'brand_partnership_desc' => 'Kami bersedia membuat perkongsian jenama samada untuk program Pendidikan, Sukan, Kesihatan dan sebagainya di mana-mana acara yang berkaitan untuk kebaikan bersama.',
     'blog' => 'Blog',
+    'cup_pakai_buang' => 'Cup Pakai Buang (Disposable Cup)',
+    'jarum_pakai_buang' => 'Jarum Pakai Buang (Lancet Greenlan 21G)',
+    'size' => 'Saiz',
+    'pack' => 'Pek',
+    'or_more' => 'atau lebih',
+    'box' => 'kotak',
+    'applicable_whole_body' => 'Dapat digunakan di seluruh badan',
 ];

@@ -14,7 +14,7 @@
             
       <ul uk-accordion>
         <li class="uk-open">
-            <a class="uk-accordion-title" href="#">VVIP</a>
+            <a class="uk-accordion-title" href="#" style="text-decoration: underline;">VVIP</a>
             <div class="uk-accordion-content">
               <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
@@ -43,7 +43,7 @@
             </div>
         </li>
         <li>
-            <a class="uk-accordion-title" href="#">BEKAM SUNNAH</a>
+            <a class="uk-accordion-title" href="#" style="text-decoration: underline;">BEKAM SUNNAH</a>
             <div class="uk-accordion-content">
               <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
@@ -73,7 +73,7 @@
             </div>
         </li>
         <li>
-            <a class="uk-accordion-title" href="#">TERAPI KHUSUS</a>
+            <a class="uk-accordion-title" href="#" style="text-decoration: underline;">TERAPI KHUSUS</a>
             <div class="uk-accordion-content">
               <div class="row pb-3">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
@@ -137,7 +137,7 @@
             </div>
         </li>
         <li>
-            <a class="uk-accordion-title" href="#">RECOVERY</a>
+            <a class="uk-accordion-title" href="#" style="text-decoration: underline;">RECOVERY</a>
             <div class="uk-accordion-content">
               <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 pt-2">
@@ -177,7 +177,7 @@
             </div>
         </li>
         <li>
-          <a class="uk-accordion-title" href="#">POSTNATAL</a>
+          <a class="uk-accordion-title" href="#" style="text-decoration: underline;">POSTNATAL</a>
           <div class="uk-accordion-content">
             <div class="row">
               <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 pt-2 text-center">
