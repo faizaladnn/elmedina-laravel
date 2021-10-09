@@ -39,6 +39,12 @@
                         <i data-feather="phone"></i>
                         JOHOR BAHRU : </a> <a href="tel:+60139998458">013-999 8458 / 07-288 0702</a>
                 </li>
+
+                <li class="">
+                    <a href="{{route('branches.ulu-klang')}}" class="">
+                        <i data-feather="phone"></i>
+                        ULU KLANG : </a> <a href="tel:+601120566773">011-205 66773</a>
+                </li>
             </ul>
         </div>
         

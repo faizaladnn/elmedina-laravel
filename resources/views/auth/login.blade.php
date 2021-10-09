@@ -20,7 +20,7 @@
             {{ Form::open(['method' => 'POST', 'url' => url('/login')]) }}
             <div class="form-group">
               <label>Email address</label>
-              <input type="email" class="form-control" placeholder="yourname@yourmail.com" name="email">
+              <input type="email" class="form-control" placeholder="yourname@yourmail.com" name="email" value="{{ old('email', '') }}">
             </div>
             <div class="form-group">
               <div class="d-flex justify-content-between mg-b-5">

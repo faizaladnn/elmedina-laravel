@@ -74,6 +74,9 @@ Route::prefix('branches')->name('branches.')->group(function () {
     Route::get('/johor-bahru', function () {
         return view('branches.johor_bahru');
     })->name('johor-bahru');
+    Route::get('/ulu-klang', function () {
+        return view('branches.ulu_klang');
+    })->name('ulu-klang');
 
     Route::get('/getBranchesByCountry/{country}', 'BranchController@getBranchesByCountry')->name('getBranchesByCountry');
 });
