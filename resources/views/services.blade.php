@@ -109,23 +109,6 @@
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
                     <div class="uk-inline">
-                        <img src="{{asset('public/template/assets/carousel/services/needling.jpg')}}" alt="">
-                    </div>
-                </div>
-                <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold">Needling Treatment</h5>
-                    <p class="uk-text-light">
-                        Melegakan masalah otot dan masalah pergerakan yang terhad yang disebabkan oleh rasa sakit pada sesuatu bahagian anggota badan itu.
-                    </p>
-                    <a href="{{route('services.needling')}}" class="btn btn-outline-warning text-dark">Learn More</a>
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <div class="uk-card uk-card-hover">
-                <div class="uk-card-media-top">
-                    <div class="uk-inline">
                         <img src="{{asset('public/template/assets/carousel/services/postnatal.jpg')}}" alt="">
                         <div class="uk-overlay-primary uk-position-cover"></div>
                         <div class="uk-overlay uk-position-center uk-light">
