@@ -105,7 +105,7 @@
             </div>
         </div>
 
-        <div>
+        {{-- <div>
             <div class="uk-card uk-card-hover">
                 <div class="uk-card-media-top">
                     <div class="uk-inline">
@@ -123,7 +123,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
     </div>
   </div>

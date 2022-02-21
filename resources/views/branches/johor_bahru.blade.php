@@ -24,7 +24,7 @@
 </div>
 
 
-<div class="content">
+{{-- <div class="content">
     <div class="container-fluid pl-2 pr-2">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
@@ -103,7 +103,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 <div class="content">
     <div class="container-fluid pl-2 pr-2">
