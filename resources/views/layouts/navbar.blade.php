@@ -38,7 +38,7 @@
             <li class="nav-sub-item"><a href="{{route('branches.johor-bahru')}}" class="nav-sub-link">Johor Bahru</a></li>
             <li class="nav-sub-item"><a href="{{route('branches.kuantan')}}" class="nav-sub-link">Kuantan</a></li>
             <li class="nav-sub-item"><a href="{{route('branches.shah-alam')}}" class="nav-sub-link">Shah Alam</a></li>
-            <li class="nav-sub-item"><a href="{{route('branches.ulu-klang')}}" class="nav-sub-link">Ulu Klang</a></li>
+            <li class="nav-sub-item"><a href="{{route('branches.ulu-klang')}}" class="nav-sub-link">Hulu Kelang</a></li>
           </ul>
         </li>
 

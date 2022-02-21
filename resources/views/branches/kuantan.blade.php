@@ -7,7 +7,7 @@
         <div class="uk-text-center uk-text-bold uk-panel uk-light uk-padding-small">
             <h5>
                 <i data-feather="phone"></i> 010-838 7030 
-                <a href="https://www.facebook.com/elmedinaspabekamshahalam/" class="btn btn-social" target="_blank" style="text-decoration:underline;"><i class="fab fa-facebook"></i> EL MEDINA KUANTAN</a>
+                <a href="https://www.facebook.com/elmedina.kuantan" class="btn btn-social" target="_blank" style="text-decoration:underline;"><i class="fab fa-facebook"></i> EL MEDINA KUANTAN</a>
                 <i class="fas fa-home" title="Address"></i> A75, Level 1, Jln IM 7/1, Bandar Indera Mahkota, 25200 Kuantan, Pahang
             </h5>
         </div>
