@@ -30,10 +30,17 @@ Route::get('testtesttest', function(){
     ]);
 });
 Auth::routes();
+
 Route::get('locale/{locale}', function ($locale){
     Session::put('locale', $locale);
     return redirect()->back();
 });
+
+Route::get('/v2', function () {
+    return view('v2.home',[
+        'nav' => 'Home',
+    ]);
+})->name('home');
 
 Route::get('/', function () {
     return view('home',[
@@ -68,12 +75,6 @@ Route::prefix('branches')->name('branches.')->group(function () {
     Route::get('/shah-alam', function () {
         return view('branches.shah_alam');
     })->name('shah-alam');
-    Route::get('/bangi', function () {
-        return view('branches.bangi');
-    })->name('bangi');
-    Route::get('/johor-bahru', function () {
-        return view('branches.johor_bahru');
-    })->name('johor-bahru');
     Route::get('/ulu-klang', function () {
         return view('branches.ulu_klang');
     })->name('ulu-klang');
@@ -157,13 +158,13 @@ Route::prefix('packages')->name('packages.')->group(function () {
         return view('packages.bekam_wajah');
     })->name('bekam-wajah');
 
-    Route::get('/bekam-migrain', function () {
+    Route::get('/bekam-kepala', function () {
         return view('packages.bekam_migrain');
-    })->name('bekam-migrain');
+    })->name('bekam-kepala');
 
-    Route::get('/bekam-gout', function () {
+    Route::get('/bekam-kaki', function () {
         return view('packages.bekam_gout');
-    })->name('bekam-gout');
+    })->name('bekam-kaki');
 
     Route::get('/bekam-angin', function () {
         return view('packages.bekam_angin');

@@ -63,12 +63,12 @@
 </div>{{-- Carousel End --}}
 
     {{-- Why El Medina ? --}}
-    <div class="content pt-4" style="background-color:#f7f9fb;">
+    <div class="content pt-4 customFonts" style="background-color:#f7f9fb;">
         <div class="container-fluid pl-2 pr-2">
             <div class="align-items-center justify-content-between">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
-                    <h3 class="font-weight-bold txt-color-blue">{{ __('common.why_elmedina') }}</h3>
+                    <h3 class="font-weight-bold txt-color-blue customFontsH3">{{ __('common.why_elmedina') }}</h3>
                 </div>
               </div>
 
@@ -79,7 +79,7 @@
                               <span uk-icon="icon: star; ratio: 1.5"></span>
                           </div>
                           <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                            <h5 class="font-weight-bold">{{ __('common.various_treatments') }}</h5>
+                            <h5 class="font-weight-bold customFonts">{{ __('common.various_treatments') }}</h5>
                             <p class="font-weight-light">Menyediakan perkhidmatan bekam, urutan badan, sport massage dan sport recovery untuk Lelaki dan Wanita.</p>
                           </div>
                       </div>
@@ -90,7 +90,7 @@
                             <span uk-icon="icon: star; ratio: 1.5"></span>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                            <h5 class="font-weight-bold">{{ __('common.syariah_compliance') }}</h4>
+                            <h5 class="font-weight-bold customFonts">{{ __('common.syariah_compliance') }}</h4>
                             <p class="font-weight-light">Patuh syariah, privacy, bilik yang selesa dan berasingan, aurat terjaga sepenuhnya.</p>
                           </div>
                       </div>
@@ -101,7 +101,7 @@
                             <span uk-icon="icon: star; ratio: 1.5"></span>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                            <h5 class="font-weight-bold">{{ __('common.various_therapist') }}</h4>
+                            <h5 class="font-weight-bold customFonts">{{ __('common.various_therapist') }}</h4>
                             <p class="font-weight-light">
                                 Ahli terapi terdiri daripada Massage Therapist, Physiotherapist, Sport Therapist, Specialist in Cupping Therapy. 
                                 100% Ahli Terapi Bumiputera yang berkelulusan dalam bidang perubatan, fisioterapi dan sains sukan (Diploma, Degree, Master).
@@ -117,7 +117,7 @@
                             <span uk-icon="icon: star; ratio: 1.5"></span>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                            <h5 class="font-weight-bold">{{ __('common.treatment_many_ways') }}</h4>
+                            <h5 class="font-weight-bold customFonts">{{ __('common.treatment_many_ways') }}</h4>
                             <p class="font-weight-light">
                                 Gabungan antara rawatan tradisional (bekam, urutan tradisional) dan rawatan moden (sport massage, electro modalities, hypervolt).
                             </p>
@@ -130,7 +130,7 @@
                             <span uk-icon="icon: star; ratio: 1.5"></span>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                            <h5 class="font-weight-bold">{{ __('common.many_choices') }}</h4>
+                            <h5 class="font-weight-bold customFonts">{{ __('common.many_choices') }}</h4>
                             <p class="font-weight-light">
                                 Spa yang menjadi pilihan ramai Selebriti, Atlet, Kerabat Diraja serta orang ramai dari pelbagai peringkat umur dan pekerjaan.
                             </p>
@@ -143,7 +143,7 @@
                             <span uk-icon="icon: star; ratio: 1.5"></span>
                         </div>
                         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                            <h5 class="font-weight-bold">{{ __('common.professional') }}</h4>
+                            <h5 class="font-weight-bold customFonts">{{ __('common.professional') }}</h4>
                             <p class="font-weight-light">
                                 Mengikut SOP yang disarankan oleh KKM (Kementerian Kesihatan Malaysia) dan berdaftar dengan Agensi Pengendalian Sisa Klinikal.
                             </p>
@@ -157,12 +157,12 @@
 </div>
 
     {{-- SERVICES --}}
-    <div class="content" style="">
+    <div class="content customFonts" style="">
       <div class="container-fluid pl-2 pr-2">
           <div class="align-items-center justify-content-between">
             <div class="row">
               <div class="col-lg-12 col-md-12 col-sm-12">
-                  <h3 class="text-center font-weight-bold txt-color-blue">{{ __('common.services') }}</h3>
+                  <h3 class="text-center font-weight-bold txt-color-blue customFontsH3">{{ __('common.services') }}</h3>
               </div>
 
               <div class="uk-child-width-1-4@m" uk-grid>
@@ -172,7 +172,7 @@
                             <img src="{{asset('public/template/assets/carousel/services/bekam.jpg')}}" alt="">
                         </div>
                         <div class="uk-card-body">
-                            <h5 class="uk-text-uppercase uk-text-bold">Bekam (Bekam Sunnah, Wajah, Migrain, Gout)</h5>
+                            <h5 class="uk-text-uppercase uk-text-bold customFonts">Bekam (Bekam Sunnah, Wajah, Kepala, Kaki)</h5>
                             <p class="uk-text-light">Mengurangkan ketegangan otot dan meningkatkan peredaran darah.</p>
                             <a href="{{route('services.bekam')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                         </div>
@@ -184,7 +184,7 @@
                             <img src="{{asset('public/template/assets/carousel/services/massage.jpg')}}" alt="">
                         </div>
                         <div class="uk-card-body">
-                            <h5 class="uk-text-uppercase uk-text-bold">Urutan Badan & Sport Massage</h5>
+                            <h5 class="uk-text-uppercase uk-text-bold customFonts">Urutan Badan & Sport Massage</h5>
                             <p class="uk-text-light">Urutan boleh membantu melancarkan peredaran darah, meningkatkan tahap kecerdasan tubuh badan dan mengurangkan tekanan.</p>
                             <a href="{{route('services.sport-massage')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                         </div>
@@ -196,7 +196,7 @@
                             <img src="{{asset('public/template/assets/carousel/services/ultrasound.jpg')}}" alt="">
                         </div>
                         <div class="uk-card-body">
-                            <h5 class="uk-text-uppercase uk-text-bold">Ultrasound Therapy</h5>
+                            <h5 class="uk-text-uppercase uk-text-bold customFonts">Ultrasound Therapy</h5>
                             <p class="uk-text-light">Ultrasound Therapy adalah penggunaan gelombang bunyi untuk mengurangkan sakit sendi-sendi pada badan.</p>
                             <a href="{{route('services.ultrasound')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                         </div>
@@ -208,7 +208,7 @@
                             <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="">
                         </div>
                         <div class="uk-card-body">
-                            <h5 class="uk-text-uppercase uk-text-bold">Air Relax Therapy</h5>
+                            <h5 class="uk-text-uppercase uk-text-bold customFonts">Air Relax Therapy</h5>
                             <p class="uk-text-light">Sesuai untuk yang banyak menggunakan kaki dalam pekerjaan harian.</p>
                             <a href="{{route('services.air-relax')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                         </div>
@@ -248,19 +248,19 @@
     </div>
 
     {{-- What We Offer --}}
-    <div class="content pt-5 pb-5" style="background-color:#f7f9fb;">
+    <div class="content pt-5 pb-5 customFonts" style="background-color:#f7f9fb;">
         <div class="container-fluid pl-2 pr-2">
             <div class="align-items-center justify-content-between">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="uk-grid-match " uk-grid>
                         <div class="uk-width-1-5@m uk-width-1-3@l">
-                            <h3 class="font-weight-bold txt-color-blue">{{ __('common.what_we_offer') }}</h3>
+                            <h3 class="font-weight-bold txt-color-blue customFontsH3">{{ __('common.what_we_offer') }}</h3>
                         </div>
                         <div class="uk-width-3-5@m uk-width-2-3@l">
                             <ul uk-accordion>
                                 <li class="uk-open">
-                                    <a class="uk-accordion-title" href="#"><h4 class="font-weight-bold"><span uk-icon="icon: home; ratio: 1.5"></span> {{ __('common.community_events') }}</h4></a>
+                                    <a class="uk-accordion-title" href="#"><h4 class="font-weight-bold customFonts"><span uk-icon="icon: home; ratio: 1.5"></span> {{ __('common.community_events') }}</h4></a>
                                     <div class="uk-accordion-content font-weight-light text-small mt-0">
                                         {{ __('common.community_events_desc') }}
                                     </div>
@@ -326,7 +326,7 @@
                                     </div>
                                 </li>
                                 <li class="uk-open">
-                                    <a class="uk-accordion-title" href="#"><h4 class="font-weight-bold"><span uk-icon="icon: happy; ratio: 1.5"></span> {{ __('common.wellness_program') }}</h4></a>
+                                    <a class="uk-accordion-title" href="#"><h4 class="font-weight-bold customFonts"><span uk-icon="icon: happy; ratio: 1.5"></span> {{ __('common.wellness_program') }}</h4></a>
                                     <div class="uk-accordion-content font-weight-light text-small mt-0">
                                         {{ __('common.wellness_program_desc') }}
                                     </div>
@@ -375,7 +375,7 @@
                                     </div>
                                 </li>
                                 <li class="uk-open">
-                                    <a class="uk-accordion-title" href="#"><h4 class="font-weight-bold"><span uk-icon="icon: users; ratio: 1.5"></span> {{ __('common.brand_partnership') }}</h4></a>
+                                    <a class="uk-accordion-title" href="#"><h4 class="font-weight-bold customFonts"><span uk-icon="icon: users; ratio: 1.5"></span> {{ __('common.brand_partnership') }}</h4></a>
                                     <div class="uk-accordion-content font-weight-light text-small mt-0">
                                         {{ __('common.brand_partnership_desc') }}
                                     </div>
@@ -444,19 +444,19 @@
     </div>
 
     {{-- TESTIMONI --}}
-    <div class="content " style="">
+    <div class="content customFonts" style="">
         <div class="container-fluid pl-2 pr-2">
             <div class="align-items-center justify-content-between">
               <div class="row">
                   <div class="col-lg-12">
-                    <h3 class="text-center font-weight-bold txt-color-blue">{{ __('common.testimony') }}</h3>
+                    <h3 class="text-center font-weight-bold txt-color-blue customFontsH3">{{ __('common.testimony') }}</h3>
                   </div>
               </div>
 
               <div class="row">
                   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-2" uk-slider="clsActivated: uk-transition-active;center: true; autoplay:true; autoplay-interval: 2000;">
+                    <div class="uk-position-relative uk-visible-toggle uk-light customFonts" tabindex="-2" uk-slider="clsActivated: uk-transition-active;center: true; autoplay:true; autoplay-interval: 2000;">
                         <ul class="uk-slider-items uk-grid">
                             <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
@@ -476,7 +476,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="uk-width-1-2@m uk-width-1-1@s">
+                            {{-- <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_3.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
@@ -484,7 +484,7 @@
                                         <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Service Terbaik..yang berminat nak buat bekam dan urut kampung boleh datang ke El Medina Spa Bekam"</h6>
                                     </div>
                                 </div>
-                            </li>
+                            </li> --}}
                             <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_7.jpg')}}" alt="" width="100%">
@@ -494,7 +494,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="uk-width-1-2@m uk-width-1-1@s">
+                            {{-- <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_4.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
@@ -502,8 +502,8 @@
                                         <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Paling penting tempat ni cukup selesa, bersih dan cup pakai buang"</h6>
                                     </div>
                                 </div>
-                            </li>
-                            <li class="uk-width-1-2@m uk-width-1-1@s">
+                            </li> --}}
+                            {{-- <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_5.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
@@ -511,7 +511,7 @@
                                         <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Spa bekam terbaik! Menjalankan servis bekam sunnah dan menggunakan konsep berbekam disposable cups (cawan pakai buang), spa dan servis tip top!"</h6>
                                     </div>
                                 </div>
-                            </li>
+                            </li> --}}
                             <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_6.jpg')}}" alt="" width="100%">
@@ -541,17 +541,17 @@
                                 </div>
                             </li>
                             
-                            <li class="uk-width-1-2@m uk-width-1-1@s">
+                            {{-- <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_10.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
                                         <h2 class="uk-text-lead uk-margin-remove uk-text-bold" style="font-size:100%;">Hadi Mirza</h3>
-                                        <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Bekamnya ringkas dan comfortable..Alhamdulillah migrain hilang"</h6>
+                                        <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Bekamnya ringkas dan comfortable..Alhamdulillah sakit kepala hilang"</h6>
                                     </div>
                                 </div>
-                            </li>
+                            </li> --}}
                             
-                            <li class="uk-width-1-2@m uk-width-1-1@s">
+                            {{-- <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_11.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
@@ -559,9 +559,9 @@
                                         <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Bekam dan urutan terbaik"</h6>
                                     </div>
                                 </div>
-                            </li>
+                            </li> --}}
                             
-                            <li class="uk-width-1-2@m uk-width-1-1@s">
+                            {{-- <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
                                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_12.jpg')}}" alt="" width="100%">
                                     <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom p-0">
@@ -569,7 +569,7 @@
                                         <h6 class="uk-text-meta uk-margin-remove" style="font-size:100%;color:white;">"Perkhidmatan spa bekam yang sangat memuaskan, berkualiti, selesa dan selamat"</h6>
                                     </div>
                                 </div>
-                            </li>
+                            </li> --}}
                             
                             <li class="uk-width-1-2@m uk-width-1-1@s">
                                 <div class="uk-panel">
@@ -603,12 +603,12 @@
         </div> --}}
     
     {{-- Strategic Partner --}}
-    <div class="content pt-5">
+    <div class="content pt-5 ">
         <div class="container-fluid pl-2 pr-2">
             <div class="align-items-center justify-content-between">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h4 class="text-center font-weight-bold txt-color-blue">{{ __('common.strategic_partner') }}</h4>
+                    <h4 class="text-center font-weight-bold txt-color-blue customFontsH3">{{ __('common.strategic_partner') }}</h4>
                 </div>
               </div>
               <div class="row">
@@ -668,7 +668,7 @@
             <div class="align-items-center justify-content-between">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h4 class="text-center font-weight-bold txt-color-blue">{{ __('common.corporate_client') }}</h4>
+                    <h4 class="text-center font-weight-bold txt-color-blue customFontsH3">{{ __('common.corporate_client') }}</h4>
                 </div>
               </div>
               <div class="row">

@@ -11,6 +11,7 @@ class UserBookingMail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    protected $user;
     /**
      * Create a new message instance.
      *

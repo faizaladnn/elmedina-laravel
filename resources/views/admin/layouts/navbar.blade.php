@@ -1,14 +1,14 @@
 <header class="navbar navbar-header navbar-header-fixed">
     <a href="" id="mainMenuOpen" class="burger-menu"><i data-feather="menu"></i></a>
     <div class="navbar-brand pl-5">
-      <a href="{{route('admin.dashboard')}}" title="EL MEDINA logo. Go to EL MEDINA homepage"><img src="{{ asset('public/template/assets/img/logo3.png')}}" width="190" height="45"></a>
+      <a href="{{route('admin.dashboard')}}" title="EL MEDINA logo. Go to EL MEDINA homepage"><img src="{{ asset('public/template/assets/img/logo4.png')}}" width="190" height="45"></a>
         {{-- <a href="{{route('home')}}" class="df-logo text-decoration-none">EL MEDINA</a> --}}
     </div>
 
   <!-- navbar-brand -->
   <div id="navbarMenu" class="navbar-menu-wrapper">
       <div class="navbar-menu-header">
-        <a href="{{route('admin.dashboard')}}"><img src="{{ asset('public/template/assets/img/logo3.png')}}" width="190" height="45"></a>
+        <a href="{{route('admin.dashboard')}}"><img src="{{ asset('public/template/assets/img/logo4.png')}}" width="190" height="45"></a>
           {{-- <a href="{{route('home')}}" class="df-logo">EL MEDINA</a> --}}
           <a id="mainMenuClose" href=""><i data-feather="x"></i></a>
       </div>

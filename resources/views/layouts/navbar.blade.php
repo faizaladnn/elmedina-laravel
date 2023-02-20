@@ -1,14 +1,14 @@
-<header class="navbar navbar-header navbar-header-fixed">
+<header class="navbar navbar-header navbar-header-fixed customFonts">
     <a href="" id="mainMenuOpen" class="burger-menu"><i data-feather="menu"></i></a>
     <div class="navbar-brand pl-5">
-      <a href="{{route('home')}}" title="EL MEDINA logo. Go to EL MEDINA homepage"><img src="{{ asset('public/template/assets/img/logo3.png')}}" width="190" height="45"></a>
+      <a href="{{route('home')}}" title="EL MEDINA logo. Go to EL MEDINA homepage"><img src="{{ asset('public/template/assets/img/logo4.png')}}" width="190" height="45"></a>
         {{-- <a href="{{route('home')}}" class="df-logo text-decoration-none">EL MEDINA</a> --}}
     </div>
 
   <!-- navbar-brand -->
   <div id="navbarMenu" class="navbar-menu-wrapper">
       <div class="navbar-menu-header">
-        <a href="{{route('home')}}"><img src="{{ asset('public/template/assets/img/logo3.png')}}" width="190" height="45"></a>
+        <a href="{{route('home')}}"><img src="{{ asset('public/template/assets/img/logo4.png')}}" width="190" height="45"></a>
           {{-- <a href="{{route('home')}}" class="df-logo">EL MEDINA</a> --}}
           <a id="mainMenuClose" href=""><i data-feather="x"></i></a>
       </div>
@@ -20,7 +20,7 @@
         </li>
 
         <li class="nav-item">
-          <a href="{{route('about-us')}}" class="nav-link">{{ __('common.about_us') }}</a>
+          <a href="{{route('about-us')}}" class="nav-link test">{{ __('common.about_us') }}</a>
         </li>
 
         <li class="nav-item">
@@ -34,8 +34,6 @@
         <li class="nav-item with-sub">
           <a href="" class="nav-link">{{ __('common.branches') }}</a>
           <ul class="navbar-menu-sub">
-            <li class="nav-sub-item"><a href="{{route('branches.bangi')}}" class="nav-sub-link">Bangi</a></li>
-            <li class="nav-sub-item"><a href="{{route('branches.johor-bahru')}}" class="nav-sub-link">Johor Bahru</a></li>
             <li class="nav-sub-item"><a href="{{route('branches.kuantan')}}" class="nav-sub-link">Kuantan</a></li>
             <li class="nav-sub-item"><a href="{{route('branches.shah-alam')}}" class="nav-sub-link">Shah Alam</a></li>
             <li class="nav-sub-item"><a href="{{route('branches.ulu-klang')}}" class="nav-sub-link">Hulu Kelang</a></li>

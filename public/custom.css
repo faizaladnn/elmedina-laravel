@@ -1,6 +1,6 @@
 .background-logo{
-    background-image:url("template/assets/img/logo3.png");
-    background-color: #3098d4;
+    background-image:url("template/assets/img/logo4.png");
+    background-color: #30cbcb;
     height: 245px;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,10 +87,6 @@
     .banner{
         height:auto;
     }
-}
-
-.txt-color-blue{
-    color: #0d9cea;
 }
 
 .container {

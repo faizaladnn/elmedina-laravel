@@ -38,11 +38,11 @@ class PackageTableSeeder extends Seeder
         $package->save();
         
         $package = new Package();
-        $package->title = "PAKEJ 4 - Bekam Migrain (8 Cup)";
+        $package->title = "PAKEJ 4 - Bekam Kepala (8 Cup)";
         $package->save();
         
         $package = new Package();
-        $package->title = "PAKEJ 5 - Bekam Gout (12 Cup)";
+        $package->title = "PAKEJ 5 - Bekam Kaki (12 Cup)";
         $package->save();
         
         $package = new Package();

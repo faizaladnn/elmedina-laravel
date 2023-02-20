@@ -1,25 +1,19 @@
-<footer class="footer">
+<footer class="footer ">
     <nav class="nav">
 
         {{-- Nav for right side--}}
-        <div class="footer-rgt uk-animation-toggle" tabindex="0">
+        <div class="footer-rgt uk-animation-toggle customFonts" tabindex="0">
             <a href="{{route('login')}}" ><button type="button" class="btn btn-block btn-outline-wrng uk-animation-shake" style="border-width:medium; padding: 20px;">
                 <span style="font-size:0.9rem;" class="text-uppercase">{{ __('common.make_an_appointment') }}</span></button></a>
         </div>
         
         {{-- Nav for center --}}
-        <div class="footer-ctr">
+        <div class="footer-ctr customFonts">
             <ul class="" style="list-style-type:none;">
                 <!-- Services -->
                 <li class="">
                     <i data-feather="clock"></i>
                     {{ __('common.monday_sunday') }}
-                </li>
-        
-                <li class="">
-                    <a href="{{route('branches.bangi')}}" class="">
-                        <i data-feather="phone"></i>
-                        BANGI : </a> <a href="tel:+60177271152">017-727 1152</a>
                 </li>
         
                 <li class="">
@@ -33,12 +27,6 @@
                         <i data-feather="phone"></i>
                         SHAH ALAM : </a> <a href="tel:+60182497030">018-2497 030</a>
                 </li>
-        
-                <li class="">
-                    <a href="{{route('branches.johor-bahru')}}" class="">
-                        <i data-feather="phone"></i>
-                        JOHOR BAHRU : </a> <a href="tel:+60139998458">013-999 8458 / 07-288 0702</a>
-                </li>
 
                 <li class="">
                     <a href="{{route('branches.ulu-klang')}}" class="">
@@ -49,7 +37,7 @@
         </div>
         
         {{-- Nav for left side --}}
-        <div class="footer-left">
+        <div class="footer-left customFonts">
             <table class="" width="100%" style="">
                 <thead style="">
                     <tr style="text-decoration:underline;">

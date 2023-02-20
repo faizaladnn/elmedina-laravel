@@ -2,13 +2,13 @@
 
 @section ('content')
 
-<div class="content content-fixed">
+<div class="content content-fixed customFonts">
   <div class="container-fluid pl-2 pr-2">
     <div class="align-items-center justify-content-between">
       
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <h3 class="text-uppercase text-left ">{{ __('common.services') }}</h3>
+            <h3 class="text-uppercase text-left customFontsH3">{{ __('common.services') }}</h3>
         </div>
       </div>
 
@@ -19,7 +19,7 @@
                     <img src="{{asset('public/template/assets/carousel/services/bekam.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold"> Bekam / Hijama </h5>
+                    <h5 class="uk-text-uppercase uk-text-bold customFonts"> Bekam / Hijama </h5>
                     <p class="uk-text-light">Mengurangkan ketegangan otot dan meningkatkan peredaran darah.</p>
                     <a href="{{route('services.bekam')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
@@ -31,7 +31,7 @@
                     <img src="{{asset('public/template/assets/carousel/services/massage.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold"> Urutan / Massage </h5>
+                    <h5 class="uk-text-uppercase uk-text-bold customFonts"> Urutan / Massage </h5>
                     <p class="uk-text-light">Urutan boleh membantu melancarkan peredaran darah, meningkatkan tahap kecerdasan tubuh badan dan mengurangkan tekanan</p>
                     <a href="{{route('services.sport-massage')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
@@ -43,7 +43,7 @@
                     <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold">Air Relax Therapy</h5>
+                    <h5 class="uk-text-uppercase uk-text-bold customFonts">Air Relax Therapy</h5>
                     <p class="uk-text-light">Sesuai untuk yang banyak menggunakan kaki dalam pekerjaan harian.</p>
                     <a href="{{route('services.air-relax')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
@@ -58,7 +58,7 @@
                     <img src="{{asset('public/template/assets/carousel/services/hypervolt.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold">Vibration Therapy (Hypervolt)</h5>
+                    <h5 class="uk-text-uppercase uk-text-bold customFonts">Vibration Therapy (Hypervolt)</h5>
                     <p class="uk-text-light">Digunakan untuk meningkatkan persembahan fizikal.</p>
                     <a href="{{route('services.hypervolt')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
@@ -70,7 +70,7 @@
                     <img src="{{asset('public/template/assets/carousel/services/electro_therapy.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold">Electro Therapy (TENS)</h5>
+                    <h5 class="uk-text-uppercase uk-text-bold customFonts">Electro Therapy (TENS)</h5>
                     <p class="uk-text-light">Bebas dari sebarang ubatan dan menghasilkan Endorphins.</p>
                     <a href="{{route('services.electro-therapy')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
@@ -82,7 +82,7 @@
                     <img src="{{asset('public/template/assets/carousel/services/ultrasound.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold">Ultrasound Therapy</h5>
+                    <h5 class="uk-text-uppercase uk-text-bold customFonts">Ultrasound Therapy</h5>
                     <p class="uk-text-light">Ultrasound Therapy adalah penggunaan gelombang bunyi untuk mengurangkan sakit sendi-sendi pada badan.</p>
                     <a href="{{route('services.ultrasound')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>
@@ -97,7 +97,7 @@
                     <img src="{{asset('public/template/assets/carousel/services/kinesio_tapping.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold">Kinesio Taping</h5>
+                    <h5 class="uk-text-uppercase uk-text-bold customFonts">Kinesio Taping</h5>
                     <p class="uk-text-light">Membentuk ruang antara sendi dan meningkatan peredaran darah.
                     </p>
                     <a href="{{route('services.kinesio-taping')}}" class="btn btn-outline-warning text-dark">Learn More</a>
@@ -117,7 +117,7 @@
                     </div>
                 </div>
                 <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold">Pre and Post Natal Treatment</h5>
+                    <h5 class="uk-text-uppercase uk-text-bold customFonts">Pre and Post Natal Treatment</h5>
                     <p class="uk-text-light">
                         Rawatan dan latihan untuk memastikan pra-kehamilan, kehamilan, dan kelahiran yang sihat dan penghantaran untuk ibu dan bayi.
                     </p>

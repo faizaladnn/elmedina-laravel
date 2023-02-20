@@ -18,7 +18,7 @@ class CreateAdminsTable extends Migration
             $table->string('email');
             $table->string('password');
             $table->string('username');
-            $table->enum('branch',['KUANTAN', 'SHAH ALAM', 'JOHOR BAHRU', 'BANGI', 'ALL']);
+            $table->enum('branch',['KUANTAN', 'SHAH ALAM', 'ALL']);
             $table->timestamps();
         });
     }

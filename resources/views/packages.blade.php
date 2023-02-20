@@ -8,7 +8,7 @@
       
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <h3 class="text-uppercase text-left ">{{ __('common.packages') }}</h3>
+            <h3 class="text-uppercase text-left customFontsH3">{{ __('common.packages') }}</h3>
         </div>
       </div>
             
@@ -19,7 +19,7 @@
               <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
                   <div class="card">
-                    <img src="{{ asset('public/template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{ asset('public/template/assets/carousel/packages/vvip_a.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal" title="FULL BODY (24 CUP) + SPORT MASSAGE (45 Minit) + AIR RELAX (30 Minit)"><span class="uk-text-bold">VVIP A</span> : FULL BODY (24 CUP) + SPORT MASSAGE (45 Minit) + AIR RELAX (30 Minit)</h6>
                       <p class="card-text font-weight-light tx-12">Percuma : Urutan Guasha + Bekam Luncur + Bekam Angin</p>
@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
                   <div class="card">
-                    <img src="{{ asset('public/template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{ asset('public/template/assets/carousel/packages/vvip_b.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal" title="FULL BODY (24 CUP) + SPORT MASSAGE (30 Minit)"><span class="uk-text-bold">VVIP B</span> : FULL BODY (24 CUP) + SPORT MASSAGE (30 Minit)</h6>
                       <p class="card-text font-weight-light tx-12">Percuma : Urutan Guasha + Bekam Luncur + Bekam Angin</p>
@@ -49,7 +49,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
                   <div class="uk-card card">
                     {{-- <div class="marker marker-ribbon marker-danger pos-absolute t-10 l-0">ON DEMAND</div> --}}
-                    <img src="{{ asset('public/template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{ asset('public/template/assets/carousel/packages/bekam_full_body.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 1 : FULL BODY (24 CUP)</h6>
                       <p class="card-text font-weight-light tx-12">Free: Urutan Ringkas, Urutan Guasha, Bekam Luncur, dan Bekam Angin</p>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
                   <div class="card">
-                    <img src="{{ asset('public/template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{ asset('public/template/assets/carousel/packages/bekam_half_body.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 2 : HALF BODY (14 CUP)</h6>
                       <p class="card-text font-weight-light tx-12">Free: Urutan Ringkas, Urutan Guasha, Bekam Luncur, dan Bekam Angin</p>
@@ -78,7 +78,7 @@
               <div class="row pb-3">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
                   <div class="card">
-                    <img src="{{ asset('public/template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{ asset('public/template/assets/carousel/packages/bekam_wajah.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 3 : BEKAM WAJAH (8 CUP)</h6>
                       <p class="card-text font-weight-light tx-12">Rawatan bekam darah untuk yang bermasalah resdung, jerawat, gatal-gatal dan gangguan mata</p>
@@ -89,23 +89,23 @@
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
                   <div class="card">
-                    <img src="{{ asset('public/template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{ asset('public/template/assets/carousel/packages/bekam_kepala.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h6 class="card-title font-weight-normal">PAKEJ 4 : BEKAM MIGRAIN (8 CUP)</h6>
-                      <p class="card-text font-weight-light tx-12">Rawatan bekam darah untuk yang mengalami migrain, stress, sakit kepala, tengkuk dan bahu</p>
+                      <h6 class="card-title font-weight-normal">PAKEJ 4 : BEKAM KEPALA (8 CUP)</h6>
+                      <p class="card-text font-weight-light tx-12">Rawatan bekam darah untuk yang mengalami stress, sakit kepala, tengkuk dan bahu</p>
                       <h5 style="margin: 0 0 10px;">RM 80 (VIP) RM 70 (NORMAL)</h5>
-                      <a href="{{route('packages.bekam-migrain')}}" class="btn btn-outline-warning text-dark">See More</a>
+                      <a href="{{route('packages.bekam-kepala')}}" class="btn btn-outline-warning text-dark">See More</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
                   <div class="card">
-                    <img src="{{ asset('public/template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{ asset('public/template/assets/carousel/packages/bekam_kaki.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h6 class="card-title font-weight-normal">PAKEJ 5 : BEKAM GOUT (12 CUP)</h6>
+                      <h6 class="card-title font-weight-normal">PAKEJ 5 : BEKAM KAKI (12 CUP)</h6>
                       <p class="card-text font-weight-light tx-12">Rawatan bekam darah untuk mengeluarkan urik asid dari kaki</p>
                       <h5 style="margin: 0 0 10px;">RM 110 (VIP) RM 100 (NORMAL)</h5>
-                      <a href="{{route('packages.bekam-gout')}}" class="btn btn-outline-warning text-dark">See More</a>
+                      <a href="{{route('packages.bekam-kaki')}}" class="btn btn-outline-warning text-dark">See More</a>
                     </div>
                   </div>
                 </div>                
@@ -113,7 +113,7 @@
               <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
                   <div class="card">
-                    <img src="{{ asset('public/template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{ asset('public/template/assets/carousel/packages/bekam_angin.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 6 : BEKAM ANGIN (21 CUP)</h6>
                       <p class="card-text font-weight-light tx-12">Rawatan untuk megeluarkan angin dari badan dan meregangkan otot-otot yang tegang</p>
@@ -124,7 +124,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12">
                   <div class="card">
-                    <img src="{{ asset('public/template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{ asset('public/template/assets/carousel/packages/bekam_full_body.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 7 : URUTAN BADAN</h6>
                       <p class="card-text font-weight-light tx-12">Urutan seluruh badan selama 1 jam</p>
@@ -142,7 +142,7 @@
               <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 pt-2">
                   <div class="card">
-                    <img src="{{ asset('public/template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{ asset('public/template/assets/carousel/packages/sport_massage_hypervolt.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal" title="SPORT MASSAGE + HYPERVOLT THERAPY">PAKEJ 8 : SPORT MASSAGE + HYPERVOLT THERAPY</h6>
                       <p class="card-text font-weight-light tx-12">Rawatan untuk megeluarkan angin dari badan dan meregangkan otot-otot yang tegang</p>
@@ -153,7 +153,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 pt-2">
                   <div class="card">
-                    <img src="{{ asset('public/template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{ asset('public/template/assets/carousel/packages/sport_massage_hype_air_relax.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal" title="SPORT MASSAGE + HYPERVOLT THERAPY + AIR RELAX">PAKEJ 9 : SPORT MASSAGE + HYPERVOLT THERAPY + AIR RELAX</h6>
                       <p class="card-text font-weight-light tx-12">Rawatan untuk megeluarkan angin dari badan dan meregangkan otot-otot yang tegang</p>
@@ -164,7 +164,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6 col-xs-12 pt-2">
                   <div class="card">
-                    <img src="{{ asset('public/template/assets/carousel/cover_5.jpg')}}" class="card-img-top" alt="...">
+                    <img src="{{ asset('public/template/assets/carousel/packages/sport_massage_hypervolt.jpg')}}" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal" title="SPORT RECOVERY">PAKEJ 10 : SPORT RECOVERY</h6>
                       <p class="card-text font-weight-light tx-12">Air Relax / Tens/ Sport Massage / Cupping / Kinesio Taping / Stretching</p>

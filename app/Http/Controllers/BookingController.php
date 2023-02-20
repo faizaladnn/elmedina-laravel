@@ -140,8 +140,7 @@ class BookingController extends Controller
 
     public function createBooking()
     {
-        $branches = ['KUANTAN' => 'Kuantan', 'SHAH ALAM' => 'Shah Alam', 'BANGI' => 'Bangi', 
-        'JOHOR BAHRU' => 'Johor Bahru', 'ULU KLANG' => 'Ulu Klang'];
+        $branches = ['KUANTAN' => 'Kuantan', 'SHAH ALAM' => 'Shah Alam', 'HULU KELANG' => 'HULU KELANG'];
         $gender = ['L' => __('common.men'), 'P' => __('common.women')];
         $packages = Package::pluck('title','id');
 
@@ -188,10 +187,7 @@ class BookingController extends Controller
             case 'BANGI':
                 $email = 'bangi@elmedina.com.my';
                 break;
-            case 'JOHOR BAHRU':
-                $email = 'johorbahru@elmedina.com.my';
-                break;
-            case 'ULU KLANG':
+            case 'HULU KELANG':
                 $email = 'uluklang@elmedina.com.my';
                 break;
             default:

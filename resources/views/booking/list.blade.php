@@ -51,10 +51,10 @@
                                         PAKEJ 3 - Bekam Wajah (8 Cup)   
                                             @break
                                         @case(6)
-                                        PAKEJ 4 - Bekam Migrain (8 Cup)   
+                                        PAKEJ 4 - Bekam Kepala (8 Cup)   
                                             @break
                                         @case(7)
-                                        PAKEJ 5 - Bekam Gout (12 Cup)   
+                                        PAKEJ 5 - Bekam Kaki (12 Cup)   
                                             @break
                                         @case(8)
                                         PAKEJ 6 - Bekam Angin (21 Cup) 

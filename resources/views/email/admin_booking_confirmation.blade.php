@@ -11,8 +11,8 @@
 			<td style="padding: 10px 0 30px 0;">
 				<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border: 1px solid #cccccc; border-collapse: collapse;">
 					<tr>
-						<td align="center" bgcolor="#3098d4" style="padding: 40px 0 30px 0; color: #153643; font-size: 28px; font-weight: bold; font-family: Arial, sans-serif;">
-							<img src="{{asset('public/template/assets/img/logo3.png')}}" alt="Creating Email Magic" width="50%" height="30%" style="display: block;" />
+						<td align="center" bgcolor="#30cbcb" style="padding: 40px 0 30px 0; color: #153643; font-size: 28px; font-weight: bold; font-family: Arial, sans-serif;">
+							<img src="{{asset('public/template/assets/img/logo4.png')}}" alt="Creating Email Magic" width="50%" height="30%" style="display: block;" />
 						</td>
 					</tr>
 					<tr>
@@ -76,7 +76,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td bgcolor="#3098d4" style="padding: 30px 30px 30px 30px;">
+						<td bgcolor="#30cbcb" style="padding: 30px 30px 30px 30px;">
 							<table border="0" cellpadding="0" cellspacing="0" width="100%">
 								<tr>
 									<td style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;" width="75%">

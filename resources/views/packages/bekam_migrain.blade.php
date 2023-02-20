@@ -21,8 +21,7 @@
             <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12">
                 <h5 class="text-uppercase">{{ __('common.benefits') }}</h5>
                 <ul class="uk-list uk-list-striped">
-                    <li>Melegakan migrain / vertigo / sakit kepala</li>
-                    <li>Ikhtiar penyakit Darah Tinggi</li>
+                    <li>Melegakan vertigo / sakit kepala</li>
                     <li>Melegakan tekanan (stress)</li>
                     <li>Melegakan masalah mata, hidung dan telinga</li>
                     <li>Menguatkan daya ingatan</li>
@@ -38,7 +37,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="row">
-                    @include('branches.slider.johor_bahru')
+                    @include('branches.slider.kuantan')
                 </div>
             </div> 
         </div>

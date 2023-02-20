@@ -21,7 +21,7 @@
             <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12">
                 <h5 class="text-uppercase">{{ __('common.benefits') }}</h5>
                 <ul class="uk-list uk-list-striped">
-                    <li>Melegakan pening kepala dan migrain</li>
+                    <li>Melegakan pening kepala</li>
                     <li>Menghilangkan jerawat</li>
                     <li>Melicinkan kulit wajah</li>
                     <li>Membantu melegakan kegatalan pada kulit wajah</li>
@@ -40,7 +40,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="row">
-                    @include('branches.slider.johor_bahru')
+                    @include('branches.slider.kuantan')
                 </div>
             </div> 
         </div>

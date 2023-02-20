@@ -6,9 +6,9 @@
 <div class="content content-fixed content-auth">
     <div class="container">
       <div class="media align-items-stretch justify-content-center ht-100p pos-relative">
-        <div class="media-body pd-y-30 pd-lg-x-50 pd-xl-x-60 align-items-center d-none d-lg-flex pos-relative" style="background: #3098d4;">
+        <div class="media-body pd-y-30 pd-lg-x-50 pd-xl-x-60 align-items-center d-none d-lg-flex pos-relative" style="background: #30cbcb;">
             <div class="mx-lg-wd-500 mx-xl-wd-550">
-              <img src="{{ asset('public//template/assets/img/logo3.png')}}" class="img-fluid" alt="">
+              <img src="{{ asset('public//template/assets/img/logo4.png')}}" class="img-fluid" alt="">
             </div>
           </div><!-- media-body -->
         <div class="sign-wrapper mg-lg-l-50 mg-xl-l-60">
