@@ -39,7 +39,7 @@
                 <ul class="uk-list uk-list-striped">
                     <li>Mengurangkan ketegangan otot dan meningkatkan peredaran darah</li>
                     <li>Menenangkan sistem saraf</li>
-                    <li>Untuk melegakan dan mengurangkan sakit belakang dan leher, mengurangkan keresahan kepenatan,migrain, rheumatism</li>
+                    <li>Untuk melegakan dan mengurangkan sakit belakang dan leher, mengurangkan keresahan kepenatan</li>
                 </ul>
                 <dl class="uk-description-list">
                     <dd>

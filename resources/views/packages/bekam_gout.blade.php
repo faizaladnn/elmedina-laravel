@@ -21,11 +21,10 @@
             <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12">
                 <h5 class="text-uppercase">{{ __('common.benefits') }}</h5>
                 <ul class="uk-list uk-list-striped">
-                    <li>Membuang kristal uric acid</li>
-                    <li>Mengurangkan rasa sakit</li>
-                    <li>Membaik pulih sistem organ badan</li>
-                    <li>Mengurangkan bengkak pada sendi</li>
-                    {{-- <li>Mengurangkan risiko penyakit</li> --}}
+                    <li>Melegakan masalah kebas dan kejang</li>
+                    <li>Melancarkan peredaran darah di kaki</li>
+                    <li>Menambah baik pergerakan sendi</li>
+                    <li>Mengurangkan rasa lenguh dan ketegangan otot kaki</li>
                 </ul>
             </div>
         </div>

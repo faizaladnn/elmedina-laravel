@@ -90,41 +90,6 @@
         </div>
     </div>
 
-    <div class="uk-child-width-1-3@m" uk-grid>
-        <div>
-            <div class="uk-card uk-card-hover">
-                <div class="uk-card-media-top">
-                    <img src="{{asset('public/template/assets/carousel/services/kinesio_tapping.jpg')}}" alt="">
-                </div>
-                <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold customFonts">Kinesio Taping</h5>
-                    <p class="uk-text-light">Membentuk ruang antara sendi dan meningkatan peredaran darah.
-                    </p>
-                    <a href="{{route('services.kinesio-taping')}}" class="btn btn-outline-warning text-dark">Learn More</a>
-                </div>
-            </div>
-        </div>
-
-        {{-- <div>
-            <div class="uk-card uk-card-hover">
-                <div class="uk-card-media-top">
-                    <div class="uk-inline">
-                        <img src="{{asset('public/template/assets/carousel/services/postnatal.jpg')}}" alt="">
-                        <div class="uk-overlay-primary uk-position-cover"></div>
-                        <div class="uk-overlay uk-position-center uk-light">
-                            <h3>{{ __('common.coming_soon') }}</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold customFonts">Pre and Post Natal Treatment</h5>
-                    <p class="uk-text-light">
-                        Rawatan dan latihan untuk memastikan pra-kehamilan, kehamilan, dan kelahiran yang sihat dan penghantaran untuk ibu dan bayi.
-                    </p>
-                </div>
-            </div>
-        </div> --}}
-    </div>
     </div>
   </div>
 </div>

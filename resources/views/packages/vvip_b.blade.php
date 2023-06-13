@@ -2,7 +2,7 @@
 @section ('content')
 <div class="uk-background-fixed uk-background-center-center uk-height-medium" style="background-image: url({{ asset('public/template/assets/carousel/cover_5.jpg')}});">
     <div class="content content-fixed">
-        <div class="uk-text-left uk-text-bolder uk-panel uk-padding-large uk-padding-remove-bottom uk-dark "><h4><span style="background-color:white; font-size:2rem;">VVIP B : FULL BODY (24 CUP) + Urutan badan (30 MINIT)</span></h4></div>
+        <div class="uk-text-left uk-text-bolder uk-panel uk-padding-large uk-padding-remove-bottom uk-dark "><h4><span style="background-color:white; font-size:2rem;">VVIP B : FULL BODY (24 CUP) + URUTAN BADAN (30 MINIT)</span></h4></div>
     </div>
 </div>
 
@@ -21,14 +21,10 @@
                 <h5 class="text-uppercase">{{ __('common.benefits') }}</h5>
                 <ul class="uk-list uk-list-striped">
                     <li>Membuang sel-sel darah yang mati</li>
-                    <li>Menstabilkan tekanan darah</li>
                     <li>Melancarkan peredaran darah</li>
                     <li>Mengeluarkan toksid dalam badan</li>
-                    <li>Mengembalikan paras normal kolestrol</li>
                     <li>Menghilangkan angin dalam badan</li>
-                    {{-- <li>Mengurangkan risiko penyakit</li> --}}
-                    <li>Menurunkan paras gula</li>
-                    <li>Meringangkan tubuh badan</li>
+                    <li>Meringankan tubuh badan</li>
                     <li>Melegakan sakit kepala</li>
                 </ul>
             </div>

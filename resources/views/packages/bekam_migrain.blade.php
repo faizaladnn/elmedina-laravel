@@ -3,7 +3,7 @@
 
 <div class="uk-background-fixed uk-background-center-center uk-height-medium" style="background-image: url({{ asset('public/template/assets/carousel/cover_5.jpg')}});">
     <div class="content content-fixed">
-        <div class="uk-text-left uk-text-bolder uk-panel uk-padding-large uk-padding-remove-bottom uk-dark"><h4><span style="background-color:white; font-size:2rem;">BEKAM MIGRAIN</span></h4></div>
+        <div class="uk-text-left uk-text-bolder uk-panel uk-padding-large uk-padding-remove-bottom uk-dark"><h4><span style="background-color:white; font-size:2rem;">BEKAM KEPALA</span></h4></div>
     </div>
 </div>
 
@@ -21,11 +21,9 @@
             <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12">
                 <h5 class="text-uppercase">{{ __('common.benefits') }}</h5>
                 <ul class="uk-list uk-list-striped">
-                    <li>Melegakan vertigo / sakit kepala</li>
-                    <li>Melegakan tekanan (stress)</li>
-                    <li>Melegakan masalah mata, hidung dan telinga</li>
-                    <li>Menguatkan daya ingatan</li>
-                    <li>Menajamkan penglihatan</li>
+                    <li>Melegakan sakit kepala</li>
+                    <li>Meningkatkan daya ingatan</li>
+                    <li>Meningkatkan daya penglihatan</li>
                 </ul>
             </div>
         </div>

@@ -31,7 +31,7 @@
                 <li class="">
                     <a href="{{route('branches.ulu-klang')}}" class="">
                         <i data-feather="phone"></i>
-                        HULU KELANG : </a> <a href="tel:+601120566773">011-205 66773</a>
+                        HULU KELANG : </a> <a href="tel:+0104547030 ">010-454 7030 </a>
                 </li>
             </ul>
         </div>

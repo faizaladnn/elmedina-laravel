@@ -6,7 +6,7 @@
         <div class="uk-text-center uk-text-bold uk-panel uk-light uk-padding-large uk-padding-remove-bottom uk-text-secondary"><h1>HULU KELANG</h1></div>
         <div class="uk-text-center uk-text-bold uk-panel uk-light uk-text-secondary uk-padding-small">
             <h4 class=" uk-text-bold">
-                <i data-feather="phone"></i> 011-205 66773 
+                <i data-feather="phone"></i> 0104547030
                 <a href="https://www.facebook.com/elmedinahulukelang" class="btn btn-social" target="_blank" style="text-decoration:underline;"><i class="fab fa-facebook"></i> EL MEDINA HULU KELANG</a>
                 <i class="fas fa-home" title="Address"></i> 11-1, Jalan Lingkaran Tengah 2, Ukay Boulevard Hulu Kelang, 68000 Ampang, Selangor
             </h4>

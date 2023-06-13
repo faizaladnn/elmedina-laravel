@@ -36,11 +36,34 @@ Route::get('locale/{locale}', function ($locale){
     return redirect()->back();
 });
 
-Route::get('/v2', function () {
-    return view('v2.home',[
-        'nav' => 'Home',
-    ]);
-})->name('home');
+Route::prefix('/v2')->name('v2.')->group(function () {
+    
+    Route::get('/', function () {
+        return view('v2.home',[
+            'nav' => 'The Elmedina Bekam & Recovery',
+        ]);
+    })->name('home');
+
+    Route::get('/kuantan', function () {
+        return view('v2.branch.kuantan',[
+            'nav' => 'The Elmedina Bekam & Recovery',
+        ]);
+    })->name('kuantan');
+
+    Route::get('/shah-alam', function () {
+        return view('v2.branch.shah_alam',[
+            'nav' => 'The Elmedina Bekam & Recovery',
+        ]);
+    })->name('shah-alam');
+
+    Route::get('/hulu-kelang', function () {
+        return view('v2.branch.ulu_kelang',[
+            'nav' => 'The Elmedina Bekam & Recovery',
+        ]);
+    })->name('hulu-kelang');
+
+
+});
 
 Route::get('/', function () {
     return view('home',[

@@ -3,7 +3,7 @@
 
 <div class="uk-background-fixed uk-background-center-center uk-height-medium" style="background-image: url({{ asset('public/template/assets/carousel/cover_5.jpg')}});">
     <div class="content content-fixed">
-        <div class="uk-text-left uk-text-bolder uk-panel uk-padding-large uk-padding-remove-bottom uk-dark"><h4><span style="background-color:white; font-size:2rem;">SPORT MASSAGE + HYPERVOLT + AIR RELAX (1 1/2 Jam)</span></h4></div>
+        <div class="uk-text-left uk-text-bolder uk-panel uk-padding-large uk-padding-remove-bottom uk-dark"><h4><span style="background-color:white; font-size:2rem;">SPORT MASSAGE + HYPERVOLT THERAPY + AIR RELAX (1 1/2 Jam)</span></h4></div>
     </div>
 </div>
 
@@ -21,12 +21,10 @@
             <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12">
                 <h5 class="text-uppercase">{{ __('common.benefits') }}</h5>
                 <ul class="uk-list uk-list-striped">
-                    <li>Meningkatkan pelbagai gerakan (ROM)</li>
-                    <li>Peningkatan fleksibiliti</li>
-                    <li>Meningkatkan rasa kesejahteraan</li>
-                    <li>Mengurangkan ketegangan oto</li>
-                    <li>Mengurangkan keceriaan neurologi (saraf lebih santai)</li>
-                    <li>Mengurangkan kekejangan otot</li>
+                    <li>Mengurangkan tekanan pada otot</li>
+                    <li>Menambah baik pergerakan sendi</li>
+                    <li>Mengurangkan kekejangan otot dan keletihan</li>
+                    <li>Membaik pulih kecederaan sukan</li>
                     <li>Tidur yang lebih baik</li>
                 </ul>
             </div>

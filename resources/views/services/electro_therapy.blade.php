@@ -39,7 +39,6 @@
                     <li>Mengurangkan rasa sakit</li>
                     <li>Melatih semula saraf</li>
                     <li>Mengurangkan keradangan</li>
-                    <li>Sesuai untuk chronic dan acute pain</li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">

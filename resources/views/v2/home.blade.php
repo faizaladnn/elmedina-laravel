@@ -29,11 +29,11 @@
         </div>
         <div class="row">
             <div class="col-lg-8">
-                <p style="text-align: justify;"> <b>Medina Bekam & Recovery</b> ditubuhkan pada <b>April 2018</b>. Setakat ini kami mempunyai <b>3 cawangan utama</b>. Cawangan pertama terletak di <b>Kuantan (Pahang)</b>, diikuti <b>Shah Alam</b> dan seterusnya <b>Hulu Kelang</b> . Perkhidmatan utama kami lebih kepada <b>Healthy and Recovey</b> iaitu lebih tertumpu kepada menangani masalah kesihatan dan membantu meningkatkan proses pemulihan pada anggota badan manusia.</p>                
-                <p style="text-align: justify;">Ramai yang tidak tahu sebenarnya, meskipun bekam adalah kaedah rawatan utama kami di sini, namun setelah melalui pelbagai proses kami berjaya meningkatkan <b>Medina Bekam & Recovery</b> ke satu tahap yang lebih efisien yakni setanding dengan rawatan bekam yang sedia ada di pasaran berserta dengan pakej-pakej lain yang lebih berinovasi. Malah tidak keterlaluan jika kami nyatakan kami lebih ke hadapan.</p>
-                <p style="text-align: justify;"><b>Medina Bekam & Recovery</b> adalah pusat rawatan bekam yang terbaik dan pertama menggabungkan pelbagai elemen natural. Rawatan berasaskan bekam yang diberi nafas baru dan dipermodenkan sehingga dikenali sebagai "bekam ala spa", rawatan tradisional seperti urutan tradisi sejak turun temurun lagi, physiotherapy atau pemulihan anggota badan untuk mereka yang mempunyai masalah otot, tulang dan sendi dan juga sebagai rawatan terakhir sebelum proses pembedahan dijalankan.</p>
-                <p style="text-align: justify;">Untuk pengetahuan, <b>Medina Bekam & Recovery</b> adalah pusat bekam yang pertama memperkenalkan disposal cup atau cup pakai buang yang lebih terjamin kebersihannya yakni sejak awal penubuhan lagi, April 2018 dan juga pusat spa pertama memperkenalkan teknik <b>Dry Cupping, Hypervolt Therapy, Compression Therapy dan Sport Massage pada Februari 2019</b></p>
-                <p style="text-align: justify;">Secara ringkasnya, pelbagai jenis lagi rawatan yang terdapat di <b>El Medina</b> dan kami sangat menitiberatkan <b>kebersihan dan keselamatan</b>. Dan semestinya and pasti akan kembali untuk membuat rawatan bersama kami kerana kami adalah pusat rawatan terbaik untuk anda.</p>
+                <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;"> <b>Medina Bekam & Recovery</b> ditubuhkan pada <b>April 2018</b>. Setakat ini kami mempunyai <b>3 cawangan utama</b>. Cawangan pertama terletak di <b>Kuantan (Pahang)</b>, diikuti <b>Shah Alam</b> dan seterusnya <b>Hulu Kelang</b> . Perkhidmatan utama kami lebih kepada <b>Healthy and Recovey</b> iaitu lebih tertumpu kepada menangani masalah kesihatan dan membantu meningkatkan proses pemulihan pada anggota badan manusia.</p>                
+                <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;">Ramai yang tidak tahu sebenarnya, meskipun bekam adalah kaedah rawatan utama kami di sini, namun setelah melalui pelbagai proses kami berjaya meningkatkan <b>Medina Bekam & Recovery</b> ke satu tahap yang lebih efisien yakni setanding dengan rawatan bekam yang sedia ada di pasaran berserta dengan pakej-pakej lain yang lebih berinovasi. Malah tidak keterlaluan jika kami nyatakan kami lebih ke hadapan.</p>
+                <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;"><b>Medina Bekam & Recovery</b> adalah pusat rawatan bekam yang terbaik dan pertama menggabungkan pelbagai elemen natural. Rawatan berasaskan bekam yang diberi nafas baru dan dipermodenkan sehingga dikenali sebagai "bekam ala spa", rawatan tradisional seperti urutan tradisi sejak turun temurun lagi, physiotherapy atau pemulihan anggota badan untuk mereka yang mempunyai masalah otot, tulang dan sendi dan juga sebagai rawatan terakhir sebelum proses pembedahan dijalankan.</p>
+                <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;">Untuk pengetahuan, <b>Medina Bekam & Recovery</b> adalah pusat bekam yang pertama memperkenalkan disposal cup atau cup pakai buang yang lebih terjamin kebersihannya yakni sejak awal penubuhan lagi, April 2018 dan juga pusat spa pertama memperkenalkan teknik <b>Dry Cupping, Hypervolt Therapy, Compression Therapy dan Sport Massage pada Februari 2019</b></p>
+                <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;">Secara ringkasnya, pelbagai jenis lagi rawatan yang terdapat di <b>El Medina</b> dan kami sangat menitiberatkan <b>kebersihan dan keselamatan</b>. Dan semestinya and pasti akan kembali untuk membuat rawatan bersama kami kerana kami adalah pusat rawatan terbaik untuk anda.</p>
             </div>
         </div>
     </div>
@@ -129,67 +129,36 @@
                 <div class="row-cards">
                     <div class="column-card column-card-branch">
                         <div class="card">
-                            <img src="{{asset('public/template/assets/carousel/services/electro_therapy.jpg')}}" alt="">
+                            <img src="{{asset('public/template/assets/carousel/branch/branch_kuantan.jpg')}}" alt="">
                             <div class="text-block">
-                              <p>Kuantan, Pahang</p>
+                                <a href="{{route('v2.kuantan')}}" style="text-decoration: none; color:black; font-size:18px;">
+                                    <p>Kuantan, Pahang</p>
+                                </a>
                             </div>
-                        </div>
+                        </div>          
                     </div>
                     <div class="column-card">
                         <div class="card">
-                            <img src="{{asset('public/template/assets/carousel/services/ultrasound.jpg')}}" alt="">
+                            <img src="{{asset('public/template/assets/carousel/branch/branch_shah_alam.jpg')}}" alt="">
                             <div class="text-block">
-                              <p>Shah Alam, Selangor</p>
+                                <a href="{{route('v2.shah-alam')}}" style="text-decoration: none; color:black; font-size:18px;">
+                                    <p>Shah Alam, Selangor</p>
+                                </a>
                             </div>
                         </div>
                     </div>
                     
                     <div class="column-card">
                         <div class="card">
-                            <img src="{{asset('public/template/assets/carousel/services/kinesio_tapping.jpg')}}" alt="">
+                            <img src="{{asset('public/template/assets/carousel/branch/branch_ulu_klang.jpeg')}}" alt="">
                             <div class="text-block" style="right: 100px">
-                              <p>Ulu Kelang</p>
+                                <a href="{{route('v2.hulu-kelang')}}" style="text-decoration: none; color:black; font-size:18px;">
+                                    <p>Hulu Kelang, Kuala Lumpur</p>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="contact-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>CONTACT US</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="contact-container">
-                    <form action="/action_page.php">
-                      <label for="fname">First Name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                  
-                      <label for="lname">Last Name</label>
-                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                  
-                      <label for="country">Country</label>
-                      <select id="country" name="country">
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
-                      </select>
-                  
-                      <label for="subject">Subject</label>
-                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                  
-                      <input type="submit" value="Submit">
-                    </form>
-                  </div>
-                  
             </div>
         </div>
     </div>

@@ -15,12 +15,7 @@
                     <dt><h5 class="text-uppercase">{{ __('common.duration') }}</h5></dt>
                     <dd>
                         <p class="font-weight-light text-justify">
-                            Air relax adalah alat sarung “ compression” dari kaki hingga ke peha (leg cuff). Apabila alat ini diaktifkan ia akan mengembang dan mengempis ke setiap bahagian 
-                            kaki anda melalui mode yang disetkan. Ia juga dapat meningkatkan dan melancarkan peredaraan darah ke jantung  dengan baik. Air relax juga digunakan sebagai alat 
-                            bantuan dalan proses recovery kerana ia mempunyai persamaan  urutan professional. Air relax mempunyai 5 mode  yang berlainan (“A”,”B”, “C”, “POINT”, “AUTO”). 
-                            Air relax  juga dikenali juga sebagai terapi urutan yang dapat melancarkan peredaraan darah serta mengurangkan asid laktik  yang berpunca dari sukan yang 
-                            banyak menggunakan kaki seperti berlari, berbasikal, bermain bola atau berdiri dalam masa yang lama. Air relax juga dapat mengurangkan sakit pada otot, 
-                            meningkatkan flexible pada otot, meningkatkan imuniti dan untuk tidur yang lebih baik.
+                            Terapi urutan kaki selama 30 minit untuk melancarkan peredaran darah dan meningkatkan prestasi otot kaki.
                         </p>
                     </dd>
                 </dl>

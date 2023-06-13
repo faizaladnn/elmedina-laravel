@@ -19,7 +19,7 @@ h1 {
 }
 
 .navbar-default .navbar-nav>li>a{
-  color: black
+  color: black;
 }
 
 @media (min-width: 767px) {
@@ -48,13 +48,10 @@ h1 {
   }
 }
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
 .intro-section {
   background-image: linear-gradient(176deg, #30cbcb 70%, #F4F4F4);
   height: 100%;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
   padding-top: 150px;
   text-align: center;
@@ -69,15 +66,7 @@ of those sections to manage the look and feel of the site. */
   word-break:break-all;
 }
 
-.services-section {
-  padding-top: 100px;
-  padding-bottom: 50px;
-  text-align: center;
-  background: #eee;
-  word-break:break-all;
-}
-
-.branches-section {
+.branch-info-section {
   padding-top: 100px;
   padding-bottom: 50px;
   text-align: center;
@@ -85,8 +74,37 @@ of those sections to manage the look and feel of the site. */
   word-break:break-all;
 }
 
-.contact-section {
+.branch-header {
+  background-image: linear-gradient(176deg, #30cbcb 70%, #F4F4F4);
   padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  word-break:break-all;
+}
+
+.map-section {
+  background: #eee;
+  word-break:break-all;
+}
+
+.services-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: #eee;
+  word-break:break-all;
+}
+
+.branches-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: #fff;
+  word-break:break-all;
+}
+
+.contact-section {
+  padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   background: #eee;
@@ -97,6 +115,17 @@ of those sections to manage the look and feel of the site. */
   white-space: normal;
 }
 
+.branch-header h1 {
+  font-size: 52px;
+  white-space: pre-wrap; 
+  word-break: keep-all;
+}
+
+.branch-info-section h5 {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
 @media (min-width: 1200px)
 {
   .services-section .container {
@@ -105,9 +134,15 @@ of those sections to manage the look and feel of the site. */
   .branches-section .container {
       width: 80%;
   }
+  .branch-info-section .container {
+      width: 80%;
+  }
+  .map-section .container {
+      width: 100%;
+  }
 }
 @media (max-width: 767px) {
-  .about-section, .branches-section,  .services-section, .contact-section{
+  .about-section, .branches-section, .services-section, .contact-section, .branch-info-section{
     /* display: initial; */
   padding-top: 50px;
   }
@@ -119,6 +154,12 @@ of those sections to manage the look and feel of the site. */
   .branches-section > .container {
     padding-right: 0px;
     padding-left: 0px;
+  }
+
+  .branch-header h1 {
+    font-size: 32px;
+    white-space: pre-wrap; 
+    word-break: keep-all;
   }
 }
 
@@ -444,8 +485,39 @@ input[type=submit]:hover {
   background-color: #79afaf;
 }
 
+button[type=submit] {
+  background-color: #30cbcb;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button[type=submit]:hover {
+  background-color: #79afaf;
+}
+
 .contact-container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.row-img {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column-img {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column-img img {
+  margin-top: 8px;
+  vertical-align: middle;
 }

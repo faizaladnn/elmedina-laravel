@@ -14,6 +14,30 @@
   <!-- Content -->
   @yield('content')
 
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6">
+              <h1>CONTACT US</h1>
+          </div>
+          <div class="col-lg-6">
+              <div class="contact-container">
+                  <form action="/action_page.php">
+                    <input type="text" id="fname" name="firstname" placeholder="Name">
+                    <input type="text" id="email" name="email" placeholder="Email">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <button type="submit">Send</button>
+                  </form>
+                </div>
+                
+          </div>
+      </div>
+      <div class="row">
+      </div>
+  </div>
+</section>
+  
   <!-- Footer -->
   @include('v2/layouts/footer')
 

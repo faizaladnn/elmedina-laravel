@@ -19,15 +19,10 @@
             <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12">
                 <h5 class="text-uppercase">{{ __('common.benefits') }}</h5>
                 <ul class="uk-list uk-list-striped">
-                    <li>Membuang sel-sel darah yang mati</li>
-                    <li>Menstabilkan tekanan darah</li>
                     <li>Melancarkan peredaran darah</li>
                     <li>Mengeluarkan toksid dalam badan</li>
-                    <li>Mengembalikan paras normal kolestrol</li>
                     <li>Menghilangkan angin dalam badan</li>
-                    {{-- <li>Mengurangkan risiko penyakit</li> --}}
-                    <li>Menurunkan paras gula</li>
-                    <li>Meringangkan tubuh badan</li>
+                    <li>Meringankan tubuh badan</li>
                     <li>Melegakan sakit kepala</li>
                 </ul>
             </div>

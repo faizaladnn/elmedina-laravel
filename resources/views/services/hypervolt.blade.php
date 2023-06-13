@@ -15,13 +15,9 @@
                     <dt><h5 class="text-uppercase">{{ __('common.duration') }}</h5></dt>
                     <dd>
                         <p class="font-weight-light text-justify">
-                            Hypervolt adalah high-tech massage therapy tool yang direka untuk digunapakai oleh para atlet. Hypervolt mengunakan vibration technique 
-                            untuk membantu meningkatkan “range of motion” dan membantu untuk proses penyembuhan selepas aktiviti sukan. Hypervolt adalah salah satu 
-                            seni yang mengunakan urutan getaran untuk membantu memberikan kesan relax pada otot yang lenguh dan otot yang mengeras, dan juga membantu 
-                            meningkatkan pengaliran darah. Hypervolt  ini senang untuk digunakan untuk “self-myofascial release”. Walaubagaimanapun, hypervolt ini 
-                            tidak sesuai untuk digunakan pada wanita yang mengandung, masalah penyakit diabetes dengan komplikasi terhadap neuropathy dan 
-                            masalah mata, orang yang mengunakan pacemaker pada jantung, masalah sawan, “metal plating” pada tulang, orang yang mempunyai masalah 
-                            tulang belakang seperti (herniated disks, spondylolisthesis, spondylosis dan recent joint replacement).
+                            Hypervolt adalah high-tech massage therapy tool yang direka untuk digunapakai oleh para atlet. Hypervolt mengunakan vibration technique untuk 
+                            membantu meningkatkan “range of motion” dan membantu untuk proses penyembuhan selepas aktiviti sukan. Hypervolt adalah salah satu seni yang 
+                            mengunakan urutan getaran untuk membantu memberikan kesan relax pada otot yang lenguh dan otot yang mengeras, dan juga membantu meningkatkan pengaliran darah.
                         </p>
                     </dd>
                 </dl>
@@ -30,7 +26,6 @@
                 <h5 class="text-uppercase">{{ __('common.benefits') }}</h5>
                 <ul class="uk-list uk-list-striped">
                     <li>Digunakan untuk meningkatkan persembahan fizikal</li>
-                    <li>Mengurangkan kesan penuaan terhadap tulang,otot dan tendon</li>
                     <li>Melembutkan otot-otot</li>
                 </ul>
             </div>

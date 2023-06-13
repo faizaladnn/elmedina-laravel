@@ -136,7 +136,7 @@
                                         <i class="fas fa-phone" title="Telephone Number"></i>
                                     </div>
                                     <div class="col-lg-11 col-md-11 col-sm-11 col-xd-11">
-                                        <h5>011 - 205 66773 </h5>
+                                        <h5>010-454 7030  </h5>
                                     </div>
                                 </div>
                                 <div class="row">

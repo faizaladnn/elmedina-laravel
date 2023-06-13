@@ -25,10 +25,8 @@
                     <li>Menghilangkan jerawat</li>
                     <li>Melicinkan kulit wajah</li>
                     <li>Membantu melegakan kegatalan pada kulit wajah</li>
-                    <li>Melegakan masalah resdung</li>
                     <li>Memberi kesegaran pada kulit wajah</li>
-                    <li>Mengurangkan tekanan (stress)</li>
-                    <li>Menambah seri (awet muda)</li>
+                    <li>Menambah seri wajah</li>
                 </ul>
             </div>
         </div>

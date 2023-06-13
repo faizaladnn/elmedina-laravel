@@ -21,13 +21,16 @@
             <div class="col-lg-7 col-md-6 col-sm-6 col-xs-12">
                 <h5 class="text-uppercase">{{ __('common.benefits') }}</h5>
                 <ul class="uk-list uk-list-striped">
+                    <li>Ketegangan dan kecederaan otot</li>
+                    <li>Kecederaan lutut</li>
+                    <li>Kecederaan buku lali</li>
+                    <li>Kebengkakan otot</li>
+                    <li>Mengurangkan kekejangan otot</li>
                     <li>Meregangkan otot</li>
-                    <li>Melegakan tekanan (stress)</li>
+                    <li>Meregangkan otot</li>
                     <li>Meningkatkan kualiti tidur</li>
                     <li>Mengurangkan tekanan pada otot</li>
                     <li>Memperbaiki peredaran darah</li>
-                    <li>Meringkan tubuh</li>
-                    <li>Menyingkirkan angin berlebihan dalam tubuh</li>
                 </ul>
             </div>
         </div>
