@@ -46,7 +46,7 @@ class AdminController extends Controller
         $status = ['0' => 'Pending', '1' => 'Success', '2' => 'Cancel'];
         $kuantan = Booking::where('branch','KUANTAN')->get();
         $shah_alam = Booking::where('branch','SHAH ALAM')->get();
-        $ulu_klang = Booking::where('branch','HULU KELANG')->get();
+        $ulu_klang = Booking::where('branch','Ulu Klang')->get();
 
         $users = User::all();
 
@@ -77,7 +77,7 @@ class AdminController extends Controller
     public function create()
     {
         $admin = new Admin();
-        $branches = ['ALL' => 'ALL', 'KUANTAN' => 'KUANTAN', 'SHAH ALAM' => 'SHAH ALAM', 'HULU KELANG' => 'HULU KELANG'];
+        $branches = ['ALL' => 'ALL', 'KUANTAN' => 'KUANTAN', 'SHAH ALAM' => 'SHAH ALAM', 'Ulu Klang' => 'Ulu Klang'];
 
         return view('admin.create', [
             'admin' => $admin,
@@ -111,7 +111,7 @@ class AdminController extends Controller
     public function edit($id)
     {
         $admin = Admin::findOrFail($id);
-        $branches = ['ALL' => 'ALL', 'KUANTAN' => 'KUANTAN', 'SHAH ALAM' => 'SHAH ALAM', 'HULU KELANG' => 'HULU KELANG'];
+        $branches = ['ALL' => 'ALL', 'KUANTAN' => 'KUANTAN', 'SHAH ALAM' => 'SHAH ALAM', 'Ulu Klang' => 'Ulu Klang'];
 
         return view('admin.edit', [
             'admin' => $admin,

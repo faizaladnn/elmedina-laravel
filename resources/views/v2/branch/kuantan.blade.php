@@ -43,15 +43,7 @@
                         <h4 style="text-justify: inter-word;">PHONE</h4>
                     </div>
                     <div class="col-lg-8 col-sm-6 col-xs-6">
-                        <h5 style="text-align: justify; text-justify: inter-word;">+6010 838 7030</h5>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 col-xs-6">
-                        <h4 style="text-justify: inter-word;">EMAIL</h4>
-                    </div>
-                    <div class="col-lg-8 col-sm-6 col-xs-6">
-                        <h5 style="text-align: justify; text-justify: inter-word;">test@email.com</h5>
+                        <h5 style="text-align: justify; text-justify: inter-word;"><a href="tel:+60108387030">+6010 838 7030</a></h5>
                     </div>
                 </div>
                 <div class="row">
@@ -64,10 +56,20 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 col-xs-6">
+                        <h4 style="text-justify: inter-word;">FACEBOOK</h4>
+                    </div>
+                    <div class="col-lg-8 col-sm-6 col-xs-6">
+                        <h5 style="text-align: justify; text-justify: inter-word;">
+                            <a href="https://www.facebook.com/elmedinaspabekamkuantan" class="btn btn-social" target="_blank"><i style='font-size:24px' class='fab'>&#xf39e;</i></a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-xs-6">
                         <h4 style="text-justify: inter-word;">OPENING HOURS</h4>
                     </div>
                     <div class="col-lg-8 col-sm-6 col-xs-6">
-                        <h5 style="text-align: justify; text-justify: inter-word;">Monday - Sunday : 10AM - 10PM</h5>
+                        <h5 style="text-align: justify; text-justify: inter-word; white-space: pre-wrap; word-break: keep-all;">Monday - Sunday : 10AM - 10PM</h5>
                     </div>
                 </div>
             </div>

@@ -3,12 +3,12 @@
 @section ('content')
 <div class="uk-background-fixed uk-background-center-center" style="background-image: url({{ asset('public/template/assets/carousel/branch/branch_ulu_klang.jpeg')}});">
     <div class="content content-fixed">
-        <div class="uk-text-center uk-text-bold uk-panel uk-light uk-padding-large uk-padding-remove-bottom uk-text-secondary"><h1>HULU KELANG</h1></div>
+        <div class="uk-text-center uk-text-bold uk-panel uk-light uk-padding-large uk-padding-remove-bottom uk-text-secondary"><h1>Ulu Klang</h1></div>
         <div class="uk-text-center uk-text-bold uk-panel uk-light uk-text-secondary uk-padding-small">
             <h4 class=" uk-text-bold">
                 <i data-feather="phone"></i> 0104547030
-                <a href="https://www.facebook.com/elmedinahulukelang" class="btn btn-social" target="_blank" style="text-decoration:underline;"><i class="fab fa-facebook"></i> EL MEDINA HULU KELANG</a>
-                <i class="fas fa-home" title="Address"></i> 11-1, Jalan Lingkaran Tengah 2, Ukay Boulevard Hulu Kelang, 68000 Ampang, Selangor
+                <a href="https://www.facebook.com/elmedinahulukelang" class="btn btn-social" target="_blank" style="text-decoration:underline;"><i class="fab fa-facebook"></i> EL MEDINA Ulu Klang</a>
+                <i class="fas fa-home" title="Address"></i> 11-1, Jalan Lingkaran Tengah 2, Ukay Boulevard Ulu Klang, 68000 Ampang, Selangor
             </h4>
         </div>
         <div class="uk-text-center uk-light uk-text-bold uk-panel uk-text-secondary uk-padding-small">

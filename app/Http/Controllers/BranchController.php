@@ -98,8 +98,8 @@ class BranchController extends Controller
                         'routeName' => 'shah-alam',
                     ],
                     [
-                        'branchName' => 'HULU KELANG',
-                        'address' => '11-1, Jalan Lingkaran Tengah 2, Ukay Boulevard Hulu Kelang, 68000 Ampang, Selangor',
+                        'branchName' => 'Ulu Klang',
+                        'address' => '11-1, Jalan Lingkaran Tengah 2, Ukay Boulevard Ulu Klang, 68000 Ampang, Selangor',
                         'sourceMap' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.491109200717!2d101.75445281525252!3d2.961142855104205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdcbe18e82a0db%3A0x5bae158640d76c66!2sEl%20Medina%20Spa%20Bekam%20-%20Bangi!5e0!3m2!1sen!2smy!4v1576500339532!5m2!1sen!2smy',
                         'facebook' => 'https://www.facebook.com/elmedinauluklang/',
                         'telephoneNo' => '011-205 66773',

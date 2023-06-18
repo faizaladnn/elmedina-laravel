@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 align-bottom">
                     <p class="text-justify font-weight-light pt-5" style="text-indent:2rem;">
-                        Medina Bekam & Recovery ditubuhkan pada April 2018. Setakat ini kami mempunyai 3 cawangan utama. Cawangan pertama terletak di Kuantan (Pahang), diikuti Shah Alam dan seterusnya Hulu Kelang . Perkhidmatan utama kami lebih kepada Healthy and Recovey iaitu lebih tertumpu kepada menangani masalah kesihatan dan membantu meningkatkan proses pemulihan pada anggota badan manusia.
+                        Medina Bekam & Recovery ditubuhkan pada April 2018. Setakat ini kami mempunyai 3 cawangan utama. Cawangan pertama terletak di Kuantan (Pahang), diikuti Shah Alam dan seterusnya Ulu Klang . Perkhidmatan utama kami lebih kepada Healthy and Recovey iaitu lebih tertumpu kepada menangani masalah kesihatan dan membantu meningkatkan proses pemulihan pada anggota badan manusia.
 
                     </p>
                 </div>

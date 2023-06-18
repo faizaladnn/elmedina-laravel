@@ -37,32 +37,26 @@ Route::get('locale/{locale}', function ($locale){
 });
 
 Route::prefix('/v2')->name('v2.')->group(function () {
+    Route::get('/type/{type}', function ($type) { 
+        return redirect()->to(route('v2.home').'#' . strtolower($type));
+      })->name('home-type');
     
-    Route::get('/', function () {
-        return view('v2.home',[
-            'nav' => 'The Elmedina Bekam & Recovery',
-        ]);
-    })->name('home');
+    Route::get('/', function () {return view('v2.home', ['nav' => 'The Elmedina Bekam & Recovery']); })->name('home');
 
-    Route::get('/kuantan', function () {
-        return view('v2.branch.kuantan',[
-            'nav' => 'The Elmedina Bekam & Recovery',
-        ]);
-    })->name('kuantan');
-
-    Route::get('/shah-alam', function () {
-        return view('v2.branch.shah_alam',[
-            'nav' => 'The Elmedina Bekam & Recovery',
-        ]);
-    })->name('shah-alam');
-
-    Route::get('/hulu-kelang', function () {
-        return view('v2.branch.ulu_kelang',[
-            'nav' => 'The Elmedina Bekam & Recovery',
-        ]);
-    })->name('hulu-kelang');
-
-
+    // Branch
+    Route::get('/kuantan', function () {return view('v2.branch.kuantan', ['nav' => 'Kuantan']); })->name('kuantan');
+    Route::get('/shah-alam', function () {return view('v2.branch.shah_alam', ['nav' => 'Shah Alam']); })->name('shah-alam');
+    Route::get('/ulu-klang', function () {return view('v2.branch.ulu_kelang', ['nav' => 'Ulu Klang']); })->name('ulu-klang');
+    // Services
+    Route::get('/bekam-hijama', function () {return view('v2.services.bekam_hijama', ['nav' => 'Bekam/Hijama']); })->name('bekam-hijama');
+    Route::get('/urutan-massage', function () {return view('v2.services.massage', ['nav' => 'Urutan/Massage']); })->name('urutan-massage');
+    Route::get('/air-relax', function () { return view('v2.services.air_relax',[ 'nav' => 'Air Relax Therapy']); })->name('air-relax');
+    Route::get('/hypervolt', function () { return view('v2.services.hypervolt',[ 'nav' => 'Vibration Therapy (HYPERVOLT)']); })->name('hypervolt');
+    Route::get('/tens', function () { return view('v2.services.tens',[ 'nav' => 'Electro Therapy (TENS)']); })->name('tens');
+    Route::get('/ultrasound', function () { return view('v2.services.ultrasound',[ 'nav' => 'Ultrasound Therapy']); })->name('ultrasound');
+    Route::get('/kinesio', function () { return view('v2.services.kinesio',[ 'nav' => 'Kinesio Tapping']); })->name('kinesio');
+    // Packages
+    Route::get('/package', function () {return view('v2.packages', ['nav' => 'Packages']); })->name('package');
 });
 
 Route::get('/', function () {
