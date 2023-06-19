@@ -198,14 +198,14 @@ h1 {
   padding-top: 50px;
   }
 
-  .services-section > .container {
+  /* .services-section > .container {
     padding-right: 0px;
     padding-left: 0px;
   }
   .branches-section > .container {
     padding-right: 0px;
     padding-left: 0px;
-  }
+  } */
 
   .branch-header h1 {
     font-size: 32px;
