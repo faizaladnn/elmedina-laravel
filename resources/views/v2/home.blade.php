@@ -1,7 +1,8 @@
 @extends ('v2.layouts.master')
 
 @section ('content')
-<button onclick="topFunction()" id="goToBottomButton" title="Go to top">^</button>
+{{-- <button onclick="topFunction()" id="goToBottomButton" title="Go to top">^</button> --}}
+
 <!-- Intro Section -->
 <section id="intro" class="intro-section">
     <div class="container">
@@ -36,6 +37,68 @@
                 <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;">Secara ringkasnya, pelbagai jenis lagi rawatan yang terdapat di <b>El Medina</b> dan kami sangat menitiberatkan <b>kebersihan dan keselamatan</b>. Dan semestinya and pasti akan kembali untuk membuat rawatan bersama kami kerana kami adalah pusat rawatan terbaik untuk anda.</p>
             </div>
         </div>
+    </div>
+</section>
+
+<!-- Testimonial Section -->
+<section id="about" class="testimonial-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="revealUp" style="float: center; text-decoration: underline solid white 20%; ">TESTIMONIALS</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="testimonial-slider">
+                    <ul class="slider">
+                      <li>
+                        <div class="testimonial-slider-content">
+                          <q style="font-size: 32px;">El Medina is good. I always do dry cupping and sport massage here for my hamstring and good recovery.</q>
+                          <p class="source">- Dickson Nwakame</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="testimonial-slider-content">
+                          <q style="font-size: 32px;">Selain bekam darah, paling best sport massage with the new equipment they call Hypervolt. For those yang ada masalah muscle, anda kena dapatkan treatment ini.</q>
+                          <p class="source">- Azrel Ismail</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="testimonial-slider-content">
+                          <q style="font-size:24px;">Best dan selesa! Serius lepas bekam dan sport massage badan rasa ringan!!</q>
+                          <p class="source">- Rody Kristal & Niena Azman</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="testimonial-slider-content">
+                          <q>Guys here have a magic hands</q>
+                          <p class="source">- YAM Tengku Panglima Raja, Mejar Tengku Amir Nasser Ibrahim Shah</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="testimonial-slider-content">
+                          <q>Bersih, selesa dan privacy serta mewah dengan harga berpatutan</q>
+                          <p class="source">- Syamim Yahya</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="testimonial-slider-content">
+                          <q>Badan rasa ringan gila !!. korang kena try gaiss !!</q>
+                          <p class="source">- Nonny Nadirah</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="testimonial-slider-content">
+                          <q>Sport massage terbaik!</q>
+                          <p class="source">- KDYMM Pemangku Raja Pahang Tengku Mahkota Tengku Hassanal Ibrahim Alam Shah</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+        
     </div>
 </section>
 
@@ -93,38 +156,6 @@
                 </div>
             </div>
         </div>
-
-        {{-- <div class="row-cards" style="">
-            <div class="column-card">
-                <div class="card">
-                    <img src="{{asset('public/template/assets/carousel/services/electro_therapy.jpg')}}" alt="">
-                    <div class="text-block">
-                        <a href="{{route('v2.tens')}}" style="text-decoration: none; color:black; font-size:18px;">
-                            <p>Electro Therapy (TENS)</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="column-card">
-                <div class="card">
-                    <img src="{{asset('public/template/assets/carousel/services/ultrasound.jpg')}}" alt="">
-                    <div class="text-block">
-                        <a href="{{route('v2.ultrasound')}}" style="text-decoration: none; color:black; font-size:18px;">
-                            <p>Ultrasound Therapy</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="column-card">
-                <div class="card">
-                    <img src="{{asset('public/template/assets/carousel/services/kinesio_tapping.jpg')}}" alt="">
-                    <div class="text-block" style="right: 100px">
-                            <p>Kinesio Tapping</p>
-                    </div>
-                </div>
-            </div> --}}
-        </div>
     </div>
 </section>
 
@@ -176,7 +207,6 @@
     </div>
 </section>
 
-
 <!-- Contact Section -->
 <section id="contact" class="contact-section">
     <div class="container">
@@ -187,19 +217,116 @@
             <div class="col-lg-6">
                 <div class="contact-container">
                     <form action="/action_page.php">
-                      <input type="text" id="fname" name="firstname" placeholder="Name">
-                      <input type="text" id="email" name="email" placeholder="Email">
-                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                      <button type="submit">Send</button>
+                        <input type="text" id="fname" name="firstname" placeholder="Name">
+                        <input type="text" id="email" name="email" placeholder="Email">
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        <button type="submit">Send</button>
                     </form>
-                  </div>
-                  
+                    </div>
+                    
             </div>
         </div>
         <div class="row">
         </div>
     </div>
-  </section>
+</section>
+
+{{-- Partners Section --}}
+<section id="partners" class="partners-section">
+    <div class="container">
+        <div class="row" style="padding-bottom: 20px">
+            <div class="col-lg-12">
+                <h1 class="revealUp">OUR PARTNERS</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="square-holder">
+                    <img alt="" src="{{asset('public/template/assets/img/partners/doc_bekam.jpg')}}" width="80%"  />
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="square-holder">
+                    <img alt="" src="{{asset('public/template/assets/img/partners/cenviro.png')}}" width="80%"  />
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="square-holder">
+                    <img alt="" src="{{asset('public/template/assets/img/partners/air_relax.png')}}" width="80%"  />
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="square-holder">
+                    <img alt="" src="{{asset('public/template/assets/img/partners/hypervolt.jpg')}}" width="80%"  />
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="square-holder">
+                    <img alt="" src="{{asset('public/template/assets/img/partners/sk_bunut_rendang.png')}}" width="70%" />
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="square-holder">
+                    <img alt="" src="{{asset('public/template/assets/img/partners/jkm.png')}}" width="80%"  />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- Clients Section --}}
+<section id="clients" class="clients-section">
+    <div class="container">
+        <div class="row" style="padding-bottom: 20px">
+            <div class="col-lg-12">
+                <h1 class="revealUp">OUR CLIENTS</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="square-holder">
+                    <img alt="" src="{{asset('public/template/assets/img/partners/time.png')}}"/>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="square-holder">
+                    <img alt="" src="{{asset('public/template/assets/img/partners/pahang_ranger.png')}}" />
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="square-holder">
+                    <img alt="" src="{{asset('public/template/assets/img/partners/fam.png')}}"/>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="square-holder">
+                    <img alt="" src="{{asset('public/template/assets/img/partners/kuantan_fa.png')}}"/>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="square-holder">
+                    <img alt="" src="{{asset('public/template/assets/img/partners/selangor_fa.png')}}"/>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="square-holder">
+                    <img alt="" src="{{asset('public/template/assets/img/partners/selangor_mac.png')}}"/>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="square-holder">
+                    <img alt="" src="{{asset('public/template/assets/img/partners/kotasas.png')}}"/>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="square-holder">
+                    <img alt="" src="{{asset('public/template/assets/img/partners/hk_fighters.png')}}"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 @endsection
 
 @section('js')

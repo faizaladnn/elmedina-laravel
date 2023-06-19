@@ -55,6 +55,12 @@
                 <li>
                     <a class="page-scroll" data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" href="#contact">Contact</a>
                 </li>
+                <li>
+                    <a class="page-scroll" data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" href="#partners">Partner</a>
+                </li>
+                <li>
+                    <a class="page-scroll" data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" href="#clients">Client</a>
+                </li>
                 {{-- <li>
                     <a class="page-scroll" data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" href="#">Shop</a>
                 </li>
@@ -82,6 +88,12 @@
                 </li>
                 <li>
                     <a class="page-scroll" href="{{route('v2.home-type', ['type' => 'Contact'])}}">Contact</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{route('v2.home-type', ['type' => 'Partners'])}}">Partner</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{route('v2.home-type', ['type' => 'Clients'])}}">Client</a>
                 </li>
                 {{-- <li>
                     <a class="page-scroll" data-bs-toggle="collapse"  data-bs-target=".navbar-collapse.show" href="#">Shop</a>

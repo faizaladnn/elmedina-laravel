@@ -84,6 +84,14 @@ h1 {
   word-break:break-all;
 }
 
+.testimonial-section {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+  background: #30cbcb;
+  word-break:break-all;
+}
+
 .branch-info-section {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -129,6 +137,22 @@ h1 {
   word-break:break-all;
 }
 
+.partners-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: #fff;
+  word-break:break-all;
+}
+
+.clients-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: #eee;
+  word-break:break-all;
+}
+
 .about-section p {
   white-space: normal;
 }
@@ -156,6 +180,15 @@ h1 {
       width: 80%;
   }
   .map-section .container {
+      width: 100%;
+  }
+  .partners-section .container {
+      width: 70%;
+  }
+  .clients-section .container {
+      width: 70%;
+  }
+  .testimonial-section .container {
       width: 100%;
   }
 }
@@ -684,4 +717,155 @@ button[type=submit]:hover {
 .radio-toolbar input[type="radio"]:checked + label {
     background-color: #64eaea;
     border-color: #269393;
+}
+
+.square-holder {
+  padding:30px;
+  border: 1px solid #cecece;
+  align-items: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:20px;
+  background-color:#f1f1f1;
+  min-height:200px
+}
+
+.square-holder img {
+  max-width:100%;
+  filter: grayscale(100%);
+  transition: all 0.3s;
+}
+
+.square-holder:hover img{
+  filter:none;
+}
+
+/* Testimonial Section */
+.testimonial-slider {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.testimonial-slider ul.slider {
+  display: block;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.testimonial-slider ul.slider li {
+   position: absolute;
+   display: block;
+   width: 100%;
+   opacity: 0;
+   margin: 0 auto;
+}
+.testimonial-slider ul.slider li:nth-child(1) {
+   opacity: 1;
+
+   -webkit-animation: fade-animation-1 25s infinite;
+           animation: fade-animation-1 25s infinite;
+}
+.testimonial-slider ul.slider li:nth-child(2) {
+   -webkit-animation: fade-animation-2 25s infinite;
+           animation: fade-animation-2 25s infinite;
+}
+.testimonial-slider ul.slider li:nth-child(3) {
+   -webkit-animation: fade-animation-3 25s infinite;
+           animation: fade-animation-3 25s infinite;
+}
+.testimonial-slider ul.slider li:nth-child(4) {
+   -webkit-animation: fade-animation-4 25s infinite;
+           animation: fade-animation-4 25s infinite;
+}
+
+.testimonial-slider q {
+  display: inline-block;
+  font: normal 700 50px / 1.25 "Raleway", Helvetica, Arial, Verdana, sans-serif;
+  letter-spacing: .5pt;
+  text-shadow: 0 5px 10px rgba(0,0,0,.1);
+  max-width: 35ch;
+  word-break: keep-all;
+}
+
+.testimonial-slider .source {
+   margin-top: 25px;
+   color: #d9e0f9;
+   font: italic 400 30px / 1.35 "Raleway", Helvetica, Arial, Verdana, sans-serif;
+   word-break: keep-all;
+}
+
+/* KEYFRAME DECLARATIONS */
+@keyframes fade-animation-1 {
+   0%, 25%, 100% {
+       opacity:0
+   }
+   3%, 22% {
+       opacity: 1;
+   }
+}
+@keyframes fade-animation-2 {
+   0%, 25%, 50%, 100% {
+       opacity:0
+   }
+   28%, 47% {
+       opacity: 1;
+   }
+}
+@keyframes fade-animation-3 {
+   0%, 50%, 75%, 100% {
+       opacity:0
+   }
+   53%, 72% {
+       opacity: 1;
+   }
+}
+@keyframes fade-animation-4 {
+   0%, 75%, 100% {
+       opacity:0
+   }
+   78%, 97% {
+       opacity: 1;
+   }
+}
+
+@-webkit-keyframes fade-animation-1 {
+   0%, 25%, 100% {
+       opacity:0
+   }
+   3%, 22% {
+       opacity: 1;
+   }
+}
+@-webkit-keyframes fade-animation-2 {
+   0%, 25%, 50%, 100% {
+       opacity:0
+   }
+   28%, 47% {
+       opacity: 1;
+   }
+}
+@-webkit-keyframes fade-animation-3 {
+   0%, 50%, 75%, 100% {
+       opacity:0
+   }
+   53%, 72% {
+       opacity: 1;
+   }
+}
+@-webkit-keyframes fade-animation-4 {
+   0%, 75%, 100% {
+       opacity:0
+   }
+   78%, 97% {
+       opacity: 1;
+   }
 }
