@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text"> &copy; 2018 Medina Bekam & Recovery
+          <p class="copyright-text"> &copy; 2018 El Medina Bekam & Recovery
           </p>
         </div>
 

@@ -27,12 +27,12 @@
 
                 <div class="row-img"> 
                   <div class="column-img">
-                    <img src="{{asset('public/template/assets/carousel/shah_alam/sh1.jpg')}}" style="width:100%">
+                      <img src="{{asset('public/template/assets/carousel/shah_alam/sh18.jpeg')}}" style="width:100%">
+                    <img src="{{asset('public/template/assets/carousel/shah_alam/sh16.jpeg')}}" style="width:100%">
+                </div>
+                <div class="column-img">
+                    <img src="{{asset('public/template/assets/carousel/shah_alam/sh17.jpeg')}}" style="width:100%">
                     <img src="{{asset('public/template/assets/carousel/shah_alam/sh14.jpg')}}" style="width:100%">
-                  </div>
-                  <div class="column-img">
-                    <img src="{{asset('public/template/assets/carousel/shah_alam/sh4.jpg')}}" style="width:100%">
-                    <img src="{{asset('public/template/assets/carousel/shah_alam/sh8.jpg')}}" style="width:100%">
                   </div>
                 </div>
 
@@ -84,6 +84,30 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0999179940636!2d101.4873003152522!3d3.067964354500691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc5323e55fc8e9%3A0x4379424303e313ee!2sEl%20Medina%20Spa%20Bekam%20Shah%20Alam!5e0!3m2!1sen!2smy!4v1576500104763!5m2!1sen!2smy" 
         width="100%" height="350px" frameborder="0" style="" allowfullscreen=""></iframe>
     </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6">
+              <h1 class="revealUp">CONTACT US</h1>
+          </div>
+          <div class="col-lg-6">
+              <div class="contact-container">
+                  <form action="/action_page.php">
+                    <input type="text" id="fname" name="firstname" placeholder="Name">
+                    <input type="text" id="email" name="email" placeholder="Email">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <button type="submit">Send</button>
+                  </form>
+                </div>
+                
+          </div>
+      </div>
+      <div class="row">
+      </div>
+  </div>
 </section>
 
 @endsection

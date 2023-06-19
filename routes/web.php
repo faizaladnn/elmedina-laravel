@@ -57,6 +57,10 @@ Route::prefix('/v2')->name('v2.')->group(function () {
     Route::get('/kinesio', function () { return view('v2.services.kinesio',[ 'nav' => 'Kinesio Tapping']); })->name('kinesio');
     // Packages
     Route::get('/package', function () {return view('v2.packages', ['nav' => 'Packages']); })->name('package');
+
+    
+    Route::get('/booking', 'V2\BookingController@create')->name('getBooking');
+    Route::get('/booking/availability/{type}', 'V2\BookingController@checkAvailability')->name('checkAvailability');
 });
 
 Route::get('/', function () {

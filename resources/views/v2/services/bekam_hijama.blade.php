@@ -54,12 +54,15 @@
 </section>
 
 <!-- Services Section -->
-{{-- <section class="map-section">
-    <div class="container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.885727910673!2d103.29861911525126!3d3.834695549623814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31c8ba447aaa6987%3A0x8fbe0604d8ac3d6d!2sEl%20Medina%20Spa%20Bekam%20Kuantan!5e0!3m2!1sen!2smy!4v1576500389456!5m2!1sen!2smy" 
-        width="100%" height="350px" frameborder="0" style="" allowfullscreen=""></iframe>
+<section class="map-section">
+    <div class="container" style="padding-left: 0px; padding-right: 0px;">
+        <div class="row">
+            <div class="col-lg-12">
+                <iframe width="100%" height="350px"  class="responsive-iframe" src="https://www.youtube.com/embed/bGjNV0dPMHo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
-</section> --}}
+</section>
 
 @endsection
 

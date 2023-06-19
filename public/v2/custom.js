@@ -121,3 +121,46 @@ gsap.utils.toArray(".revealUp").forEach(function (elem) {
     }
   });
 });
+
+
+
+function showType(type) {
+    // let packageType = type.getAttribute("data-package-type");
+    // console.log(packageType);
+    
+    // var x = document.getElementById("package-list");
+    // x.style.display = "none";
+}
+
+
+jQuery(document).ready(function ($) {
+    $('.radio-button').on('click', function (e) {
+        var value = $(this).val();
+        $("#newBranch").empty();
+        var newBranch = "";
+        switch (value) {
+            case "shah-alam":
+                newBranch = "Shah Alam"
+                break;
+            case "kuantan":
+                newBranch = "Kuantan"
+                break;
+            case "ulu-klang":
+                newBranch = "Ulu Klang"
+                break;
+            default:
+                break;
+        }
+
+        $("#newBranch").text(newBranch);
+    });
+});
+
+jQuery(document).ready(function ($) {
+    $('.radio-button-time').on('click', function (e) {
+        var value = $(this).val();
+        console.log(value);
+
+        $("#newTime").text(value);
+    });
+});
