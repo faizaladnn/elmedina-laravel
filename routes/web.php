@@ -41,7 +41,7 @@ Route::prefix('/v2')->name('v2.')->group(function () {
         return redirect()->to(route('v2.home').'#' . strtolower($type));
       })->name('home-type');
     
-    Route::get('/', function () {return view('v2.home', ['nav' => 'The Elmedina Bekam & Recovery']); })->name('home');
+    Route::get('/', function () {return view('v2.home', ['nav' => 'Home']); })->name('home');
 
     // Branch
     Route::get('/kuantan', function () {return view('v2.branch.kuantan', ['nav' => 'Kuantan']); })->name('kuantan');
@@ -59,8 +59,11 @@ Route::prefix('/v2')->name('v2.')->group(function () {
     Route::get('/package', function () {return view('v2.packages', ['nav' => 'Packages']); })->name('package');
 
     
+    
     Route::get('/booking', 'V2\BookingController@create')->name('getBooking');
     Route::get('/booking/availability/{type}', 'V2\BookingController@checkAvailability')->name('checkAvailability');
+    Route::post('create-booking', 'V2\BookingController@storeBookingV2')->name('store-booking');
+    Route::get('/thank-you/{id}', 'V2\BookingController@getBookingReceipt')->name('booking-list');
 });
 
 Route::get('/', function () {
@@ -231,7 +234,8 @@ Route::get('booking', 'BookingController@createBooking')->name('view-booking')->
 Route::post('create-booking', 'BookingController@storeBooking')->name('store-booking')->middleware('auth');
 
 //Admin Site
-Route::get('list', 'BookingController@listBooking')->name('booking-list')->middleware('auth');
+Route::get('list', 'BookingController@listBooking')->name('booking-list');
+// ->middleware('auth');
 
 
 Route::get('admin', 'AdminController@loginPage')->name('admin.login-page');

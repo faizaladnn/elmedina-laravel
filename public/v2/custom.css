@@ -7,14 +7,16 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  word-break: keep-all;
 }
 html {
   width: 100%;
   height: 100%;
+  
 }
 
 h1 {
-  text-decoration: underline solid #30cbcb 20%; 
+  text-decoration: underline solid #30cbcb 20% !important; 
 }
 
 .revealUp {
@@ -257,9 +259,19 @@ h1 {
   height: 225px;
 }
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
   .column-card-branch{
-    margin-left: 150px;
+    width: 30%;
+  }
+} */
+@media screen and (min-width: 820px) {
+  .row-cards{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .column-card-branch{
+    width: 31%;
   }
 }
 
@@ -660,6 +672,8 @@ button[type=submit]:hover {
 .booking-details {
   font-size: 14px;
   padding-left: 10px;
+  padding-right: 10px;
+  word-break: keep-all;
 }
 .booking-price {
   font-size: 18px;
@@ -720,7 +734,7 @@ button[type=submit]:hover {
 }
 
 .square-holder {
-  padding:30px;
+  padding:10px;
   border: 1px solid #cecece;
   align-items: center;
   display:flex;
@@ -733,8 +747,10 @@ button[type=submit]:hover {
 
 .square-holder img {
   max-width:100%;
-  filter: grayscale(100%);
+  filter: grayscale(1%);
   transition: all 0.3s;
+  height: auto;
+  width: auto;
 }
 
 .square-holder:hover img{
@@ -868,4 +884,69 @@ button[type=submit]:hover {
    78%, 97% {
        opacity: 1;
    }
+}
+
+
+.datepicker {
+  position: inherit;
+  /* top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -135px; */
+  width: 270px;
+  height: 170px;
+  background-color: white;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: auto;
+  /* -webkit-box-shadow: 0px 0px 10px 0px rgba(51,51,51,0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(51,51,51,0.75);
+  box-shadow: 0px 0px 10px 0px rgba(51,51,51,0.75);   */
+}
+.block {
+  display: inline-block;
+  border: 1px solid #aaa;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 5px 5px;
+}
+.middle {
+  margin: 0px 5px;
+  /*background-color: lightblue;
+  -webkit-box-shadow: inset 0px 0px 5px 0px #808080;
+  -moz-box-shadow: inset 0px 0px 5px 0px #808080;
+  box-shadow: inset 0px 0px 5px 0px #808080;*/
+}
+.label {
+  color: black;
+  font-size: 18px; 
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 25px;
+  line-height: 25px;
+  border-bottom: 2px solid #207ce5;  
+  /*color: #207ce5;
+  font-weight: bold;*/
+}
+.action {
+  cursor: pointer;
+}
+.action-row {
+  margin-top: 10px;
+  border-top: 1px solid #aaa;
+}
+.action-row div{
+  display: inline-block;
+  width: 85px;
+  height: 30px;  
+  line-height: 30px;
+  border-right: 1px solid #aaa;
+}
+.action-row div:last-child{
+  border-right: none;
 }

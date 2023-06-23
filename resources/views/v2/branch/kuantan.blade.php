@@ -73,8 +73,15 @@
                     </div>
                 </div>
             </div>
-
         </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <br/><br/><br/><br/>
+                <a href="{{route('v2.getBooking')}}" target="_blank"><button type="button" class="button" style="background-color: #30cbcb">Book Now</button></a>
+            </div>
+        </div>
+
     </div>
 </section>
 

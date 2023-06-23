@@ -1,7 +1,7 @@
 @extends ('v2.layouts.master')
 
 @section ('content')
-{{-- <button onclick="topFunction()" id="goToBottomButton" title="Go to top">^</button> --}}
+<button onclick="topFunction()" id="goToBottomButton" title="Go to top">^</button>
 
 <!-- Intro Section -->
 <section id="intro" class="intro-section">
@@ -11,7 +11,9 @@
                 <img src="{{asset('public/v2/elmedinaV2LogoTransparent.png')}}" style="height: 100%; width: 100%" />
 
                 <br/><br/><br/><br/>
-                <a href="{{route('v2.getBooking')}}" target="_blank"><button type="button" class="button">Book Now</button></a>
+                <a href="{{route('v2.getBooking')}}" target="_blank">
+                    <button type="button" class="button">Book Now</button>
+                </a>
                 {{-- <h1>One Page Website</h1>
                 <p>I like clean code and I cannot lie</p>
                 <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a> --}}
@@ -52,6 +54,18 @@
             <div class="col-lg-12">
                 <div class="testimonial-slider">
                     <ul class="slider">
+                        <li>
+                          <div class="testimonial-slider-content">
+                            <q style="font-size:36px;">Bersih, selesa dan privacy serta mewah dengan harga berpatutan</q>
+                            <p class="source">- Syamim Yahya</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="testimonial-slider-content">
+                            <q style="font-size:32px;">Best dan selesa! Serius lepas bekam dan sport massage badan rasa ringan!!</q>
+                            <p class="source">- Rody Kristal & Niena Azman</p>
+                          </div>
+                        </li>
                       <li>
                         <div class="testimonial-slider-content">
                           <q style="font-size: 32px;">El Medina is good. I always do dry cupping and sport massage here for my hamstring and good recovery.</q>
@@ -60,26 +74,8 @@
                       </li>
                       <li>
                         <div class="testimonial-slider-content">
-                          <q style="font-size: 32px;">Selain bekam darah, paling best sport massage with the new equipment they call Hypervolt. For those yang ada masalah muscle, anda kena dapatkan treatment ini.</q>
-                          <p class="source">- Azrel Ismail</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="testimonial-slider-content">
-                          <q style="font-size:24px;">Best dan selesa! Serius lepas bekam dan sport massage badan rasa ringan!!</q>
-                          <p class="source">- Rody Kristal & Niena Azman</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="testimonial-slider-content">
                           <q>Guys here have a magic hands</q>
                           <p class="source">- YAM Tengku Panglima Raja, Mejar Tengku Amir Nasser Ibrahim Shah</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="testimonial-slider-content">
-                          <q>Bersih, selesa dan privacy serta mewah dengan harga berpatutan</q>
-                          <p class="source">- Syamim Yahya</p>
                         </div>
                       </li>
                       <li>
@@ -92,6 +88,12 @@
                         <div class="testimonial-slider-content">
                           <q>Sport massage terbaik!</q>
                           <p class="source">- KDYMM Pemangku Raja Pahang Tengku Mahkota Tengku Hassanal Ibrahim Alam Shah</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="testimonial-slider-content">
+                          <q style="font-size: 32px;">Selain bekam darah, paling best sport massage with the new equipment they call Hypervolt. For those yang ada masalah muscle, anda kena dapatkan treatment ini.</q>
+                          <p class="source">- Azrel Ismail</p>
                         </div>
                       </li>
                     </ul>
@@ -136,7 +138,7 @@
             
             <div class="column-card">
                 <div class="card">
-                    <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" alt="">
+                    <img src="{{asset('public/template/assets/carousel/services/air_relax(1).jpeg')}}" alt="">
                     <div class="text-block">
                         <a href="{{route('v2.air-relax')}}" style="text-decoration: none; color:black; font-size:18px;">
                             <p>Air Relax Therapy</p>
@@ -147,7 +149,7 @@
             
             <div class="column-card">
                 <div class="card">
-                    <img src="{{asset('public/template/assets/carousel/services/hypervolt.jpg')}}" alt="">
+                    <img src="{{asset('public/template/assets/carousel/services/hypervolt(1).jpeg')}}" alt="">
                     <div class="text-block">
                         <a href="{{route('v2.hypervolt')}}" style="text-decoration: none; color:black; font-size:18px;">
                             <p>Vibration Therapy (HYPERVOLT)</p>
@@ -168,7 +170,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                
                 <div class="row-cards">
                     <div class="column-card column-card-branch">
                         <div class="card">
@@ -180,7 +183,7 @@
                             </div>
                         </div>          
                     </div>
-                    <div class="column-card">
+                    <div class="column-card column-card-branch">
                         <div class="card">
                             <img src="{{asset('public/template/assets/carousel/branch/branch_shah_alam.jpg')}}" alt="">
                             <div class="text-block">
@@ -191,7 +194,7 @@
                         </div>
                     </div>
                     
-                    <div class="column-card">
+                    <div class="column-card column-card-branch">
                         <div class="card">
                             <img src="{{asset('public/template/assets/carousel/branch/branch_ulu_klang.jpeg')}}" alt="">
                             <div class="text-block" style="right: 100px">
@@ -211,9 +214,11 @@
 <section id="contact" class="contact-section">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6" style="text-align: right">
                 <h1 class="revealUp">CONTACT US</h1>
             </div>
+            {{-- <div class="col-lg-1">
+            </div> --}}
             <div class="col-lg-6">
                 <div class="contact-container">
                     <form action="/action_page.php">
@@ -240,34 +245,34 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xs-6">
                 <div class="square-holder">
-                    <img alt="" src="{{asset('public/template/assets/img/partners/doc_bekam.jpg')}}" width="80%"  />
+                    <img alt="" src="{{asset('public/template/assets/img/partners/doc_bekam.jpg')}}" title="DOC BEKAM"/>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xs-6">
                 <div class="square-holder">
-                    <img alt="" src="{{asset('public/template/assets/img/partners/cenviro.png')}}" width="80%"  />
+                    <img alt="" src="{{asset('public/template/assets/img/partners/cenviro.png')}}" width="80%" title="CENVIRO"/>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xs-6">
                 <div class="square-holder">
-                    <img alt="" src="{{asset('public/template/assets/img/partners/air_relax.png')}}" width="80%"  />
+                    <img alt="" src="{{asset('public/template/assets/img/partners/air_relax.png')}}" width="80%" title="AIR RELAX"/>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xs-6">
                 <div class="square-holder">
-                    <img alt="" src="{{asset('public/template/assets/img/partners/hypervolt.jpg')}}" width="80%"  />
+                    <img alt="" src="{{asset('public/template/assets/img/partners/hypervolt.jpg')}}" width="80%" title="HYPERVOLT"/>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xs-6">
                 <div class="square-holder">
-                    <img alt="" src="{{asset('public/template/assets/img/partners/sk_bunut_rendang.png')}}" width="70%" />
+                    <img alt="" src="{{asset('public/template/assets/img/partners/sk_bunut_rendang.png')}}" width="70%" title="SK Bunut Rendang"/>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xs-6">
                 <div class="square-holder">
-                    <img alt="" src="{{asset('public/template/assets/img/partners/jkm.png')}}" width="80%"  />
+                    <img alt="" src="{{asset('public/template/assets/img/partners/jkm.png')}}" width="80%" title="Jom Kurus Malaysia"/>
                 </div>
             </div>
         </div>
@@ -283,44 +288,44 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xs-6">
                 <div class="square-holder">
-                    <img alt="" src="{{asset('public/template/assets/img/partners/time.png')}}"/>
+                    <img alt="" src="{{asset('public/template/assets/img/partners/time.png')}}" title="TIME"/>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xs-6">
                 <div class="square-holder">
-                    <img alt="" src="{{asset('public/template/assets/img/partners/pahang_ranger.png')}}" />
+                    <img alt="" src="{{asset('public/template/assets/img/partners/pahang_ranger.png')}}" width="80%" title="Pahang Rangers FC"/>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xs-6">
                 <div class="square-holder">
-                    <img alt="" src="{{asset('public/template/assets/img/partners/fam.png')}}"/>
+                    <img alt="" src="{{asset('public/template/assets/img/partners/fam.png')}}" width="90%" title="Persatuan Bola Sepak Malaysia"/>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xs-6">
                 <div class="square-holder">
-                    <img alt="" src="{{asset('public/template/assets/img/partners/kuantan_fa.png')}}"/>
+                    <img alt="" src="{{asset('public/template/assets/img/partners/kuantan_fa.png')}}" title="KUANTAN FA"/>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xs-6">
                 <div class="square-holder">
-                    <img alt="" src="{{asset('public/template/assets/img/partners/selangor_fa.png')}}"/>
+                    <img alt="" src="{{asset('public/template/assets/img/partners/selangor_fa.png')}}" title="SELANGOR FA"/>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xs-6">
                 <div class="square-holder">
-                    <img alt="" src="{{asset('public/template/assets/img/partners/selangor_mac.png')}}"/>
+                    <img alt="" src="{{asset('public/template/assets/img/partners/selangor_mac.png')}}" width="82%" title="SELANGOR MAC FC"/>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xs-6">
                 <div class="square-holder">
-                    <img alt="" src="{{asset('public/template/assets/img/partners/kotasas.png')}}"/>
+                    <img alt="" src="{{asset('public/template/assets/img/partners/kotasas.png')}}" title="KOTASAS"/>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2">
+            <div class="col-sm-6 col-md-4 col-lg-2 col-xs-6">
                 <div class="square-holder">
-                    <img alt="" src="{{asset('public/template/assets/img/partners/hk_fighters.png')}}"/>
+                    <img alt="" src="{{asset('public/template/assets/img/partners/hk_fighters.png')}}" width="90%" title="HK Fighters Football Club"/>
                 </div>
             </div>
         </div>

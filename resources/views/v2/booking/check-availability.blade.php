@@ -5,6 +5,9 @@
 
 <head>
   @include ('v2/layouts/header')
+  <style>
+    
+  </style>
 </head>
 
 <body>
@@ -21,7 +24,7 @@
         </div>
         <div class="col-lg-6 col-xs-6" style="text-align: right;">
             <a href="#" style="color:black;">
-                <h4>Login/Register</h4>
+                {{-- <h4>Login/Register</h4> --}}
             </a>
         </div>
     </div>
@@ -39,32 +42,40 @@
     </div>
 </section>
 
-<section class="about-section" style="padding-top: 0px; padding-bottom:5px;">
+{!! Form::open(['url' => route('v2.store-booking'), 'method' => 'POST', 'data-parsley-validate']) !!}
+{!! Form::hidden('package', $type, []) !!}
+<section class="about-section" style="padding-top: 0px; padding-bottom:0px; text-align:left;">
     <div class="container">
-        <div class="col-lg-12" style="text-align: left;">
-            <h3 style="word-break: keep-all;">You have selected {{$type}} on <span id="newTime">(when)</span> at <span id="newBranch">(where) branch</span> </h3>
-        </div>
-    </div>
-</section>
-
-<section class="about-section" style="padding-top: 0px; padding-bottom:5px;">
-    <div class="container">
-        <div class="col-lg-12" style="text-align: center;">
-            <h4 style="font-weight: 100;">Please select a time to make a booking appointment</h4>
-            <div class="radio-toolbar">
-                @for ($i = 10; $i <= 21; $i++)
-                    <input class="radio-button-time" type="radio" id="radio{{$i}}" name="time" value="{{ date('h:i A', mktime($i,0,0,1,1,2011)) }}" >
-                    <label for="radio{{$i}}">{{ date('h:i A', mktime($i,0,0,1,1,2011)) }}</label>
-                @endfor
+        <h4 style="font-weight: 100; word-break: keep-all;">Please fill in your information</h4>
+        <div class="row">
+            <div class="col-lg-6">
+                <input type="text" id="fname" name="name" placeholder="Name">
+            </div>
+            <div class="col-lg-6" style="text-align: left;">
+                <input type="text" id="email" name="email" placeholder="Email">
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <input type="text" name="phone_no" placeholder="Phone Number">
+            </div>
+            <div class="col-lg-6">
+                <div class="radio-toolbar">
+                    <input class="radio-button" type='radio' id='male' checked='checked' name='gender' value="MALE">
+                    <label for='male'>Male</label>
+                    <input class="radio-button" type='radio' id='female' name='gender' value="FEMALE">
+                    <label for='female'>Female</label>
+                </div>
+            </div>
+        </div>
+        <hr style="border: 1px dashed black;"/>
     </div>
 </section>
 
 <section class="about-section" style="padding-top: 0px; padding-bottom:5px;">
     <div class="container">
         <div class="col-lg-12" style="text-align: center;">
-            <h4>Please select a branch to make a booking appointment</h4>
+            <h4 style="font-weight: 100; word-break: keep-all;">Please select <b>branch</b>  to make a booking appointment</h4>
             <div class="radio-toolbar">
                 <input class="radio-button" type="radio" id="radioShahAlam" name="branch" value="shah-alam" >
                 <label for="radioShahAlam">Shah Alam</label>
@@ -80,6 +91,60 @@
         </div>
     </div>
 </section>
+
+<section class="about-section" style="padding-top: 0px; padding-bottom:5px;">
+    <div class="container">
+        <div class="col-lg-12" style="text-align: center;">
+            <h4 style="font-weight: 100;">Please select <b>date</b> to make a booking appointment</h4>
+            <div class="datepicker">
+                <div id="title" class="label">1st  {{ date(' M Y') }}</div>
+                <div class="block action" onclick="addDay(1)">+</div>
+                <div class="block action" onclick="addMonth(1)">+</div>
+                <div class="block action" onclick="addYear(1)">+</div>
+                <div ></div>
+                <div class="block middle" id="day">1</div>
+                <div class="block middle" id="month">May</div>
+                <div class="block middle" id="year">15</div>
+                <div ></div>
+                <div class="block action" onclick="addDay(-1)">-</div>
+                <div class="block action" onclick="addMonth(-1)">-</div>
+                <div class="block action" onclick="addYear(-1)">-</div>
+                <input type="hidden" name="date" id="bookingDate" value="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about-section" style="padding-top: 0px; padding-bottom:5px;">
+    <div class="container">
+        <div class="col-lg-12" style="text-align: center;">
+            <h4 style="font-weight: 100; word-break: keep-all;">Please select a <b>time</b> to make a booking appointment</h4>
+            <div class="radio-toolbar">
+                @for ($i = 10; $i <= 21; $i++)
+                    <input class="radio-button-time" type="radio" id="radio{{$i}}" name="time" value="{{ date('h:i A', mktime($i,0,0,1,1,2011)) }}" >
+                    <label for="radio{{$i}}">{{ date('h:i A', mktime($i,0,0,1,1,2011)) }}</label>
+                @endfor
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about-section" style="padding-top: 0px; padding-bottom:5px;">
+    <div class="container">
+        <div class="col-lg-12" style="text-align: left;">
+            <h3 style="word-break: keep-all;">You have selected {{$type}} on <span id="newDate"></span> <span id="newTime">(when)</span> at El Medina Bekam & Recovery <span id="newBranch">(where) branch</span> </h3>
+        </div>
+    </div>
+</section>
+
+<section class="about-section" style="padding-top: 0px; padding-bottom:50px;">
+    <div class="container">
+        <div class="col-lg-12" style="text-align: center;">
+            <button type="submit">Save</button>
+        </div>
+    </div>
+</section>
+{!! Form::close() !!}
   
   <!-- Footer -->
   @include('v2/layouts/footer')

@@ -44,7 +44,7 @@
                     <img src="{{asset('public/template/assets/carousel/testimoni/testimony_10.jpg')}}" style="width:100%">
                   </div>
                   <div class="column-img">
-                    <img src="{{asset('public/template/assets/carousel/shah_alam/sh13.jpg')}}" style="width:100%">
+                    <img src="{{asset('public/template/assets/carousel/services/air_relax(1).jpeg')}}" style="width:100%">
                     <img src="{{asset('public/template/assets/carousel/kuantan/ktn20.jpg')}}" style="width:100%">
                   </div>
                 </div>
@@ -57,7 +57,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <br/><br/><br/><br/>
-                <a href="https://elmedina.com.my/" target="_blank"><button type="button" class="button" style="background-color: #30cbcb">Book Now</button></a>
+                <a href="{{route('v2.getBooking')}}" target="_blank"><button type="button" class="button" style="background-color: #30cbcb">Book Now</button></a>
             </div>
         </div>
     </div>

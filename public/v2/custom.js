@@ -164,3 +164,65 @@ jQuery(document).ready(function ($) {
         $("#newTime").text(value);
     });
 });
+
+
+jQuery(document).ready(function ($) {
+
+  if (window.location.pathname.substring(1, 11) == "v2/booking") {
+    _d = function(id){
+      return document.getElementById(id);
+    }
+    var mylib = {};
+    mylib.calendar = {};
+    mylib.calendar.months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    mylib.calendar.weekdays = ["Sun", "Mon", "Tue", "Wed", "Thr", "Fri", "Sat"];
+    mylib.calendar.currentDate = new Date();
+    
+    mylib.calendar.setDateLabels = function(){
+      var d = this.currentDate;
+      _d("day").innerText = d.getDate();
+      _d("month").innerText = this.months[d.getMonth()];
+      _d("year").innerText = d.getFullYear();
+      _d("title").innerText = this.weekdays[d.getDay()] + ", " + d.getDate() + " " + this.months[d.getMonth()] + " " + d.getFullYear();
+      var month = d.getMonth() + 1;
+      var day = d.getDate();
+  
+      if (d.getMonth() + 1 < 10) {
+        month = "0" + (d.getMonth() + 1);
+      }
+  
+      if (d.getDate() < 10) {
+        day = "0" + (d.getDate());
+      }
+  
+  
+  
+      var bookingDate = d.getFullYear() + "-" + month + "-" + day ;
+      _d("bookingDate").value = bookingDate;
+      $("#newDate").text(bookingDate);
+    }
+    
+    mylib.calendar.setDateLabels();
+    
+    addDay = function(numberOfDays){
+      var oldDate = mylib.calendar.currentDate;
+      mylib.calendar.currentDate.setDate(oldDate.getDate() + numberOfDays);
+      mylib.calendar.setDateLabels();
+    }
+    
+    // TODO: Use addDay() function for adding month
+    addMonth = function(numberOfMonths){
+      var oldDate = mylib.calendar.currentDate;
+      mylib.calendar.currentDate.setMonth(oldDate.getMonth() + numberOfMonths);
+      mylib.calendar.setDateLabels();
+    }
+    
+    // TODO: Use addDay() function for adding Year
+    addYear = function(numberOfYears){
+      var oldDate = mylib.calendar.currentDate;
+      mylib.calendar.currentDate.setFullYear(oldDate.getFullYear() + numberOfYears);
+      mylib.calendar.setDateLabels();
+    }
+    
+  }
+});

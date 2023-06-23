@@ -35,8 +35,14 @@
                   </ul> 
             </div>
             <div class="col-lg-6">
-                <div class="row">
+                <div class="row-img"> 
+                    <div class="column-img">
+                        <img src="{{asset('public/template/assets/carousel/services/hypervolt(1).jpeg')}}" alt="" style="width: 100%; height: auto;">
+                    </div>
+                    <div class="column-img">
                     <img src="{{asset('public/template/assets/carousel/services/hypervolt.jpg')}}" alt="" style="width: 100%; height: auto;">
+                    {{-- <img src="{{asset('public/template/assets/carousel/kuantan/ktn5.jpg')}}" style="width:100%"> --}}
+                    </div>
                 </div>
             </div>
         </div>
@@ -44,7 +50,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <br/><br/><br/><br/>
-                <a href="https://elmedina.com.my/" target="_blank"><button type="button" class="button" style="background-color: #30cbcb">Book Now</button></a>
+                <a href="{{route('v2.getBooking')}}" target="_blank"><button type="button" class="button" style="background-color: #30cbcb">Book Now</button></a>
             </div>
         </div>
     </div>

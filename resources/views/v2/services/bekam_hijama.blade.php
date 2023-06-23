@@ -47,7 +47,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <br/><br/><br/><br/>
-                <a href="https://elmedina.com.my/" target="_blank"><button type="button" class="button" style="background-color: #30cbcb">Book Now</button></a>
+                <a href="{{route('v2.getBooking')}}" target="_blank"><button type="button" class="button" style="background-color: #30cbcb">Book Now</button></a>
             </div>
         </div>
     </div>
@@ -55,7 +55,7 @@
 
 <!-- Services Section -->
 <section class="map-section">
-    <div class="container" style="padding-left: 0px; padding-right: 0px;">
+    <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <iframe width="100%" height="350px"  class="responsive-iframe" src="https://www.youtube.com/embed/bGjNV0dPMHo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
