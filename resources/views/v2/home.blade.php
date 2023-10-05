@@ -116,45 +116,45 @@
         <div class="row-cards" style="">
             <div class="column-card">
                 <div class="card">
-                    <img src="{{asset('public/template/assets/carousel/services/bekam.jpg')}}" alt="">
+                    <a href="{{route('v2.bekam-hijama')}}" style="text-decoration: none; color:black; font-size:18px;">
+                        <img src="{{asset('public/template/assets/carousel/services/bekam.jpg')}}" alt="">
+                    </a>
                     <div class="text-block">
-                        <a href="{{route('v2.bekam-hijama')}}" style="text-decoration: none; color:black; font-size:18px;">
-                            <p>Bekam/Hijama</p>
-                        </a>
+                        <p style="margin: 0px 0 0 0;">Bekam/Hijama</p>
                     </div>
                 </div>
             </div>
         
             <div class="column-card">
                 <div class="card">
-                    <img src="{{asset('public/template/assets/carousel/services/massage.jpg')}}" alt="">
-                    <div class="text-block">
-                        <a href="{{route('v2.urutan-massage')}}" style="text-decoration: none; color:black; font-size:18px;">
-                            <p>Urutan/Massage</p>
-                        </a>
-                    </div>
+                    <a href="{{route('v2.urutan-massage')}}" style="text-decoration: none; color:black; font-size:18px;">
+                        <img src="{{asset('public/template/assets/carousel/services/massage.jpg')}}" alt="">
+                        <div class="text-block">
+                                <p style="margin: 0px 0 0 0;">Urutan/Massage</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             
             <div class="column-card">
                 <div class="card">
-                    <img src="{{asset('public/template/assets/carousel/services/air_relax(1).jpeg')}}" alt="">
-                    <div class="text-block">
-                        <a href="{{route('v2.air-relax')}}" style="text-decoration: none; color:black; font-size:18px;">
-                            <p>Air Relax Therapy</p>
-                        </a>
-                    </div>
+                    <a href="{{route('v2.air-relax')}}" style="text-decoration: none; color:black; font-size:18px;">
+                        <img src="{{asset('public/template/assets/carousel/services/air_relax(1).jpeg')}}" alt="">
+                        <div class="text-block">
+                                <p style="margin: 0px 0 0 0;">Air Relax Therapy</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             
             <div class="column-card">
                 <div class="card">
-                    <img src="{{asset('public/template/assets/carousel/services/hypervolt(1).jpeg')}}" alt="">
-                    <div class="text-block">
-                        <a href="{{route('v2.hypervolt')}}" style="text-decoration: none; color:black; font-size:18px;">
-                            <p>Vibration Therapy (HYPERVOLT)</p>
-                        </a>
-                    </div>
+                    <a href="{{route('v2.hypervolt')}}" style="text-decoration: none; color:black; font-size:18px;">
+                        <img src="{{asset('public/template/assets/carousel/services/hypervolt(1).jpeg')}}" alt="">
+                        <div class="text-block">
+                                <p style="font-size: 17px; margin: 0px 0 0 0;">Vibration Therapy (HYPERVOLT)</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -175,26 +175,26 @@
                 <div class="row-cards">
                     <div class="column-card column-card-branch">
                         <div class="card">
-                            <img src="{{asset('public/template/assets/carousel/branch/branch_kuantan.jpg')}}" alt="">
-                            <div class="text-block">
-                                <a href="{{route('v2.kuantan')}}" style="text-decoration: none; color:black; font-size:18px;">
-                                    <p>Kuantan, Pahang</p>
-                                </a>
-                            </div>
+                            <a href="{{route('v2.kuantan')}}" style="text-decoration: none; color:black; font-size:18px;">
+                                <img src="{{asset('public/template/assets/carousel/branch/branch_kuantan.jpg')}}" alt="">
+                                <div class="text-block">
+                                        <p>Kuantan, Pahang</p>
+                                </div>
+                            </a>
                         </div>          
                     </div>
                     <div class="column-card column-card-branch">
                         <div class="card">
-                            <img src="{{asset('public/template/assets/carousel/branch/branch_shah_alam.jpg')}}" alt="">
-                            <div class="text-block">
-                                <a href="{{route('v2.shah-alam')}}" style="text-decoration: none; color:black; font-size:18px;">
-                                    <p>Shah Alam, Selangor</p>
-                                </a>
-                            </div>
+                            <a href="{{route('v2.shah-alam')}}" style="text-decoration: none; color:black; font-size:18px;">
+                                <img src="{{asset('public/template/assets/carousel/branch/branch_shah_alam.jpg')}}" alt="">
+                                <div class="text-block">
+                                        <p>Shah Alam, Selangor</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
                     
-                    <div class="column-card column-card-branch">
+                    {{-- <div class="column-card column-card-branch">
                         <div class="card">
                             <img src="{{asset('public/template/assets/carousel/branch/branch_ulu_klang.jpeg')}}" alt="">
                             <div class="text-block" style="right: 100px">
@@ -203,7 +203,7 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

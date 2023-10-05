@@ -9,6 +9,17 @@ document.addEventListener('DOMContentLoaded', function(event) {
     document.querySelector('body').style.opacity = 1
 })
 
+$(".navbar-toggle").click(function(){
+  $(".collapse").collapse('show');
+});
+
+
+// Close the dropdown if user clicks outside of it
+document.addEventListener("click", function (e) {
+  if (!document.querySelector(".navbar").contains(e.target) && !document.querySelector(".navbar").contains(e.target)) {
+    $(".navbar-ex1-collapse").collapse('hide');
+  }
+});
 //jQuery to collapse the navbar on scroll
 var header_height  = $('.navbar').height(),
     intro_height    = $('.intro-section').height(),
@@ -16,11 +27,11 @@ var header_height  = $('.navbar').height(),
     $(window).scroll(function() {
     var scroll_top = $(window).scrollTop();
         if (scroll_top >= offset_val) {
-            $(".navbar-fixed-top").addClass("top-nav-collapse");
-                $(".navbar-fixed-top").removeClass("navbar-transparent");
+          $(".navbar-fixed-top").addClass("top-nav-collapse");
+          $(".navbar-fixed-top").removeClass("navbar-transparent");
         } else {
-            $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        $(".navbar-fixed-top").addClass("navbar-transparent");
+          // $(".navbar-fixed-top").removeClass("top-nav-collapse");
+          // $(".navbar-fixed-top").addClass("navbar-transparent");
         }
     });
 
@@ -33,17 +44,6 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
-});
-
-//jQuery to collapse the navbar on scroll
-$(window).scroll(function() {
-    if ($(".navbar").offset().top > 100) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
-            $(".navbar-fixed-top").removeClass("navbar-transparent");
-    } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
-      $(".navbar-fixed-top").addClass("navbar-transparent");
-    }
 });
 
 // Get the button

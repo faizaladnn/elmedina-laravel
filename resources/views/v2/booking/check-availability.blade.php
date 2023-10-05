@@ -46,18 +46,27 @@
 {!! Form::hidden('package', $type, []) !!}
 <section class="about-section" style="padding-top: 0px; padding-bottom:0px; text-align:left;">
     <div class="container">
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
         <h4 style="font-weight: 100; word-break: keep-all;">Please fill in your information</h4>
         <div class="row">
             <div class="col-lg-6">
-                <input type="text" id="fname" name="name" placeholder="Name">
+                <input type="text" id="fname" name="name" placeholder="Name" required>
             </div>
             <div class="col-lg-6" style="text-align: left;">
-                <input type="text" id="email" name="email" placeholder="Email">
+                <input type="text" id="email" name="email" placeholder="Email" required>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <input type="text" name="phone_no" placeholder="Phone Number">
+                <input type="text" name="phone_no" placeholder="Phone Number" required>
             </div>
             <div class="col-lg-6">
                 <div class="radio-toolbar">
@@ -140,7 +149,7 @@
 <section class="about-section" style="padding-top: 0px; padding-bottom:50px;">
     <div class="container">
         <div class="col-lg-12" style="text-align: center;">
-            <button type="submit">Save</button>
+            <button type="submit" onclick="confirmationFunction()">Save</button>
         </div>
     </div>
 </section>
@@ -155,5 +164,9 @@
 <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
 <script src="{{ asset('public/v2/custom.js') }}"></script>
-
+<script>
+    function confirmationFunction() {
+        confirm("Confirm booking ?", "Cancel", "Yes, confirm");
+    }
+    </script>
 </html>

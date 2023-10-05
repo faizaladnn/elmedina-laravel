@@ -42,8 +42,8 @@
 <section class="about-section" style="padding-top: 0px; padding-bottom:5px;">
     <div class="container">
         <div class="col-lg-6" style="text-align: left;">
-            <h3>Welcome to our Online Booking</h3>
-            <span>Please select a package to start a booking appointment</span>
+            <h3 style="word-break: keep-all;">Welcome to our Online Booking</h3>
+            <span style="word-break: keep-all;">Please select a package to start a booking appointment</span>
         </div>
         <div class="col-lg-6">
         </div>

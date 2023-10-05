@@ -10,7 +10,7 @@
                 <img src="{{asset('public/v2/elmedinaV2LogoTransparent.png')}}" width="150px" height="45px" style="margin: 5px 0 0 20px"/>
             </a>
 
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse" aria-controls="navbar-ex1-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button type="button" class="navbar-toggle" data-target=".navbar-ex1-collapse" aria-controls="navbar-ex1-collapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>

@@ -47,6 +47,15 @@ class BookingController extends Controller
     {
         $all = $request->all();
 
+        // validate input
+        $validated = $request->validate([
+            'name' => 'required',
+            'email' => 'required',
+            'phone_no' => 'required',
+            'branch' => 'required',
+            'time' => 'required',
+        ]);
+
         $user = User::where('email', $request->email)->first();
         if (!$user) {
             $user = User::create([
