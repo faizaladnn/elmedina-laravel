@@ -128,7 +128,7 @@
                     <div class="card-body">
                       <h6 class="card-title font-weight-normal">PAKEJ 7 : URUTAN BADAN</h6>
                       <p class="card-text font-weight-light tx-12">Urutan seluruh badan selama 1 jam</p>
-                      <h5 style="margin: 0 0 20px;">RM 100</h5>
+                      <h5 style="margin: 0 0 20px;">RM 98</h5>
                       <a href="{{route('packages.urutan-badan')}}" class="btn btn-outline-warning text-dark">See More</a>
                     </div>
                   </div>

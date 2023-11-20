@@ -69,7 +69,7 @@ class BookingController extends Controller
         }
 
         $package = $request->package;
-        // ENUM('KUANTAN', 'SHAH ALAM', 'ULU KLANG')
+        // ENUM('KUANTAN', 'SHAH ALAM')
         $branch = strtoupper(str_replace("-", " ", $request->branch));
 
         $package = Package::where('title', 'LIKE', $package . "%")->first();
@@ -107,9 +107,6 @@ class BookingController extends Controller
             case 'SHAH ALAM':
                 $email = 'shahalam@elmedina.com.my';
                 break;
-            case 'ULU KLANG':
-                $email = 'uluklang@elmedina.com.my';
-                break;
             default:
                 $email = 'system@elmedina.com.my';
                 break;
@@ -129,11 +126,6 @@ class BookingController extends Controller
 
         // For branch information only
         switch ($booking->branch) {
-            case 'ULU KLANG':
-                $phoneNo = "+6010 454 7030";
-                $address = "1-1, Jalan Lingkaran Tengah 2, Ukay Boulevard Hulu Kelang, 68000 Ampang, Selangor";
-                $facebookUrl = "https://www.facebook.com/elmedinahulukelang";
-                break;
             case 'KUANTAN':
                 $phoneNo = "+6010 838 7030";
                 $address = "A75, Level 1, Jln IM 7/1, Bandar Indera Mahkota, 25200 Kuantan, Pahang";

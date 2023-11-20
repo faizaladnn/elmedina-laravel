@@ -18,18 +18,15 @@
 .customFontsH3 {
   font-family: customFonts;
   font-size: 48px;
-  color: #30cbcb;
 }
 .customFontsH4 {
   font-family: customFonts;
   font-size: 26px;
-  color: #30cbcb;
 }
 .customFontsBold {
   font-family: customFonts;
   font-size: 18px;
   font-weight: 500;
-  color: #30cbcb;
 
 }
 

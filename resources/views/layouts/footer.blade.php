@@ -28,11 +28,6 @@
                         SHAH ALAM : </a> <a href="tel:+60182497030">018-2497 030</a>
                 </li>
 
-                <li class="">
-                    <a href="{{route('branches.ulu-klang')}}" class="">
-                        <i data-feather="phone"></i>
-                        HULU KELANG : </a> <a href="tel:+0104547030 ">010-454 7030 </a>
-                </li>
             </ul>
         </div>
         

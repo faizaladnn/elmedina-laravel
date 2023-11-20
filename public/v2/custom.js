@@ -145,9 +145,6 @@ jQuery(document).ready(function ($) {
             case "kuantan":
                 newBranch = "Kuantan"
                 break;
-            case "ulu-klang":
-                newBranch = "Ulu Klang"
-                break;
             default:
                 break;
         }

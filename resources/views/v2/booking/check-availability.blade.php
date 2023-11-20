@@ -91,9 +91,7 @@
             
                 <input class="radio-button" type="radio" id="radioKuantan" name="branch" value="kuantan">
                 <label for="radioKuantan">Kuantan</label>
-            
-                <input class="radio-button" type="radio" id="radioUluKlang" name="branch" value="ulu-klang">
-                <label for="radioUluKlang">Ulu Klang</label> 
+                
             </div>
         </div>
         <div class="col-lg-6">
