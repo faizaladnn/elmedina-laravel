@@ -27,12 +27,12 @@
 
                 <div class="row-img"> 
                   <div class="column-img">
-                      <img src="{{asset('public/template/assets/carousel/shah_alam/sh18.jpeg')}}" style="width:100%">
-                    <img src="{{asset('public/template/assets/carousel/shah_alam/sh16.jpeg')}}" style="width:100%">
+                      <img src="{{asset('public/template/assets/carousel/shah_alam/sh19.jpeg')}}" style="width:100%">
+                    <img src="{{asset('public/template/assets/carousel/shah_alam/sh20.jpeg')}}" style="width:100%">
                 </div>
                 <div class="column-img">
-                    <img src="{{asset('public/template/assets/carousel/shah_alam/sh17.jpeg')}}" style="width:100%">
-                    <img src="{{asset('public/template/assets/carousel/shah_alam/sh14.jpg')}}" style="width:100%">
+                    <img src="{{asset('public/template/assets/carousel/shah_alam/sh21.jpeg')}}" style="width:100%">
+                    <img src="{{asset('public/template/assets/carousel/shah_alam/sh22.jpeg')}}" style="width:100%">
                   </div>
                 </div>
 
@@ -60,7 +60,17 @@
                     </div>
                     <div class="col-lg-8 col-sm-6 col-xs-6">
                         <h5 style="text-align: justify; text-justify: inter-word;">
-                            <a href="https://www.facebook.com/elmedinaspabekamshahalam/" class="btn btn-social" target="_blank"><i style='font-size:24px' class='fab'>&#xf39e;</i></a>
+                            <a href="https://www.facebook.com/elmedinaspabekamshahalam/" class="btn btn-social" target="_blank"><i style='font-size:24px' class='fab'>&#xf39e;</i></a> El Medina Spa Bekam - Shah Alam 
+                        </h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-xs-6">
+                        <h4 style="text-justify: inter-word;">INSTAGRAM</h4>
+                    </div>
+                    <div class="col-lg-8 col-sm-6 col-xs-6">
+                        <h5 style="text-align: justify; text-justify: inter-word;">
+                            <a href="https://www.instagram.com/elmedinaspabekam_shahalam" class="btn btn-social" target="_blank"><i style='font-size:35px' class='fa fa-instagram fa-5x'></i></a> elmedinaspabekam_shahalam
                         </h5>
                     </div>
                 </div>

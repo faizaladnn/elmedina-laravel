@@ -32,7 +32,7 @@
         </div>
         <div class="row">
             <div class="col-lg-8">
-                <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;"><b>El Medina Bekam & Recovery</b> ditubuhkan pada <b>April 2018</b>. Setakat ini kami mempunyai <b>3 cawangan utama</b>. Cawangan pertama terletak di <b>Kuantan (Pahang)</b>, dan <b>Shah Alam</b>. Perkhidmatan utama kami lebih kepada <b>Healthy and Recovey</b> iaitu lebih tertumpu kepada menangani masalah kesihatan dan membantu meningkatkan proses pemulihan pada anggota badan manusia.</p>                
+                <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;"><b>El Medina Bekam & Recovery</b> ditubuhkan pada <b>April 2018</b>. Setakat ini kami mempunyai <b>2 cawangan utama</b>. Cawangan pertama terletak di <b>Kuantan (Pahang)</b>, dan <b>Shah Alam</b>. Perkhidmatan utama kami lebih kepada <b>Healthy and Recovey</b> iaitu lebih tertumpu kepada menangani masalah kesihatan dan membantu meningkatkan proses pemulihan pada anggota badan manusia.</p>                
                 <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;">Ramai yang tidak tahu sebenarnya, meskipun bekam adalah kaedah rawatan utama kami di sini, namun setelah melalui pelbagai proses kami berjaya meningkatkan <b>El Medina Bekam & Recovery</b> ke satu tahap yang lebih efisien yakni setanding dengan rawatan bekam yang sedia ada di pasaran berserta dengan pakej-pakej lain yang lebih berinovasi. Malah tidak keterlaluan jika kami nyatakan kami lebih ke hadapan.</p>
                 <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;"><b>El Medina Bekam & Recovery</b> adalah pusat rawatan bekam yang terbaik dan pertama menggabungkan pelbagai elemen natural. Rawatan berasaskan bekam yang diberi nafas baru dan dipermodenkan sehingga dikenali sebagai "bekam ala spa", rawatan tradisional seperti urutan tradisi sejak turun temurun lagi, physiotherapy atau pemulihan anggota badan untuk mereka yang mempunyai masalah otot, tulang dan sendi dan juga sebagai rawatan terakhir sebelum proses pembedahan dijalankan.</p>
                 <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;">Untuk pengetahuan, <b>El Medina Bekam & Recovery</b> adalah pusat bekam yang pertama memperkenalkan disposal cup atau cup pakai buang yang lebih terjamin kebersihannya yakni sejak awal penubuhan lagi, April 2018 dan juga pusat spa pertama memperkenalkan teknik <b>Dry Cupping, Hypervolt Therapy, Compression Therapy dan Sport Massage pada Februari 2019</b></p>
@@ -42,66 +42,31 @@
     </div>
 </section>
 
-<!-- Testimonial Section -->
-<section id="about" class="testimonial-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="revealUp" style="float: center; text-decoration: underline solid white 20%; ">TESTIMONIALS</h1>
-            </div>
+
+{{-- Testimonial Test Section --}}
+<section class="testimonial-section">
+    <h1 class="revealUp" style="float: center; text-decoration: underline solid white 20%; ">TESTIMONIALS</h1>
+    <div class="testimonial mySwiper">
+      <div class="testi-content swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img src="{{asset('public/template/assets/carousel/testimoni/testimony_1.jpg')}}" alt="" class="image" />
+          <p>
+            123 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+            saepe provident dolorem a quaerat quo error facere nihil deleniti
+            eligendi ipsum adipisci, fugit, architecto amet asperiores
+            doloremque deserunt eum nemo.
+          </p>
+
+          <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+          <div class="details">
+            <span class="name">Marnie Lotter</span>
+            <span class="job">Web Developer</span>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="testimonial-slider">
-                    <ul class="slider">
-                        <li>
-                          <div class="testimonial-slider-content">
-                            <q style="font-size:36px;">Bersih, selesa dan privacy serta mewah dengan harga berpatutan</q>
-                            <p class="source">- Syamim Yahya</p>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="testimonial-slider-content">
-                            <q style="font-size:32px;">Best dan selesa! Serius lepas bekam dan sport massage badan rasa ringan!!</q>
-                            <p class="source">- Rody Kristal & Niena Azman</p>
-                          </div>
-                        </li>
-                      <li>
-                        <div class="testimonial-slider-content">
-                          <q style="font-size: 32px;">El Medina is good. I always do dry cupping and sport massage here for my hamstring and good recovery.</q>
-                          <p class="source">- Dickson Nwakame</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="testimonial-slider-content">
-                          <q>Guys here have a magic hands</q>
-                          <p class="source">- YAM Tengku Panglima Raja, Mejar Tengku Amir Nasser Ibrahim Shah</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="testimonial-slider-content">
-                          <q>Badan rasa ringan gila !!. korang kena try gaiss !!</q>
-                          <p class="source">- Nonny Nadirah</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="testimonial-slider-content">
-                          <q>Sport massage terbaik!</q>
-                          <p class="source">- KDYMM Pemangku Raja Pahang Tengku Mahkota Tengku Hassanal Ibrahim Alam Shah</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="testimonial-slider-content">
-                          <q style="font-size: 32px;">Selain bekam darah, paling best sport massage with the new equipment they call Hypervolt. For those yang ada masalah muscle, anda kena dapatkan treatment ini.</q>
-                          <p class="source">- Azrel Ismail</p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-            </div>
-        </div>
-        
-    </div>
+      </div>
+    <div class="swiper-pagination"></div>
+</div>
 </section>
 
 <!-- Services Section -->
@@ -152,7 +117,7 @@
                     <a href="{{route('v2.hypervolt')}}" style="text-decoration: none; color:black; font-size:18px;">
                         <img src="{{asset('public/template/assets/carousel/services/hypervolt(1).jpeg')}}" alt="">
                         <div class="text-block">
-                                <p style="font-size: 17px; margin: 0px 0 0 0;">Vibration Therapy (HYPERVOLT)</p>
+                                <p style="font-size: 17px; margin: 0px 0 0 0;">Hypervolt Therapy</p>
                         </div>
                     </a>
                 </div>
@@ -210,14 +175,28 @@
             </div> --}}
             <div class="col-lg-6">
                 <div class="contact-container">
-                    <form action="/action_page.php">
+                    {{-- <form action="/action_page.php">
                         <input type="text" id="fname" name="firstname" placeholder="Name">
                         <input type="text" id="email" name="email" placeholder="Email">
                         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
                         <button type="submit">Send</button>
-                    </form>
+                    </form> --}}
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h5 style="text-align: justify; text-justify: inter-word; white-space: pre-wrap; word-break: keep-all;"><b>EL MEDINA SPA BEKAM KUANTAN</b> <br/>A75, Level 1, <br/>Jln IM 7/1, Bandar Indera Mahkota, <br/>25200 Kuantan, Pahang</h4>
+                            <h5 style="text-align: justify; text-justify: inter-word;"><a href="tel:+60108387030">+6010 838 7030</a></h5>
+                        </div>
                     </div>
-                    
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h5 style="text-align: justify; text-justify: inter-word; white-space: pre-wrap; word-break: keep-all;"><b>EL MEDINA SPA BEKAM SHAH ALAM</b> <br/>No. 17, 1, <br/>Jalan Plumbum R 7/R, Seksyen 7, <br/>40000 Shah Alam, Selangor</h4>
+                            <h5 style="text-align: justify; text-justify: inter-word;"><a href="tel:+60182497030">+6018 249 7030</a></h5>
+                        </div>
+                    </div>
+
+                </div>                    
             </div>
         </div>
         <div class="row">

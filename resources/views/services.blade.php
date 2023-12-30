@@ -58,7 +58,7 @@
                     <img src="{{asset('public/template/assets/carousel/services/hypervolt.jpg')}}" alt="">
                 </div>
                 <div class="uk-card-body">
-                    <h5 class="uk-text-uppercase uk-text-bold customFonts">Vibration Therapy (Hypervolt)</h5>
+                    <h5 class="uk-text-uppercase uk-text-bold customFonts">Hypervolt Therapy</h5>
                     <p class="uk-text-light">Digunakan untuk meningkatkan persembahan fizikal.</p>
                     <a href="{{route('services.hypervolt')}}" class="btn btn-outline-warning text-dark">Learn More</a>
                 </div>

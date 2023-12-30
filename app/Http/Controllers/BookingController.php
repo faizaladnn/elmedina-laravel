@@ -199,7 +199,7 @@ class BookingController extends Controller
 
     public function listBooking()
     {
-        $booking = Booking::where('user_id', 1992)->where('status', 0)->orderBy('created_at','DESC')->limit(1)->first();
+        $booking = Booking::where('status', 0)->orderBy('created_at','DESC')->limit(1)->first();
         
         return view('booking.list',[
             'booking' => $booking,

@@ -40,7 +40,7 @@
                 <li>Full Body (24 cup)</li>
                 <li>Urutan Badan (1 jam)</li>
                 <li><br/></li>
-                <li class="grey-button"><a href="{{route('v2.checkAvailability', ['type' => 'Pakej C'])}}">Book Now</a></li>
+                <li class="grey-button"><a href="{{route('v2.checkAvailability', ['type' => 'Pakej B'])}}">Book Now</a></li>
             </ul>
         </div>
 

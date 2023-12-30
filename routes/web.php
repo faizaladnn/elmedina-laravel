@@ -51,7 +51,7 @@ Route::prefix('/v2')->name('v2.')->group(function () {
     Route::get('/bekam-hijama', function () {return view('v2.services.bekam_hijama', ['nav' => 'Bekam/Hijama']); })->name('bekam-hijama');
     Route::get('/urutan-massage', function () {return view('v2.services.massage', ['nav' => 'Urutan/Massage']); })->name('urutan-massage');
     Route::get('/air-relax', function () { return view('v2.services.air_relax',[ 'nav' => 'Air Relax Therapy']); })->name('air-relax');
-    Route::get('/hypervolt', function () { return view('v2.services.hypervolt',[ 'nav' => 'Vibration Therapy (HYPERVOLT)']); })->name('hypervolt');
+    Route::get('/hypervolt', function () { return view('v2.services.hypervolt',[ 'nav' => 'Hypervolt Therapy']); })->name('hypervolt');
     Route::get('/tens', function () { return view('v2.services.tens',[ 'nav' => 'Electro Therapy (TENS)']); })->name('tens');
     Route::get('/ultrasound', function () { return view('v2.services.ultrasound',[ 'nav' => 'Ultrasound Therapy']); })->name('ultrasound');
     Route::get('/kinesio', function () { return view('v2.services.kinesio',[ 'nav' => 'Kinesio Tapping']); })->name('kinesio');
