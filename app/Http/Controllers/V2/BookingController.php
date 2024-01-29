@@ -132,7 +132,7 @@ class BookingController extends Controller
                 $facebookUrl = "https://www.facebook.com/elmedinaspabekamkuantan";
                 break;
             case 'SHAH ALAM':
-                $phoneNo = "+6018 249 7030";
+                $phoneNo = "+6010 454 7030";
                 $address = "No. 17, 1, Jalan Plumbum R 7/R, Seksyen 7, 40000 Shah Alam, Selangor";
                 $facebookUrl = "https://www.facebook.com/elmedinaspabekamshahalam";
                 break;

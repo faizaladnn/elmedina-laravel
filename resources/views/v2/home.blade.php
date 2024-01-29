@@ -1,18 +1,19 @@
 @extends ('v2.layouts.master')
 
 @section ('content')
-<button onclick="topFunction()" id="goToBottomButton" title="Go to top">^</button>
 
+<button onclick="topFunction()" id="goToBottomButton" title="Go to top">^</button>
 <!-- Intro Section -->
 <section id="intro" class="intro-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <img src="{{asset('public/v2/elmedinaV2LogoTransparent.png')}}" style="height: 100%; width: 100%" />
+                <img src="{{asset('public/v2/elmedinaV2LogoTransparent.png')}}" class="home-logo" style="height: 100%; width: 100%" />
 
-                <br/><br/><br/><br/>
+                <div class="show-spacing-desktop"><br/></div>
+                <div class="show-spacing-mobile"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
                 <a href="{{route('v2.getBooking')}}" target="_blank">
-                    <button type="button" class="button">Book Now</button>
+                    <button type="button" class="button" style="background-color: #30cbcb;">Book Now</button>
                 </a>
                 {{-- <h1>One Page Website</h1>
                 <p>I like clean code and I cannot lie</p>
@@ -44,30 +45,7 @@
 
 
 {{-- Testimonial Test Section --}}
-<section class="testimonial-section">
-    <h1 class="revealUp" style="float: center; text-decoration: underline solid white 20%; ">TESTIMONIALS</h1>
-    <div class="testimonial mySwiper">
-      <div class="testi-content swiper-wrapper">
-        <div class="slide swiper-slide">
-          <img src="{{asset('public/template/assets/carousel/testimoni/testimony_1.jpg')}}" alt="" class="image" />
-          <p>
-            123 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
-            saepe provident dolorem a quaerat quo error facere nihil deleniti
-            eligendi ipsum adipisci, fugit, architecto amet asperiores
-            doloremque deserunt eum nemo.
-          </p>
-
-          <i class="bx bxs-quote-alt-left quote-icon"></i>
-
-          <div class="details">
-            <span class="name">Marnie Lotter</span>
-            <span class="job">Web Developer</span>
-          </div>
-        </div>
-      </div>
-    <div class="swiper-pagination"></div>
-</div>
-</section>
+@include('v2.testimonial')
 
 <!-- Services Section -->
 <section id="services" class="services-section">
@@ -117,7 +95,7 @@
                     <a href="{{route('v2.hypervolt')}}" style="text-decoration: none; color:black; font-size:18px;">
                         <img src="{{asset('public/template/assets/carousel/services/hypervolt(1).jpeg')}}" alt="">
                         <div class="text-block">
-                                <p style="font-size: 17px; margin: 0px 0 0 0;">Hypervolt Therapy</p>
+                                <p style="margin: 0px 0 0 0;">Hypervolt Therapy</p>
                         </div>
                     </a>
                 </div>
@@ -192,7 +170,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <h5 style="text-align: justify; text-justify: inter-word; white-space: pre-wrap; word-break: keep-all;"><b>EL MEDINA SPA BEKAM SHAH ALAM</b> <br/>No. 17, 1, <br/>Jalan Plumbum R 7/R, Seksyen 7, <br/>40000 Shah Alam, Selangor</h4>
-                            <h5 style="text-align: justify; text-justify: inter-word;"><a href="tel:+60182497030">+6018 249 7030</a></h5>
+                            <h5 style="text-align: justify; text-justify: inter-word;"><a href="tel:+60104547030">+6010 454 7030</a></h5>
                         </div>
                     </div>
 

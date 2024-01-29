@@ -6,7 +6,7 @@
         <div class="uk-text-center uk-text-bold uk-panel uk-light uk-padding-large uk-padding-remove-bottom"><h1>SHAH ALAM</h1></div>
         <div class="uk-text-center uk-text-bold uk-panel uk-light uk-padding-small">
             <h5>
-                <i data-feather="phone"></i> 018 - 249 7030
+                <i data-feather="phone"></i> 010 - 454 7030
                 <a href="https://www.facebook.com/elmedinaspabekamshahalam/" class="btn btn-social" target="_blank" style="text-decoration:underline;"><i class="fab fa-facebook"></i> EL MEDINA SHAH ALAM</a>
                 <i class="fas fa-home" title="Address"></i> No. 17, 1, Jalan Plumbum R 7/R, Seksyen 7, 40000 Shah Alam, Selangor
             </h5>

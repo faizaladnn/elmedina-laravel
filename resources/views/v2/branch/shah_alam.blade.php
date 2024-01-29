@@ -43,7 +43,7 @@
                         <h4 style="text-justify: inter-word;">PHONE</h4>
                     </div>
                     <div class="col-lg-8 col-sm-6 col-xs-6">
-                        <h5 style="text-align: justify; text-justify: inter-word;"><a href="tel:+60182497030">+6018 249 7030</a></h5>
+                        <h5 style="text-align: justify; text-justify: inter-word;"><a href="tel:+60104547030">+6010 454 7030</a></h5>
                     </div>
                 </div>
                 <div class="row">

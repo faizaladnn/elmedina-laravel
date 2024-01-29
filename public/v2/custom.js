@@ -13,13 +13,12 @@ $(".navbar-toggle").click(function(){
   $(".collapse").collapse('show');
 });
 
-
 // Close the dropdown if user clicks outside of it
-document.addEventListener("click", function (e) {
-  if (!document.querySelector(".navbar").contains(e.target) && !document.querySelector(".navbar").contains(e.target)) {
-    $(".navbar-ex1-collapse").collapse('hide');
-  }
-});
+// document.addEventListener("click", function (e) {
+//   if (!document.querySelector(".navbar").contains(e.target) && !document.querySelector(".navbar").contains(e.target)) {
+//     $(".navbar-ex1-collapse").collapse('hide');
+//   }
+// });
 //jQuery to collapse the navbar on scroll
 var header_height  = $('.navbar').height(),
     intro_height    = $('.intro-section').height(),
@@ -30,8 +29,8 @@ var header_height  = $('.navbar').height(),
           $(".navbar-fixed-top").addClass("top-nav-collapse");
           $(".navbar-fixed-top").removeClass("navbar-transparent");
         } else {
-          // $(".navbar-fixed-top").removeClass("top-nav-collapse");
-          // $(".navbar-fixed-top").addClass("navbar-transparent");
+          $(".navbar-fixed-top").removeClass("top-nav-collapse");
+          $(".navbar-fixed-top").addClass("navbar-transparent");
         }
     });
 
@@ -48,6 +47,7 @@ $(function() {
 
 // Get the button
 let mybutton = document.getElementById("goToBottomButton");
+let navbar = document.getElementById("navbar");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
@@ -55,18 +55,20 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
+    navbar.classList.add("sticky")
   } else {
     mybutton.style.display = "none";
+    navbar.classList.remove("sticky");
   }
 }
 
 // When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    var element = document.getElementById('intro');
-    $('html, body').animate({
-        scrollTop: (getOffset2(element).top-50)
-    }, 1000);
-}
+// function topFunction() {
+//     var element = document.getElementById('intro');
+//     $('html, body').animate({
+//         scrollTop: (getOffset2(element).top-50)
+//     }, 1000);
+// }
 
 function getOffset2( el ) {
     var _x = 0;
@@ -234,7 +236,7 @@ var swiper = new Swiper(".mySwiper", {
   },
   autoplay: {
     //  delay: 2500,
-     delay: 3000,
+     delay: 10000,
      disableOnInteraction: false,
   },
   // navigation: {

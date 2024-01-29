@@ -1,8 +1,33 @@
+@font-face {
+  font-family: customFonts;
+  src: url("fonts/champagne-limousines/Champagne & Limousines.ttf") ;
+}
+
+.customFonts {
+  font-family: customFonts;
+  font-size: 16px;
+  font-size: 18px;
+}
+.customFontsH3 {
+  font-family: customFonts;
+  font-size: 48px;
+}
+.customFontsH4 {
+  font-family: customFonts;
+  font-size: 26px;
+}
+.customFontsBold {
+  font-family: customFonts;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 body {
   width: 100%;
   height: 100%;
   /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: customFonts;
   opacity: 0;
   transition: opacity .5s;
   -webkit-appearance: none;
@@ -20,6 +45,21 @@ h1 {
   text-decoration: underline solid #30cbcb 20% !important; 
 }
 
+h5 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  font-size: 18px;
+}
+button {
+  font-size: 18px;
+}
+
 .revealUp {
   opacity: 0;
   visibility: hidden;
@@ -29,6 +69,7 @@ h1 {
   background-color: transparent;
   background: transparent;
   border-color: transparent;
+  position: sticky;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -70,13 +111,33 @@ h1 {
 }
 
 .intro-section {
-  background-image: linear-gradient(176deg, #30cbcb 70%, #F4F4F4);
+  /* background-image: linear-gradient(176deg, #30cbcb 70%, #F4F4F4); */
   height: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-top: 150px;
   text-align: center;
   /* background: #fff; */
+  /* background-image: url( 'http://elmedina-laravel.test/public/v2/home_bg_top.jpeg' ); */
+  /* background-image: url( 'https://elmedina.com.my/public/v2/home_bg_top.jpeg' ); */
+  background-image: url( 'https://elmedina.com.my/public/v2/home_bg_top_2.jpeg' );
+  background-size: cover;
+  background-position: center left;
+}
+
+@media screen and (max-width: 600px) {
+  .home-logo {
+    display: none;
+  }
+  .show-spacing-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .show-spacing-mobile {
+    display: none;
+  }
 }
 
 .about-section {
@@ -198,7 +259,7 @@ h1 {
 @media (max-width: 767px) {
   .about-section, .branches-section, .services-section, .contact-section, .branch-info-section{
     /* display: initial; */
-  padding-top: 50px;
+  padding-top: 115px;
   }
 
   /* .services-section > .container {
@@ -961,8 +1022,6 @@ button[type=submit]:hover {
 }
 
 /* Testimonial */
-
-
 .testimonial {
   position: relative;
   max-width: 2000px;
@@ -971,10 +1030,10 @@ button[type=submit]:hover {
   overflow: hidden;
 }
 .testimonial .image {
-  height: 170px;
-  width: 170px;
+  height: 215px;
+  width: 325px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 5%;
   float: left;
 }
 .testimonial .slide {
@@ -989,9 +1048,10 @@ button[type=submit]:hover {
 .slide p {
   text-align: center;
   padding: 0 160px;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: bolder;
   color: #333;
+  white-space: pre-wrap; word-break: keep-all;
 }
 .slide .quote-icon {
   font-size: 30px;
@@ -1003,9 +1063,10 @@ button[type=submit]:hover {
   align-items: center;
 }
 .details .name {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: bold;
   color: #333;
+  white-space: pre-wrap; word-break: keep-all;
 }
 .details .job {
   font-size: 12px;
@@ -1037,7 +1098,7 @@ button[type=submit]:hover {
 }
 @media screen and (max-width: 768px) {
   .slide p {
-    padding: 0 20px;
+    padding: 0 15px;
   }
   .nav-btn {
     display: none;

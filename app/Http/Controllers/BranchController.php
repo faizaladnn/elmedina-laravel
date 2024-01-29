@@ -94,7 +94,7 @@ class BranchController extends Controller
                         'address' =>    'No. 17, 1, Jalan Plumbum R 7/R, Seksyen 7, 40000 Shah Alam, Selangor',
                         'sourceMap' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0999179940636!2d101.4873003152522!3d3.067964354500691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc5323e55fc8e9%3A0x4379424303e313ee!2sEl%20Medina%20Spa%20Bekam%20Shah%20Alam!5e0!3m2!1sen!2smy!4v1576500104763!5m2!1sen!2smy',
                         'facebook' => 'https://www.facebook.com/elmedinaspabekamshahalam/',
-                        'telephoneNo' => '013 - 200 9518',
+                        'telephoneNo' => '010 - 454 7030',
                         'routeName' => 'shah-alam',
                     ]
                 ];

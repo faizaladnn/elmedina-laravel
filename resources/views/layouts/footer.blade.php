@@ -25,7 +25,7 @@
                 <li class="">
                     <a href="{{route('branches.shah-alam')}}" class="">
                         <i data-feather="phone"></i>
-                        SHAH ALAM : </a> <a href="tel:+60182497030">018-2497 030</a>
+                        SHAH ALAM : </a> <a href="tel:+60104547030">010-4547 030</a>
                 </li>
 
             </ul>

@@ -91,7 +91,7 @@
                                         <i class="fas fa-phone" title="Telephone Number"></i>
                                     </div>
                                     <div class="col-lg-11 col-md-11 col-sm-11 col-xd-11">
-                                        <h5>013 - 200 9518</h5>
+                                        <h5>010 - 454 7030</h5>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -112,7 +112,7 @@
             </div>
 
             {{-- Hulu Kelang --}}
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                         <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
@@ -154,7 +154,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
         </div>
     </div>
@@ -183,7 +183,7 @@
                 </div>
             </div>
         </li>
-        <li class="uk-width-4-5">
+        {{-- <li class="uk-width-4-5">
             <div class="uk-panel">
                 <img src="{{ asset('public/template/assets/carousel/branch/branch_ulu_klang.jpeg')}}" alt="">
                 <div class="uk-position-center uk-text-center">
@@ -191,7 +191,7 @@
                     {{-- <p uk-slider-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p> --}}
                 </div>
             </div>
-        </li>
+        </li> --}}
     </ul>
 
     <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
