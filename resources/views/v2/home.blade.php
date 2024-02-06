@@ -11,7 +11,7 @@
                 <img src="{{asset('public/v2/elmedinaV2LogoTransparent.png')}}" class="home-logo" style="height: 100%; width: 100%" />
 
                 <div class="show-spacing-desktop"><br/></div>
-                <div class="show-spacing-mobile"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
+                <div class="show-spacing-mobile"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
                 <a href="{{route('v2.getBooking')}}" target="_blank">
                     <button type="button" class="button" style="background-color: #30cbcb;">Book Now</button>
                 </a>

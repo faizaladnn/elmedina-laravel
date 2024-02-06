@@ -7,16 +7,19 @@ $(document).ready(function() {
     $('html').click(function(){
         $('.nav-dropdown').hide();
     })
-    $('#nav-toggle').click(function(){
-        $('nav ul').slideToggle();
-    })
-    $('#nav-toggle').on('click', function(){
-        this.classList.toggle('active');
-    });
+    // $('#nav-toggle').click(function(){
+    //     $('nav ul').slideToggle();
+    // })
+    // $('#nav-toggle').on('click', function(){
+    //     this.classList.toggle('active');
+    // });
+    // $('.page-scroll').on('click', function(){
+    //     $('nav ul').slideToggle();
+    //     console.log(document.getElementById("nav-toggle").classList);
+    //     document.getElementById("nav-toggle").classList.remove("active");
+    // });
     $('.page-scroll').on('click', function(){
-        $('nav ul').slideToggle();
-        console.log(document.getElementById("nav-toggle").classList);
-        document.getElementById("nav-toggle").classList.remove("active");
+        document.getElementById("mySidenav").style.width = "0";
     });
 
 });
@@ -31,3 +34,11 @@ $(function() {
         event.preventDefault();
     });
 });
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+  
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
