@@ -121,7 +121,7 @@ button {
   /* background-image: url( 'http://elmedina-laravel.test/public/v2/home_bg_top.jpeg' ); */
   /* background-image: url( 'https://elmedina.com.my/public/v2/home_bg_top.jpeg' ); */
   /* background-image: url( 'https://elmedina.com.my/public/v2/home_bg_top_2.jpeg' ); */
-  background-image: url( 'https://elmedina.com.my/public/v2/home_bg_top_3.jfif' );
+  background-image: url( 'https://elmedina.com.my/public/v2/home_bg_top_4.jfif' );
   background-size: cover;
   background-position: center left;
 }
@@ -135,6 +135,7 @@ button {
   }
   .intro-section {
     background-position: 15%;
+    background-image: url( 'https://elmedina.com.my/public/v2/home_bg_mobile.jfif' );
   }
 }
 

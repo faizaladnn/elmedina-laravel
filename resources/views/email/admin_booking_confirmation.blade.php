@@ -12,7 +12,7 @@
 				<table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border: 1px solid #cccccc; border-collapse: collapse;">
 					<tr>
 						<td align="center" bgcolor="#30cbcb" style="padding: 40px 0 30px 0; color: #153643; font-size: 28px; font-weight: bold; font-family: Arial, sans-serif;">
-							<img src="{{asset('public/template/assets/img/logo4.png')}}" alt="Creating Email Magic" width="50%" height="30%" style="display: block;" />
+							<img src="{{asset('public/v2/elmedinaV2LogoTransparent.png')}}" alt="Creating Email Magic" width="50%" height="30%" style="display: block;" />
 						</td>
 					</tr>
 					<tr>

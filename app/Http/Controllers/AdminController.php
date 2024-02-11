@@ -54,8 +54,7 @@ class AdminController extends Controller
             'status' => $status,
             'users' => $users,
             'kuantan' => $kuantan,
-            'shah_alam' => $shah_alam,
-            'ulu_klang' => $ulu_klang,
+            'shah_alam' => $shah_alam
         ]);
     }
 

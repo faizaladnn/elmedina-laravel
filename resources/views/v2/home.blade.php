@@ -129,7 +129,8 @@
                     <div class="column-card column-card-branch">
                         <div class="card">
                             <a href="{{route('v2.shah-alam')}}" style="text-decoration: none; color:black; font-size:18px;">
-                                <img src="{{asset('public/template/assets/carousel/branch/branch_shah_alam.jpg')}}" alt="">
+                                {{-- <img src="{{asset('public/template/assets/carousel/branch/branch_shah_alam.jpg')}}" alt=""> --}}
+                                <img src="{{asset('public/template/assets/carousel/branch/branch_shah_alam_2.jfif')}}" alt="">
                                 <div class="text-block">
                                         <p>Shah Alam, Selangor</p>
                                 </div>

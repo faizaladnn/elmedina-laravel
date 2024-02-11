@@ -175,7 +175,7 @@
                 <li class="package-header">Pakej 8</li>
                 <li class="grey">RM 110</li>
                 <li style="word-break: keep-all;">Sport Massage / Urutan Melayu (1 jam)</li>
-                <li><br/></li>
+                <li></li>
                 <li><br/></li>
                 <li class="grey-button"><a href="{{route('v2.checkAvailability', ['type' => 'Pakej 8'])}}">Book Now</a></li>
             </ul>
@@ -194,7 +194,7 @@
             <ul class="package-price">
                 <li class="package-header">Pakej 10</li>
                 <li class="grey">RM 50</li>
-                <li style="word-break: keep-all;">Air Relax Therapy - Leg Massage (30 min)</li>
+                <li style="word-break: keep-all;">Air Relax Therapy (30 min)</li>
                 <li><br/></li>
                 <li><br/></li>
                 <li class="grey-button"><a href="{{route('v2.checkAvailability', ['type' => 'Pakej 10'])}}">Book Now</a></li>

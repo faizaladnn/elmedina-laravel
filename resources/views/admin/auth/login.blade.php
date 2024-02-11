@@ -11,7 +11,7 @@
       <div class="ht-100p d-flex flex-column align-items-center justify-content-center">
         <div class="sign-wrapper mg-lg-l-50 mg-xl-l-60">
             <div class="wd-100p">
-                <div class="wd-350 wd-sm-350 mg-b-30" style="background-color:#1c2252;"><img src="{{asset('public/template/assets/img/logo4.png')}}" class="img-fluid" alt=""></div>
+                <div class="wd-350 wd-sm-350 mg-b-30"><img src="{{asset('public/v2/elmedinaV2LogoTransparent.png')}}" class="img-fluid" alt=""></div>
                 @include('error_message')
                 {{ Form::open(['method' => 'POST', 'url' => route('admin.login')]) }}
                 <div class="form-group">
