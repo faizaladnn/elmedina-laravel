@@ -63,12 +63,12 @@ function scrollFunction() {
 }
 
 // When the user clicks on the button, scroll to the top of the document
-// function topFunction() {
-//     var element = document.getElementById('intro');
-//     $('html, body').animate({
-//         scrollTop: (getOffset2(element).top-50)
-//     }, 1000);
-// }
+function topFunction() {
+    var element = document.getElementById('intro');
+    $('html, body').animate({
+        scrollTop: (getOffset2(element).top-50)
+    }, 1000);
+}
 
 function getOffset2( el ) {
     var _x = 0;

@@ -36,12 +36,15 @@ Route::get('locale/{locale}', function ($locale){
     return redirect()->back();
 });
 
+
+
+Route::get('/', function () {return view('v2.home', ['nav' => 'Home']); })->name('v2.home');
+
 Route::prefix('/v2')->name('v2.')->group(function () {
     Route::get('/type/{type}', function ($type) { 
         return redirect()->to(route('v2.home').'#' . strtolower($type));
       })->name('home-type');
     
-    Route::get('/', function () {return view('v2.home', ['nav' => 'Home']); })->name('home');
 
     // Branch
     Route::get('/kuantan', function () {return view('v2.branch.kuantan', ['nav' => 'Kuantan']); })->name('kuantan');
@@ -64,169 +67,6 @@ Route::prefix('/v2')->name('v2.')->group(function () {
     Route::get('/booking/availability/{type}', 'V2\BookingController@checkAvailability')->name('checkAvailability');
     Route::post('create-booking', 'V2\BookingController@storeBookingV2')->name('store-booking');
     Route::get('/thank-you/{id}', 'V2\BookingController@getBookingReceipt')->name('booking-list');
-});
-
-Route::get('/', function () {
-    return view('home',[
-        'nav' => 'Home',
-    ]);
-})->name('home');
-
-Route::get('/about-us', function (){
-    return view('about_us',[
-        'nav' => 'About Us',
-    ]);
-})->name('about-us');
-
-Route::get('/blog', function (){
-    return view('blog',[
-        'nav' => 'Blog',
-    ]);
-})->name('blog');
-
-Route::prefix('branches')->name('branches.')->group(function () {
-    
-    // Main branches page
-    Route::get('/', function () {
-        return view('branches',[
-            'nav' => 'Branch',
-        ]);
-    });
-    //Other Branches
-    Route::get('/kuantan', function () {
-        return view('branches.kuantan');
-    })->name('kuantan');
-    Route::get('/shah-alam', function () {
-        return view('branches.shah_alam');
-    })->name('shah-alam');
-    Route::get('/ulu-klang', function () {
-        return view('branches.ulu_klang');
-    })->name('ulu-klang');
-
-    Route::get('/getBranchesByCountry/{country}', 'BranchController@getBranchesByCountry')->name('getBranchesByCountry');
-});
-
-Route::prefix('services')->name('services.')->group(function () {
-    
-    Route::get('/', function(){
-        return view('services', [
-            'nav' => 'Services',
-        ]);
-    });
-    
-    Route::get('/stretching', function(){
-        return view('services.stretching');
-    })->name('stretching');
-    
-    Route::get('/bekam', function(){
-        return view('services.bekam');
-    })->name('bekam');
-    
-    Route::get('/air-relax', function(){
-        return view('services.air_relax');
-    })->name('air-relax');
-    
-    Route::get('/hypervolt', function(){
-        return view('services.hypervolt');
-    })->name('hypervolt');
-    
-    Route::get('/kinesio-taping', function(){
-        return view('services.kinesio_taping');
-    })->name('kinesio-taping');
-    
-    Route::get('/electro-therapy', function(){
-        return view('services.electro_therapy');
-    })->name('electro-therapy');
-    
-    Route::get('/sport-massage', function(){
-        return view('services.sport_massage');
-    })->name('sport-massage');
-    
-    Route::get('/ultrasound', function(){
-        return view('services.ultrasound');
-    })->name('ultrasound');
-    
-    Route::get('/needling', function(){
-        return view('services.needling');
-    })->name('needling');
-});
-
-Route::prefix('packages')->name('packages.')->group(function () {
-    
-    Route::get('/', function(){
-        return view('packages', [
-            'nav' => 'Packages',
-        ]);
-    });
-    
-    // VVIP
-    Route::get('/vvip-a', function () {
-        return view('packages.vvip_a');
-    })->name('pakej-a');
-    
-    Route::get('/vvip-b', function () {
-        return view('packages.vvip_b');
-    })->name('pakej-b');
-
-    // Bekam sunnah
-    Route::get('/full-body', function () {
-        return view('packages.full_body');
-    })->name('full-body');
-    
-    Route::get('/half-body', function () {
-        return view('packages.half_body');
-    })->name('half-body');
-
-    // Terapi Khusus
-    Route::get('/bekam-wajah', function () {
-        return view('packages.bekam_wajah');
-    })->name('bekam-wajah');
-
-    Route::get('/bekam-kepala', function () {
-        return view('packages.bekam_migrain');
-    })->name('bekam-kepala');
-
-    Route::get('/bekam-kaki', function () {
-        return view('packages.bekam_gout');
-    })->name('bekam-kaki');
-
-    Route::get('/bekam-angin', function () {
-        return view('packages.bekam_angin');
-    })->name('bekam-angin');
-
-    Route::get('/urutan-badan', function () {
-        return view('packages.urutan_badan');
-    })->name('urutan-badan');
-
-    // Recovery
-    Route::get('/pakej-8', function () {
-        return view('packages.pakej_8');
-    })->name('pakej-8');
-
-    Route::get('/pakej-9', function () {
-        return view('packages.pakej_9');
-    })->name('pakej-9');
-    
-    Route::get('/pakej-10', function () {
-        return view('packages.pakej_10');
-    })->name('pakej-10');
-    
-});
-
-Route::prefix('shop')->name('shop.')->group(function () {
-    Route::get('/', function(){
-        return view('shop',[
-            'nav' => 'Shop',
-        ]);
-    });
-    // Products
-    Route::get('/disposable-cup', function () {
-        return view('shops.disposable_cup');
-    })->name('disposable-cup');
-    
-    Route::get('/disposable-needle', function () {
-        return view('shops.disposable_needle');
-    })->name('disposable-needle');    
 });
 
 // User booking
@@ -290,3 +130,168 @@ Route::prefix('admin')->name('admin.')->middleware('admin')->group(function () {
     });
 
 });
+
+
+
+// Route::get('/', function () {
+//     return view('home',[
+//         'nav' => 'Home',
+//     ]);
+// })->name('home');
+
+// Route::get('/about-us', function (){
+//     return view('about_us',[
+//         'nav' => 'About Us',
+//     ]);
+// })->name('about-us');
+
+// Route::get('/blog', function (){
+//     return view('blog',[
+//         'nav' => 'Blog',
+//     ]);
+// })->name('blog');
+
+// Route::prefix('branches')->name('branches.')->group(function () {
+    
+//     // Main branches page
+//     Route::get('/', function () {
+//         return view('branches',[
+//             'nav' => 'Branch',
+//         ]);
+//     });
+//     //Other Branches
+//     Route::get('/kuantan', function () {
+//         return view('branches.kuantan');
+//     })->name('kuantan');
+//     Route::get('/shah-alam', function () {
+//         return view('branches.shah_alam');
+//     })->name('shah-alam');
+//     Route::get('/ulu-klang', function () {
+//         return view('branches.ulu_klang');
+//     })->name('ulu-klang');
+
+//     Route::get('/getBranchesByCountry/{country}', 'BranchController@getBranchesByCountry')->name('getBranchesByCountry');
+// });
+
+// Route::prefix('services')->name('services.')->group(function () {
+    
+//     Route::get('/', function(){
+//         return view('services', [
+//             'nav' => 'Services',
+//         ]);
+//     });
+    
+//     Route::get('/stretching', function(){
+//         return view('services.stretching');
+//     })->name('stretching');
+    
+//     Route::get('/bekam', function(){
+//         return view('services.bekam');
+//     })->name('bekam');
+    
+//     Route::get('/air-relax', function(){
+//         return view('services.air_relax');
+//     })->name('air-relax');
+    
+//     Route::get('/hypervolt', function(){
+//         return view('services.hypervolt');
+//     })->name('hypervolt');
+    
+//     Route::get('/kinesio-taping', function(){
+//         return view('services.kinesio_taping');
+//     })->name('kinesio-taping');
+    
+//     Route::get('/electro-therapy', function(){
+//         return view('services.electro_therapy');
+//     })->name('electro-therapy');
+    
+//     Route::get('/sport-massage', function(){
+//         return view('services.sport_massage');
+//     })->name('sport-massage');
+    
+//     Route::get('/ultrasound', function(){
+//         return view('services.ultrasound');
+//     })->name('ultrasound');
+    
+//     Route::get('/needling', function(){
+//         return view('services.needling');
+//     })->name('needling');
+// });
+
+// Route::prefix('packages')->name('packages.')->group(function () {
+    
+//     Route::get('/', function(){
+//         return view('packages', [
+//             'nav' => 'Packages',
+//         ]);
+//     });
+    
+//     // VVIP
+//     Route::get('/vvip-a', function () {
+//         return view('packages.vvip_a');
+//     })->name('pakej-a');
+    
+//     Route::get('/vvip-b', function () {
+//         return view('packages.vvip_b');
+//     })->name('pakej-b');
+
+//     // Bekam sunnah
+//     Route::get('/full-body', function () {
+//         return view('packages.full_body');
+//     })->name('full-body');
+    
+//     Route::get('/half-body', function () {
+//         return view('packages.half_body');
+//     })->name('half-body');
+
+//     // Terapi Khusus
+//     Route::get('/bekam-wajah', function () {
+//         return view('packages.bekam_wajah');
+//     })->name('bekam-wajah');
+
+//     Route::get('/bekam-kepala', function () {
+//         return view('packages.bekam_migrain');
+//     })->name('bekam-kepala');
+
+//     Route::get('/bekam-kaki', function () {
+//         return view('packages.bekam_gout');
+//     })->name('bekam-kaki');
+
+//     Route::get('/bekam-angin', function () {
+//         return view('packages.bekam_angin');
+//     })->name('bekam-angin');
+
+//     Route::get('/urutan-badan', function () {
+//         return view('packages.urutan_badan');
+//     })->name('urutan-badan');
+
+//     // Recovery
+//     Route::get('/pakej-8', function () {
+//         return view('packages.pakej_8');
+//     })->name('pakej-8');
+
+//     Route::get('/pakej-9', function () {
+//         return view('packages.pakej_9');
+//     })->name('pakej-9');
+    
+//     Route::get('/pakej-10', function () {
+//         return view('packages.pakej_10');
+//     })->name('pakej-10');
+    
+// });
+
+// Route::prefix('shop')->name('shop.')->group(function () {
+//     Route::get('/', function(){
+//         return view('shop',[
+//             'nav' => 'Shop',
+//         ]);
+//     });
+//     // Products
+//     Route::get('/disposable-cup', function () {
+//         return view('shops.disposable_cup');
+//     })->name('disposable-cup');
+    
+//     Route::get('/disposable-needle', function () {
+//         return view('shops.disposable_needle');
+//     })->name('disposable-needle');    
+// });

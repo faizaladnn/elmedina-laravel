@@ -3,15 +3,27 @@
 @section ('content')
 
 <button onclick="topFunction()" id="goToBottomButton" title="Go to top">^</button>
+
+
 <!-- Intro Section -->
 <section id="intro" class="intro-section">
+
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
+                <video autoplay muted loop>
+                    <source src="{{asset('public/v2/home_mobile.MP4')}}" type="video/mp4">
+                </video>
+                  
                 <img src="{{asset('public/v2/elmedinaV2LogoTransparent.png')}}" class="home-logo" style="height: 100%; width: 100%" />
 
+
                 <div class="show-spacing-desktop"><br/></div>
-                <div class="show-spacing-mobile"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
+                <div class="show-spacing-mobile">
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                
                 <a href="{{route('v2.getBooking')}}" target="_blank">
                     <button type="button" class="button" style="background-color: #30cbcb;">Book Now</button>
                 </a>
@@ -34,10 +46,15 @@
         <div class="row">
             <div class="col-lg-8">
                 <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;"><b>El Medina Bekam & Recovery</b> ditubuhkan pada <b>April 2018</b>. Setakat ini kami mempunyai <b>2 cawangan utama</b>. Cawangan pertama terletak di <b>Kuantan (Pahang)</b>, dan <b>Shah Alam</b>. Perkhidmatan utama kami lebih kepada <b>Healthy and Recovey</b> iaitu lebih tertumpu kepada menangani masalah kesihatan dan membantu meningkatkan proses pemulihan pada anggota badan manusia.</p>                
-                <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;">Ramai yang tidak tahu sebenarnya, meskipun bekam adalah kaedah rawatan utama kami di sini, namun setelah melalui pelbagai proses kami berjaya meningkatkan <b>El Medina Bekam & Recovery</b> ke satu tahap yang lebih efisien yakni setanding dengan rawatan bekam yang sedia ada di pasaran berserta dengan pakej-pakej lain yang lebih berinovasi. Malah tidak keterlaluan jika kami nyatakan kami lebih ke hadapan.</p>
-                <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;"><b>El Medina Bekam & Recovery</b> adalah pusat rawatan bekam yang terbaik dan pertama menggabungkan pelbagai elemen natural. Rawatan berasaskan bekam yang diberi nafas baru dan dipermodenkan sehingga dikenali sebagai "bekam ala spa", rawatan tradisional seperti urutan tradisi sejak turun temurun lagi, physiotherapy atau pemulihan anggota badan untuk mereka yang mempunyai masalah otot, tulang dan sendi dan juga sebagai rawatan terakhir sebelum proses pembedahan dijalankan.</p>
+                <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;">Ramai yang tidak tahu sebenarnya, meskipun bekam adalah kaedah rawatan utama kami di sini, namun setelah melalui pelbagai proses kami berjaya meningkatkan <b>El Medina Bekam & Recovery</b> ke satu tahap yang lebih efisien yakni setanding dengan rawatan bekam yang sedia ada di pasaran berserta dengan pakej-pakej lain yang lebih berinovasi.</p>
+                <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;"><b>El Medina Bekam & Recovery</b> adalah pusat rawatan bekam yang terbaik dan pertama menggabungkan pelbagai elemen natural. Rawatan berasaskan bekam yang diberi nafas baru dan dipermodenkan sehingga dikenali sebagai "bekam ala spa", rawatan tradisional seperti urutan tradisi sejak turun temurun lagi, physiotherapy atau pemulihan anggota badan untuk mereka yang mempunyai masalah otot dan sendi.</p>
                 <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;">Untuk pengetahuan, <b>El Medina Bekam & Recovery</b> adalah pusat bekam yang pertama memperkenalkan disposal cup atau cup pakai buang yang lebih terjamin kebersihannya yakni sejak awal penubuhan lagi, April 2018 dan juga pusat spa pertama memperkenalkan teknik <b>Dry Cupping, Hypervolt Therapy, Compression Therapy dan Sport Massage pada Februari 2019</b></p>
                 <p style="text-align: justify; white-space: pre-wrap; word-break: keep-all;">Secara ringkasnya, pelbagai jenis lagi rawatan yang terdapat di <b>El Medina</b> dan kami sangat menitiberatkan <b>kebersihan dan keselamatan</b>. Dan semestinya and pasti akan kembali untuk membuat rawatan bersama kami kerana kami adalah pusat rawatan terbaik untuk anda.</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="{{asset('public/template/assets/img/home_about_us.jfif')}}" class="home-logo" style="height: 100%; width: 100%"/>
+                {{-- <img src="{{asset('public/template/assets/img/home_about_us2.jfif')}}" class="home-logo" style="height: 100%; width: 100%"/> --}}
+                {{-- <img src="{{asset('public/template/assets/carousel/services/air_relax.jpg')}}" class="home-logo" style="height: 100%; width: 100%"/> --}}
             </div>
         </div>
     </div>
@@ -61,10 +78,10 @@
                 <div class="card">
                     <a href="{{route('v2.bekam-hijama')}}" style="text-decoration: none; color:black; font-size:18px;">
                         <img src="{{asset('public/template/assets/carousel/services/bekam.jpg')}}" alt="">
-                    </a>
                     <div class="text-block">
                         <p style="margin: 0px 0 0 0;">Bekam/Hijama</p>
                     </div>
+                </a>
                 </div>
             </div>
         
@@ -108,13 +125,13 @@
 <section id="branches" class="branches-section" >
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-12">
                 <h1 class="revealUp">OUR BRANCHES</h1>
             </div>
         </div>
         <div class="row">
+            
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                
                 <div class="row-cards">
                     <div class="column-card column-card-branch">
                         <div class="card">
