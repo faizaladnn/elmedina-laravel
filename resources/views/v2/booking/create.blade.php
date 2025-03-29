@@ -54,27 +54,27 @@
   <section class="about-section" style="padding-top: 20px; padding-bottom:5px; text-align: left;">
       <div class="container">
         <div class="col-lg-6">
-            <a href="{{route('v2.checkAvailability', ['type' => 'Pakej A'])}}" style="text-decoration: none; color:black">
-                <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Pakej A">
-                    <div class="booking-title">PAKEJ A </div>
+            <a href="{{route('v2.checkAvailability', ['type' => 'Combo A'])}}" style="text-decoration: none; color:black">
+                <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Combo A">
+                    <div class="booking-title">COMBO A </div>
                     <br/>
-                    <div class="booking-details">Full Body (24 Cup) + Urutan Badan (1 Jam) + Air Relax (30 min)</div>
+                    <div class="booking-details">Bekam Full Body (24 Cup) + Urutan (1 Jam)</div>
                     <hr class="line">
                     <div class="booking-price">
-                        <span>RM 300</span>
+                        <span>RM 250</span>
                     </div>
                 </div>
             </a>
         </div>
         <div class="col-lg-6 booking">
-            <a href="{{route('v2.checkAvailability', ['type' => 'Pakej B'])}}" style="text-decoration: none; color:black">
-            <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Pakej B">
-                <div class="booking-title">PAKEJ B </div>
+            <a href="{{route('v2.checkAvailability', ['type' => 'Combo B'])}}" style="text-decoration: none; color:black">
+            <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Combo B">
+                <div class="booking-title">COMBO B </div>
                 <br/>
-                <div class="booking-details">Full Body (24 Cup) + Urutan Badan (1 Jam)</div>
+                <div class="booking-details">Bekam Half Body (14 Cup) + Urutan (1 Jam)</div>
                 <hr class="line">
                 <div class="booking-price">
-                    <span>RM 250</span>
+                    <span>RM 210</span>
                 </div>
             </div>
         </a>
@@ -84,14 +84,27 @@
   <section class="about-section" style="padding-top: 20px; padding-bottom:5px; text-align: left;">
       <div class="container">
         <div class="col-lg-6">
-            <a href="{{route('v2.checkAvailability', ['type' => 'Pakej C'])}}" style="text-decoration: none; color:black">
-                <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Pakej A">
-                    <div class="booking-title">PAKEJ C </div>
+            <a href="{{route('v2.checkAvailability', ['type' => 'Combo C'])}}" style="text-decoration: none; color:black">
+                <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Combo C">
+                    <div class="booking-title">COMBO C </div>
                     <br/>
-                    <div class="booking-details">Full Body (24 Cup) + Urutan Badan (30 Minit)</div>
+                    <div class="booking-details">Bekam Full Body (24 Cup) + Urutan (30 Minit)</div>
                     <hr class="line">
                     <div class="booking-price">
                         <span>RM 210</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-6">
+            <a href="{{route('v2.checkAvailability', ['type' => 'Combo D'])}}" style="text-decoration: none; color:black">
+                <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Combo D">
+                    <div class="booking-title">COMBO D </div>
+                    <br/>
+                    <div class="booking-details">Bekam Half Body (14 Cup) + Urutan (30 Minit)</div>
+                    <hr class="line">
+                    <div class="booking-price">
+                        <span>RM 160</span>
                     </div>
                 </div>
             </a>
@@ -102,58 +115,27 @@
   <section class="about-section" style="padding-top: 20px; padding-bottom:5px; text-align: left;">
       <div class="container">
           <div class="col-lg-6 booking">
-            <a href="{{route('v2.checkAvailability', ['type' => 'Combo A'])}}" style="text-decoration: none; color:black">
-              <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Combo A">
-                  <div class="booking-title">COMBO A </div>
+            <a href="{{route('v2.checkAvailability', ['type' => 'Pakej 1'])}}" style="text-decoration: none; color:black">
+              <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Pakej 1">
+                  <div class="booking-title">PAKEJ 1</div>
                   <br/>
-                  <div class="booking-details">Full Body (24 Cup) + HYPERVOLT Therapy + Air Relax</div>
-                  <hr class="line">
-                  <div class="booking-price">
-                      <span>RM 200</span>
-                  </div>
-              </div>
-            </a>
-          </div>
-        <div class="col-lg-6 booking">
-            <a href="{{route('v2.checkAvailability', ['type' => 'Combo B'])}}" style="text-decoration: none; color:black">
-              <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Combo B">
-                  <div class="booking-title">COMBO B </div>
-                  <br/>
-                  <div class="booking-details">Half Body (14 Cup) + HYPERVOLT Therapy + Air Relax </div>
+                  <div class="booking-details">Bekam Full Body (24 Cup) : Percuma urutan asas + Guasha + Bekam Luncur</div>
                   <hr class="line">
                   <div class="booking-price">
                       <span>RM 150</span>
                   </div>
               </div>
             </a>
-        </div>
-    </div>
-  </section>
-  
-  <section class="about-section" style="padding-top: 20px; padding-bottom:5px; text-align: left;">
-      <div class="container">
-          <div class="col-lg-6">
-            <a href="{{route('v2.checkAvailability', ['type' => 'Pakej 1'])}}" style="text-decoration: none; color:black">
-              <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Pakej 1">
-                  <div class="booking-title">PAKEJ 1</div>
-                  <br/>
-                  <div class="booking-details">Full Body (24 Cup)</div>
-                  <hr class="line">
-                  <div class="booking-price">
-                      <span>RM 160</span>
-                  </div>
-              </div>
-            </a>
           </div>
-          <div class="col-lg-6 booking">
+        <div class="col-lg-6 booking">
             <a href="{{route('v2.checkAvailability', ['type' => 'Pakej 2'])}}" style="text-decoration: none; color:black">
               <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Pakej 2">
                   <div class="booking-title">PAKEJ 2 </div>
                   <br/>
-                  <div class="booking-details">Half Body (14 Cup)</div>
+                  <div class="booking-details">Bekam Half Body (14 Cup) : Percuma urutan asas + Guasha + Bekam Luncur</div>
                   <hr class="line">
                   <div class="booking-price">
-                      <span>RM 110</span>
+                      <span>RM 100</span>
                   </div>
               </div>
             </a>
@@ -184,12 +166,12 @@
                   <div class="booking-details">Bekam Kepala (8 Cup)</div>
                   <hr class="line">
                   <div class="booking-price">
-                      <span>RM 70</span>
+                      <span>RM 110</span>
                   </div>
               </div>
             </a>
-          </div>
-      </div>
+        </div>
+    </div>
   </section>
   
   <section class="about-section" style="padding-top: 20px; padding-bottom:5px; text-align: left;">
@@ -199,7 +181,7 @@
               <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Pakej 5">
                   <div class="booking-title">PAKEJ 5</div>
                   <br/>
-                  <div class="booking-details">Bekam Kaki (12 Cup)</div>
+                  <div class="booking-details">Bekam Kaki (14 Cup)</div>
                   <hr class="line">
                   <div class="booking-price">
                       <span>RM 100</span>
@@ -210,17 +192,17 @@
           <div class="col-lg-6 booking">
             <a href="{{route('v2.checkAvailability', ['type' => 'Pakej 6'])}}" style="text-decoration: none; color:black">
               <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Pakej 6">
-                  <div class="booking-title">PAKEJ 6 </div>
+                  <div class="booking-title">PAKEJ 6</div>
                   <br/>
-                  <div class="booking-details">Bekam Angin (21 Cup)</div>
+                  <div class="booking-details">Urutan 30 Minit</div>
                   <hr class="line">
                   <div class="booking-price">
-                      <span>RM 100 (Normal) RM 120 (VIP)</span>
+                      <span>RM 60</span>
                   </div>
               </div>
             </a>
-          </div>
-      </div>
+        </div>
+    </div>
   </section>
   
   <section class="about-section" style="padding-top: 20px; padding-bottom:5px; text-align: left;">
@@ -230,10 +212,10 @@
               <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Pakej 7">
                   <div class="booking-title">PAKEJ 7</div>
                   <br/>
-                  <div class="booking-details">Relaxing Massage (1 jam)</div>
+                  <div class="booking-details">Urutan Melayu (1 Jam)</div>
                   <hr class="line">
                   <div class="booking-price">
-                      <span>RM 100</span>
+                      <span>RM 110</span>
                   </div>
               </div>
             </a>
@@ -241,9 +223,9 @@
           <div class="col-lg-6 booking">
             <a href="{{route('v2.checkAvailability', ['type' => 'Pakej 8'])}}" style="text-decoration: none; color:black">
               <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Pakej 8">
-                  <div class="booking-title">PAKEJ 8 </div>
+                  <div class="booking-title">PAKEJ 8</div>
                   <br/>
-                  <div class="booking-details">Sport Massage / Urutan Melayu (1 jam)</div>
+                  <div class="booking-details">Sport Massage + Hypervolt Therapy</div>
                   <hr class="line">
                   <div class="booking-price">
                       <span>RM 110</span>
@@ -261,29 +243,17 @@
               <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Pakej 9">
                   <div class="booking-title">PAKEJ 9</div>
                   <br/>
-                  <div class="booking-details">Sport Massage + HYPERVOLT Therapy + Air Relax (1 jam 30 minit)</div>
+                  <div class="booking-details">Sport Recovery</div>
                   <hr class="line">
                   <div class="booking-price">
-                      <span>RM 150</span>
-                  </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-6 booking">
-            <a href="{{route('v2.checkAvailability', ['type' => 'Pakej 10'])}}" style="text-decoration: none; color:black">
-              <div class="booking-box" id="box" onclick="showType(this)" data-package-type="Pakej 10">
-                  <div class="booking-title">PAKEJ 10 </div>
-                  <br/>
-                  <div class="booking-details">Air Relax Therapy (Leg Massage) (30 minit)</div>
-                  <hr class="line">
-                  <div class="booking-price">
-                      <span>RM 50</span>
+                      <span>RM 80</span>
                   </div>
               </div>
             </a>
           </div>
       </div>
   </section>
+  
 
 </div>
   
